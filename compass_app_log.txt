@@ -1,1 +1,76 @@
 2014-06-04 14:02:57    create stylesheets/app.css 
+2014-06-04 16:22:42     error scss/app.scss (Line 3: File to import not found or unreadable: jabo.
+Load paths:
+  /Users/Barron/Dropbox/Projects/freelance/HDMADE/JaBO/JaBO-sass/scss
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  /Users/Barron/Dropbox/Projects/freelance/HDMADE/JaBO/JaBO-sass/bower_components/foundation/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-06-04 16:22:42 overwrite stylesheets/app.css 
+2014-06-04 16:22:55     error scss/app.scss (Line 3: File to import not found or unreadable: jabo.
+Load paths:
+  /Users/Barron/Dropbox/Projects/freelance/HDMADE/JaBO/JaBO-sass/scss
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  /Users/Barron/Dropbox/Projects/freelance/HDMADE/JaBO/JaBO-sass/bower_components/foundation/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-06-04 16:22:55 identical stylesheets/app.css 
+2014-06-04 16:23:09    remove .sass-cache/ 
+2014-06-04 16:23:09    remove stylesheets/app.css 
+2014-06-04 16:23:13     error scss/app.scss (Line 3: File to import not found or unreadable: jabo.
+Load paths:
+  /Users/Barron/Dropbox/Projects/freelance/HDMADE/JaBO/JaBO-sass/scss
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  /Users/Barron/Dropbox/Projects/freelance/HDMADE/JaBO/JaBO-sass/bower_components/foundation/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-06-04 16:23:13    create stylesheets/app.css 
+2014-06-04 16:23:15     error scss/app.scss (Line 3: File to import not found or unreadable: jabo.
+Load paths:
+  /Users/Barron/Dropbox/Projects/freelance/HDMADE/JaBO/JaBO-sass/scss
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  /Users/Barron/Dropbox/Projects/freelance/HDMADE/JaBO/JaBO-sass/bower_components/foundation/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-06-04 16:23:15 overwrite stylesheets/app.css 
+2014-06-04 16:23:41 overwrite stylesheets/app.css 
+2014-06-04 16:23:45 identical stylesheets/app.css 
+2014-06-04 16:24:10 overwrite stylesheets/app.css 
+2014-06-04 16:25:28 overwrite stylesheets/app.css 
+2014-06-04 16:25:40 identical stylesheets/app.css 
+2014-06-04 16:41:20 overwrite stylesheets/app.css 
+2014-06-04 16:44:03 overwrite stylesheets/app.css 
+2014-06-04 16:45:46    remove .sass-cache/ 
+2014-06-04 16:45:47    remove stylesheets/app.css 
+2014-06-04 16:45:51    create stylesheets/app.css 
+2014-06-04 16:49:23    remove .sass-cache/ 
+2014-06-04 16:49:23    remove stylesheets/app.css 
+2014-06-04 16:49:27    create stylesheets/app.css 
