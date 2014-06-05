@@ -120,17 +120,26 @@ $primary-color: #00aeef;
 	BUTTONS
 	=================================== */
 	@mixin box-shadow ($shadow) {
-	  -webkit-box-shadow: $shadow;
-	     -moz-box-shadow: $shadow;
-	      -ms-box-shadow: $shadow;
-	          box-shadow: $shadow;
+		-webkit-box-shadow: $shadow;
+		-moz-box-shadow: $shadow;
+		-ms-box-shadow: $shadow;
+		 box-shadow: $shadow;
+	}
+	
+	@mixin transition ($transition) {
+		-webkit-box-shadow: $transition;
+		-moz-box-shadow: $transition;
+		-ms-box-shadow: $transition;
+		box-shadow: $transition;
 	}
 
 
 	button, .button, .button:hover  {
-		@include box-shadow(0);
+		@include box-shadow(0px none);
+		@include transition(0);
 		background-color:$module-bg;
 		border-color:$button-color;
+		
  }
 
 

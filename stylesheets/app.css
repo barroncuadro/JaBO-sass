@@ -6868,8 +6868,12 @@ a.th {
 /* =================================== 
 	BUTTONS
 	=================================== */
-/* line 130, ../scss/_jabo.scss */
+/* line 137, ../scss/_jabo.scss */
 button, .button, .button:hover {
+  -webkit-box-shadow: 0px none;
+  -moz-box-shadow: 0px none;
+  -ms-box-shadow: 0px none;
+  box-shadow: 0px none;
   -webkit-box-shadow: 0;
   -moz-box-shadow: 0;
   -ms-box-shadow: 0;
@@ -6882,50 +6886,50 @@ button, .button, .button:hover {
 	CONTAINERS
 	=================================== */
 /* ––– general ––– */
-/* line 146, ../scss/_jabo.scss */
+/* line 155, ../scss/_jabo.scss */
 .sm-article,
 .baseball-joe,
 .contributors {
   background: white;
 }
 
-/* line 151, ../scss/_jabo.scss */
+/* line 160, ../scss/_jabo.scss */
 .sm-article,
 .sidebar-content {
   border: 1px solid #dddddd;
 }
 
-/* line 156, ../scss/_jabo.scss */
+/* line 165, ../scss/_jabo.scss */
 .baseball-joe,
 .contributors {
   padding: 2em;
 }
 
-/* line 160, ../scss/_jabo.scss */
+/* line 169, ../scss/_jabo.scss */
 aside ul li {
   list-style: none;
 }
 
 /* ––– home page ––– */
-/* line 171, ../scss/_jabo.scss */
+/* line 180, ../scss/_jabo.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 174, ../scss/_jabo.scss */
+/* line 183, ../scss/_jabo.scss */
 .baseball-joe p, .baseball-joe li {
   font-family: "Vollkorn", serif;
 }
-/* line 177, ../scss/_jabo.scss */
+/* line 186, ../scss/_jabo.scss */
 .baseball-joe p.tagline, .baseball-joe li.tagline {
   font-style: italic;
 }
-/* line 185, ../scss/_jabo.scss */
+/* line 194, ../scss/_jabo.scss */
 .baseball-joe li {
   border-bottom: 1px dotted #cccccc;
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 190, ../scss/_jabo.scss */
+/* line 199, ../scss/_jabo.scss */
 .baseball-joe li.last {
   border-bottom: 0;
 }
