@@ -25,6 +25,9 @@ $primary-color: #00aeef;
 	$list-bottom-border-width:1px;
 	$list-bottom-border-style:dotted;
 	$list-bottom-border-color:#ccc;
+	
+	$body-font-bold:'allerbold',serif;
+	
 /* =================================== 
 	FONTS
 	=================================== */
@@ -116,8 +119,9 @@ $primary-color: #00aeef;
 }
 
 
+
 /* =================================== 
-	BUTTONS
+	GENERAL
 	=================================== */
 	@mixin box-shadow ($shadow) {
 		-webkit-box-shadow: $shadow;
@@ -133,13 +137,36 @@ $primary-color: #00aeef;
 		box-shadow: $transition;
 	}
 
+	@mixin border-radius ($border-radius) {
+		-webkit-border-radius: $border-radius;
+		-moz-border-radius: $border-radius;
+		-ms-border-radius: $border-radius;
+		border-radius: $border-radius;
+	}
+
+	@mixin vertical-align {
+	  position: relative;
+	  top: 50%;
+	  -webkit-transform: translateY(50%);
+	  -ms-transform: translateY(50%);
+	  transform: translateY(50%);
+	}
+
+
+/* =================================== 
+	BUTTONS
+	=================================== */
+	p.button-wrap {
+		text-align: center;
+		font-family:$body-font-family;
+		font-weight:$body-font-weight;
+	}
 
 	button, .button, .button:hover  {
 		@include box-shadow(0px none);
 		@include transition(0);
-		background-color:$module-bg;
-		border-color:$button-color;
-		
+		background-color:transparent;
+		border-color:$button-color;		
  }
 
 
@@ -167,7 +194,7 @@ $primary-color: #00aeef;
 	}
 	
 	aside ul li {
-		list-style:none;
+		list-style: none;
 	}
 
 
@@ -177,16 +204,22 @@ $primary-color: #00aeef;
 
 
 // sidebar
+
+	//baseball-joe
 	.baseball-joe {
-		text-align:center;
+		text-align: center;
 	
-		p,li {
+		p.tagline {
+			font-style: italic;
+			font-family:$body-secondary-font-family;
+		}
+		
+	
+		ul {
+		
+			p,li {
 			font-family:$body-secondary-font-family;
 			
-			&.tagline {
-				font-style:italic;
-				//font-size:$small-font-size;
-				//color:$small-font-color;
 			}
 		}
 		
@@ -196,11 +229,49 @@ $primary-color: #00aeef;
 			margin-top: $list-margin-bottom;
 			padding-bottom: $list-margin-bottom;
 			
-			&.last { border-bottom:0; }
+			&.last { border-bottom: 0; }
 		}
 
-	} //baseball-joe
+	}
 
+
+	//ad
+	.ad { text-align:center; }
+
+
+	//contributors
+	.contributors {
+		li {
+			padding-bottom: $module-padding*.75;
+		}
+	
+		.handle {
+			p {
+				@include vertical-align;
+				font-size:$h5-font-size;
+				font-family: $body-font-bold;
+				
+				span.twitter-handle {
+					display: block;
+					font-weight: normal;
+					font-family:$body-font-family;
+				}
+			}
+		}
+	
+		.thumb-image {
+			text-align:center;
+			
+			img {
+				@include border-radius($global-rounded);
+				border-color:$secondary-color;
+				border-width: 4px;
+				border-style: solid;
+			}
+		
+		}
+	
+	}
 
 
 

@@ -181,3 +181,58 @@ Load paths:
 2014-06-05 13:42:17 overwrite stylesheets/app.css 
 2014-06-05 13:44:05 overwrite stylesheets/app.css 
 2014-06-05 13:44:32 overwrite stylesheets/app.css 
+2014-06-05 13:50:58 overwrite stylesheets/app.css 
+2014-06-05 13:51:02 overwrite stylesheets/app.css 
+2014-06-05 13:52:16 overwrite stylesheets/app.css 
+2014-06-05 13:53:24 identical stylesheets/app.css 
+2014-06-05 13:53:29 overwrite stylesheets/app.css 
+2014-06-05 13:54:21 overwrite stylesheets/app.css 
+2014-06-05 13:54:27 overwrite stylesheets/app.css 
+2014-06-05 13:55:34 overwrite stylesheets/app.css 
+2014-06-05 13:56:15 overwrite stylesheets/app.css 
+2014-06-05 13:56:43 overwrite stylesheets/app.css 
+2014-06-05 13:57:01 overwrite stylesheets/app.css 
+2014-06-05 13:57:22 overwrite stylesheets/app.css 
+2014-06-05 13:58:59 overwrite stylesheets/app.css 
+2014-06-05 13:59:12 overwrite stylesheets/app.css 
+2014-06-05 13:59:35 overwrite stylesheets/app.css 
+2014-06-05 14:04:42     error scss/app.scss (Line 229 of scss/_jabo.scss: Invalid CSS after "			@include ": expected identifier, was "$sidebar-column...")
+2014-06-05 14:04:42 overwrite stylesheets/app.css 
+2014-06-05 14:04:53     error scss/app.scss (Line 229 of scss/_jabo.scss: Invalid CSS after "			@include ": expected identifier, was "$sidebar-column...")
+2014-06-05 14:04:53 identical stylesheets/app.css 
+2014-06-05 14:05:43     error scss/app.scss (Line 228 of scss/_jabo.scss: Invalid CSS after "			@include ": expected identifier, was "$column-gutter;")
+2014-06-05 14:05:43 overwrite stylesheets/app.css 
+2014-06-05 14:06:15     error scss/app.scss (Line 228 of scss/_jabo.scss: Invalid CSS after "			@include ": expected identifier, was "$grid-column(16);")
+2014-06-05 14:06:15 overwrite stylesheets/app.css 
+2014-06-05 14:06:37 overwrite stylesheets/app.css 
+2014-06-05 14:07:01 overwrite stylesheets/app.css 
+2014-06-05 14:09:33 overwrite stylesheets/app.css 
+2014-06-05 14:11:11 overwrite stylesheets/app.css 
+2014-06-05 14:11:37 overwrite stylesheets/app.css 
+2014-06-05 14:16:20 overwrite stylesheets/app.css 
+2014-06-05 14:16:47 overwrite stylesheets/app.css 
+2014-06-05 14:17:32 overwrite stylesheets/app.css 
+2014-06-05 14:19:12 overwrite stylesheets/app.css 
+2014-06-05 14:19:28 overwrite stylesheets/app.css 
+2014-06-05 14:20:10 overwrite stylesheets/app.css 
+2014-06-05 14:20:19 overwrite stylesheets/app.css 
+2014-06-05 14:20:33 overwrite stylesheets/app.css 
+2014-06-05 14:21:43 overwrite stylesheets/app.css 
+2014-06-05 14:22:02 overwrite stylesheets/app.css 
+2014-06-05 14:22:25 overwrite stylesheets/app.css 
+2014-06-05 14:23:40     error scss/app.scss (Line 29 of scss/_jabo.scss: Invalid CSS after "...old:font-family": expected selector or at-rule, was ":'allerbold',se...")
+2014-06-05 14:23:40 overwrite stylesheets/app.css 
+2014-06-05 14:23:54 overwrite stylesheets/app.css 
+2014-06-05 14:24:26 overwrite stylesheets/app.css 
+2014-06-05 14:27:13 overwrite stylesheets/app.css 
+2014-06-05 14:27:40 overwrite stylesheets/app.css 
+2014-06-05 14:27:43 overwrite stylesheets/app.css 
+2014-06-05 14:27:49 overwrite stylesheets/app.css 
+2014-06-05 14:45:32 overwrite stylesheets/app.css 
+2014-06-05 14:47:37 overwrite stylesheets/app.css 
+2014-06-05 14:48:21 overwrite stylesheets/app.css 
+2014-06-05 14:50:17 overwrite stylesheets/app.css 
+2014-06-05 15:05:19 overwrite stylesheets/app.css 
+2014-06-05 15:07:49 overwrite stylesheets/app.css 
+2014-06-05 15:08:04 overwrite stylesheets/app.css 
+2014-06-05 15:08:33 identical stylesheets/app.css 
