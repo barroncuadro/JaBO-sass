@@ -11,7 +11,7 @@ $body-secondary-font-family: 'Vollkorn', serif;
 // $body-font-style: normal;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+$primary-color: #00aeef;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -22,8 +22,9 @@ $body-secondary-font-family: 'Vollkorn', serif;
 
 // added styles
 	$module-padding:2em;
-
-
+	$list-bottom-border-width:1px;
+	$list-bottom-border-style:dotted;
+	$list-bottom-border-color:#ccc;
 /* =================================== 
 	FONTS
 	=================================== */
@@ -116,6 +117,24 @@ $body-secondary-font-family: 'Vollkorn', serif;
 
 
 /* =================================== 
+	BUTTONS
+	=================================== */
+	@mixin box-shadow ($shadow) {
+	  -webkit-box-shadow: $shadow;
+	     -moz-box-shadow: $shadow;
+	      -ms-box-shadow: $shadow;
+	          box-shadow: $shadow;
+	}
+
+
+	button, .button, .button:hover  {
+		@include box-shadow(0);
+		background-color:$module-bg;
+		border-color:$button-color;
+ }
+
+
+/* =================================== 
 	CONTAINERS
 	=================================== */
 
@@ -126,7 +145,6 @@ $body-secondary-font-family: 'Vollkorn', serif;
 	.baseball-joe,
 	.contributors {
 		background:$module-bg;
-		
 	}
 
 	.sm-article,
@@ -138,6 +156,11 @@ $body-secondary-font-family: 'Vollkorn', serif;
 	.contributors {
 		padding:$module-padding;
 	}
+	
+	aside ul li {
+		list-style:none;
+	}
+
 
 /* ––– home page ––– */
 
@@ -147,12 +170,27 @@ $body-secondary-font-family: 'Vollkorn', serif;
 // sidebar
 	.baseball-joe {
 		text-align:center;
-	}
 	
-	.baseball-joe p {
-		font-family:$body-secondary-font-family;
-	}
+		p,li {
+			font-family:$body-secondary-font-family;
+			
+			&.tagline {
+				font-style:italic;
+				//font-size:$small-font-size;
+				//color:$small-font-color;
+			}
+		}
+		
+				
+		li {
+			border-bottom:$list-bottom-border-width $list-bottom-border-style $list-bottom-border-color;
+			margin-top: $list-margin-bottom;
+			padding-bottom: $list-margin-bottom;
+			
+			&.last { border-bottom:0; }
+		}
 
+	} //baseball-joe
 
 
 
