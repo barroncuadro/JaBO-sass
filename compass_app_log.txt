@@ -109,3 +109,19 @@ Load paths:
 2014-06-05 11:47:53 overwrite stylesheets/app.css 
 2014-06-05 11:49:34 overwrite stylesheets/app.css 
 2014-06-05 11:49:36 overwrite stylesheets/app.css 
+2014-06-05 11:58:08 identical stylesheets/app.css 
+2014-06-05 12:04:35 overwrite stylesheets/app.css 
+2014-06-05 12:06:13 identical stylesheets/app.css 
+2014-06-05 12:06:42     error scss/app.scss (Line 126 of scss/_jabo.scss: Invalid CSS after "		background:": expected expression (e.g. 1px, bold), was "}")
+2014-06-05 12:06:42 overwrite stylesheets/app.css 
+2014-06-05 12:07:58 overwrite stylesheets/app.css 
+2014-06-05 12:09:13 overwrite stylesheets/app.css 
+2014-06-05 12:09:25 identical stylesheets/app.css 
+2014-06-05 12:21:00 overwrite stylesheets/app.css 
+2014-06-05 12:22:15     error scss/app.scss (Line 130 of scss/_jabo.scss: Undefined variable: "$microformat-border".)
+2014-06-05 12:22:15 overwrite stylesheets/app.css 
+2014-06-05 12:22:40 overwrite stylesheets/app.css 
+2014-06-05 12:24:00 overwrite stylesheets/app.css 
+2014-06-05 12:26:00 identical stylesheets/app.css 
+2014-06-05 12:27:58 overwrite stylesheets/app.css 
+2014-06-05 12:34:08 overwrite stylesheets/app.css 

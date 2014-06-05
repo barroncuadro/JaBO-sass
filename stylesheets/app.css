@@ -6806,7 +6806,9 @@ a.th {
 }
 
 /* Custom styles for JaBO project */
-/* _____ FONTS ____________________________________ */
+/* =================================== 
+	FONTS
+	=================================== */
 @font-face {
   font-family: 'allerbold';
   src: url("../fonts/aller_bd-webfont.eot");
@@ -6863,9 +6865,36 @@ a.th {
   font-style: normal;
 }
 
-/* _____ CONTAINERS ____________________________________ */
-/* home page */
-/* line 117, ../scss/_jabo.scss */
+/* =================================== 
+	CONTAINERS
+	=================================== */
+/* ––– general ––– */
+/* line 127, ../scss/_jabo.scss */
+.sm-article,
+.baseball-joe,
+.contributors {
+  background: white;
+}
+
+/* line 133, ../scss/_jabo.scss */
+.sm-article,
+.sidebar-content {
+  border: 1px solid #dddddd;
+}
+
+/* line 138, ../scss/_jabo.scss */
+.baseball-joe,
+.contributors {
+  padding: 2em;
+}
+
+/* ––– home page ––– */
+/* line 148, ../scss/_jabo.scss */
+.baseball-joe {
+  text-align: center;
+}
+
+/* line 152, ../scss/_jabo.scss */
 .baseball-joe p {
   font-family: "Vollkorn", serif;
 }
