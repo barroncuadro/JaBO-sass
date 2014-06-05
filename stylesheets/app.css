@@ -1705,7 +1705,7 @@ small {
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: bold;
-  color: #7f0a0c;
+  color: #a11218;
 }
 
 /* Lists */
@@ -2044,13 +2044,13 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
 }
 /* line 178, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.alert, .button.alert {
-  background-color: #c60f13;
-  border-color: #970b0e;
+  background-color: #e51b23;
+  border-color: #b8151b;
   color: #02446f;
 }
 /* line 122, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
-  background-color: #970b0e;
+  background-color: #b8151b;
 }
 /* line 133, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
@@ -2164,8 +2164,8 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 }
 /* line 191, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
-  background-color: #c60f13;
-  border-color: #970b0e;
+  background-color: #e51b23;
+  border-color: #b8151b;
   color: #02446f;
   cursor: default;
   opacity: 0.6;
@@ -2174,7 +2174,7 @@ button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[d
 }
 /* line 122, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #970b0e;
+  background-color: #b8151b;
 }
 /* line 133, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
@@ -2182,7 +2182,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 /* line 146, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #c60f13;
+  background-color: #e51b23;
 }
 
 /* line 196, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
@@ -2598,7 +2598,7 @@ fieldset legend {
   margin-bottom: 1em;
   font-size: 0.75em;
   font-weight: bold;
-  background: #c60f13;
+  background: #e51b23;
   color: white;
   margin-top: 0;
 }
@@ -2615,7 +2615,7 @@ span.error, small.error {
   margin-bottom: 1em;
   font-size: 0.75em;
   font-weight: bold;
-  background: #c60f13;
+  background: #e51b23;
   color: white;
 }
 
@@ -2623,8 +2623,8 @@ span.error, small.error {
 .error input,
 .error textarea,
 .error select {
-  border-color: #c60f13;
-  background-color: rgba(198, 15, 19, 0.1);
+  border-color: #e51b23;
+  background-color: rgba(229, 27, 35, 0.1);
   margin-bottom: 0;
 }
 /* line 230, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
@@ -2637,7 +2637,7 @@ span.error, small.error {
 /* line 375, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 .error label,
 .error label.error {
-  color: #c60f13;
+  color: #e51b23;
 }
 /* line 379, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 .error small.error {
@@ -2647,7 +2647,7 @@ span.error, small.error {
   margin-bottom: 1em;
   font-size: 0.75em;
   font-weight: bold;
-  background: #c60f13;
+  background: #e51b23;
   color: white;
 }
 /* line 383, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
@@ -2658,8 +2658,8 @@ span.error, small.error {
 /* line 389, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 input.error,
 textarea.error {
-  border-color: #c60f13;
-  background-color: rgba(198, 15, 19, 0.1);
+  border-color: #e51b23;
+  background-color: rgba(229, 27, 35, 0.1);
 }
 /* line 230, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 input.error:focus,
@@ -2670,8 +2670,8 @@ textarea.error:focus {
 
 /* line 393, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 .error select {
-  border-color: #c60f13;
-  background-color: rgba(198, 15, 19, 0.1);
+  border-color: #e51b23;
+  background-color: rgba(229, 27, 35, 0.1);
 }
 /* line 230, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 .error select:focus {
@@ -2681,7 +2681,7 @@ textarea.error:focus {
 
 /* line 397, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 label.error {
-  color: #c60f13;
+  color: #e51b23;
 }
 
 /* Button Groups */
@@ -2957,7 +2957,7 @@ label.error {
 }
 /* line 79, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
 .split.button.alert span {
-  border-left-color: #7f0a0c;
+  border-left-color: #a11218;
 }
 /* line 79, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
 .split.button.success span {
@@ -4326,11 +4326,11 @@ label.error {
 }
 /* line 265, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
-  background: #c60f13;
+  background: #e51b23;
 }
 /* line 267, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert.hover {
-  background: #970b0e;
+  background: #b8151b;
 }
 /* line 275, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.hover > a {
@@ -5508,8 +5508,8 @@ label.error {
 }
 /* line 103, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_alert-boxes.scss */
 .alert-box.alert {
-  background-color: #c60f13;
-  border-color: #970b0e;
+  background-color: #e51b23;
+  border-color: #b8151b;
   color: white;
 }
 /* line 104, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_alert-boxes.scss */
@@ -5792,9 +5792,9 @@ form.custom .custom.dropdown.open.large ul {
 }
 /* line 211, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_custom-forms.scss */
 form.custom .error .custom.dropdown {
-  border-color: #c60f13;
-  background-color: rgba(198, 15, 19, 0.1);
-  background: rgba(198, 15, 19, 0.1);
+  border-color: #e51b23;
+  background-color: rgba(229, 27, 35, 0.1);
+  background: rgba(229, 27, 35, 0.1);
   margin-bottom: 0;
 }
 /* line 230, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
@@ -5906,7 +5906,7 @@ kbd {
 }
 /* line 80, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
 .label.alert {
-  background-color: #c60f13;
+  background-color: #e51b23;
   color: white;
 }
 /* line 81, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
@@ -6160,7 +6160,7 @@ ul.pagination li {
 }
 /* line 59, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_progress-bars.scss */
 .progress.alert .meter {
-  background: #c60f13;
+  background: #e51b23;
   height: 100%;
   display: block;
 }
@@ -6871,14 +6871,14 @@ a.th {
 /* =================================== 
 	BUTTONS
 	=================================== */
-/* line 159, ../scss/_jabo.scss */
+/* line 164, ../scss/_jabo.scss */
 p.button-wrap {
   text-align: center;
   font-family: "allerregular", sans-serif;
   font-weight: normal;
 }
 
-/* line 165, ../scss/_jabo.scss */
+/* line 170, ../scss/_jabo.scss */
 button, .button, .button:hover {
   -webkit-box-shadow: 0px none;
   -moz-box-shadow: 0px none;
@@ -6896,65 +6896,105 @@ button, .button, .button:hover {
 	CONTAINERS
 	=================================== */
 /* ––– general ––– */
-/* line 182, ../scss/_jabo.scss */
+/* line 187, ../scss/_jabo.scss */
 .sm-article,
 .baseball-joe,
 .contributors {
   background: white;
 }
 
-/* line 187, ../scss/_jabo.scss */
+/* line 192, ../scss/_jabo.scss */
 .sm-article,
 .sidebar-content {
   border: 1px solid #dddddd;
 }
 
-/* line 192, ../scss/_jabo.scss */
+/* line 197, ../scss/_jabo.scss */
 .baseball-joe,
 .contributors {
   padding: 2em;
 }
 
-/* line 196, ../scss/_jabo.scss */
+/* line 201, ../scss/_jabo.scss */
 aside ul li {
   list-style: none;
 }
 
 /* ––– home page ––– */
-/* line 209, ../scss/_jabo.scss */
+/* line 211, ../scss/_jabo.scss */
+.articles .article-image {
+  display: block;
+}
+/* line 213, ../scss/_jabo.scss */
+.articles .author {
+  color: #e51b23;
+  font-family: "allerbold_italic", serif;
+}
+/* line 218, ../scss/_jabo.scss */
+.articles .article-details {
+  padding: 0.875rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 3px solid black;
+  margin-top: -30%;
+  text-align: center;
+  position: relative;
+}
+/* line 226, ../scss/_jabo.scss */
+.articles .article-details .details-wrap {
+  padding: 1.75rem;
+  border: 1px solid black;
+}
+/* line 230, ../scss/_jabo.scss */
+.articles .article-details .details-wrap h2, .articles .article-details .details-wrap h3 {
+  font-size: 1.125em;
+  text-transform: uppercase;
+}
+/* line 239, ../scss/_jabo.scss */
+.articles .sm-article .article-details {
+  border: 0;
+  padding: 0;
+  background: white;
+}
+/* line 244, ../scss/_jabo.scss */
+.articles .sm-article .article-details .details-wrap {
+  border: 0;
+  padding: 0.875rem;
+}
+
+/* line 257, ../scss/_jabo.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 212, ../scss/_jabo.scss */
+/* line 260, ../scss/_jabo.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 220, ../scss/_jabo.scss */
+/* line 268, ../scss/_jabo.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 227, ../scss/_jabo.scss */
+/* line 275, ../scss/_jabo.scss */
 .baseball-joe li {
   border-bottom: 1px dotted #cccccc;
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 232, ../scss/_jabo.scss */
+/* line 280, ../scss/_jabo.scss */
 .baseball-joe li.last {
   border-bottom: 0;
 }
 
-/* line 239, ../scss/_jabo.scss */
+/* line 287, ../scss/_jabo.scss */
 .ad {
   text-align: center;
 }
 
-/* line 244, ../scss/_jabo.scss */
+/* line 292, ../scss/_jabo.scss */
 .contributors li {
   padding-bottom: 1.5em;
 }
-/* line 249, ../scss/_jabo.scss */
+/* line 297, ../scss/_jabo.scss */
 .contributors .handle p {
   position: relative;
   top: 50%;
@@ -6964,17 +7004,17 @@ aside ul li {
   font-size: 1.125em;
   font-family: "allerbold", serif;
 }
-/* line 254, ../scss/_jabo.scss */
+/* line 302, ../scss/_jabo.scss */
 .contributors .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
   font-family: "allerregular", sans-serif;
 }
-/* line 262, ../scss/_jabo.scss */
+/* line 310, ../scss/_jabo.scss */
 .contributors .thumb-image {
   text-align: center;
 }
-/* line 265, ../scss/_jabo.scss */
+/* line 313, ../scss/_jabo.scss */
 .contributors .thumb-image img {
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
