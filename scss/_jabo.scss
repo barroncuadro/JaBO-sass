@@ -2,10 +2,11 @@
 
 /*
 // We use these to control various global styles
-// $body-bg: #fff;
-// $body-font-color: #222;
-// $body-font-family: 'allerregular', sans-serif;
-// $body-secondary-font-family: 'Vollkorn', serif;
+$body-bg: #fafafa;
+$module-bg: #fff;
+$body-font-color: #0e0d0d;
+$body-font-family: 'allerregular', sans-serif;
+$body-secondary-font-family: 'Vollkorn', serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -19,7 +20,13 @@
 */
 
 
-/* _____ FONTS ____________________________________ */
+// added styles
+	$module-padding:2em;
+
+
+/* =================================== 
+	FONTS
+	=================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
 
@@ -108,11 +115,39 @@
 }
 
 
-/* _____ CONTAINERS ____________________________________ */
+/* =================================== 
+	CONTAINERS
+	=================================== */
 
 
-	/* home page */
+
+/* ––– general ––– */
+	.sm-article,
+	.baseball-joe,
+	.contributors {
+		background:$module-bg;
+		
+	}
+
+	.sm-article,
+	.sidebar-content {
+		border:$microformat-border-width $microformat-border-style $microformat-border-color;
+	}
 	
+	.baseball-joe,
+	.contributors {
+		padding:$module-padding;
+	}
+
+/* ––– home page ––– */
+
+// main column
+
+
+// sidebar
+	.baseball-joe {
+		text-align:center;
+	}
 	
 	.baseball-joe p {
 		font-family:$body-secondary-font-family;
