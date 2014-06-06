@@ -181,11 +181,12 @@ $primary-color: #00aeef;
 
 /* ––– general ––– */
 	html {
-		background: #fafafa url(../images/bg.jpg) no-repeat center center fixed; 
+		background: transparent url(../images/bg.jpg) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		background-color: #fafafa;
 	}
 
 	body {
