@@ -6871,32 +6871,38 @@ a.th {
 /* =================================== 
 	BUTTONS
 	=================================== */
-/* line 164, ../scss/_jabo.scss */
+/* line 167, ../scss/_jabo.scss */
 p.button-wrap {
   text-align: center;
   font-family: "allerregular", sans-serif;
-  font-weight: normal;
+  margin-top: 1.25rem;
 }
 
-/* line 170, ../scss/_jabo.scss */
+/* line 173, ../scss/_jabo.scss */
 button, .button, .button:hover {
   -webkit-box-shadow: 0px none;
   -moz-box-shadow: 0px none;
   -ms-box-shadow: 0px none;
   box-shadow: 0px none;
-  -webkit-box-shadow: 0;
-  -moz-box-shadow: 0;
-  -ms-box-shadow: 0;
-  box-shadow: 0;
+  -webkit-transition: 0;
+  -moz-transition: 0;
+  -ms-transition: 0;
+  transition: 0;
   background-color: transparent;
-  border-color: #02446f;
+  border-color: rgba(2, 68, 111, 0.3);
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "allerbold", serif;
+  font-weight: normal;
+  padding: 0.25rem 1.5rem 0.35rem;
+  line-height: normal;
 }
 
 /* =================================== 
 	CONTAINERS
 	=================================== */
 /* ––– general ––– */
-/* line 183, ../scss/_jabo.scss */
+/* line 192, ../scss/_jabo.scss */
 html {
   background: transparent url(../images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6906,110 +6912,190 @@ html {
   background-color: #fafafa;
 }
 
-/* line 192, ../scss/_jabo.scss */
+/* line 201, ../scss/_jabo.scss */
 body {
   background: none;
 }
 
-/* line 199, ../scss/_jabo.scss */
+/* line 208, ../scss/_jabo.scss */
 .sm-article,
 .baseball-joe,
 .contributors {
   background: white;
 }
 
-/* line 204, ../scss/_jabo.scss */
+/* line 213, ../scss/_jabo.scss */
 .sm-article,
 .sidebar-content {
   border: 1px solid #dddddd;
 }
 
-/* line 209, ../scss/_jabo.scss */
+/* line 218, ../scss/_jabo.scss */
 .baseball-joe,
 .contributors {
-  padding: 2em;
+  padding: 2rem;
 }
 
-/* line 213, ../scss/_jabo.scss */
+/* line 222, ../scss/_jabo.scss */
 aside ul li {
   list-style: none;
 }
 
 /* ––– home page ––– */
-/* line 223, ../scss/_jabo.scss */
+/* line 233, ../scss/_jabo.scss */
+.articles {
+  margin-bottom: 4rem;
+}
+/* line 236, ../scss/_jabo.scss */
 .articles .article-image {
   display: block;
 }
-/* line 225, ../scss/_jabo.scss */
+/* line 238, ../scss/_jabo.scss */
 .articles .author {
   color: #e51b23;
   font-family: "allerbold_italic", serif;
+  font-size: 1.125em;
+  margin: 0.5rem 0;
+  letter-spacing: 0.0625rem;
 }
-/* line 230, ../scss/_jabo.scss */
+/* line 246, ../scss/_jabo.scss */
 .articles .article-details {
-  padding: 0.875rem;
+  padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
   border: 3px solid black;
   margin-top: -30%;
   text-align: center;
   position: relative;
 }
-/* line 238, ../scss/_jabo.scss */
+/* line 254, ../scss/_jabo.scss */
 .articles .article-details .details-wrap {
-  padding: 1.75rem;
   border: 1px solid black;
 }
-/* line 242, ../scss/_jabo.scss */
+/* line 257, ../scss/_jabo.scss */
+.articles .article-details .details-wrap h2 {
+  border-bottom: 1px dotted black;
+  padding: 0.875rem 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 265, ../scss/_jabo.scss */
 .articles .article-details .details-wrap h2, .articles .article-details .details-wrap h3 {
   font-size: 1.125em;
   text-transform: uppercase;
+  letter-spacing: -0.0625rem;
+  font-family: "allerbold", serif;
 }
-/* line 251, ../scss/_jabo.scss */
+/* line 272, ../scss/_jabo.scss */
+.articles .article-details .details-wrap .author-wrap {
+  border-right: 1px dotted black;
+}
+/* line 277, ../scss/_jabo.scss */
+.articles .article-details .details-wrap .comments-wrap p.comments {
+  line-height: 150%;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+/* line 284, ../scss/_jabo.scss */
+.articles .article-details .details-wrap .author-comments {
+  overflow-y: auto;
+}
+/* line 291, ../scss/_jabo.scss */
+.articles .sm-article {
+  margin: 1rem 0;
+}
+/* line 294, ../scss/_jabo.scss */
 .articles .sm-article .article-details {
   border: 0;
   padding: 0;
-  background: white;
+  background: transparent;
+  margin-top: -20%;
 }
-/* line 256, ../scss/_jabo.scss */
-.articles .sm-article .article-details .details-wrap {
-  border: 0;
-  padding: 0.875rem;
+/* line 301, ../scss/_jabo.scss */
+.articles .sm-article h3 {
+  background: white;
+  padding: 1rem 0.5rem;
+  font-family: "allerbold", serif;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.0625rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 314, ../scss/_jabo.scss */
+.articles .sm-article .author-comments {
+  overflow-y: auto;
+  background: white;
+  border-top: 1px dotted #cccccc;
+}
+/* line 319, ../scss/_jabo.scss */
+.articles .sm-article .author-comments .author-wrap {
+  border-right: 1px dotted #cccccc;
+}
+/* line 323, ../scss/_jabo.scss */
+.articles .sm-article .author-comments p.comments {
+  line-height: 150%;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
 }
 
-/* line 269, ../scss/_jabo.scss */
+/* line 335, ../scss/_jabo.scss */
+.by-the-numbers {
+  font-family: "Vollkorn", serif;
+  margin-bottom: 4rem;
+}
+/* line 339, ../scss/_jabo.scss */
+.by-the-numbers h2 {
+  margin-bottom: 4rem;
+}
+/* line 341, ../scss/_jabo.scss */
+.by-the-numbers .btn-entry {
+  text-align: center;
+  border-right: 1px dotted #cccccc;
+}
+/* line 345, ../scss/_jabo.scss */
+.by-the-numbers .btn-entry .last {
+  border-right: none;
+}
+/* line 349, ../scss/_jabo.scss */
+.by-the-numbers .btn-entry img {
+  margin-bottom: 2rem;
+}
+
+/* line 364, ../scss/_jabo.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 272, ../scss/_jabo.scss */
+/* line 367, ../scss/_jabo.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 280, ../scss/_jabo.scss */
+/* line 375, ../scss/_jabo.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 287, ../scss/_jabo.scss */
+/* line 382, ../scss/_jabo.scss */
 .baseball-joe li {
   border-bottom: 1px dotted #cccccc;
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 292, ../scss/_jabo.scss */
+/* line 387, ../scss/_jabo.scss */
 .baseball-joe li.last {
   border-bottom: 0;
 }
 
-/* line 299, ../scss/_jabo.scss */
+/* line 394, ../scss/_jabo.scss */
 .ad {
   text-align: center;
 }
 
-/* line 304, ../scss/_jabo.scss */
+/* line 399, ../scss/_jabo.scss */
 .contributors li {
-  padding-bottom: 1.5em;
+  padding-bottom: 1.5rem;
 }
-/* line 309, ../scss/_jabo.scss */
+/* line 404, ../scss/_jabo.scss */
 .contributors .handle p {
   position: relative;
   top: 50%;
@@ -7019,17 +7105,17 @@ aside ul li {
   font-size: 1.125em;
   font-family: "allerbold", serif;
 }
-/* line 314, ../scss/_jabo.scss */
+/* line 409, ../scss/_jabo.scss */
 .contributors .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
   font-family: "allerregular", sans-serif;
 }
-/* line 322, ../scss/_jabo.scss */
+/* line 417, ../scss/_jabo.scss */
 .contributors .thumb-image {
   text-align: center;
 }
-/* line 325, ../scss/_jabo.scss */
+/* line 420, ../scss/_jabo.scss */
 .contributors .thumb-image img {
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
