@@ -11,12 +11,13 @@
 
 /* line 269, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
 html,
-body {
+body,
+body.short-form-landing {
   font-size: 100%;
 }
 
 /* line 272, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-body {
+body, body.short-form-landing {
   background: #fafafa;
   color: #0e0d0d;
   padding: 0;
@@ -6913,7 +6914,7 @@ html {
 }
 
 /* line 201, ../scss/_jabo.scss */
-body {
+body, body.short-form-landing {
   background: none;
 }
 
@@ -7140,18 +7141,54 @@ aside ul li {
 
 /* ––– short-form landing ––– */
 /* line 444, ../scss/_jabo.scss */
+.short-form-content-list h2 {
+  text-align: center;
+}
+/* line 446, ../scss/_jabo.scss */
+.short-form-content-list p {
+  margin-bottom: 0;
+}
+/* line 448, ../scss/_jabo.scss */
 .short-form-content-list li.row {
   list-style: none;
 }
-/* line 448, ../scss/_jabo.scss */
+/* line 453, ../scss/_jabo.scss */
+.short-form-content-list .article-info-wrap {
+  border-bottom: 1px dotted #cccccc;
+  overflow: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* line 460, ../scss/_jabo.scss */
 .short-form-content-list .article-title {
   font-size: 1.125em;
   text-transform: uppercase;
 }
-/* line 453, ../scss/_jabo.scss */
+/* line 465, ../scss/_jabo.scss */
 .short-form-content-list .author-link a {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
+}
+/* line 472, ../scss/_jabo.scss */
+.short-form-content-list .no-thumb-image {
+  text-align: center;
+  line-height: 150%;
+}
+/* line 476, ../scss/_jabo.scss */
+.short-form-content-list .no-thumb-image p {
+  text-align: center;
+  background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+/* line 486, ../scss/_jabo.scss */
+.short-form-content-list .no-thumb-image p span {
+  color: #e51b23;
+  font-size: 2.3125em;
+  line-height: 202.5%;
 }
