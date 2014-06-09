@@ -7030,18 +7030,18 @@ aside ul li {
 .articles .article-details .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 329, ../scss/_jabo.scss */
+/* line 328, ../scss/_jabo.scss */
 .articles .sm-article {
   margin: 1rem 0;
 }
-/* line 332, ../scss/_jabo.scss */
+/* line 331, ../scss/_jabo.scss */
 .articles .sm-article .article-details {
   border: 0;
   padding: 0;
   background: transparent;
   margin-top: -20%;
 }
-/* line 339, ../scss/_jabo.scss */
+/* line 338, ../scss/_jabo.scss */
 .articles .sm-article h3 {
   background: white;
   padding: 1rem 0.5rem;
@@ -7053,80 +7053,80 @@ aside ul li {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 352, ../scss/_jabo.scss */
+/* line 351, ../scss/_jabo.scss */
 .articles .sm-article .author-comments {
   overflow-y: auto;
   background: white;
   border-top: 1px dotted #cccccc;
 }
-/* line 357, ../scss/_jabo.scss */
+/* line 356, ../scss/_jabo.scss */
 .articles .sm-article .author-comments .author-wrap {
   border-right: 1px dotted #cccccc;
 }
-/* line 361, ../scss/_jabo.scss */
+/* line 360, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p.comments {
   line-height: 150%;
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
 
-/* line 373, ../scss/_jabo.scss */
+/* line 372, ../scss/_jabo.scss */
 .by-the-numbers {
   font-family: "Vollkorn", serif;
   margin-bottom: 4rem;
 }
-/* line 377, ../scss/_jabo.scss */
+/* line 376, ../scss/_jabo.scss */
 .by-the-numbers h2 {
   margin-bottom: 4rem;
 }
-/* line 379, ../scss/_jabo.scss */
+/* line 378, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry {
   text-align: center;
   border-right: 1px dotted #cccccc;
 }
-/* line 383, ../scss/_jabo.scss */
+/* line 382, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry .last {
   border-right: none;
 }
-/* line 387, ../scss/_jabo.scss */
+/* line 386, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry img {
   margin-bottom: 2rem;
 }
 
-/* line 396, ../scss/_jabo.scss */
+/* line 395, ../scss/_jabo.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 399, ../scss/_jabo.scss */
+/* line 398, ../scss/_jabo.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 407, ../scss/_jabo.scss */
+/* line 406, ../scss/_jabo.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 414, ../scss/_jabo.scss */
+/* line 413, ../scss/_jabo.scss */
 .baseball-joe li {
   border-bottom: 1px dotted #cccccc;
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 419, ../scss/_jabo.scss */
+/* line 418, ../scss/_jabo.scss */
 .baseball-joe li.last {
   border-bottom: 0;
 }
 
-/* line 425, ../scss/_jabo.scss */
+/* line 424, ../scss/_jabo.scss */
 .ad {
   text-align: center;
 }
 
-/* line 429, ../scss/_jabo.scss */
+/* line 428, ../scss/_jabo.scss */
 .contributors li {
   padding-bottom: 1.5rem;
 }
-/* line 434, ../scss/_jabo.scss */
+/* line 433, ../scss/_jabo.scss */
 .contributors .handle p {
   position: relative;
   top: 50%;
@@ -7136,7 +7136,7 @@ aside ul li {
   font-size: 1.125em;
   font-family: "allerbold", serif;
 }
-/* line 439, ../scss/_jabo.scss */
+/* line 438, ../scss/_jabo.scss */
 .contributors .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
