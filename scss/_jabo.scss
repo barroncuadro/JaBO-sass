@@ -229,13 +229,6 @@ $primary-color: #00aeef;
 		background-color:#fff;
 	}
 
-	.baseball-joe-landing {
-		li.row {
-			list-style:none;
-		}
-	}
-
-
 
 
 
@@ -446,7 +439,24 @@ $primary-color: #00aeef;
 
 
 
-/* ––– short-form article ––– */
+/* ––– short-form landing ––– */
+	.short-form-content-list {
+		li.row {
+			list-style: none;
+		}
+		
+		.article-title {
+			font-size:$h5-font-size;
+			text-transform: uppercase;
+		}
+		
+		.author-link a {
+			display:block;
+			color:$alert-color;
+			font-family:$body-font-bolditalic;
+			text-transform: none;
+		}
+	}
 
 
 
