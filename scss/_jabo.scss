@@ -203,6 +203,8 @@ $primary-color: #00aeef;
 	}
 
 
+
+/* ––– home page ––– */	
 	.sm-article,
 	.baseball-joe,
 	.contributors {
@@ -219,13 +221,50 @@ $primary-color: #00aeef;
 		padding:$module-padding;
 	}
 	
-	aside ul li {
-		list-style: none;
+	
+
+/* ––– short-form landing ––– */
+	body.short-form-landing {
+		@extend .body;
+		background-color:#fff;
+	}
+
+	.baseball-joe-landing {
+		li.row {
+			list-style:none;
+		}
 	}
 
 
-/* ––– home page ––– */
 
+
+
+
+
+
+/* =================================== 
+	ELEMENT STYLES
+	=================================== */
+
+/* ——— general ——— */
+	.thumb-image {
+		text-align:center;
+		
+		img {
+			@include border-radius($global-rounded);
+			border-color:$secondary-color;
+			border-width: 4px;
+			border-style: solid;
+		}
+	}
+
+
+
+
+/* ––– home page ––– */
+	aside ul li {
+		list-style: none;
+	}
 
 // main column
 
@@ -259,7 +298,6 @@ $primary-color: #00aeef;
 					padding:$list-margin-bottom/2 0;
 					margin-top: 0;
 					margin-bottom: 0;
-	
 				}
 				
 				h2,h3 {
@@ -350,16 +388,10 @@ $primary-color: #00aeef;
 				margin-bottom:$general-margin*2;
 			}
 		}
-	
 	}
-	
-	
-	
-	
 	
 
 // sidebar
-
 	//baseball-joe
 	.baseball-joe {
 		text-align: center;
@@ -389,10 +421,8 @@ $primary-color: #00aeef;
 
 	}
 
-
 	//ad
 	.ad { text-align:center; }
-
 
 	//contributors
 	.contributors {
@@ -413,21 +443,11 @@ $primary-color: #00aeef;
 				}
 			}
 		}
-	
-		.thumb-image {
-			text-align:center;
-			
-			img {
-				@include border-radius($global-rounded);
-				border-color:$secondary-color;
-				border-width: 4px;
-				border-style: solid;
-			}
-		
-		}
-	
 	}
 
+
+
+/* ––– short-form article ––– */
 
 
 
