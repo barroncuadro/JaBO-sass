@@ -39,7 +39,7 @@ $primary-color: #00aeef;
 	
 	$thumb-image-border-width:4px;
 	$thumb-image-border-style:solid;
-	$thumb-image-border-color:4px;
+	$thumb-image-border-color:#ccc;
 	
 	$body-font-bold:'allerbold',serif;
 	$body-font-bolditalic:'allerbold_italic',serif;
@@ -371,7 +371,7 @@ $primary-color: #00aeef;
 			.article-details {
 				padding:$general-padding/2;
 				background: rgba(255, 255, 255, 0.9);
-				border: 	$article-detail-border-width $article-detail-border-style $article-detail-border-color;
+				border: $article-detail-border-width $article-detail-border-style $article-detail-border-color;
 				margin-top: -30%;
 				text-align: center;
 				position: relative;
@@ -590,13 +590,38 @@ $primary-color: #00aeef;
 
 /* ––– short-form article ––– */
 	body.short-form-article {
-	
-		h1.title {
-			font-size:$paragraph-font-size*1.25;
+		.article-headline {
 			text-align: center;
-			text-transform: uppercase;
+		
+			h1.title {
+				font-size:$paragraph-font-size*1.25;
+				text-align: center;
+				text-transform: uppercase; 
+				letter-spacing: rem-calc(-0.09);
+			}
+			
+			p.author {
+				text-align: center;
+				
+				img {
+					width: 87px;
+					@include border-radius($global-rounded);
+					border: $thumb-image-border-width $thumb-image-border-style $thumb-image-border-color;
+				}
+				
+				span.author-name {
+					display: block;
+					color:$alert-color;
+					font-family:$body-font-bolditalic;
+					font-size:$paragraph-font-size*1.25;
+					letter-spacing: rem-calc(1);
+				}
+				
+				span.twitter-handle {
+					display: block;
+				}
+			}
 		}
-	
 	}/* /body.short-form-article */
 
 

@@ -7264,11 +7264,41 @@ aside ul li {
 }
 
 /* ––– short-form article ––– */
-/* line 594, ../scss/_jabo.scss */
-body.short-form-article h1.title {
+/* line 593, ../scss/_jabo.scss */
+body.short-form-article .article-headline {
+  text-align: center;
+}
+/* line 596, ../scss/_jabo.scss */
+body.short-form-article .article-headline h1.title {
   font-size: 1.25em;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: -0.00563rem;
+}
+/* line 603, ../scss/_jabo.scss */
+body.short-form-article .article-headline p.author {
+  text-align: center;
+}
+/* line 606, ../scss/_jabo.scss */
+body.short-form-article .article-headline p.author img {
+  width: 87px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  border-radius: 1000px;
+  border: 4px solid #cccccc;
+}
+/* line 612, ../scss/_jabo.scss */
+body.short-form-article .article-headline p.author span.author-name {
+  display: block;
+  color: #e51b23;
+  font-family: "allerbold_italic", serif;
+  font-size: 1.25em;
+  letter-spacing: 0.0625rem;
+}
+/* line 620, ../scss/_jabo.scss */
+body.short-form-article .article-headline p.author span.twitter-handle {
+  display: block;
 }
 
 /* /body.short-form-article */
