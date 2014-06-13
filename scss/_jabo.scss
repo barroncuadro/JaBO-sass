@@ -25,6 +25,10 @@ $primary-color: #00aeef;
 	$general-padding: 1rem;
 	$module-padding: $general-padding*2;
 	
+	$general-border-width:1px;
+	$general-border-style:solid;
+	$general-border-color:#ccc;
+	
 	$list-bottom-border-width:1px;
 	$list-bottom-border-style:dotted;
 	$list-bottom-border-color:#ccc;
@@ -32,6 +36,10 @@ $primary-color: #00aeef;
 	$article-detail-border-width:3px;
 	$article-detail-border-style:solid;
 	$article-detail-border-color:#000;
+	
+	$thumb-image-border-width:4px;
+	$thumb-image-border-style:solid;
+	$thumb-image-border-color:4px;
 	
 	$body-font-bold:'allerbold',serif;
 	$body-font-bolditalic:'allerbold_italic',serif;
@@ -160,6 +168,9 @@ $primary-color: #00aeef;
 	  transform: translateY(50%);
 	}
 
+	.general-border {
+		border: 1px solid #ccc;
+	}
 
 /* =================================== 
 	BUTTONS
@@ -183,6 +194,88 @@ $primary-color: #00aeef;
 		line-height:normal;
  }
 
+
+/* =================================== 
+	PAGINATION
+	=================================== */
+
+	
+	// We use these to set the list-item properties
+	$pagination-li-font-color: #d4d4d4;
+	$pagination-line-height: 1rem;
+
+	
+	// We use these for the pagination anchor links
+
+	$pagination-link-font-color: $button-color;
+
+	
+	// We use these for disabled anchor links
+
+	$pagination-link-unavailable-font-color: $pagination-li-font-color;
+
+	
+	// We use these for currently selected anchor links
+	$pagination-link-current-background: $primary-color;
+	$pagination-link-current-font-color: $pagination-li-font-color;
+	$pagination-link-current-font-weight: normal;
+
+	$pagination-link-current-active-bg: none;
+
+
+	ul.pagination {
+		@extend .general-border;
+		@include border-radius(3px);
+		display: inline-block;
+		height: auto;
+		line-height: normal;
+		margin-left: 0;
+	
+		li {
+			line-height: normal;
+			padding: 0;
+			margin-left: 0;
+			border-right: $general-border-width $general-border-style $general-border-color;
+			float: left;
+			display: inline;
+			height: 100%;
+			
+			.arrow-unavailable,
+			.arrow {				
+				a {
+ 					margin-right: 0;
+ 					
+				}
+			}
+		
+			.arrow-unavailable {
+				a {
+					margin-left: $general-margin*.25;
+				}
+			}
+		
+			a {
+				color:$pagination-li-font-color;
+				line-height:$pagination-line-height*1.75;
+				padding: 0 $general-padding/2;
+				margin-right: $general-margin*.25;
+			}
+		}
+
+		.last {
+			border-width: 0;
+		}
+		
+		li:hover,
+		li.focus {
+		
+			a,
+			a:focus {
+				background: none;
+				color:$pagination-link-font-color;
+			}
+		}
+	}
 
 /* =================================== 
 	CONTAINERS
@@ -229,7 +322,16 @@ $primary-color: #00aeef;
 		background-color:#fff;
 	}
 
-
+	body.short-form-landing .row .row .thumb-image,
+	body.short-form-landing .row .row .no-thumb-image,
+	body.short-form-landing .row .row .article-title {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	body.short-form-landing .row .row .article-title {
+		padding-left:$general-padding;
+	}
 
 
 
@@ -241,7 +343,7 @@ $primary-color: #00aeef;
 
 /* ——— general ——— */
 	.thumb-image {
-		text-align:center;
+/* 		text-align:center; */
 		
 		img {
 			@include border-radius($global-rounded);
@@ -470,17 +572,17 @@ $primary-color: #00aeef;
 		}
 
 		.no-thumb-image {
-			text-align: center;
 			line-height:$base-line-height;
 			
 			p {
 				text-align: center;
 				background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
-				background-position:center;
-				border: 4px solid transparent;
-				width: 100%;
-				height: 100%;
+				background-size: 100% auto;
+				@include border-radius($global-rounded);
+				width: 90%;
+				height: 90%;
 				display: inline-block;
+				padding: 10px;
 
 
 				span {
