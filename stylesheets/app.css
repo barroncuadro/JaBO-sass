@@ -6907,7 +6907,7 @@ button, .button, .button:hover {
 /* =================================== 
 	PAGINATION
 	=================================== */
-/* line 226, ../scss/_jabo.scss */
+/* line 218, ../scss/_jabo.scss */
 ul.pagination {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -6918,7 +6918,7 @@ ul.pagination {
   line-height: normal;
   margin-left: 0;
 }
-/* line 234, ../scss/_jabo.scss */
+/* line 226, ../scss/_jabo.scss */
 ul.pagination li {
   line-height: normal;
   padding: 0;
@@ -6928,27 +6928,27 @@ ul.pagination li {
   display: inline;
   height: 100%;
 }
-/* line 245, ../scss/_jabo.scss */
+/* line 237, ../scss/_jabo.scss */
 ul.pagination li .arrow-unavailable a,
 ul.pagination li .arrow a {
   margin-right: 0;
 }
-/* line 252, ../scss/_jabo.scss */
+/* line 244, ../scss/_jabo.scss */
 ul.pagination li .arrow-unavailable a {
   margin-left: 0.25rem;
 }
-/* line 257, ../scss/_jabo.scss */
+/* line 249, ../scss/_jabo.scss */
 ul.pagination li a {
   color: #d4d4d4;
   line-height: 1.75rem;
   padding: 0 0.5rem;
   margin-right: 0.25rem;
 }
-/* line 265, ../scss/_jabo.scss */
+/* line 257, ../scss/_jabo.scss */
 ul.pagination .last {
   border-width: 0;
 }
-/* line 273, ../scss/_jabo.scss */
+/* line 265, ../scss/_jabo.scss */
 ul.pagination li:hover a,
 ul.pagination li:hover a:focus,
 ul.pagination li.focus a,
@@ -6961,7 +6961,7 @@ ul.pagination li.focus a:focus {
 	CONTAINERS
 	=================================== */
 /* ––– general ––– */
-/* line 285, ../scss/_jabo.scss */
+/* line 277, ../scss/_jabo.scss */
 html {
   background: transparent url(../images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6971,38 +6971,38 @@ html {
   background-color: #fafafa;
 }
 
-/* line 294, ../scss/_jabo.scss */
+/* line 286, ../scss/_jabo.scss */
 body, body.short-form-landing {
   background: none;
 }
 
 /* ––– home page ––– */
-/* line 303, ../scss/_jabo.scss */
+/* line 295, ../scss/_jabo.scss */
 .sm-article,
 .baseball-joe,
 .contributors {
   background: white;
 }
 
-/* line 308, ../scss/_jabo.scss */
+/* line 300, ../scss/_jabo.scss */
 .sm-article,
 .sidebar-content {
   border: 1px solid #dddddd;
 }
 
-/* line 313, ../scss/_jabo.scss */
+/* line 305, ../scss/_jabo.scss */
 .baseball-joe,
 .contributors {
   padding: 2rem;
 }
 
 /* ––– short-form landing ––– */
-/* line 320, ../scss/_jabo.scss */
+/* line 312, ../scss/_jabo.scss */
 body.short-form-landing {
   background-color: #fff;
 }
 
-/* line 327, ../scss/_jabo.scss */
+/* line 319, ../scss/_jabo.scss */
 body.short-form-landing .row .row .thumb-image,
 body.short-form-landing .row .row .no-thumb-image,
 body.short-form-landing .row .row .article-title {
@@ -7010,7 +7010,7 @@ body.short-form-landing .row .row .article-title {
   padding-right: 0;
 }
 
-/* line 332, ../scss/_jabo.scss */
+/* line 324, ../scss/_jabo.scss */
 body.short-form-landing .row .row .article-title {
   padding-left: 1rem;
 }
@@ -7019,11 +7019,7 @@ body.short-form-landing .row .row .article-title {
 	ELEMENT STYLES
 	=================================== */
 /* ——— general ——— */
-/* line 345, ../scss/_jabo.scss */
-.thumb-image {
-  /* 		text-align:center; */
-}
-/* line 348, ../scss/_jabo.scss */
+/* line 339, ../scss/_jabo.scss */
 .thumb-image img {
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -7035,20 +7031,20 @@ body.short-form-landing .row .row .article-title {
 }
 
 /* ––– home page ––– */
-/* line 360, ../scss/_jabo.scss */
+/* line 351, ../scss/_jabo.scss */
 aside ul li {
   list-style: none;
 }
 
-/* line 367, ../scss/_jabo.scss */
+/* line 358, ../scss/_jabo.scss */
 .articles {
   margin-bottom: 4rem;
 }
-/* line 370, ../scss/_jabo.scss */
+/* line 361, ../scss/_jabo.scss */
 .articles .article-image {
   display: block;
 }
-/* line 372, ../scss/_jabo.scss */
+/* line 363, ../scss/_jabo.scss */
 .articles .author {
   color: #e51b23;
   font-family: "allerbold_italic", serif;
@@ -7056,7 +7052,7 @@ aside ul li {
   margin: 0.5rem 0;
   letter-spacing: 0.0625rem;
 }
-/* line 380, ../scss/_jabo.scss */
+/* line 371, ../scss/_jabo.scss */
 .articles .article-details {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -7065,50 +7061,50 @@ aside ul li {
   text-align: center;
   position: relative;
 }
-/* line 388, ../scss/_jabo.scss */
+/* line 379, ../scss/_jabo.scss */
 .articles .article-details .details-wrap {
   border: 1px solid black;
 }
-/* line 391, ../scss/_jabo.scss */
+/* line 382, ../scss/_jabo.scss */
 .articles .article-details .details-wrap h2 {
   border-bottom: 1px dotted black;
   padding: 0.875rem 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 398, ../scss/_jabo.scss */
+/* line 389, ../scss/_jabo.scss */
 .articles .article-details .details-wrap h2, .articles .article-details .details-wrap h3 {
   font-size: 1.125em;
   text-transform: uppercase;
   letter-spacing: -0.0625rem;
   font-family: "allerbold", serif;
 }
-/* line 405, ../scss/_jabo.scss */
+/* line 396, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-wrap {
   border-right: 1px dotted black;
 }
-/* line 410, ../scss/_jabo.scss */
+/* line 401, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .comments-wrap p.comments {
   line-height: 150%;
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
-/* line 417, ../scss/_jabo.scss */
+/* line 408, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 423, ../scss/_jabo.scss */
+/* line 414, ../scss/_jabo.scss */
 .articles .sm-article {
   margin: 1rem 0;
 }
-/* line 426, ../scss/_jabo.scss */
+/* line 417, ../scss/_jabo.scss */
 .articles .sm-article .article-details {
   border: 0;
   padding: 0;
   background: transparent;
   margin-top: -20%;
 }
-/* line 433, ../scss/_jabo.scss */
+/* line 424, ../scss/_jabo.scss */
 .articles .sm-article h3 {
   background: white;
   padding: 1rem 0.5rem;
@@ -7120,80 +7116,80 @@ aside ul li {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 446, ../scss/_jabo.scss */
+/* line 437, ../scss/_jabo.scss */
 .articles .sm-article .author-comments {
   overflow-y: auto;
   background: white;
   border-top: 1px dotted #cccccc;
 }
-/* line 451, ../scss/_jabo.scss */
+/* line 442, ../scss/_jabo.scss */
 .articles .sm-article .author-comments .author-wrap {
   border-right: 1px dotted #cccccc;
 }
-/* line 455, ../scss/_jabo.scss */
+/* line 446, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p.comments {
   line-height: 150%;
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
 
-/* line 467, ../scss/_jabo.scss */
+/* line 458, ../scss/_jabo.scss */
 .by-the-numbers {
   font-family: "Vollkorn", serif;
   margin-bottom: 4rem;
 }
-/* line 471, ../scss/_jabo.scss */
+/* line 462, ../scss/_jabo.scss */
 .by-the-numbers h2 {
   margin-bottom: 4rem;
 }
-/* line 473, ../scss/_jabo.scss */
+/* line 464, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry {
   text-align: center;
   border-right: 1px dotted #cccccc;
 }
-/* line 477, ../scss/_jabo.scss */
+/* line 468, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry .last {
   border-right: none;
 }
-/* line 481, ../scss/_jabo.scss */
+/* line 472, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry img {
   margin-bottom: 2rem;
 }
 
-/* line 490, ../scss/_jabo.scss */
+/* line 481, ../scss/_jabo.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 493, ../scss/_jabo.scss */
+/* line 484, ../scss/_jabo.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 501, ../scss/_jabo.scss */
+/* line 492, ../scss/_jabo.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 508, ../scss/_jabo.scss */
+/* line 499, ../scss/_jabo.scss */
 .baseball-joe li {
   border-bottom: 1px dotted #cccccc;
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 513, ../scss/_jabo.scss */
+/* line 504, ../scss/_jabo.scss */
 .baseball-joe li.last {
   border-bottom: 0;
 }
 
-/* line 519, ../scss/_jabo.scss */
+/* line 510, ../scss/_jabo.scss */
 .ad {
   text-align: center;
 }
 
-/* line 523, ../scss/_jabo.scss */
+/* line 514, ../scss/_jabo.scss */
 .contributors li {
   padding-bottom: 1.5rem;
 }
-/* line 528, ../scss/_jabo.scss */
+/* line 519, ../scss/_jabo.scss */
 .contributors .handle p {
   position: relative;
   top: 50%;
@@ -7203,7 +7199,7 @@ aside ul li {
   font-size: 1.125em;
   font-family: "allerbold", serif;
 }
-/* line 533, ../scss/_jabo.scss */
+/* line 524, ../scss/_jabo.scss */
 .contributors .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
@@ -7211,42 +7207,42 @@ aside ul li {
 }
 
 /* ––– short-form landing ––– */
-/* line 546, ../scss/_jabo.scss */
+/* line 537, ../scss/_jabo.scss */
 .short-form-content-list h2 {
   text-align: center;
 }
-/* line 548, ../scss/_jabo.scss */
+/* line 539, ../scss/_jabo.scss */
 .short-form-content-list p {
   margin-bottom: 0;
 }
-/* line 550, ../scss/_jabo.scss */
+/* line 541, ../scss/_jabo.scss */
 .short-form-content-list li.row {
   list-style: none;
 }
-/* line 555, ../scss/_jabo.scss */
+/* line 546, ../scss/_jabo.scss */
 .short-form-content-list .article-info-wrap {
   border-bottom: 1px dotted #cccccc;
   overflow: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 562, ../scss/_jabo.scss */
+/* line 553, ../scss/_jabo.scss */
 .short-form-content-list .article-title {
   font-size: 1.125em;
   text-transform: uppercase;
 }
-/* line 567, ../scss/_jabo.scss */
+/* line 558, ../scss/_jabo.scss */
 .short-form-content-list .author-link a {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
 }
-/* line 574, ../scss/_jabo.scss */
+/* line 565, ../scss/_jabo.scss */
 .short-form-content-list .no-thumb-image {
   line-height: 150%;
 }
-/* line 577, ../scss/_jabo.scss */
+/* line 568, ../scss/_jabo.scss */
 .short-form-content-list .no-thumb-image p {
   text-align: center;
   background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
@@ -7260,7 +7256,7 @@ aside ul li {
   display: inline-block;
   padding: 10px;
 }
-/* line 588, ../scss/_jabo.scss */
+/* line 579, ../scss/_jabo.scss */
 .short-form-content-list .no-thumb-image p span {
   color: #e51b23;
   font-size: 2.3125em;
