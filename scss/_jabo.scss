@@ -198,28 +198,20 @@ $primary-color: #00aeef;
 /* =================================== 
 	PAGINATION
 	=================================== */
-
-	
 	// We use these to set the list-item properties
 	$pagination-li-font-color: #d4d4d4;
 	$pagination-line-height: 1rem;
-
 	
 	// We use these for the pagination anchor links
-
 	$pagination-link-font-color: $button-color;
 
-	
 	// We use these for disabled anchor links
-
 	$pagination-link-unavailable-font-color: $pagination-li-font-color;
 
-	
 	// We use these for currently selected anchor links
 	$pagination-link-current-background: $primary-color;
 	$pagination-link-current-font-color: $pagination-li-font-color;
 	$pagination-link-current-font-weight: normal;
-
 	$pagination-link-current-active-bg: none;
 
 
@@ -343,7 +335,6 @@ $primary-color: #00aeef;
 
 /* ——— general ——— */
 	.thumb-image {
-/* 		text-align:center; */
 		
 		img {
 			@include border-radius($global-rounded);
