@@ -7262,3 +7262,13 @@ aside ul li {
   font-size: 2.3125em;
   line-height: 202.5%;
 }
+
+/* ––– short-form article ––– */
+/* line 594, ../scss/_jabo.scss */
+body.short-form-article h1.title {
+  font-size: 1.25em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* /body.short-form-article */

@@ -583,11 +583,21 @@ $primary-color: #00aeef;
 				}
 			}
 		}
-		
-
 	}
 
 
+
+
+/* ––– short-form article ––– */
+	body.short-form-article {
+	
+		h1.title {
+			font-size:$paragraph-font-size*1.25;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	
+	}/* /body.short-form-article */
 
 
 
