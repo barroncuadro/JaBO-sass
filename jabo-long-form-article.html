@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
-  <body>
+  <body class="long-form-article">
     
      
 <!-- navigation --> 
@@ -33,12 +33,12 @@
 	        <ul class="dropdown">
 	        	<li>
 	        		<form>
-						    <div class="row">
-						      <div class="large-12 columns">
-						        <input type="text" placeholder="search">
-						      </div>
-						    </div>
-							</form>
+				    <div class="row">
+				      <div class="large-12 columns">
+				        <input type="text" placeholder="search">
+				      </div>
+				    </div>
+					</form>
 	        	</li>
 	          <li><a href="#">Articles</a></li>
 	          <li class="divider"></li>
@@ -64,14 +64,25 @@
 		</div>
 		
 		<div class="row">
-			<div class="large-8 large-centered columns">
-
+			<div class="large-6 large-centered columns">
 				<div class="article-headline">
-					<h1 class="title">From No. 1 Draft Pick to Prison Inmate: The Matt Bush Story</h1>
-					<p class="author">Ken Rosenthal<span class="comments"><img src="http://lorempixel.com/20/20/sports"></span></p>
-					
-					<img class="author-image" src="http://lorempixel.com/50/50/sports">
-					<span class="twitter-handle"><a href="">@Ken_Rosenthal</a></span></p>
+					<div class="details-wrap">
+						<h1 class="title">From No. 1 Draft Pick to Prison Inmate: The Matt Bush Story</h2>
+						<div class="author-comments">
+							<div class="large-9 large-offset-1 columns author-wrap">
+								<p class="author">Gabe Kapler</p>
+							</div>
+							<div class="large-2 columns comments-wrap">
+								<p class="comments"><a href=""><img src="http://lorempixel.com/25/20/sports"></a></p>
+							</div>
+						</div><!-- row for author, comments -->
+					</div>
+				</div><!-- article details -->
+				<div class="handle">
+					<p class="author-twitter">
+						<img src="http://lorempixel.com/87/87/sports">
+						<span class="twitter-handle"><a href="">@Gabe_Kepler</a></span>
+					</p>
 				</div>
 			</div>
 		</div><!-- row -->
@@ -87,20 +98,29 @@
 					</ul>
 				</div>
 			</aside>
-					
-			<div class="large-5 columns article-content">
+
+			<div class="large-6 large-centered columns end article-intro">
+				<p>Ham tenderloin venison salami rump shankle capicola fatback turkey short ribs pork. Strip steak ground round kielbasa brisket, rump shankle jowl pork belly shoulder boudin ham. Strip ribs tenderloin ham hock swine andouille ribeye rump.</p>
+				<hr />
+			</div>
+		</div><!-- row -->
+		
+		<!-- social / content / ad section -->
+		<div class="row">
+			<div class="large-5 large-offset-3 columns article-content">
 				<p>Bacon ipsum dolor sit amet biltong sirloin strip steak shoulder kevin. Short loin ham swine leberkas pork belly, drumstick bacon t-bone porchetta tenderloin fatback brisket meatball sausage.</p>
 				<p>Kevin flank corned beef shoulder, pancetta turkey rump tri-tip brisket ribeye spare ribs short ribs sirloin.</p>
-				
+				<p>Ham tenderloin venison salami rump shankle capicola fatback turkey short ribs pork. Strip steak ground round kielbasa brisket, rump shankle jowl pork belly shoulder boudin ham. Strip steak meatloaf shank, kielbasa pastrami fatback spare ribs kevin beef ribs tenderloin ham hock swine andouille ribeye rump.</p>
 				<p>Frankfurter landjaeger salami hamburger andouille. Venison tenderloin beef ribs landjaeger beef ground round short loin flank biltong frankfurter.</p>
 			</div>			
 			
-			<aside class="large-4 columns">			
+			<aside class="large-4 columns ad-wrap long-form-ad-wrap">			
 				<div class="adspace">
 					<a href=""><img src="http://lorempixel.com/300/250/sports"></a>
 				</div>
 			</aside>
 		</div><!-- row -->
+		<!-- end social / content / ad section -->
 				
 		<div class="row">
 			<div class="large-6 large-centered columns">
@@ -121,14 +141,14 @@
 		</div><!-- row -->
 		
 		<div class="row">
-			<div class="flex-video">
+			<div class="flex-video large-8 large-centered columns">
 				<iframe width="853" height="480" src="http://www.youtube.com/embed/Sfyh-dxuqh0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div><!-- row -->
 
 		<div class="row pre-footer">
 			<div class="large-12 large-centered columns">		  
-			  <p><img src="http://lorempixel.com/50/50/sports"></p>
+			  <p class="closer"><img src="http://lorempixel.com/50/50/sports"></p>
   		</div>
   	</div><!-- row -->
   </div>
