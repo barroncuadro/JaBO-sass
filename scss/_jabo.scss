@@ -33,7 +33,7 @@ $primary-color: #00aeef;
 	$list-bottom-border-style:dotted;
 	$list-bottom-border-color:#ccc;
 
-	$article-detail-border-width:3px;
+	$article-detail-border-width:4px;
 	$article-detail-border-style:solid;
 	$article-detail-border-color:#000;
 	
@@ -172,6 +172,7 @@ $primary-color: #00aeef;
 	.general-border {
 		border: 1px solid #ccc;
 	}
+	
 
 /* =================================== 
 	BUTTONS
@@ -287,6 +288,10 @@ $primary-color: #00aeef;
 	body {
 		background: none;
 	}
+	
+	.top-bar {
+		margin-bottom: 0;
+	}
 
 
 
@@ -344,6 +349,14 @@ $primary-color: #00aeef;
 			border-style: solid;
 		}
 	}
+	
+	.author {
+		color:$alert-color;
+		font-family:$body-font-bolditalic;
+		font-size:$h5-font-size;
+		margin: $general-margin/2 0;
+		letter-spacing: rem-calc(1);
+	}
 
 
 
@@ -360,14 +373,6 @@ $primary-color: #00aeef;
 			margin-bottom:$general-margin*4;
 		
 			.article-image { display: block; }
-			
-			.author {
-				color:$alert-color;
-				font-family:$body-font-bolditalic;
-				font-size:$h5-font-size;
-				margin: $general-margin/2 0;
-				letter-spacing: rem-calc(1);
-			}
 			
 			.article-details {
 				padding:$general-padding/2;
@@ -508,7 +513,7 @@ $primary-color: #00aeef;
 		}
 	
 		//ad
-		.ad { text-align:center; }
+		.ad { text-align: center; }
 	
 		//contributors
 		.contributors {
@@ -589,76 +594,158 @@ $primary-color: #00aeef;
 
 
 
-/* ––– short-form article ––– */
-	body.short-form-article {
-		.article {
-			.article-headline {
+/* ––– short-form article + long-form article ––– */
+	body.short-form-article,
+	body.long-form-article {
+	
+		.article-headline {
+			text-align: center;
+		
+			h1.title {
+				font-size:$paragraph-font-size*1.25;
 				text-align: center;
+				text-transform: uppercase; 
+				letter-spacing: rem-calc(-0.09);
+				margin-bottom: $general-margin;
+			}
+		}
+		
+		p.author-twitter {
+			text-align: center;
+			font-family:$body-font-family;
+			
+			img {
+				width: 87px;
+				@include border-radius($global-rounded);
+				border: $thumb-image-border-width $thumb-image-border-style $thumb-image-border-color;
+			}
+			
+			span.author-name {
+				display: block;
+				color:$alert-color;
+				font-family:$body-font-bolditalic;
+				font-size:$paragraph-font-size*1.25;
+				letter-spacing: rem-calc(1);
+			}
+			
+			span.twitter-handle {
+				display: block;
+			}
+		}	
+		
+		.social {
+			position: absolute;
+			margin-left: -3rem;
+			
+			ul {
+				li {
+					list-style: none;
+					margin-bottom:$general-margin/2;
+				}
+			}
+		}
+		
+		p {
+			font-family: $body-secondary-font-family;
+			font-size: $paragraph-font-size*1.125;
+			color: $body-copy-font-color;
+
+			&.closer {
+				text-align: center;
+				margin:$general-margin*4 0 $general-margin*3;
+			}
+		}
+		
+		#main-container {
+			hr {
+				width: 180px;
+				margin: 2.5rem auto;
+				border-color:#afafaf;
+			}
+		}
+	}
+
+
+
+
+
+/* ––– long-form article ––– */
+	body.long-form-article {
+		
+		.social {
+			position: relative;
+		}
+		.article-headline {
+			padding:$general-padding/2;
+			background: rgba(255, 255, 255, 0.9);
+			border: $article-detail-border-width $article-detail-border-style $article-detail-border-color;
+			margin-top: -40%;
+			margin-bottom: 2rem;
+			text-align: center;
+			position: relative;
+			
+			.details-wrap {
+				border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
 			
 				h1.title {
+					border-bottom: $list-bottom-border-width $list-bottom-border-style $article-detail-border-color;
+					padding:$general-margin*1.25;
+					margin-top: 0;
+					margin-bottom: 0;
 					font-size:$paragraph-font-size*1.25;
 					text-align: center;
 					text-transform: uppercase; 
-					letter-spacing: rem-calc(-0.09);
-					margin-bottom: $general-margin;
+					letter-spacing: rem-calc(-0.8);
 				}
 				
-				p.author {
-					text-align: center;
+				.author-wrap {
+					border-right:$list-bottom-border-width $list-bottom-border-style $article-detail-border-color;
 					
-					img {
-						width: 87px;
-						@include border-radius($global-rounded);
-						border: $thumb-image-border-width $thumb-image-border-style $thumb-image-border-color;
-					}
-					
-					span.author-name {
-						display: block;
-						color:$alert-color;
-						font-family:$body-font-bolditalic;
-						font-size:$paragraph-font-size*1.25;
-						letter-spacing: rem-calc(1);
-					}
-					
-					span.twitter-handle {
-						display: block;
+					p.author {
+						@extend .author;
+						font-size:$h5-font-size;
+						margin: $general-margin*0.5 0;
 					}
 				}
 				
-				hr {
-					width: 180px;
-					margin: 1rem auto 2rem;
-					border-color:#afafaf;
-					
+				.comments-wrap {				
+					p.comments {
+						line-height:$base-line-height;
+						margin-top:$general-margin/2;
+						margin-bottom: 0;
+					}
+				}
+				
+				.author-comments {
+					overflow-y:auto;
 				}
 			}
-			
-			.social {
-				position: absolute;
-				margin-left: -3rem;
-				
-				ul {
-					li {
-						list-style: none;
-						margin-bottom:$general-margin/2;
-					}
+		}
+		
+		.handle {
+			p.author-twitter {
+				img {
+					margin-bottom:$general-margin/2;
 				}
 			}
-			
-			.article-content {
-				font-family: $body-secondary-font-family;
-				font-size: $paragraph-font-size*1.125;
-				color: $body-copy-font-color;
-				
-				p.closer {
-					text-align: center;
-					margin:$general-margin*4 0 $general-margin*3;
-				}	
+		}
+		
+		.full-width-image {
+			margin: $general-margin 0 $general-margin*2;
+		}
+		
+		.article-intro {
+			p {
+				font-family:$body-font-bold;
+				text-align: center;
+				line-height:1.875rem;
 			}
-			
-		} /* article */
-	}/* /body.short-form-article */
-
+		}
+		
+		.long-form-ad-wrap {
+			margin-top:$general-margin*5;
+		}
+	}
 
 
 
