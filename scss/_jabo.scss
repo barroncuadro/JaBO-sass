@@ -374,29 +374,33 @@ em, i { font-family:$body-font-italic; }
 	footer {	
 		text-align: center;
 		
-		.footer-content {
-			padding:$general-padding*1.5 0;
+		.ad-space {
+			padding:$general-padding 0;
 		}
 		
-		p {
-			font-size:$paragraph-font-size*.625;
-			color:#aaa;
-			line-height:$base-line-height*1.25;
-			margin-bottom: 0;
-			
-			a:link, a:visited {
+		.footer-content {
+			padding:$general-padding*1.5 0;
+		
+			p {
+				font-size:$paragraph-font-size*.625;
 				color:#aaa;
-				text-decoration: none;
+				line-height:$base-line-height*1.25;
+				margin-bottom: 0;
 				
-				span.new {
-					color:#ff0000;
+				a:link, a:visited {
+					color:#aaa;
+					text-decoration: none;
+					
+					span.new {
+						color:#ff0000;
+					}
+				}
+				
+				a:hover, a:active {
+					text-decoration: underline;
 				}
 			}
-			
-			a:hover, a:active {
-				text-decoration: underline;
-			}
-		}
+		}	
 	}
 
 
@@ -579,6 +583,8 @@ em, i { font-family:$body-font-italic; }
 
 
 
+
+
 /* ––– short-form landing ––– */
 	.short-form-content-list {
 		h2 { text-align: center; }
@@ -696,7 +702,7 @@ em, i { font-family:$body-font-italic; }
 			}
 		}
 		
-		p {
+		#main-container p {
 			font-family: $body-secondary-font-family;
 			font-size: $paragraph-font-size*1.125;
 			color: $body-copy-font-color;
