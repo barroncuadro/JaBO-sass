@@ -667,6 +667,16 @@ $primary-color: #00aeef;
 
 
 
+/* ––– short-form article ––– */
+	body.short-form-article {
+		.article-headline {
+			margin-top:$general-margin*3;
+		}
+	}
+
+
+
+
 
 
 /* ––– long-form article ––– */
