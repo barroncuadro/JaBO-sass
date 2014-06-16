@@ -43,6 +43,7 @@ $primary-color: #00aeef;
 	
 	$body-font-bold:'allerbold',serif;
 	$body-font-bolditalic:'allerbold_italic',serif;
+	$body-font-italic: 'alleritalic', serif;
 	$body-copy-font-color: #26353c;
 	
 /* =================================== 
@@ -134,6 +135,9 @@ $primary-color: #00aeef;
     font-style: normal;
 
 }
+
+strong, .strong { font-family:$body-font-bold; }
+em, i { font-family:$body-font-italic; }
 
 
 
@@ -330,6 +334,12 @@ $primary-color: #00aeef;
 	body.short-form-landing .row .row .article-title {
 		padding-left:$general-padding;
 	}
+	
+	
+/* ––– footer ––– */	
+	footer {
+		background:#1e1e1e;
+	}
 
 
 
@@ -356,6 +366,37 @@ $primary-color: #00aeef;
 		font-size:$h5-font-size;
 		margin: $general-margin/2 0;
 		letter-spacing: rem-calc(1);
+	}
+
+
+
+/* ——— footer ——— */
+	footer {	
+		text-align: center;
+		
+		.footer-content {
+			padding:$general-padding*1.5 0;
+		}
+		
+		p {
+			font-size:$paragraph-font-size*.625;
+			color:#aaa;
+			line-height:$base-line-height*1.25;
+			margin-bottom: 0;
+			
+			a:link, a:visited {
+				color:#aaa;
+				text-decoration: none;
+				
+				span.new {
+					color:#ff0000;
+				}
+			}
+			
+			a:hover, a:active {
+				text-decoration: underline;
+			}
+		}
 	}
 
 
