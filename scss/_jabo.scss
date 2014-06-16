@@ -645,6 +645,16 @@ $primary-color: #00aeef;
 			}
 		}
 		
+		.caption-wrap {
+			border-left: 3px solid #00aeef;
+		
+			.caption {
+				font-size:$paragraph-font-size*.875;
+				line-height:$base-line-height;
+				
+			}
+		}
+		
 		p {
 			font-family: $body-secondary-font-family;
 			font-size: $paragraph-font-size*1.125;

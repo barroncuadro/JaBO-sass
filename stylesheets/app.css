@@ -7327,19 +7327,30 @@ body.long-form-article .social ul li {
   margin-bottom: 0.5rem;
 }
 /* line 648, ../scss/_jabo.scss */
+body.short-form-article .caption-wrap,
+body.long-form-article .caption-wrap {
+  border-left: 3px solid #00aeef;
+}
+/* line 651, ../scss/_jabo.scss */
+body.short-form-article .caption-wrap .caption,
+body.long-form-article .caption-wrap .caption {
+  font-size: 0.875em;
+  line-height: 150%;
+}
+/* line 658, ../scss/_jabo.scss */
 body.short-form-article p,
 body.long-form-article p {
   font-family: "Vollkorn", serif;
   font-size: 1.125em;
   color: #26353c;
 }
-/* line 653, ../scss/_jabo.scss */
+/* line 663, ../scss/_jabo.scss */
 body.short-form-article p.closer,
 body.long-form-article p.closer {
   text-align: center;
   margin: 4rem 0 3rem;
 }
-/* line 660, ../scss/_jabo.scss */
+/* line 670, ../scss/_jabo.scss */
 body.short-form-article #main-container hr,
 body.long-form-article #main-container hr {
   width: 180px;
@@ -7347,12 +7358,18 @@ body.long-form-article #main-container hr {
   border-color: #afafaf;
 }
 
+/* ––– short-form article ––– */
+/* line 682, ../scss/_jabo.scss */
+body.short-form-article .article-headline {
+  margin-top: 3rem;
+}
+
 /* ––– long-form article ––– */
-/* line 675, ../scss/_jabo.scss */
+/* line 695, ../scss/_jabo.scss */
 body.long-form-article .social {
   position: relative;
 }
-/* line 678, ../scss/_jabo.scss */
+/* line 698, ../scss/_jabo.scss */
 body.long-form-article .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -7362,11 +7379,11 @@ body.long-form-article .article-headline {
   text-align: center;
   position: relative;
 }
-/* line 687, ../scss/_jabo.scss */
+/* line 707, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap {
   border: 1px solid black;
 }
-/* line 690, ../scss/_jabo.scss */
+/* line 710, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap h1.title {
   border-bottom: 1px dotted black;
   padding: 1.25rem;
@@ -7377,40 +7394,40 @@ body.long-form-article .article-headline .details-wrap h1.title {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
-/* line 701, ../scss/_jabo.scss */
+/* line 721, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap .author-wrap {
   border-right: 1px dotted black;
 }
-/* line 704, ../scss/_jabo.scss */
+/* line 724, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap .author-wrap p.author {
   font-size: 1.125em;
   margin: 0.5rem 0;
 }
-/* line 712, ../scss/_jabo.scss */
+/* line 732, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap .comments-wrap p.comments {
   line-height: 150%;
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
-/* line 719, ../scss/_jabo.scss */
+/* line 739, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 727, ../scss/_jabo.scss */
+/* line 747, ../scss/_jabo.scss */
 body.long-form-article .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
-/* line 733, ../scss/_jabo.scss */
+/* line 753, ../scss/_jabo.scss */
 body.long-form-article .full-width-image {
   margin: 1rem 0 2rem;
 }
-/* line 738, ../scss/_jabo.scss */
+/* line 758, ../scss/_jabo.scss */
 body.long-form-article .article-intro p {
   font-family: "allerbold", serif;
   text-align: center;
   line-height: 1.875rem;
 }
-/* line 745, ../scss/_jabo.scss */
+/* line 765, ../scss/_jabo.scss */
 body.long-form-article .long-form-ad-wrap {
   margin-top: 5rem;
 }
