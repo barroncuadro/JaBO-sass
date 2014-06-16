@@ -691,34 +691,81 @@ em, i { font-family:$body-font-italic; }
 				}
 			}
 		}
-		
-		.caption-wrap {
-			border-left: 3px solid #00aeef;
-		
-			.caption {
-				font-size:$paragraph-font-size*.875;
-				line-height:$base-line-height;
-				
-			}
-		}
-		
-		#main-container p {
-			font-family: $body-secondary-font-family;
-			font-size: $paragraph-font-size*1.125;
-			color: $body-copy-font-color;
 
-			&.closer {
-				text-align: center;
-				margin:$general-margin*4 0 $general-margin*3;
+		#main-container {	
+			p {
+				font-family: $body-secondary-font-family;
+				font-size: $paragraph-font-size*1.125;
+				color: $body-copy-font-color;
+	
+				&.closer {
+					margin:$general-margin*4 0 $general-margin*3;
+					text-align: center;
+				}
+				
+				&.caption {
+					font-size:$paragraph-font-size*.875;
+					line-height:$base-line-height;
+				}
+				
+				&.author {
+					@extend .author;
+					font-size:$h5-font-size;
+					margin: $general-margin*0.5 0;
+				}
+				
+				&.comments {
+					line-height:$base-line-height;
+					margin-top:$general-margin/2;
+					margin-bottom: 0;
+				}
+				
+				&.author-twitter {
+					font-family:$body-font-family;
+				}
 			}
-		}
-		
-		#main-container {
+
 			hr {
 				width: 180px;
 				margin: 2.5rem auto;
 				border-color:#afafaf;
 			}
+			
+			/*livefyre styles*/
+			.livefyre-wrap {
+				margin-top:$general-margin*4;
+				margin-bottom:$general-margin*4;
+				
+				.fyre-comment {
+					p {
+						font-family:$body-font-family;
+						font-size:$paragraph-font-size;
+					}
+				}
+				
+				#LivefyreContainer.toggle-show {
+					text-align: center;
+				}
+			}
+			
+			.pre-footer {
+				p {
+					text-align: center;
+				}
+			}
+			
+			.livefyre-break {
+				text-align: center;
+				hr {
+					width: 100%;
+					border-color:#afc7d3;
+					border-width:$general-border-width*2;
+				}
+			}
+		}
+		
+		.caption-wrap {
+			border-left: 3px solid #00aeef;
 		}
 	}
 
@@ -767,20 +814,10 @@ em, i { font-family:$body-font-italic; }
 				
 				.author-wrap {
 					border-right:$list-bottom-border-width $list-bottom-border-style $article-detail-border-color;
-					
-					p.author {
-						@extend .author;
-						font-size:$h5-font-size;
-						margin: $general-margin*0.5 0;
-					}
 				}
 				
 				.comments-wrap {				
-					p.comments {
-						line-height:$base-line-height;
-						margin-top:$general-margin/2;
-						margin-bottom: 0;
-					}
+
 				}
 				
 				.author-comments {
