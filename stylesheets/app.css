@@ -7429,36 +7429,36 @@ body.long-form-article #main-container hr {
 /* line 735, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap,
 body.long-form-article #main-container .livefyre-wrap {
-  margin-top: 4rem;
   margin-bottom: 4rem;
 }
-/* line 740, ../scss/_jabo.scss */
+/* line 739, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap .fyre-comment p,
 body.long-form-article #main-container .livefyre-wrap .fyre-comment p {
   font-family: "allerregular", sans-serif;
   font-size: 1em;
 }
-/* line 746, ../scss/_jabo.scss */
+/* line 745, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show,
 body.long-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show {
   text-align: center;
 }
-/* line 752, ../scss/_jabo.scss */
+/* line 751, ../scss/_jabo.scss */
 body.short-form-article #main-container .pre-footer p,
 body.long-form-article #main-container .pre-footer p {
   text-align: center;
 }
-/* line 757, ../scss/_jabo.scss */
+/* line 756, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-break,
 body.long-form-article #main-container .livefyre-break {
   text-align: center;
 }
-/* line 759, ../scss/_jabo.scss */
+/* line 758, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-break hr,
 body.long-form-article #main-container .livefyre-break hr {
   width: 100%;
   border-color: #afc7d3;
   border-width: 2px;
+  margin: 2.5rem auto 1rem;
 }
 /* line 767, ../scss/_jabo.scss */
 body.short-form-article .caption-wrap,

@@ -733,7 +733,6 @@ em, i { font-family:$body-font-italic; }
 			
 			/*livefyre styles*/
 			.livefyre-wrap {
-				margin-top:$general-margin*4;
 				margin-bottom:$general-margin*4;
 				
 				.fyre-comment {
@@ -760,6 +759,7 @@ em, i { font-family:$body-font-italic; }
 					width: 100%;
 					border-color:#afc7d3;
 					border-width:$general-border-width*2;
+					margin: 2.5rem auto 1rem;
 				}
 			}
 		}
