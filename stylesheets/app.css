@@ -7427,32 +7427,39 @@ body.long-form-article #main-container hr {
   border-color: #afafaf;
 }
 /* line 735, ../scss/_jabo.scss */
+body.short-form-article #main-container .article-intro p,
+body.long-form-article #main-container .article-intro p {
+  font-family: "allerbold", serif;
+  text-align: center;
+  line-height: 1.875rem;
+}
+/* line 743, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap,
 body.long-form-article #main-container .livefyre-wrap {
   margin-bottom: 4rem;
 }
-/* line 739, ../scss/_jabo.scss */
+/* line 747, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap .fyre-comment p,
 body.long-form-article #main-container .livefyre-wrap .fyre-comment p {
   font-family: "allerregular", sans-serif;
   font-size: 1em;
 }
-/* line 745, ../scss/_jabo.scss */
+/* line 753, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show,
 body.long-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show {
   text-align: center;
 }
-/* line 751, ../scss/_jabo.scss */
+/* line 759, ../scss/_jabo.scss */
 body.short-form-article #main-container .pre-footer p,
 body.long-form-article #main-container .pre-footer p {
   text-align: center;
 }
-/* line 756, ../scss/_jabo.scss */
+/* line 764, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-break,
 body.long-form-article #main-container .livefyre-break {
   text-align: center;
 }
-/* line 758, ../scss/_jabo.scss */
+/* line 766, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-break hr,
 body.long-form-article #main-container .livefyre-break hr {
   width: 100%;
@@ -7460,24 +7467,24 @@ body.long-form-article #main-container .livefyre-break hr {
   border-width: 2px;
   margin: 2.5rem auto 1rem;
 }
-/* line 767, ../scss/_jabo.scss */
+/* line 775, ../scss/_jabo.scss */
 body.short-form-article .caption-wrap,
 body.long-form-article .caption-wrap {
   border-left: 3px solid #00aeef;
 }
 
 /* ––– short-form article ––– */
-/* line 776, ../scss/_jabo.scss */
+/* line 784, ../scss/_jabo.scss */
 body.short-form-article .article-headline {
   margin-top: 3rem;
 }
 
 /* ––– long-form article ––– */
-/* line 789, ../scss/_jabo.scss */
+/* line 797, ../scss/_jabo.scss */
 body.long-form-article .social {
   position: relative;
 }
-/* line 792, ../scss/_jabo.scss */
+/* line 800, ../scss/_jabo.scss */
 body.long-form-article .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -7487,11 +7494,11 @@ body.long-form-article .article-headline {
   text-align: center;
   position: relative;
 }
-/* line 801, ../scss/_jabo.scss */
+/* line 809, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap {
   border: 1px solid black;
 }
-/* line 804, ../scss/_jabo.scss */
+/* line 812, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap h1.title {
   border-bottom: 1px dotted black;
   padding: 1.25rem;
@@ -7502,27 +7509,21 @@ body.long-form-article .article-headline .details-wrap h1.title {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
-/* line 815, ../scss/_jabo.scss */
+/* line 823, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap .author-wrap {
   border-right: 1px dotted black;
 }
-/* line 823, ../scss/_jabo.scss */
+/* line 831, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 831, ../scss/_jabo.scss */
+/* line 839, ../scss/_jabo.scss */
 body.long-form-article .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
-/* line 837, ../scss/_jabo.scss */
+/* line 845, ../scss/_jabo.scss */
 body.long-form-article .full-width-image {
   margin: 1rem 0 2rem;
-}
-/* line 842, ../scss/_jabo.scss */
-body.long-form-article .article-intro p {
-  font-family: "allerbold", serif;
-  text-align: center;
-  line-height: 1.875rem;
 }
 /* line 849, ../scss/_jabo.scss */
 body.long-form-article .long-form-ad-wrap {

@@ -731,6 +731,14 @@ em, i { font-family:$body-font-italic; }
 				border-color:#afafaf;
 			}
 			
+			.article-intro {
+				p {
+					font-family:$body-font-bold;
+					text-align: center;
+					line-height:1.875rem;
+				}
+			}
+			
 			/*livefyre styles*/
 			.livefyre-wrap {
 				margin-bottom:$general-margin*4;
@@ -837,15 +845,7 @@ em, i { font-family:$body-font-italic; }
 		.full-width-image {
 			margin: $general-margin 0 $general-margin*2;
 		}
-		
-		.article-intro {
-			p {
-				font-family:$body-font-bold;
-				text-align: center;
-				line-height:1.875rem;
-			}
-		}
-		
+				
 		.long-form-ad-wrap {
 			margin-top:$general-margin*5;
 		}
