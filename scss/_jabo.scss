@@ -286,6 +286,8 @@ em, i { font-family:$body-font-italic; }
 		height: 96px;
 		background-color:$module-bg;
 	
+		
+	
 		.top-bar-section {
 			
 			
@@ -304,7 +306,7 @@ em, i { font-family:$body-font-italic; }
 						> a:not(.button) {
 							background-color: #111;
 							color:$body-font-color;
-							line-height:96px;
+							line-height: 96px;
 						}
 					}
 					
@@ -327,6 +329,22 @@ em, i { font-family:$body-font-italic; }
 					&:not(.has-form) a:not(.button) {
 						background: none;
 						color:$body-font-color;
+					}
+					
+					&.name {
+						h1 {
+							&:not(.has-form) a:not(.button) {
+								line-height: 96px;
+							}
+						}
+					}
+					
+					&.logo {
+						float: right;
+					
+						&:not(.has-form) a:not(.button) {
+							line-height: 96px;
+						}
 					}
 					
 					a {
