@@ -361,12 +361,14 @@ em, i { font-family:$body-font-italic; }
 							color:$body-font-color;
 							line-height: 96px;
 						
-							&.menu-dropdown {
+							/*
+&.menu-dropdown {
 								@include icons-sprite(menu-closed);
 								width: 24px;
 								height: 25px;
 								margin-top: 2rem;
 							}
+*/
 						}
 						
 					}
