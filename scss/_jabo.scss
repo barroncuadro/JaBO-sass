@@ -183,17 +183,31 @@ em, i { font-family:$body-font-italic; }
 /* =================================== 
 	BACKGROUNDS (repeated)
 	=================================== */
+	@mixin horiz-light-bg {
+		background-image:url("../images/dot-pattern-light-horiz.png");
+		background-size: 4px 1px;
+		background-position: 0 100%;
+		background-repeat: repeat-x;
+	}
+
+	@mixin horiz-dark-bg {
+		background-image:url("../images/dot-pattern-dark-horiz.png");
+		background-size: 4px 1px;
+		background-position: 0 100%;
+		background-repeat: repeat-x;
+	}
+	
 	@mixin vert-light-bg {
 		background-image:url("../images/dot-pattern-vert-light.png");
 		background-size: 1px 4px;
-		background-position: 99% 0;
+		background-position: 100% 0;
 		background-repeat: repeat-y;
 	}
 
 	@mixin vert-dark-bg {
 		background-image:url("../images/dot-pattern-vert-dark.png");
 		background-size: 1px 4px;
-		background-position: 97% 0;
+		background-position: 100% 0;
 		background-repeat: repeat-y;
 	}
 
@@ -213,13 +227,6 @@ em, i { font-family:$body-font-italic; }
 	.icons-menu-open { width:24px;height:25px; }
 	.icons-search-closed { width:20px;height:19px; }
 	.icons-search-open { width:20px;height:19px; }
-	
-	
-	@import "horizdotbg/*.png";
-	@include all-horizdotbg-sprites;	
-	
-	.dotbg-dot-pattern-light-horiz { width:4px;height:1px; }
-	.dotbg-dot-pattern-dark-horiz { width:4px;height:1px; }
 
 	
 /* =================================== 
@@ -621,9 +628,7 @@ em, i { font-family:$body-font-italic; }
 					border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
 			
 					h2 {
-						@include horizdotbg-sprite(dot-pattern-dark-horiz);
-						background-position: 0 100%;
-						background-repeat: repeat-x;
+						@include horiz-dark-bg;
 						padding:$general-padding*0.875;
 						margin-top: 0;
 						margin-bottom: 0;
@@ -646,10 +651,25 @@ em, i { font-family:$body-font-italic; }
 					
 						p {
 							margin:$general-margin*.6 0;
-							font-size:$paragraph-font-size*1.125;
+							/* font-size:$paragraph-font-size*1.125; */
+							line-height: 65%;
 							
 							&.comments {
-								line-height:$base-line-height;
+								@include icons-sprite(comment-medium);
+								background-position: 10px -88px;
+								width: 44px;					
+								height: 20px;
+
+								a:link,a:visited {
+									color:#fff;
+									font-size:$paragraph-font-size*0.625;
+									line-height:normal;
+									
+								}
+							}
+							
+							&.author {
+								line-height: 115%;
 							}
 						}
 					}
@@ -682,18 +702,17 @@ em, i { font-family:$body-font-italic; }
 				.author-comments {
 					overflow-y:auto;
 					background-color:$module-bg;
-					@include horizdotbg-sprite(dot-pattern-light-horiz);
-					background-position: 100% -2%;
-					background-size: 4px 2px;
-					background-repeat: repeat-x;
+					@include horiz-light-bg;
+					background-position: 100% 0;
 					
-					.author-wrap {
+					.author-wrap,
+					.signal-wrap {
 						@include vert-light-bg;
 					}
 					
 					p {
 						margin:$general-margin*.6 0;
-						font-size:$paragraph-font-size*1.125;
+						/* font-size:$paragraph-font-size*1.125; */
 						
 						&.comments {
 							line-height:$base-line-height;
@@ -747,11 +766,11 @@ em, i { font-family:$body-font-italic; }
 			
 					
 			li {
-				border-bottom:$list-bottom-border-width $list-bottom-border-style $list-bottom-border-color;
+				@include horiz-light-bg;
 				margin-top: $list-margin-bottom;
 				padding-bottom: $list-margin-bottom;
 				
-				&.last { border-bottom: 0; }
+				&.last { background-image: none; }
 			}
 	
 		}
@@ -853,9 +872,7 @@ em, i { font-family:$body-font-italic; }
 				text-transform: uppercase; 
 				letter-spacing: rem-calc(-0.09);
 				margin-bottom: $general-margin;
-				@include horizdotbg-sprite(dot-pattern-dark-horiz);
-				background-position: 0 100%;
-				background-repeat: repeat-x;
+				@include horiz-dark-bg;
 			}
 		}
 		
