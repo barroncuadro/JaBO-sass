@@ -178,6 +178,50 @@ em, i { font-family:$body-font-italic; }
 	}
 	
 
+
+
+/* =================================== 
+	BACKGROUNDS (repeated)
+	=================================== */
+	@mixin vert-light-bg {
+		background-image:url("../images/dot-pattern-vert-light.png");
+		background-size: 1px 4px;
+		background-position: 99% 0;
+		background-repeat: repeat-y;
+	}
+
+	@mixin vert-dark-bg {
+		background-image:url("../images/dot-pattern-vert-dark.png");
+		background-size: 1px 4px;
+		background-position: 97% 0;
+		background-repeat: repeat-y;
+	}
+
+
+	
+/* =================================== 
+	IMAGE SPRITES
+	=================================== */
+	
+	@import "icons/*.png";
+	@include all-icons-sprites;
+
+	.icons-comment-xsmall { width:16px;height:20px; }
+	.icons-comment-small { width:21px;height:20px; }
+	.icons-comment-medium { width:25px;height:20px; }
+	.icons-menu-closed { width:24px;height:25px; }
+	.icons-menu-open { width:24px;height:25px; }
+	.icons-search-closed { width:20px;height:19px; }
+	.icons-search-open { width:20px;height:19px; }
+	
+	
+	@import "horizdotbg/*.png";
+	@include all-horizdotbg-sprites;	
+	
+	.dotbg-dot-pattern-light-horiz { width:4px;height:1px; }
+	.dotbg-dot-pattern-dark-horiz { width:4px;height:1px; }
+
+	
 /* =================================== 
 	BUTTONS
 	=================================== */
@@ -577,7 +621,9 @@ em, i { font-family:$body-font-italic; }
 					border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
 			
 					h2 {
-						border-bottom: $list-bottom-border-width $list-bottom-border-style $article-detail-border-color;
+						@include horizdotbg-sprite(dot-pattern-dark-horiz);
+						background-position: 0 100%;
+						background-repeat: repeat-x;
 						padding:$general-padding*0.875;
 						margin-top: 0;
 						margin-bottom: 0;
@@ -590,20 +636,22 @@ em, i { font-family:$body-font-italic; }
 						font-family:$body-font-bold;
 					}
 					
-					.author-wrap {
-						border-right:$list-bottom-border-width $list-bottom-border-style $article-detail-border-color;
+					.author-wrap,
+					.signal-wrap {
+						@include vert-dark-bg;
 					}
-					
-					.comments-wrap {				
-						p.comments {
-							line-height:$base-line-height;
-							margin-top:$general-margin/2;
-							margin-bottom: 0;
-						}
-					}
-					
+
 					.author-comments {
 						overflow-y:auto;
+					
+						p {
+							margin:$general-margin*.6 0;
+							font-size:$paragraph-font-size*1.125;
+							
+							&.comments {
+								line-height:$base-line-height;
+							}
+						}
 					}
 				}
 			}
@@ -633,19 +681,24 @@ em, i { font-family:$body-font-italic; }
 				
 				.author-comments {
 					overflow-y:auto;
-					background:$module-bg;
-					border-top:$list-bottom-border-width $list-bottom-border-style $list-bottom-border-color;
+					background-color:$module-bg;
+					@include horizdotbg-sprite(dot-pattern-light-horiz);
+					background-position: 100% -2%;
+					background-size: 4px 2px;
+					background-repeat: repeat-x;
 					
 					.author-wrap {
-						border-right:$list-bottom-border-width $list-bottom-border-style $list-bottom-border-color;
+						@include vert-light-bg;
 					}
 					
-					p.comments {
-						line-height:$base-line-height;
-						margin-top:$general-margin/2;
-						margin-bottom:0;
-					}
-		
+					p {
+						margin:$general-margin*.6 0;
+						font-size:$paragraph-font-size*1.125;
+						
+						&.comments {
+							line-height:$base-line-height;
+						}
+					}		
 				}
 			}
 		}
@@ -660,10 +713,10 @@ em, i { font-family:$body-font-italic; }
 			
 			.btn-entry {
 				text-align:center;
-				border-right:$list-bottom-border-width $list-bottom-border-style $list-bottom-border-color;
+				@include vert-light-bg;
 				
 				&.last {
-					border-right: none;
+					background-image: none;
 				}
 				
 				img {
@@ -800,6 +853,9 @@ em, i { font-family:$body-font-italic; }
 				text-transform: uppercase; 
 				letter-spacing: rem-calc(-0.09);
 				margin-bottom: $general-margin;
+				@include horizdotbg-sprite(dot-pattern-dark-horiz);
+				background-position: 0 100%;
+				background-repeat: repeat-x;
 			}
 		}
 		
@@ -857,13 +913,22 @@ em, i { font-family:$body-font-italic; }
 				&.author {
 					@extend .author;
 					font-size:$h5-font-size;
-					margin: $general-margin*0.5 0;
+					margin: $general-margin*0.25 0;
 				}
 				
 				&.comments {
-					line-height:$base-line-height;
+					line-height: 0;
 					margin-top:$general-margin/2;
 					margin-bottom: 0;
+					text-align: center;
+					float:right;
+					
+					a:link,a:visited {
+						font-size:$paragraph-font-size*0.625;
+						color:#fff;
+						font-family:$body-font-family;
+						line-height:normal;
+					}
 				}
 				
 				&.author-twitter {
@@ -956,7 +1021,6 @@ em, i { font-family:$body-font-italic; }
 				border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
 			
 				h1.title {
-					border-bottom: $list-bottom-border-width $list-bottom-border-style $article-detail-border-color;
 					padding:$general-margin*1.25;
 					margin-top: 0;
 					margin-bottom: 0;
@@ -967,7 +1031,7 @@ em, i { font-family:$body-font-italic; }
 				}
 				
 				.author-wrap {
-					border-right:$list-bottom-border-width $list-bottom-border-style $article-detail-border-color;
+					@include vert-dark-bg;
 				}
 				
 				.comments-wrap {				
