@@ -350,6 +350,7 @@ em, i { font-family:$body-font-italic; }
 				&.main-nav {
 					> li {
 						background-color: #fff;
+						margin-top: $general-margin*1.5;
 						
 						a:link, a:visited {
 							font-family: $body-font-family;
@@ -359,16 +360,18 @@ em, i { font-family:$body-font-italic; }
 						> a:not(.button) {
 							background-color: #111;
 							color:$body-font-color;
-							line-height: 96px;
+							
 						
-							/*
-&.menu-dropdown {
-								@include icons-sprite(menu-closed);
-								width: 24px;
-								height: 25px;
-								margin-top: 2rem;
+							&.menu-dropdown {
+								text-align: center;
+								span {
+									@include icons-sprite(menu-closed);
+									background-position: 7px -63px;
+									width: 100%;
+									height: 25px;
+									display: block;
+								}
 							}
-*/
 						}
 						
 					}
@@ -406,7 +409,7 @@ em, i { font-family:$body-font-italic; }
 						float: right;
 					
 						&:not(.has-form) a:not(.button) {
-							line-height: 96px;
+							line-height: $base-line-height*2;
 						}
 						
 						img {
