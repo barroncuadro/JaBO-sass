@@ -177,6 +177,12 @@ em, i { font-family:$body-font-italic; }
 		border: 1px solid #ccc;
 	}
 	
+	
+	@mixin hide-text {
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden; 
+	}
 
 
 
@@ -336,12 +342,8 @@ em, i { font-family:$body-font-italic; }
 		@include box-shadow (0 1px 5px 0px #ccc);
 		height: 96px;
 		background-color:$module-bg;
-	
-		
-	
-		.top-bar-section {
-			
-			
+
+		.top-bar-section {			
 			ul {
 				background: none;
 								
@@ -358,7 +360,15 @@ em, i { font-family:$body-font-italic; }
 							background-color: #111;
 							color:$body-font-color;
 							line-height: 96px;
+						
+							&.menu-dropdown {
+								@include icons-sprite(menu-closed);
+								width: 24px;
+								height: 25px;
+								margin-top: 2rem;
+							}
 						}
+						
 					}
 					
 					&:not(.has-form) {
@@ -1055,6 +1065,10 @@ em, i { font-family:$body-font-italic; }
 	body.short-form-article {
 		.article-headline {
 			margin-top:$general-margin*3;
+		
+			h1.title {
+				background: none;
+			}
 		}
 	}
 
