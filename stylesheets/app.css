@@ -7473,7 +7473,7 @@ body.long-form-article #main-container .articles .sm-article .author-comments p.
 }
 /* line 756, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p.signal {
-  margin: 0.5rem 0;
+  margin: 0.6rem 0 0.5rem;
 }
 /* line 758, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p.signal img {

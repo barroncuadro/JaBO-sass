@@ -754,7 +754,7 @@ em, i { font-family:$body-font-italic; }
 						}
 						
 						&.signal {
-						margin:$general-margin*.5 0;
+						margin:$general-margin*.6 0 $general-margin*.5;
 							img {
 								width: 25px;
 								height: 25px;
