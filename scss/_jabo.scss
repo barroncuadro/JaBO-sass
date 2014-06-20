@@ -710,12 +710,39 @@ em, i { font-family:$body-font-italic; }
 						@include vert-light-bg;
 					}
 					
+					&.two-col {
+						p.comments {
+							width: 2rem;
+							background-position: 5px -108px;
+						}
+					}
+					
 					p {
 						margin:$general-margin*.6 0;
 						/* font-size:$paragraph-font-size*1.125; */
+						line-height: 65%;
 						
 						&.comments {
-							line-height:$base-line-height;
+							@include icons-sprite(comment-small);
+							background-position: 18px -108px;
+							width: 3.5rem;					
+							height: 20px;
+
+							a:link,a:visited {
+								color:#fff;
+								font-size:$paragraph-font-size*0.625;
+								line-height:normal;
+								
+							}
+						}
+						
+						&.author {
+							line-height: 115%;
+						}
+						
+						&.signal,
+						&.comments {
+							/* width:22px; */
 						}
 					}		
 				}
