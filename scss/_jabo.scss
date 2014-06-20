@@ -387,6 +387,15 @@ em, i { font-family:$body-font-italic; }
 						
 						margin-top: $general-margin*1.5;
 						
+						&.menu-dropdown,
+						&.search-dropdown {
+							padding:0 1rem;
+							
+							.dropdown {
+								margin-left: 1rem;
+							}
+						}
+						
 						&.menu-dropdown {
 							@include menu-closed;
 							
@@ -409,12 +418,17 @@ em, i { font-family:$body-font-italic; }
 									color:#ff0000;
 								}
 							}
+							
+							input {
+								top: 0;
+								width: 12rem;
+							}
 						}
 						
 						a:link, a:visited {
 							font-family: $body-font-family;
 							text-transform: uppercase;
-							padding-right:0 !important;
+							padding:0 !important;
 						}
 						
 						> a:not(.button) {
@@ -469,7 +483,7 @@ em, i { font-family:$body-font-italic; }
 						float: right;
 					
 						&:not(.has-form) a:not(.button) {
-							line-height: $base-line-height*2;
+							line-height: 96px;
 						}
 						
 						img {
