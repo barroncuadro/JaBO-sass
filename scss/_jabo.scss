@@ -396,6 +396,11 @@ em, i { font-family:$body-font-italic; }
 						&:not(.has-form) a:not(.button) {
 							line-height: 96px;
 						}
+						
+						img {
+							width: 71px;
+							height: 41px;
+						}
 					}
 					
 					a {
@@ -650,7 +655,7 @@ em, i { font-family:$body-font-italic; }
 						overflow-y:auto;
 					
 						p {
-							margin:$general-margin*.6 0;
+							margin:$general-margin*.8 0 $general-margin*.5;
 							/* font-size:$paragraph-font-size*1.125; */
 							line-height: 65%;
 							
@@ -670,6 +675,15 @@ em, i { font-family:$body-font-italic; }
 							
 							&.author {
 								line-height: 115%;
+							}
+							
+							&.signal {
+								margin:$general-margin*.6 0 $general-margin*.5;
+								img {
+									width: 25px;
+									height: 25px;
+									@include border-radius($global-rounded);
+								}
 							}
 						}
 					}
@@ -718,8 +732,7 @@ em, i { font-family:$body-font-italic; }
 					}
 					
 					p {
-						margin:$general-margin*.6 0;
-						/* font-size:$paragraph-font-size*1.125; */
+						margin:$general-margin*.8 0 $general-margin*.5;
 						line-height: 65%;
 						
 						&.comments {
@@ -740,9 +753,13 @@ em, i { font-family:$body-font-italic; }
 							line-height: 115%;
 						}
 						
-						&.signal,
-						&.comments {
-							/* width:22px; */
+						&.signal {
+						margin:$general-margin*.5 0;
+							img {
+								width: 25px;
+								height: 25px;
+								@include border-radius($global-rounded);
+							}
 						}
 					}		
 				}

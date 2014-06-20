@@ -7140,12 +7140,17 @@ ul.pagination li.focus a:focus {
 .top-bar .top-bar-section ul li.logo:not(.has-form) a:not(.button) {
   line-height: 96px;
 }
-/* line 401, ../scss/_jabo.scss */
+/* line 400, ../scss/_jabo.scss */
+.top-bar .top-bar-section ul li.logo img {
+  width: 71px;
+  height: 41px;
+}
+/* line 406, ../scss/_jabo.scss */
 .top-bar .top-bar-section ul li a {
   background: none;
   color: #0e0d0d;
 }
-/* line 411, ../scss/_jabo.scss */
+/* line 416, ../scss/_jabo.scss */
 .top-bar .top-bar-section .divider {
   border-top: 1px dotted #4d4d4d;
   border-bottom: 0px none;
@@ -7153,27 +7158,27 @@ ul.pagination li.focus a:focus {
   float: none;
   margin: 0 auto;
 }
-/* line 441, ../scss/_jabo.scss */
+/* line 446, ../scss/_jabo.scss */
 .top-bar .top-bar-section .dropdown {
   border: 1px solid #cdcdcd;
   background: #111;
   padding: 1rem 0.5rem;
 }
-/* line 447, ../scss/_jabo.scss */
+/* line 452, ../scss/_jabo.scss */
 .top-bar .top-bar-section .dropdown li a:link, .top-bar .top-bar-section .dropdown li a:visited {
   color: #fff;
   text-align: center;
 }
-/* line 452, ../scss/_jabo.scss */
+/* line 457, ../scss/_jabo.scss */
 .top-bar .top-bar-section .dropdown li a:hover, .top-bar .top-bar-section .dropdown li a:active {
   color: #ff0000;
 }
-/* line 457, ../scss/_jabo.scss */
+/* line 462, ../scss/_jabo.scss */
 .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
   background-color: #111;
   color: #ccc;
 }
-/* line 463, ../scss/_jabo.scss */
+/* line 468, ../scss/_jabo.scss */
 .top-bar .top-bar-section .dropdown li:not(.has-form):hover {
   background-color: #111;
   color: #ff0000;
@@ -7183,7 +7188,7 @@ ul.pagination li.focus a:focus {
 	CONTAINERS
 	=================================== */
 /* ––– general ––– */
-/* line 482, ../scss/_jabo.scss */
+/* line 487, ../scss/_jabo.scss */
 html {
   background: transparent url(../images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -7193,38 +7198,38 @@ html {
   background-color: #fafafa;
 }
 
-/* line 491, ../scss/_jabo.scss */
+/* line 496, ../scss/_jabo.scss */
 body, body.short-form-landing {
   background: none;
 }
 
 /* ––– home page ––– */
-/* line 502, ../scss/_jabo.scss */
+/* line 507, ../scss/_jabo.scss */
 .sm-article,
 .baseball-joe,
 .contributors {
   background: white;
 }
 
-/* line 507, ../scss/_jabo.scss */
+/* line 512, ../scss/_jabo.scss */
 .sm-article,
 .sidebar-content {
   border: 1px solid #dddddd;
 }
 
-/* line 512, ../scss/_jabo.scss */
+/* line 517, ../scss/_jabo.scss */
 .baseball-joe,
 .contributors {
   padding: 2rem;
 }
 
 /* ––– short-form landing ––– */
-/* line 519, ../scss/_jabo.scss */
+/* line 524, ../scss/_jabo.scss */
 body.short-form-landing {
   background-color: #fff;
 }
 
-/* line 526, ../scss/_jabo.scss */
+/* line 531, ../scss/_jabo.scss */
 body.short-form-landing .row .row .thumb-image,
 body.short-form-landing .row .row .no-thumb-image,
 body.short-form-landing .row .row .article-title {
@@ -7232,13 +7237,13 @@ body.short-form-landing .row .row .article-title {
   padding-right: 0;
 }
 
-/* line 531, ../scss/_jabo.scss */
+/* line 536, ../scss/_jabo.scss */
 body.short-form-landing .row .row .article-title {
   padding-left: 1rem;
 }
 
 /* ––– footer ––– */
-/* line 537, ../scss/_jabo.scss */
+/* line 542, ../scss/_jabo.scss */
 footer {
   background: #1e1e1e;
 }
@@ -7247,7 +7252,7 @@ footer {
 	ELEMENT STYLES
 	=================================== */
 /* ——— general ——— */
-/* line 552, ../scss/_jabo.scss */
+/* line 557, ../scss/_jabo.scss */
 .thumb-image img {
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -7258,7 +7263,7 @@ footer {
   border-style: solid;
 }
 
-/* line 560, ../scss/_jabo.scss */
+/* line 565, ../scss/_jabo.scss */
 .author, body.short-form-article #main-container p.author,
 body.long-form-article #main-container p.author {
   color: #e51b23;
@@ -7269,54 +7274,54 @@ body.long-form-article #main-container p.author {
 }
 
 /* ——— footer ——— */
-/* line 571, ../scss/_jabo.scss */
+/* line 576, ../scss/_jabo.scss */
 footer {
   text-align: center;
 }
-/* line 574, ../scss/_jabo.scss */
+/* line 579, ../scss/_jabo.scss */
 footer .ad-space {
   padding: 1rem 0;
 }
-/* line 578, ../scss/_jabo.scss */
+/* line 583, ../scss/_jabo.scss */
 footer .footer-content {
   padding: 1.5rem 0;
 }
-/* line 581, ../scss/_jabo.scss */
+/* line 586, ../scss/_jabo.scss */
 footer .footer-content p {
   font-size: 0.625em;
   color: #aaa;
   line-height: 187.5%;
   margin-bottom: 0;
 }
-/* line 587, ../scss/_jabo.scss */
+/* line 592, ../scss/_jabo.scss */
 footer .footer-content p a:link, footer .footer-content p a:visited {
   color: #aaa;
   text-decoration: none;
 }
-/* line 591, ../scss/_jabo.scss */
+/* line 596, ../scss/_jabo.scss */
 footer .footer-content p a:link span.new, footer .footer-content p a:visited span.new {
   color: #ff0000;
 }
-/* line 596, ../scss/_jabo.scss */
+/* line 601, ../scss/_jabo.scss */
 footer .footer-content p a:hover, footer .footer-content p a:active {
   text-decoration: underline;
 }
 
 /* ––– home page ––– */
-/* line 607, ../scss/_jabo.scss */
+/* line 612, ../scss/_jabo.scss */
 aside ul li {
   list-style: none;
 }
 
-/* line 614, ../scss/_jabo.scss */
+/* line 619, ../scss/_jabo.scss */
 .articles {
   margin-bottom: 4rem;
 }
-/* line 617, ../scss/_jabo.scss */
+/* line 622, ../scss/_jabo.scss */
 .articles .article-image {
   display: block;
 }
-/* line 619, ../scss/_jabo.scss */
+/* line 624, ../scss/_jabo.scss */
 .articles .article-details {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -7325,11 +7330,11 @@ aside ul li {
   text-align: center;
   position: relative;
 }
-/* line 627, ../scss/_jabo.scss */
+/* line 632, ../scss/_jabo.scss */
 .articles .article-details .details-wrap {
   border: 1px solid black;
 }
-/* line 630, ../scss/_jabo.scss */
+/* line 635, ../scss/_jabo.scss */
 .articles .article-details .details-wrap h2 {
   background-image: url("../images/dot-pattern-dark-horiz.png");
   background-size: 4px 1px;
@@ -7339,14 +7344,14 @@ aside ul li {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 637, ../scss/_jabo.scss */
+/* line 642, ../scss/_jabo.scss */
 .articles .article-details .details-wrap h2, .articles .article-details .details-wrap h3 {
   font-size: 1.125em;
   text-transform: uppercase;
   letter-spacing: -0.0625rem;
   font-family: "allerbold", serif;
 }
-/* line 645, ../scss/_jabo.scss */
+/* line 650, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-wrap,
 .articles .article-details .details-wrap .signal-wrap {
   background-image: url("../images/dot-pattern-vert-dark.png");
@@ -7354,47 +7359,60 @@ aside ul li {
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 649, ../scss/_jabo.scss */
+/* line 654, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 652, ../scss/_jabo.scss */
+/* line 657, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-comments p {
-  margin: 0.6rem 0;
+  margin: 0.8rem 0 0.5rem;
   /* font-size:$paragraph-font-size*1.125; */
   line-height: 65%;
 }
-/* line 657, ../scss/_jabo.scss */
+/* line 662, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-comments p.comments {
   background-position: 0 -88px;
   background-position: 10px -88px;
   width: 44px;
   height: 20px;
 }
-/* line 663, ../scss/_jabo.scss */
+/* line 668, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-comments p.comments a:link, .articles .article-details .details-wrap .author-comments p.comments a:visited {
   color: #fff;
   font-size: 0.625em;
   line-height: normal;
 }
-/* line 671, ../scss/_jabo.scss */
+/* line 676, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-comments p.author, .articles .article-details .details-wrap .author-comments body.short-form-article #main-container p.author, body.short-form-article #main-container .articles .article-details .details-wrap .author-comments p.author,
 .articles .article-details .details-wrap .author-comments body.long-form-article #main-container p.author,
 body.long-form-article #main-container .articles .article-details .details-wrap .author-comments p.author {
   line-height: 115%;
 }
-/* line 679, ../scss/_jabo.scss */
+/* line 680, ../scss/_jabo.scss */
+.articles .article-details .details-wrap .author-comments p.signal {
+  margin: 0.6rem 0 0.5rem;
+}
+/* line 682, ../scss/_jabo.scss */
+.articles .article-details .details-wrap .author-comments p.signal img {
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  border-radius: 1000px;
+}
+/* line 693, ../scss/_jabo.scss */
 .articles .sm-article {
   margin: 1rem 0;
 }
-/* line 682, ../scss/_jabo.scss */
+/* line 696, ../scss/_jabo.scss */
 .articles .sm-article .article-details {
   border: 0;
   padding: 0;
   background: transparent;
   margin-top: -20%;
 }
-/* line 689, ../scss/_jabo.scss */
+/* line 703, ../scss/_jabo.scss */
 .articles .sm-article h3 {
   background: white;
   padding: 1rem 0.5rem;
@@ -7406,7 +7424,7 @@ body.long-form-article #main-container .articles .article-details .details-wrap 
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 702, ../scss/_jabo.scss */
+/* line 716, ../scss/_jabo.scss */
 .articles .sm-article .author-comments {
   overflow-y: auto;
   background-color: white;
@@ -7416,7 +7434,7 @@ body.long-form-article #main-container .articles .article-details .details-wrap 
   background-repeat: repeat-x;
   background-position: 100% 0;
 }
-/* line 709, ../scss/_jabo.scss */
+/* line 723, ../scss/_jabo.scss */
 .articles .sm-article .author-comments .author-wrap,
 .articles .sm-article .author-comments .signal-wrap {
   background-image: url("../images/dot-pattern-vert-light.png");
@@ -7424,51 +7442,59 @@ body.long-form-article #main-container .articles .article-details .details-wrap 
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 714, ../scss/_jabo.scss */
+/* line 728, ../scss/_jabo.scss */
 .articles .sm-article .author-comments.two-col p.comments {
   width: 2rem;
   background-position: 5px -108px;
 }
-/* line 720, ../scss/_jabo.scss */
+/* line 734, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p {
-  margin: 0.6rem 0;
-  /* font-size:$paragraph-font-size*1.125; */
+  margin: 0.8rem 0 0.5rem;
   line-height: 65%;
 }
-/* line 725, ../scss/_jabo.scss */
+/* line 738, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p.comments {
   background-position: 0 -108px;
   background-position: 18px -108px;
   width: 3.5rem;
   height: 20px;
 }
-/* line 731, ../scss/_jabo.scss */
+/* line 744, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p.comments a:link, .articles .sm-article .author-comments p.comments a:visited {
   color: #fff;
   font-size: 0.625em;
   line-height: normal;
 }
-/* line 739, ../scss/_jabo.scss */
+/* line 752, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p.author, .articles .sm-article .author-comments body.short-form-article #main-container p.author, body.short-form-article #main-container .articles .sm-article .author-comments p.author,
 .articles .sm-article .author-comments body.long-form-article #main-container p.author,
 body.long-form-article #main-container .articles .sm-article .author-comments p.author {
   line-height: 115%;
 }
-/* line 744, ../scss/_jabo.scss */
-.articles .sm-article .author-comments p.signal, .articles .sm-article .author-comments p.comments {
-  /* width:22px; */
+/* line 756, ../scss/_jabo.scss */
+.articles .sm-article .author-comments p.signal {
+  margin: 0.5rem 0;
+}
+/* line 758, ../scss/_jabo.scss */
+.articles .sm-article .author-comments p.signal img {
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  border-radius: 1000px;
 }
 
-/* line 754, ../scss/_jabo.scss */
+/* line 771, ../scss/_jabo.scss */
 .by-the-numbers {
   font-family: "Vollkorn", serif;
   margin-bottom: 4rem;
 }
-/* line 758, ../scss/_jabo.scss */
+/* line 775, ../scss/_jabo.scss */
 .by-the-numbers h2 {
   margin-bottom: 4rem;
 }
-/* line 760, ../scss/_jabo.scss */
+/* line 777, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry {
   text-align: center;
   background-image: url("../images/dot-pattern-vert-light.png");
@@ -7476,29 +7502,29 @@ body.long-form-article #main-container .articles .sm-article .author-comments p.
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 764, ../scss/_jabo.scss */
+/* line 781, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry.last {
   background-image: none;
 }
-/* line 768, ../scss/_jabo.scss */
+/* line 785, ../scss/_jabo.scss */
 .by-the-numbers .btn-entry img {
   margin-bottom: 2rem;
 }
 
-/* line 777, ../scss/_jabo.scss */
+/* line 794, ../scss/_jabo.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 780, ../scss/_jabo.scss */
+/* line 797, ../scss/_jabo.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 788, ../scss/_jabo.scss */
+/* line 805, ../scss/_jabo.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 795, ../scss/_jabo.scss */
+/* line 812, ../scss/_jabo.scss */
 .baseball-joe li {
   background-image: url("../images/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -7507,21 +7533,21 @@ body.long-form-article #main-container .articles .sm-article .author-comments p.
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 800, ../scss/_jabo.scss */
+/* line 817, ../scss/_jabo.scss */
 .baseball-joe li.last {
   background-image: none;
 }
 
-/* line 806, ../scss/_jabo.scss */
+/* line 823, ../scss/_jabo.scss */
 .ad {
   text-align: center;
 }
 
-/* line 810, ../scss/_jabo.scss */
+/* line 827, ../scss/_jabo.scss */
 .contributors li {
   padding-bottom: 1.5rem;
 }
-/* line 815, ../scss/_jabo.scss */
+/* line 832, ../scss/_jabo.scss */
 .contributors .handle p {
   position: relative;
   top: 50%;
@@ -7531,7 +7557,7 @@ body.long-form-article #main-container .articles .sm-article .author-comments p.
   font-size: 1.125em;
   font-family: "allerbold", serif;
 }
-/* line 820, ../scss/_jabo.scss */
+/* line 837, ../scss/_jabo.scss */
 .contributors .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
@@ -7539,42 +7565,42 @@ body.long-form-article #main-container .articles .sm-article .author-comments p.
 }
 
 /* ––– short-form landing ––– */
-/* line 835, ../scss/_jabo.scss */
+/* line 852, ../scss/_jabo.scss */
 .short-form-content-list h2 {
   text-align: center;
 }
-/* line 837, ../scss/_jabo.scss */
+/* line 854, ../scss/_jabo.scss */
 .short-form-content-list p {
   margin-bottom: 0;
 }
-/* line 839, ../scss/_jabo.scss */
+/* line 856, ../scss/_jabo.scss */
 .short-form-content-list li.row {
   list-style: none;
 }
-/* line 844, ../scss/_jabo.scss */
+/* line 861, ../scss/_jabo.scss */
 .short-form-content-list .article-info-wrap {
   border-bottom: 1px dotted #cccccc;
   overflow: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 851, ../scss/_jabo.scss */
+/* line 868, ../scss/_jabo.scss */
 .short-form-content-list .article-title {
   font-size: 1.125em;
   text-transform: uppercase;
 }
-/* line 856, ../scss/_jabo.scss */
+/* line 873, ../scss/_jabo.scss */
 .short-form-content-list .author-link a {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
 }
-/* line 863, ../scss/_jabo.scss */
+/* line 880, ../scss/_jabo.scss */
 .short-form-content-list .no-thumb-image {
   line-height: 150%;
 }
-/* line 866, ../scss/_jabo.scss */
+/* line 883, ../scss/_jabo.scss */
 .short-form-content-list .no-thumb-image p {
   text-align: center;
   background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
@@ -7588,7 +7614,7 @@ body.long-form-article #main-container .articles .sm-article .author-comments p.
   display: inline-block;
   padding: 10px;
 }
-/* line 877, ../scss/_jabo.scss */
+/* line 894, ../scss/_jabo.scss */
 .short-form-content-list .no-thumb-image p span {
   color: #e51b23;
   font-size: 2.3125em;
@@ -7596,12 +7622,12 @@ body.long-form-article #main-container .articles .sm-article .author-comments p.
 }
 
 /* ––– short-form article + long-form article ––– */
-/* line 893, ../scss/_jabo.scss */
+/* line 910, ../scss/_jabo.scss */
 body.short-form-article .article-headline,
 body.long-form-article .article-headline {
   text-align: center;
 }
-/* line 896, ../scss/_jabo.scss */
+/* line 913, ../scss/_jabo.scss */
 body.short-form-article .article-headline h1.title,
 body.long-form-article .article-headline h1.title {
   font-size: 1.25em;
@@ -7614,13 +7640,13 @@ body.long-form-article .article-headline h1.title {
   background-position: 0 100%;
   background-repeat: repeat-x;
 }
-/* line 906, ../scss/_jabo.scss */
+/* line 923, ../scss/_jabo.scss */
 body.short-form-article p.author-twitter,
 body.long-form-article p.author-twitter {
   text-align: center;
   font-family: "allerregular", sans-serif;
 }
-/* line 910, ../scss/_jabo.scss */
+/* line 927, ../scss/_jabo.scss */
 body.short-form-article p.author-twitter img,
 body.long-form-article p.author-twitter img {
   width: 87px;
@@ -7630,7 +7656,7 @@ body.long-form-article p.author-twitter img {
   border-radius: 1000px;
   border: 4px solid #cccccc;
 }
-/* line 916, ../scss/_jabo.scss */
+/* line 933, ../scss/_jabo.scss */
 body.short-form-article p.author-twitter span.author-name,
 body.long-form-article p.author-twitter span.author-name {
   display: block;
@@ -7639,54 +7665,54 @@ body.long-form-article p.author-twitter span.author-name {
   font-size: 1.25em;
   letter-spacing: 0.0625rem;
 }
-/* line 924, ../scss/_jabo.scss */
+/* line 941, ../scss/_jabo.scss */
 body.short-form-article p.author-twitter span.twitter-handle,
 body.long-form-article p.author-twitter span.twitter-handle {
   display: block;
 }
-/* line 929, ../scss/_jabo.scss */
+/* line 946, ../scss/_jabo.scss */
 body.short-form-article .social,
 body.long-form-article .social {
   position: absolute;
   margin-left: -3rem;
 }
-/* line 934, ../scss/_jabo.scss */
+/* line 951, ../scss/_jabo.scss */
 body.short-form-article .social ul li,
 body.long-form-article .social ul li {
   list-style: none;
   margin-bottom: 0.5rem;
 }
-/* line 941, ../scss/_jabo.scss */
+/* line 958, ../scss/_jabo.scss */
 body.short-form-article #main-container,
 body.long-form-article #main-container {
   /*livefyre styles*/
 }
-/* line 942, ../scss/_jabo.scss */
+/* line 959, ../scss/_jabo.scss */
 body.short-form-article #main-container p,
 body.long-form-article #main-container p {
   font-family: "Vollkorn", serif;
   font-size: 1.125em;
   color: #26353c;
 }
-/* line 947, ../scss/_jabo.scss */
+/* line 964, ../scss/_jabo.scss */
 body.short-form-article #main-container p.closer,
 body.long-form-article #main-container p.closer {
   margin: 4rem 0 3rem;
   text-align: center;
 }
-/* line 952, ../scss/_jabo.scss */
+/* line 969, ../scss/_jabo.scss */
 body.short-form-article #main-container p.caption,
 body.long-form-article #main-container p.caption {
   font-size: 0.875em;
   line-height: 150%;
 }
-/* line 957, ../scss/_jabo.scss */
+/* line 974, ../scss/_jabo.scss */
 body.short-form-article #main-container p.author,
 body.long-form-article #main-container p.author {
   font-size: 1.125em;
   margin: 0.25rem 0;
 }
-/* line 963, ../scss/_jabo.scss */
+/* line 980, ../scss/_jabo.scss */
 body.short-form-article #main-container p.comments,
 body.long-form-article #main-container p.comments {
   line-height: 0;
@@ -7695,7 +7721,7 @@ body.long-form-article #main-container p.comments {
   text-align: center;
   float: right;
 }
-/* line 970, ../scss/_jabo.scss */
+/* line 987, ../scss/_jabo.scss */
 body.short-form-article #main-container p.comments a:link, body.short-form-article #main-container p.comments a:visited,
 body.long-form-article #main-container p.comments a:link,
 body.long-form-article #main-container p.comments a:visited {
@@ -7704,52 +7730,52 @@ body.long-form-article #main-container p.comments a:visited {
   font-family: "allerregular", sans-serif;
   line-height: normal;
 }
-/* line 978, ../scss/_jabo.scss */
+/* line 995, ../scss/_jabo.scss */
 body.short-form-article #main-container p.author-twitter,
 body.long-form-article #main-container p.author-twitter {
   font-family: "allerregular", sans-serif;
 }
-/* line 983, ../scss/_jabo.scss */
+/* line 1000, ../scss/_jabo.scss */
 body.short-form-article #main-container hr,
 body.long-form-article #main-container hr {
   width: 180px;
   margin: 2.5rem auto;
   border-color: #afafaf;
 }
-/* line 990, ../scss/_jabo.scss */
+/* line 1007, ../scss/_jabo.scss */
 body.short-form-article #main-container .article-intro p,
 body.long-form-article #main-container .article-intro p {
   font-family: "allerbold", serif;
   text-align: center;
   line-height: 1.875rem;
 }
-/* line 998, ../scss/_jabo.scss */
+/* line 1015, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap,
 body.long-form-article #main-container .livefyre-wrap {
   margin-bottom: 4rem;
 }
-/* line 1002, ../scss/_jabo.scss */
+/* line 1019, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap .fyre-comment p,
 body.long-form-article #main-container .livefyre-wrap .fyre-comment p {
   font-family: "allerregular", sans-serif;
   font-size: 1em;
 }
-/* line 1008, ../scss/_jabo.scss */
+/* line 1025, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show,
 body.long-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show {
   text-align: center;
 }
-/* line 1014, ../scss/_jabo.scss */
+/* line 1031, ../scss/_jabo.scss */
 body.short-form-article #main-container .pre-footer p,
 body.long-form-article #main-container .pre-footer p {
   text-align: center;
 }
-/* line 1019, ../scss/_jabo.scss */
+/* line 1036, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-break,
 body.long-form-article #main-container .livefyre-break {
   text-align: center;
 }
-/* line 1021, ../scss/_jabo.scss */
+/* line 1038, ../scss/_jabo.scss */
 body.short-form-article #main-container .livefyre-break hr,
 body.long-form-article #main-container .livefyre-break hr {
   width: 100%;
@@ -7757,24 +7783,24 @@ body.long-form-article #main-container .livefyre-break hr {
   border-width: 2px;
   margin: 2.5rem auto 1rem;
 }
-/* line 1030, ../scss/_jabo.scss */
+/* line 1047, ../scss/_jabo.scss */
 body.short-form-article .caption-wrap,
 body.long-form-article .caption-wrap {
   border-left: 3px solid #00aeef;
 }
 
 /* ––– short-form article ––– */
-/* line 1039, ../scss/_jabo.scss */
+/* line 1056, ../scss/_jabo.scss */
 body.short-form-article .article-headline {
   margin-top: 3rem;
 }
 
 /* ––– long-form article ––– */
-/* line 1052, ../scss/_jabo.scss */
+/* line 1069, ../scss/_jabo.scss */
 body.long-form-article .social {
   position: relative;
 }
-/* line 1055, ../scss/_jabo.scss */
+/* line 1072, ../scss/_jabo.scss */
 body.long-form-article .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -7784,11 +7810,11 @@ body.long-form-article .article-headline {
   text-align: center;
   position: relative;
 }
-/* line 1064, ../scss/_jabo.scss */
+/* line 1081, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap {
   border: 1px solid black;
 }
-/* line 1067, ../scss/_jabo.scss */
+/* line 1084, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap h1.title {
   padding: 1.25rem;
   margin-top: 0;
@@ -7798,26 +7824,26 @@ body.long-form-article .article-headline .details-wrap h1.title {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
-/* line 1077, ../scss/_jabo.scss */
+/* line 1094, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap .author-wrap {
   background-image: url("../images/dot-pattern-vert-dark.png");
   background-size: 1px 4px;
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 1085, ../scss/_jabo.scss */
+/* line 1102, ../scss/_jabo.scss */
 body.long-form-article .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 1093, ../scss/_jabo.scss */
+/* line 1110, ../scss/_jabo.scss */
 body.long-form-article .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
-/* line 1099, ../scss/_jabo.scss */
+/* line 1116, ../scss/_jabo.scss */
 body.long-form-article .full-width-image {
   margin: 1rem 0 2rem;
 }
-/* line 1103, ../scss/_jabo.scss */
+/* line 1120, ../scss/_jabo.scss */
 body.long-form-article .long-form-ad-wrap {
   margin-top: 5rem;
 }
