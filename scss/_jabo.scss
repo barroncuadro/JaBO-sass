@@ -371,6 +371,17 @@ em, i { font-family:$body-font-italic; }
 									height: 25px;
 									display: block;
 								}
+								
+								&:hover,
+								&:active {
+									span {
+										@include icons-sprite(menu-open);
+										background-position: 7px -38px;
+										width: 100%;
+										height: 25px;
+										display: block;
+									}
+								}
 							}
 						}
 						
