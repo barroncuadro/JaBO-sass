@@ -7421,7 +7421,7 @@ aside ul li {
 /* line 751, ../scss/_jabo.scss */
 .articles .article-details .details-wrap .author-comments p.comments {
   background-position: 0 0;
-  background-position: 10px -88px;
+  background-position: 10px 0;
   width: 44px;
   height: 20px;
 }
@@ -7517,7 +7517,7 @@ body.long-form-article #main-container .articles .article-details .details-wrap 
 /* line 836, ../scss/_jabo.scss */
 .articles .sm-article .author-comments p.comments {
   background-position: 0 -20px;
-  background-position: 18px -108px;
+  background-position: 16px 0;
   width: 3.5rem;
   height: 20px;
 }

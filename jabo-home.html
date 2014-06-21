@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JaBO: home</title>
     <link rel="stylesheet" href="bower_components/foundation/css/foundation.css" />
-    <link rel="stylesheet" href="stylesheets/app.css" />
+	 <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/ftellipsis/lib/index.js"></script>  
     <script src="bower_components/modernizr/modernizr.js"></script>  
   </head>
   <body>
@@ -118,7 +119,7 @@
 							<div class="small-12 large-centered small-centered columns article-details">
 								<div class="row">
 									<div class="small-10 large-centered small-centered columns title-wrap">
-										<h3><a href="">Culture Club: Sum of Giants' Parts Adds Up To Another Winner Culture Club: Sum of Giants' Parts Adds Up To Another Winner</a></h3>	
+										<h3 class="sm-article-title"><a href="">Culture Club: Sum of Giants' Parts Adds Up To Another Winner Culture Club: Sum of Giants' Parts Adds Up To Another Winner</a></h3>	
 									</div>
 								</div><!-- title row -->
 								<div class="author-comments">
@@ -143,7 +144,7 @@
 							<div class="small-12 small-centered columns article-details">
 								<div class="row">
 									<div class="small-10 small-centered columns title-wrap">
-										<h3><a href="">Culture Club: Sum of Giants' From No. 1 Draft Pick to Prison Inmate: The Matt Bush Story Parts Adds Up</a></h3>	
+										<h3 class="sm-article-title"><a href="">Culture Club: Sum of Giants' From No. 1 Draft Pick to Prison Inmate: The Matt Bush Story Parts Adds Up</a></h3>	
 									</div>
 								</div><!-- title row -->
 								<div class="author-comments two-col">
@@ -166,7 +167,7 @@
 							<div class="small-12 small-centered columns article-details">
 								<div class="row">
 									<div class="small-10 small-centered columns title-wrap">
-										<h3><a href="">Culture Club: Sum of Giants' Parts Adds Up To Another Winner</a></h3>	
+										<h3 class="sm-article-title"><a href="">Culture Club: Sum of Giants' Parts Adds Up To Another Winner</a></h3>	
 									</div>
 								</div><!-- title row -->
 								<div class="author-comments two-col">
@@ -186,7 +187,7 @@
 							<div class="small-12 large-centered small-centered columns article-details">
 								<div class="row">
 									<div class="small-10 large-centered small-centered columns title-wrap">
-										<h3><a href="">Culture Club: Sum of Giants' Parts Adds Up To Another Winner From No. 1 Draft Pick to Prison Inmate: The Matt Bush Story</a></h3>	
+										<h3 class="sm-article-title"><a href="">Culture Club: Sum of Giants' Parts Adds Up To Another Winner From No. 1 Draft Pick to Prison Inmate: The Matt Bush Story</a></h3>	
 									</div>
 								</div><!-- title row -->
 								<div class="author-comments">
@@ -345,6 +346,14 @@
 			</div>
 		</div>
 	</footer>
+	
+	<script type="text/javascript">
+		var element = document.getElementById('title-wrap');
+		var ellipsis = new Ellipsis(element);
+		
+		ellipsis.calc();
+		ellipsis.set();
+	</script>
         
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
