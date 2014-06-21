@@ -591,6 +591,12 @@ em, i { font-family:$body-font-italic; }
 	body.short-form-landing {
 		@extend body;
 		background-color:#fff;
+		height: auto;
+	
+		footer {
+			background: none;
+			margin: 2rem 0;
+		}
 	}
 
 	body.short-form-landing .row .row .thumb-image,
@@ -950,7 +956,7 @@ em, i { font-family:$body-font-italic; }
 		}
 
 		.article-info-wrap {
-			border-bottom: $list-bottom-border-width $list-bottom-border-style $list-bottom-border-color;
+			@include horiz-light-bg;
 			overflow: auto;
 			padding-top:$general-padding;
 			padding-bottom:$general-padding;
