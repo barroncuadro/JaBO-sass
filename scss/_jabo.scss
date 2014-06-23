@@ -219,7 +219,7 @@ em, i { font-family:$body-font-italic; }
 	}
 	
 	@mixin menu-open {
-		background-image:url("../images/header/menu-open.png");
+		background-image:url("../images/nav/menu-open.png");
 		background-size: 24px 25px;
 		background-position: 50% 0;
 		background-repeat: no-repeat;
@@ -227,7 +227,7 @@ em, i { font-family:$body-font-italic; }
 	}
 
 	@mixin menu-closed {
-		background-image:url("../images/header/menu-closed.png");
+		background-image:url("../images/nav/menu-closed.png");
 		background-size: 24px 25px;
 		background-position: 50% 0;
 		background-repeat: no-repeat;
@@ -235,7 +235,7 @@ em, i { font-family:$body-font-italic; }
 	}
 	
 	@mixin search-open {
-		background-image:url("../images/header/search-open.png");
+		background-image:url("../images/nav/search-open.png");
 		background-size: 20px 19px;
 		background-position: 50% 0;
 		background-repeat: no-repeat;
@@ -243,7 +243,7 @@ em, i { font-family:$body-font-italic; }
 	}
 
 	@mixin search-closed {
-		background-image:url("../images/header/search-closed.png");
+		background-image:url("../images/nav/search-closed.png");
 		background-size: 20px 19px;
 		background-position: 50% 0;
 		background-repeat: no-repeat;
