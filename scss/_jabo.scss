@@ -1006,7 +1006,20 @@ em, i { font-family:$body-font-italic; }
 
 /* ––– short-form landing ––– */
 	.short-form-content-list {
-		h2 { text-align: center; }
+		.section-header {
+			@include big-blue-bg;
+			text-align: center;
+			
+			span {
+				@include headers-sprite(baseball-joe-headline-2x);
+				@include section-headers;
+				background-position-x: -3%;
+				width: 338px;
+				height: 98px;
+				margin: 0 auto $general-margin;
+			}
+		}
+	
 		
 		p { margin-bottom: 0; }
 	
