@@ -188,7 +188,7 @@ em, i { font-family:$body-font-italic; }
 
 
 /* =================================== 
-	BACKGROUNDS (repeated)
+	BACKGROUNDS (repeated), Mixins
 	=================================== */
 	@mixin horiz-light-bg {
 		background-image:url("../images/dot-pattern-light-horiz.png");
@@ -250,7 +250,12 @@ em, i { font-family:$body-font-italic; }
 		padding-top: 1rem;
 	}
 
-
+	@mixin big-blue-hr {
+		width: 100%;
+		border-color:#afc7d3;
+		border-width:$general-border-width*2;
+		margin: 2.5rem auto 1rem;
+	}
 
 
 	
@@ -1163,10 +1168,7 @@ em, i { font-family:$body-font-italic; }
 			.livefyre-break {
 				text-align: center;
 				hr {
-					width: 100%;
-					border-color:#afc7d3;
-					border-width:$general-border-width*2;
-					margin: 2.5rem auto 1rem;
+					@include big-blue-hr;
 				}
 			}
 		}
