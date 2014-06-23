@@ -277,6 +277,9 @@ em, i { font-family:$body-font-italic; }
 
 	@import "social/*.png";
 	@include all-social-sprites;
+	
+	@import "headers/*.png";
+	@include all-headers-sprites;
 
 	
 /* =================================== 
@@ -901,6 +904,17 @@ em, i { font-family:$body-font-italic; }
 		.baseball-joe {
 			text-align: center;
 		
+			.section-header {
+				@include headers-sprite(baseball-joe-headline);
+				@include hide-text;
+				width: 159px;
+				height: 49px;
+				background-color: #fff;
+				margin: 0 auto $general-margin;
+
+				
+			}
+			
 			p.tagline {
 				font-style: italic;
 				font-family:$body-secondary-font-family;
