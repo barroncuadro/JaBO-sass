@@ -7089,7 +7089,7 @@ ul.pagination li.focus a:focus {
 }
 /* line 409, ../scss/_jabo.scss */
 .top-bar .top-bar-section ul.main-nav > li.menu-dropdown {
-  background-image: url("../images/header/menu-closed.png");
+  background-image: url("../images/nav/menu-closed.png");
   background-size: 24px 25px;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7097,7 +7097,7 @@ ul.pagination li.focus a:focus {
 }
 /* line 413, ../scss/_jabo.scss */
 .top-bar .top-bar-section ul.main-nav > li.menu-dropdown:hover, .top-bar .top-bar-section ul.main-nav > li.menu-dropdown:active {
-  background-image: url("../images/header/menu-open.png");
+  background-image: url("../images/nav/menu-open.png");
   background-size: 24px 25px;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7109,7 +7109,7 @@ ul.pagination li.focus a:focus {
 }
 /* line 421, ../scss/_jabo.scss */
 .top-bar .top-bar-section ul.main-nav > li.search-dropdown {
-  background-image: url("../images/header/search-closed.png");
+  background-image: url("../images/nav/search-closed.png");
   background-size: 20px 19px;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7117,7 +7117,7 @@ ul.pagination li.focus a:focus {
 }
 /* line 425, ../scss/_jabo.scss */
 .top-bar .top-bar-section ul.main-nav > li.search-dropdown:hover, .top-bar .top-bar-section ul.main-nav > li.search-dropdown:active {
-  background-image: url("../images/header/search-open.png");
+  background-image: url("../images/nav/search-open.png");
   background-size: 20px 19px;
   background-position: 50% 0;
   background-repeat: no-repeat;
