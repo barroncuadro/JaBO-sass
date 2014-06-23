@@ -191,28 +191,28 @@ em, i { font-family:$body-font-italic; }
 	BACKGROUNDS (repeated), Mixins
 	=================================== */
 	@mixin horiz-light-bg {
-		background-image:url("../images/dot-pattern-light-horiz.png");
+		background-image:url("../images/bg/dot-pattern-light-horiz.png");
 		background-size: 4px 1px;
 		background-position: 0 100%;
 		background-repeat: repeat-x;
 	}
 
 	@mixin horiz-dark-bg {
-		background-image:url("../images/dot-pattern-dark-horiz.png");
+		background-image:url("../images/bg/dot-pattern-dark-horiz.png");
 		background-size: 4px 1px;
 		background-position: 0 100%;
 		background-repeat: repeat-x;
 	}
 	
 	@mixin vert-light-bg {
-		background-image:url("../images/dot-pattern-vert-light.png");
+		background-image:url("../images/bg/dot-pattern-vert-light.png");
 		background-size: 1px 4px;
 		background-position: 100% 0;
 		background-repeat: repeat-y;
 	}
 
 	@mixin vert-dark-bg {
-		background-image:url("../images/dot-pattern-vert-dark.png");
+		background-image:url("../images/bg/dot-pattern-vert-dark.png");
 		background-size: 1px 4px;
 		background-position: 100% 0;
 		background-repeat: repeat-y;
@@ -258,6 +258,16 @@ em, i { font-family:$body-font-italic; }
 	}
 
 
+	@mixin big-blue-bg {
+		background: transparent url('../images/bg/bg-bigblue.png') repeat-x 0 50%;
+	}
+	
+	@mixin section-headers {
+		@include hide-text;
+		display: block;
+		background-color: #fff;
+		margin: 0 auto;
+	}
 	
 /* =================================== 
 	IMAGE SPRITES
@@ -595,7 +605,7 @@ em, i { font-family:$body-font-italic; }
 	
 	.baseball-joe,
 	.contributors {
-		padding:$module-padding;
+		padding:$general-padding $general-padding*2;
 	}
 	
 	
@@ -882,7 +892,19 @@ em, i { font-family:$body-font-italic; }
 			font-family:$body-secondary-font-family;
 			margin-bottom:$general-margin*4;
 			
-			h2 { margin-bottom:$general-margin*4; }
+			h2 { 
+				@include big-blue-bg;
+				margin-bottom:$general-margin*4;
+				
+				span {
+					@include headers-sprite(by-the-numbers-headline);
+					@include section-headers;
+					background-position-x: -3%;
+					background-color: #f8f8f8;
+					width: 166px;
+					height: 117px;
+				}
+			}
 			
 			.btn-entry {
 				text-align:center;
@@ -903,16 +925,18 @@ em, i { font-family:$body-font-italic; }
 		//baseball-joe
 		.baseball-joe {
 			text-align: center;
-		
+			
 			.section-header {
-				@include headers-sprite(baseball-joe-headline);
-				@include hide-text;
-				width: 159px;
-				height: 49px;
-				background-color: #fff;
-				margin: 0 auto $general-margin;
-
+				@include big-blue-bg;
 				
+				span {
+					@include headers-sprite(baseball-joe-headline);
+					@include section-headers;
+					background-position-x: -3%;
+					width: 179px;
+					height: 49px;
+					margin: 0 auto $general-margin;
+				}
 			}
 			
 			p.tagline {
@@ -945,6 +969,18 @@ em, i { font-family:$body-font-italic; }
 	
 		//contributors
 		.contributors {
+			.section-header {
+				@include big-blue-bg;
+				
+				span {
+					@include headers-sprite(contributors-headline);
+					@include section-headers;
+					background-position-x: -5%;
+					width: 249px;
+					height: 56px;
+				}
+			}
+		
 			li {
 				padding-bottom: $module-padding*.75;
 			}
