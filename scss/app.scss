@@ -1,6 +1,30 @@
+//foundation css
 @import "settings";
 @import "foundation";
-@import "jabo";
+
+//global JaBO styles
+@import "global";
+
+//site elements
+@import "containers";
+@import "mixins";
+@import "nav";
+@import "pagination";
+@import "sprites";
+@import "type";
+@import "buttons";
+
+//page-specific styles
+@import "elements_general";
+@import "elements_footer";
+@import "elements_homepage";
+@import "elements_short-form-landing";
+@import "elements_article";
+
+
+
+
+
 
 // Or selectively include components
 // @import
