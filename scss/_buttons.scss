@@ -1,0 +1,21 @@
+/* =================================== 
+	BUTTONS
+	=================================== */
+	p.button-wrap {
+		text-align: center;
+		font-family:$body-font-family;
+		margin-top:$general-margin*1.25;
+	}
+
+	button, .button, .button:hover  {
+		@include box-shadow(0px none);
+		@include transition(0);
+		background-color: transparent;
+		border-color:rgba(2, 68, 111, 0.3);
+		text-transform: uppercase;
+		margin: 0;
+		font-family:$body-font-bold;
+		font-weight: normal;
+		padding:$general-padding*.25 $general-padding *1.5 $general-padding*.35;
+		line-height:normal;
+	}

@@ -1,0 +1,132 @@
+/* =================================== 
+	MIXINS
+	=================================== */
+	
+
+	/* GENERAL
+	----------------------------------- */	
+	@mixin box-shadow ($shadow) {
+		-webkit-box-shadow: $shadow;
+		-moz-box-shadow: $shadow;
+		-ms-box-shadow: $shadow;
+		 box-shadow: $shadow;
+	}
+	
+	@mixin transition ($transition) {
+		-webkit-transition: $transition;
+		-moz-transition: $transition;
+		-ms-transition: $transition;
+		transition: $transition;
+	}
+
+	@mixin border-radius ($border-radius) {
+		-webkit-border-radius: $border-radius;
+		-moz-border-radius: $border-radius;
+		-ms-border-radius: $border-radius;
+		border-radius: $border-radius;
+	}
+
+	@mixin vertical-align {
+	  position: relative;
+	  top: 50%;
+	  -webkit-transform: translateY(50%);
+	  -ms-transform: translateY(50%);
+	  transform: translateY(50%);
+	}
+
+
+	@mixin general-border {
+		border-width: 1px;
+		border-style: solid;
+		border-color: #ccc;
+	}
+	
+	@mixin hide-text {
+		text-indent:-9999px;
+		border: 0;
+		text-shadow: none;
+		color: transparent;
+	}
+	
+	
+
+	/* BACKGROUNDS
+	----------------------------------- */		
+	@mixin horiz-light-bg {
+		background-image:url("../images/bg/dot-pattern-light-horiz.png");
+		background-size: 4px 1px;
+		background-position: 0 100%;
+		background-repeat: repeat-x;
+	}
+
+	@mixin horiz-dark-bg {
+		background-image:url("../images/bg/dot-pattern-dark-horiz.png");
+		background-size: 4px 1px;
+		background-position: 0 100%;
+		background-repeat: repeat-x;
+	}
+	
+	@mixin vert-light-bg {
+		background-image:url("../images/bg/dot-pattern-vert-light.png");
+		background-size: 1px 4px;
+		background-position: 100% 0;
+		background-repeat: repeat-y;
+	}
+
+	@mixin vert-dark-bg {
+		background-image:url("../images/bg/dot-pattern-vert-dark.png");
+		background-size: 1px 4px;
+		background-position: 100% 0;
+		background-repeat: repeat-y;
+	}
+	
+	@mixin menu-open {
+		background-image:url("../images/nav/menu-open.png");
+		background-size: 24px 25px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+
+	@mixin menu-closed {
+		background-image:url("../images/nav/menu-closed.png");
+		background-size: 24px 25px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+	
+	@mixin search-open {
+		background-image:url("../images/nav/search-open.png");
+		background-size: 20px 19px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+
+	@mixin search-closed {
+		background-image:url("../images/nav/search-closed.png");
+		background-size: 20px 19px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+
+	@mixin big-blue-hr {
+		width: 100%;
+		border-color:#afc7d3;
+		border-width:$general-border-width*2;
+		margin: 2.5rem auto 1rem;
+	}
+
+
+	@mixin big-blue-bg {
+		background: transparent url('../images/bg/bg-bigblue.png') repeat-x 0 50%;
+	}
+	
+	@mixin section-headers {
+		@include hide-text;
+		display: block;
+		background-color: #fff;
+		margin: 0 auto;
+	}

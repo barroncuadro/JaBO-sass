@@ -1,0 +1,90 @@
+/* =================================== 
+	ELEMENT STYLES
+	=================================== */
+	
+/*	SHORT-FORM LANDING
+	----------------------------------- */
+	body.short-form-landing {
+		.row .row {
+			.thumb-image,
+			.no-thumb-image,
+			.article-title {
+				padding-left: 0;
+				padding-right: 0;
+			}
+			
+			.article-title {
+				padding-left:$general-padding;
+			}
+		}
+	
+		.short-form-content-list {
+			.section-header {
+				@include big-blue-bg;
+				text-align: center;
+				
+				span {
+					@include headers-sprite(baseball-joe-headline-2x);
+					@include section-headers;
+					background-position-x: -3%;
+					width: 338px;
+					height: 98px;
+					margin: 0 auto $general-margin;
+				}
+			}
+		
+			
+			p { margin-bottom: 0; }
+		
+			li.row {
+				list-style: none;
+			}
+	
+			.article-info-wrap {
+				@include horiz-light-bg;
+				overflow: auto;
+				padding-top:$general-padding;
+				padding-bottom:$general-padding;
+			}
+			
+			.article-title {
+				font-size:$h5-font-size;
+				text-transform: uppercase;
+			}
+			
+			.author-link a {
+				display:block;
+				color:$alert-color;
+				font-family:$body-font-bolditalic;
+				text-transform: none;
+			}
+	
+			.no-thumb-image {
+				line-height:$base-line-height;
+				
+				p {
+					text-align: center;
+					background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
+					background-size: 100% auto;
+					@include border-radius($global-rounded);
+					width: 90%;
+					height: 90%;
+					display: inline-block;
+					padding: 10px;
+	
+	
+					span {
+						color:$alert-color;
+						font-size:$h2-font-size;
+						line-height:$base-line-height*1.35;
+					}
+				}
+			}
+		}
+		
+	
+		footer {
+			background: none;
+			padding: 2rem 0;
+		}
+	}

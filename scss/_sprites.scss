@@ -1,0 +1,21 @@
+/* =================================== 
+	IMAGE SPRITES
+	=================================== */
+	
+	@import "icons/*.png";
+	@include all-icons-sprites;
+
+	.icons-comment-xsmall { width:16px;height:20px; }
+	.icons-comment-small { width:21px;height:20px; }
+	.icons-comment-medium { width:25px;height:20px; }
+	.icons-menu-closed { width:24px;height:25px; }
+	.icons-menu-open { width:24px;height:25px; }
+	.icons-search-closed { width:20px;height:19px; }
+	.icons-search-open { width:20px;height:19px; }
+
+
+	@import "social/*.png";
+	@include all-social-sprites;
+	
+	@import "headers/*.png";
+	@include all-headers-sprites;

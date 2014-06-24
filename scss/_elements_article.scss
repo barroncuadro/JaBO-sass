@@ -1,0 +1,256 @@
+/* =================================== 
+	ELEMENT STYLES
+	=================================== */
+
+
+/*	SHORT-FORM + LONG FORM ARTICLE
+	----------------------------------- */
+	body.short-form-article,
+	body.long-form-article {
+	
+		.article-headline {
+			text-align: center;
+		
+			h1.title {
+				font-size:$paragraph-font-size*1.25;
+				text-align: center;
+				text-transform: uppercase; 
+				letter-spacing: rem-calc(-0.09);
+				margin-bottom: $general-margin;
+				@include horiz-dark-bg;
+			}
+		}
+		
+		p.author-twitter {
+			text-align: center;
+			font-family:$body-font-family;
+			
+			img {
+				width: 87px;
+				@include border-radius($global-rounded);
+				border: $thumb-image-border-width $thumb-image-border-style $thumb-image-border-color;
+			}
+			
+			span.author-name {
+				display: block;
+				color:$alert-color;
+				font-family:$body-font-bolditalic;
+				font-size:$paragraph-font-size*1.25;
+				letter-spacing: rem-calc(1);
+			}
+			
+			span.twitter-handle {
+				display: block;
+			}
+		}	
+		
+		.social {
+			position: absolute;
+			margin-left: -4rem;
+			
+			ul {
+				li {
+					list-style: none;
+					margin-bottom:$general-margin/2;
+					
+					a {
+						@include hide-text;
+						width: 35px;
+						height: 35px;
+						font-size: 25px;  
+					}
+					
+					&.twitter {
+						a {
+							@include social-sprite(twitter);
+						}	
+					}
+					
+					&.facebook {
+						a {
+							@include social-sprite(facebook);
+						}
+					}
+					
+					&.share {
+						a {
+							@include social-sprite(share);
+						}
+					}
+				}
+			}
+		}
+
+		#main-container {	
+			p {
+				font-family: $body-secondary-font-family;
+				font-size: $paragraph-font-size*1.125;
+				color: $body-copy-font-color;
+	
+				&.closer {
+					margin:$general-margin*4 0 $general-margin*3;
+					text-align: center;
+				}
+				
+				&.caption {
+					font-size:$paragraph-font-size*.875;
+					line-height:$base-line-height;
+				}
+				
+				&.author {
+					@extend .author;
+					font-size:$h5-font-size;
+					margin: $general-margin*0.25 0;
+				}
+				
+				&.comments {
+					line-height: 0;
+					margin-top:$general-margin/2;
+					margin-bottom: 0;
+					text-align: center;
+					float:right;
+					
+					a:link,a:visited {
+						font-size:$paragraph-font-size*0.625;
+						color:#fff;
+						font-family:$body-font-family;
+						line-height:normal;
+					}
+				}
+				
+				&.author-twitter {
+					font-family:$body-font-family;
+				}
+			}
+
+			hr {
+				width: 180px;
+				margin: 2.5rem auto;
+				border-color:#afafaf;
+			}
+			
+			.article-intro {
+				p {
+					font-family:$body-font-bold;
+					text-align: center;
+					line-height:1.875rem;
+				}
+			}
+			
+			/*livefyre styles*/
+			.livefyre-wrap {
+				margin-bottom:$general-margin*4;
+				
+				.fyre-comment {
+					p {
+						font-family:$body-font-family;
+						font-size:$paragraph-font-size;
+					}
+				}
+				
+				#LivefyreContainer.toggle-show {
+					text-align: center;
+				}
+			}
+			
+			.pre-footer {
+				p {
+					text-align: center;
+				}
+			}
+			
+			.livefyre-break {
+				text-align: center;
+				hr {
+					@include big-blue-hr;
+				}
+			}
+		}
+		
+		.caption-wrap {
+			border-left: 3px solid #00aeef;
+		}
+	}
+
+
+
+
+
+
+/*	SHORT-FORM ARTICLE
+	----------------------------------- */
+	body.short-form-article {
+		.article-headline {
+			margin-top:$general-margin*3;
+		
+			h1.title {
+				background: none;
+			}
+		}
+	}
+
+
+
+
+
+
+/*	LONG FORM ARTICLE
+	----------------------------------- */
+	body.long-form-article {
+		
+		.social {
+			margin-left: 2rem;
+		}
+		.article-headline {
+			padding:$general-padding/2;
+			background: rgba(255, 255, 255, 0.9);
+			border: $article-detail-border-width $article-detail-border-style $article-detail-border-color;
+			margin-top: -40%;
+			margin-bottom: 2rem;
+			text-align: center;
+			position: relative;
+			
+			.details-wrap {
+				border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
+			
+				h1.title {
+					padding:$general-margin*1.25;
+					margin-top: 0;
+					margin-bottom: 0;
+					font-size:$paragraph-font-size*1.25;
+					text-align: center;
+					text-transform: uppercase; 
+					letter-spacing: rem-calc(-0.8);
+				}
+				
+				.author-wrap {
+					@include vert-dark-bg;
+				}
+				
+				.comments-wrap {				
+
+				}
+				
+				.author-comments {
+					overflow-y:auto;
+				}
+			}
+		}
+		
+		.handle {
+			p.author-twitter {
+				img {
+					margin-bottom:$general-margin/2;
+				}
+			}
+		}
+		
+		.full-width-image {
+			margin: $general-margin 0 $general-margin*2;
+		}
+				
+		.long-form-ad-wrap {
+			margin-top:$general-margin*5;
+		}
+	}
+

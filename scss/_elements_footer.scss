@@ -1,0 +1,38 @@
+/* =================================== 
+	ELEMENT STYLES
+	=================================== */
+
+
+/*	FOOTER
+	----------------------------------- */
+	footer {	
+		text-align: center;
+		
+		.ad-space {
+			padding:$general-padding 0;
+		}
+		
+		.footer-content {
+			padding:$general-padding*1.5 0;
+		
+			p {
+				font-size:$paragraph-font-size*.625;
+				color:#aaa;
+				line-height:$base-line-height*1.25;
+				margin-bottom: 0;
+				
+				a:link, a:visited {
+					color:#aaa;
+					text-decoration: none;
+					
+					span.new {
+						color:#ff0000;
+					}
+				}
+				
+				a:hover, a:active {
+					text-decoration: underline;
+				}
+			}
+		}	
+	}

@@ -1,0 +1,27 @@
+/* =================================== 
+	ELEMENT STYLES
+	=================================== */
+
+
+/* GENERAL
+	----------------------------------- */
+	.thumb-image {
+		
+		img {
+			@include border-radius($global-rounded);
+			border-color:$secondary-color;
+			border-width: 4px;
+			border-style: solid;
+		}
+	}
+	
+	.author {
+		color:$alert-color;
+		font-family:$body-font-bolditalic;
+		font-size:$h5-font-size;
+		margin: $general-margin/2 0;
+		letter-spacing: rem-calc(1);
+	}
+
+
+

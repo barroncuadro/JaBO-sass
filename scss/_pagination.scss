@@ -1,0 +1,73 @@
+/* =================================== 
+	PAGINATION
+	=================================== */
+	// We use these to set the list-item properties
+	$pagination-li-font-color: #d4d4d4;
+	$pagination-line-height: 1rem;
+	
+	// We use these for the pagination anchor links
+	$pagination-link-font-color: $button-color;
+
+	// We use these for disabled anchor links
+	$pagination-link-unavailable-font-color: $pagination-li-font-color;
+
+	// We use these for currently selected anchor links
+	$pagination-link-current-background: $primary-color;
+	$pagination-link-current-font-color: $pagination-li-font-color;
+	$pagination-link-current-font-weight: normal;
+	$pagination-link-current-active-bg: none;
+
+
+	ul.pagination {
+		@include general-border;
+		@include border-radius(3px);
+		display: inline-block;
+		height: auto;
+		line-height: normal;
+		margin-left: 0;
+	
+		li {
+			line-height: normal;
+			padding: 0;
+			margin-left: 0;
+			border-right: $general-border-width $general-border-style $general-border-color;
+			float: left;
+			display: inline;
+			height: 100%;
+			
+			.arrow-unavailable,
+			.arrow {				
+				a {
+ 					margin-right: 0;
+ 					
+				}
+			}
+		
+			.arrow-unavailable {
+				a {
+					margin-left: $general-margin*.25;
+				}
+			}
+		
+			a {
+				color:$pagination-li-font-color;
+				line-height:$pagination-line-height*1.75;
+				padding: 0 $general-padding/2;
+				margin-right: $general-margin*.25;
+			}
+		}
+
+		.last {
+			border-width: 0;
+		}
+		
+		li:hover,
+		li.focus {
+		
+			a,
+			a:focus {
+				background: none;
+				color:$pagination-link-font-color;
+			}
+		}
+	}
