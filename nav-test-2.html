@@ -10,142 +10,36 @@
   </head>
   <body class="short-form-landing">
     
-<!-- navigation large -->
-	<nav class="top-bar show-for-large-up" data-topbar>		
-		<section class="row top-bar-section">
-			<!-- Right Nav Section -->
-			<div class="large-1 medium-1 small-3 columns">
-				<ul class="left main-nav">
-					<li class="toggle-topbar has-dropdown menu-dropdown">
-						<a class="" href="#">Menu</a>
-						<ul class="row dropdown">
-							<div class="large-12 columns end">	
-								<li><a href="#">Home</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Articles</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Baseball Joe</a></li>
-								<li class="divider"></li>
-								<li><a href="#">By The Numbers</a></li>
-							</div>
-						</ul>
-					</li>					
-					<li class="has-dropdown menu-dropdown menu-full">
-						<a class="" href="#">Menu</a>
-						<ul class="row dropdown">
-							<div class="large-12 columns end">	
-								<li><a href="#">Home</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Articles</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Baseball Joe</a></li>
-								<li class="divider"></li>
-								<li><a href="#">By The Numbers</a></li>
-							</div>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<div class="large-1 large-push-0 medium-1 medium-push-0 small-3 small-push-6 columns">
-				<ul class="left main-nav">
-					<li class="has-dropdown search-dropdown">
-						<a class="" href="#">Search</a>
-						<ul class="row dropdown">
-							<div class="large-12 columns end">
-								<li>
-									<form>
-										<div class="row">
-											<div class="large-12 columns">
-												<input type="text" placeholder="search">
-											</div>
-										</div>
-									</form>
-								</li>
-							</div>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			
-			<div class="large-7 large-offset-3 medium-7 medium-offset-3 large-pull-0 small-6 small-pull-3 columns">
-				<ul class="title-area" style="float:none;">
-				<!-- Title Area -->
-					<li class="name">
-						<h1>
-							<a href="#">
-							<img src="images/jabo_logo_temp.png" width="239" height="78" />
-							</a>
-						</h1>
-					</li>
-					<li class="logo" style="float:right;">
-						<a href="">
-							<img src="images/fox-logo-retina.png" />
-						</a>
-					</li>
-				</ul>
-			</div>
-		</section><!-- row -->
-	</nav>
-<!-- end nav large -->
+<!-- navigation -->
 
-<!-- navigation small -->
 <style type="text/css">
-.top-bar.hide-for-large-up { height:45px;background:#fff; }
-.top-bar.hide-for-large-up.expanded { height:auto;background:#1e1e1e; }
-
-.top-bar.hide-for-large-up .left { left:0;top:6px;margin-top:0;display:block; }
-.top-bar.hide-for-large-up .left.toggle-topbar { width:25%; }
-.top-bar.hide-for-large-up .toggle-topbar a { color:#1e1e1e; }
-
-.top-bar.hide-for-large-up.expanded ul.title-area { background:#fff; }
-.top-bar.hide-for-large-up.expanded .toggle-topbar a { color:#1e1e1e; }
-
-.top-bar.hide-for-large-up.expanded section.top-bar-section { background:#1e1e1e; }
-.top-bar.hide-for-large-up.expanded section.top-bar-section ul li > a { color:#fff;text-align:center; }
-.top-bar.hide-for-large-up.expanded section.top-bar-section ul li > a:hover,
-.top-bar.hide-for-large-up.expanded section.top-bar-section ul li > a:active { color:#ff0000; }
-.top-bar.hide-for-large-up.expanded .toggle-topbar a span { box-shadow:none; }
-.top-bar.expanded .title-area { background:none; }
-
-.top-bar.hide-for-large-up .middle { width:82px;height:51px;margin:0 auto;display:block; }
+.top-bar .toggle-topbar { left:0;right:auto; }
+.top-bar .toggle-topbar.menu-icon { left: 15px; }
 </style>
 
-	<nav class="top-bar hide-for-large-up" data-topbar data-options="is_hover: false">
-		<ul class="title-area">
-			<li class="left toggle-topbar menu">
-				<a href="#"><span>Menu</span></a>
-			</li>
-			<li class="middle name"><img src="http://placekitten.com/85/50" /></li>
-			
-		</ul>
-	  
-		<section class="top-bar-section">
-				
-			<ul class="left">
-				<li class="has-dropdown">
-					<div class="large-12 columns end">	
-						<ul>
-							<li><a href="#">Home</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Articles</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Baseball Joe</a></li>
-							<li class="divider"></li>
-							<li><a href="#">By The Numbers</a></li>
-							<li class="divider"></li>
-							<li><a href="#"><img src="images/jabo_logo_temp.png" width="239" height="78" /></a></li>
-							<li class="divider"></li>
-							<li><a href=""><img src="images/fox-logo-retina.png" width="71" height="41" /></a></li>
-						</ul>
-					</div>
-					
-				</li>
-			</ul>
-		</section>
-	</nav>
-		
-<!-- end nav small -->
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">My Site</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
 
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Right Button Active</a></li>
+      
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Left Nav Button</a></li>
+    </ul>
+  </section>
+</nav>
+<!-- end nav -->
    
 	  <div id="main-container" class="row">
 	    <div class="large-7 large-centered columns full-width main-content" role="content">
