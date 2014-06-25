@@ -261,3 +261,68 @@
 		}
 	}
 
+
+
+
+/* ===================================
+	=================================== 
+	===================================  
+	elements-article
+	MEDIA-SPECIFIC STYLES
+	===================================
+	=================================== 
+	=================================== */
+
+@media #{$small-only} {
+
+/*	LONG-FORM ARTICLE
+	----------------------------------- */
+	body.long-form-article {
+
+		.article-headline {
+			background:rgba(255,255,255,1);			
+		}
+	
+		.social-small {
+			ul {
+				li	{
+					list-style: none;
+					float: left;
+				
+					&.twitter {
+						a {
+							@include social-sprite(twitter);
+						}	
+					}
+					
+					&.facebook {
+						a {
+							@include social-sprite(facebook);
+						}
+					}
+					
+					&.share {
+						a {
+							@include social-sprite(share);
+						}
+					}
+					
+					a:link,
+					a:visited {
+						@include all-social-sprites;
+						@include hide-text;
+						width: 35px;
+						height: 35px;
+						font-size: 25px;  
+					}			
+				}
+			}
+		}
+		
+		.adspace-small {
+			padding: $general-padding;
+			background: #000;
+			text-align: center;
+		}
+	}
+}
