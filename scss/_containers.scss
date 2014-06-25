@@ -38,6 +38,7 @@
 	}
 	
 	
+	
 
 	/* SHORT-FORM LANDING
 	----------------------------------- */	
@@ -47,6 +48,15 @@
 		height: auto;
 	}
 
+
+	/* SHORT-FORM + LONG-FORM ARTICLE
+	----------------------------------- */	
+	body.short-form-article,
+	body.long-form-article {
+		@extend body;
+		background-color:#fff;
+		height: auto;
+	}
 
 	
 	
