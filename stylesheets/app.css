@@ -7244,14 +7244,11 @@ ul.pagination li {
   display: inline;
   height: 100%;
 }
-/* line 40, ../scss/_pagination.scss */
-ul.pagination li .arrow-unavailable a,
-ul.pagination li .arrow a {
-  margin-right: 0;
-}
-/* line 47, ../scss/_pagination.scss */
-ul.pagination li .arrow-unavailable a {
+/* line 38, ../scss/_pagination.scss */
+ul.pagination li.arrow-unavailable {
   margin-left: 0.25rem;
+  padding: 0 0.5rem;
+  line-height: 1.75rem;
 }
 /* line 52, ../scss/_pagination.scss */
 ul.pagination li a {

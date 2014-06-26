@@ -34,19 +34,11 @@
 			float: left;
 			display: inline;
 			height: 100%;
-			
-			.arrow-unavailable,
-			.arrow {				
-				a {
- 					margin-right: 0;
- 					
-				}
-			}
 		
-			.arrow-unavailable {
-				a {
+			&.arrow-unavailable {
 					margin-left: $general-margin*.25;
-				}
+					padding: 0 $general-padding/2;
+					line-height:$pagination-line-height*1.75;
 			}
 		
 			a {
