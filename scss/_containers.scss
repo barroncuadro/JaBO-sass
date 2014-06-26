@@ -6,16 +6,16 @@
 	/* GENERAL
 	----------------------------------- */	
 	html {
-		background: transparent url(../images/bg.jpg) no-repeat center center fixed; 
+		
+	}
+
+	body {
+		background: transparent url(../images/bg/body-bg.jpg) repeat; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 		background-color: #fafafa;
-	}
-
-	body {
-		background: none;
 	}
 	
 	
@@ -42,8 +42,7 @@
 
 	/* SHORT-FORM LANDING
 	----------------------------------- */	
-	body.short-form-landing {
-		@extend body;
+	.short-form-landing {
 		background-color:#fff;
 		height: auto;
 	}
@@ -51,8 +50,8 @@
 
 	/* SHORT-FORM + LONG-FORM ARTICLE
 	----------------------------------- */	
-	body.short-form-article,
-	body.long-form-article {
+	.short-form-article,
+	.long-form-article {
 		@extend body;
 		background-color:#fff;
 		height: auto;
