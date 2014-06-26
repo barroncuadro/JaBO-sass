@@ -306,6 +306,8 @@
 			}
 		
 			#searchdrop {
+				background: #111;
+			
 				&.open {
 					width: 400px !important;
 					left: -300% !important;
@@ -318,6 +320,19 @@
 				&.f-dropdown.content.open::after {
 					left: 342px;
 					border-color:transparent transparent #111 transparent;
+				}
+				
+				form {
+					margin-top:$general-margin/2 0;
+				
+					input,
+					input [type="text"] {
+						@include box-shadow(0px none);
+						text-transform: uppercase;
+						border: 0;
+						font-size:$paragraph-font-size*1.125;
+						
+					}
 				}
 			}		
 		

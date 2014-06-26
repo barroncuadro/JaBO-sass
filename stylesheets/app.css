@@ -7178,16 +7178,35 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 309, ../scss/_nav.scss */
+  /* line 308, ../scss/_nav.scss */
+  .main-nav .search #searchdrop {
+    background: #111;
+  }
+  /* line 311, ../scss/_nav.scss */
   .main-nav .search #searchdrop.open {
     width: 400px !important;
     left: -300% !important;
     top: 56px !important;
   }
-  /* line 318, ../scss/_nav.scss */
+  /* line 320, ../scss/_nav.scss */
   .main-nav .search #searchdrop.f-dropdown:before, .main-nav .search #searchdrop.f-dropdown:after, .main-nav .search #searchdrop.f-dropdown.content.open::before, .main-nav .search #searchdrop.f-dropdown.content.open::after {
     left: 342px;
     border-color: transparent transparent #111 transparent;
+  }
+  /* line 325, ../scss/_nav.scss */
+  .main-nav .search #searchdrop form {
+    margin-top: 0.5rem 0;
+  }
+  /* line 329, ../scss/_nav.scss */
+  .main-nav .search #searchdrop form input,
+  .main-nav .search #searchdrop form input [type="text"] {
+    -webkit-box-shadow: 0px none;
+    -moz-box-shadow: 0px none;
+    -ms-box-shadow: 0px none;
+    box-shadow: 0px none;
+    text-transform: uppercase;
+    border: 0;
+    font-size: 1.125em;
   }
 
   /*main nav*/
