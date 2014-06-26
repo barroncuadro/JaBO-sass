@@ -5,8 +5,8 @@
 
 /*	SHORT-FORM + LONG FORM ARTICLE
 	----------------------------------- */
-	body.short-form-article,
-	body.long-form-article {
+	.short-form-article,
+	.long-form-article {
 	
 		.article-headline {
 			text-align: center;
@@ -179,7 +179,7 @@
 
 /*	SHORT-FORM ARTICLE
 	----------------------------------- */
-	body.short-form-article {
+	.short-form-article {
 		.article-headline {
 			margin-top:$general-margin*3;
 		
@@ -196,7 +196,7 @@
 
 /*	LONG FORM ARTICLE
 	----------------------------------- */
-	body.long-form-article {
+	.long-form-article {
 		
 		.social {
 			margin-left: 2rem;
@@ -277,7 +277,7 @@
 
 /*	LONG-FORM ARTICLE
 	----------------------------------- */
-	body.long-form-article {
+	.long-form-article {
 
 		.article-headline {
 			background:rgba(255,255,255,1);			

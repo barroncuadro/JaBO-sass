@@ -7339,10 +7339,10 @@ ul.pagination li.focus a:focus {
 }
 
 /* line 58, social/*.png */
-.social-sprite, .social-facebook, .social-share, .social-twitter, body.short-form-article .social ul li.twitter a,
-body.long-form-article .social ul li.twitter a, body.short-form-article .social ul li.facebook a,
-body.long-form-article .social ul li.facebook a, body.short-form-article .social ul li.share a,
-body.long-form-article .social ul li.share a {
+.social-sprite, .social-facebook, .social-share, .social-twitter, .short-form-article .social ul li.twitter a,
+.long-form-article .social ul li.twitter a, .short-form-article .social ul li.facebook a,
+.long-form-article .social ul li.facebook a, .short-form-article .social ul li.share a,
+.long-form-article .social ul li.share a {
   background: url('../images/social-s3833d49d9b.png') no-repeat;
 }
 
@@ -7362,7 +7362,7 @@ body.long-form-article .social ul li.share a {
 }
 
 /* line 82, headers/*.png */
-.headers-sprite, .headers-baseball-joe-headline-2x, .headers-baseball-joe-headline, .headers-by-the-numbers-headline-2x, .headers-by-the-numbers-headline, .headers-contributors-headline-2x, .headers-contributors-headline, .by-the-numbers h2 span, .baseball-joe .section-header span, .contributors .section-header span, body.short-form-landing .short-form-content-list .section-header span {
+.headers-sprite, .headers-baseball-joe-headline-2x, .headers-baseball-joe-headline, .headers-by-the-numbers-headline-2x, .headers-by-the-numbers-headline, .headers-contributors-headline-2x, .headers-contributors-headline, .by-the-numbers h2 span, .baseball-joe .section-header span, .contributors .section-header span, .short-form-landing .short-form-content-list .section-header span {
   background: url('../images/headers-s1591aaabe5.png') no-repeat;
 }
 
@@ -7512,8 +7512,8 @@ button, .button, .button:hover {
 }
 
 /* line 18, ../scss/_elements_general.scss */
-.author, body.short-form-article #main-container p.author,
-body.long-form-article #main-container p.author {
+.author, .short-form-article #main-container p.author,
+.long-form-article #main-container p.author {
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   font-size: 1.125em;
@@ -7645,11 +7645,17 @@ aside ul li {
   line-height: normal;
 }
 /* line 85, ../scss/_elements_homepage.scss */
-.articles .article-details .details-wrap .author-comments p.author {
+.articles .article-details .details-wrap .author-comments p.author, .articles .article-details .details-wrap .author-comments .short-form-article #main-container p.author, .short-form-article #main-container .articles .article-details .details-wrap .author-comments p.author,
+.articles .article-details .details-wrap .author-comments .long-form-article #main-container p.author,
+.long-form-article #main-container .articles .article-details .details-wrap .author-comments p.author {
   line-height: 115%;
 }
 /* line 88, ../scss/_elements_homepage.scss */
-.articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments p.author a:visited {
+.articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments .short-form-article #main-container p.author a:link, .short-form-article #main-container .articles .article-details .details-wrap .author-comments p.author a:link,
+.articles .article-details .details-wrap .author-comments .long-form-article #main-container p.author a:link,
+.long-form-article #main-container .articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments p.author a:visited, .articles .article-details .details-wrap .author-comments .short-form-article #main-container p.author a:visited, .short-form-article #main-container .articles .article-details .details-wrap .author-comments p.author a:visited,
+.articles .article-details .details-wrap .author-comments .long-form-article #main-container p.author a:visited,
+.long-form-article #main-container .articles .article-details .details-wrap .author-comments p.author a:visited {
   color: #e51b23;
 }
 /* line 93, ../scss/_elements_homepage.scss */
@@ -7735,11 +7741,17 @@ aside ul li {
   line-height: normal;
 }
 /* line 170, ../scss/_elements_homepage.scss */
-.articles .sm-article .author-comments p.author {
+.articles .sm-article .author-comments p.author, .articles .sm-article .author-comments .short-form-article #main-container p.author, .short-form-article #main-container .articles .sm-article .author-comments p.author,
+.articles .sm-article .author-comments .long-form-article #main-container p.author,
+.long-form-article #main-container .articles .sm-article .author-comments p.author {
   line-height: 115%;
 }
 /* line 173, ../scss/_elements_homepage.scss */
-.articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments p.author a:visited {
+.articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments .short-form-article #main-container p.author a:link, .short-form-article #main-container .articles .sm-article .author-comments p.author a:link,
+.articles .sm-article .author-comments .long-form-article #main-container p.author a:link,
+.long-form-article #main-container .articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments p.author a:visited, .articles .sm-article .author-comments .short-form-article #main-container p.author a:visited, .short-form-article #main-container .articles .sm-article .author-comments p.author a:visited,
+.articles .sm-article .author-comments .long-form-article #main-container p.author a:visited,
+.long-form-article #main-container .articles .sm-article .author-comments p.author a:visited {
   color: #e51b23;
 }
 /* line 178, ../scss/_elements_homepage.scss */
@@ -7903,30 +7915,30 @@ aside ul li {
 /*	SHORT-FORM LANDING
 	----------------------------------- */
 /* line 11, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .row .row .thumb-image,
-body.short-form-landing .row .row .no-thumb-image,
-body.short-form-landing .row .row .article-title {
+.short-form-landing .row .row .thumb-image,
+.short-form-landing .row .row .no-thumb-image,
+.short-form-landing .row .row .article-title {
   padding-left: 0;
   padding-right: 0;
 }
 /* line 16, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .row .row .article-title {
+.short-form-landing .row .row .article-title {
   padding-left: 1rem;
 }
 /* line 22, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .row .row .article-title p > a:link,
-body.short-form-landing .row .row .article-title p > a:visited,
-body.short-form-landing .row .row .article-title p > a:hover,
-body.short-form-landing .row .row .article-title p > a:active {
+.short-form-landing .row .row .article-title p > a:link,
+.short-form-landing .row .row .article-title p > a:visited,
+.short-form-landing .row .row .article-title p > a:hover,
+.short-form-landing .row .row .article-title p > a:active {
   color: #0e0d0d;
 }
 /* line 28, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list .section-header {
+.short-form-landing .short-form-content-list .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
   text-align: center;
 }
 /* line 32, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list .section-header span {
+.short-form-landing .short-form-content-list .section-header span {
   background-position: 0 -346px;
   text-indent: -9999px;
   border: 0;
@@ -7941,15 +7953,15 @@ body.short-form-landing .short-form-content-list .section-header span {
   margin: 0 auto 1rem;
 }
 /* line 43, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list p {
+.short-form-landing .short-form-content-list p {
   margin-bottom: 0;
 }
 /* line 45, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list li.row {
+.short-form-landing .short-form-content-list li.row {
   list-style: none;
 }
 /* line 49, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list .article-info-wrap {
+.short-form-landing .short-form-content-list .article-info-wrap {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
   background-position: 0 100%;
@@ -7959,23 +7971,23 @@ body.short-form-landing .short-form-content-list .article-info-wrap {
   padding-bottom: 1rem;
 }
 /* line 56, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list .article-title {
+.short-form-landing .short-form-content-list .article-title {
   font-size: 1.125em;
   text-transform: uppercase;
 }
 /* line 61, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list .author-link a {
+.short-form-landing .short-form-content-list .author-link a {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
 }
 /* line 68, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list .no-thumb-image {
+.short-form-landing .short-form-content-list .no-thumb-image {
   line-height: 150%;
 }
 /* line 71, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list .no-thumb-image p {
+.short-form-landing .short-form-content-list .no-thumb-image p {
   text-align: center;
   background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
   background-size: 100% auto;
@@ -7989,13 +8001,13 @@ body.short-form-landing .short-form-content-list .no-thumb-image p {
   padding: 10px;
 }
 /* line 82, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing .short-form-content-list .no-thumb-image p span {
+.short-form-landing .short-form-content-list .no-thumb-image p span {
   color: #e51b23;
   font-size: 2.3125em;
   line-height: 202.5%;
 }
 /* line 92, ../scss/_elements_short-form-landing.scss */
-body.short-form-landing footer {
+.short-form-landing footer {
   background: none;
   padding: 2rem 0;
 }
@@ -8006,13 +8018,13 @@ body.short-form-landing footer {
 /*	SHORT-FORM + LONG FORM ARTICLE
 	----------------------------------- */
 /* line 11, ../scss/_elements_article.scss */
-body.short-form-article .article-headline,
-body.long-form-article .article-headline {
+.short-form-article .article-headline,
+.long-form-article .article-headline {
   text-align: center;
 }
 /* line 14, ../scss/_elements_article.scss */
-body.short-form-article .article-headline h1.title,
-body.long-form-article .article-headline h1.title {
+.short-form-article .article-headline h1.title,
+.long-form-article .article-headline h1.title {
   font-size: 1.25em;
   text-align: center;
   text-transform: uppercase;
@@ -8024,14 +8036,14 @@ body.long-form-article .article-headline h1.title {
   background-repeat: repeat-x;
 }
 /* line 24, ../scss/_elements_article.scss */
-body.short-form-article p.author-twitter,
-body.long-form-article p.author-twitter {
+.short-form-article p.author-twitter,
+.long-form-article p.author-twitter {
   text-align: center;
   font-family: "allerregular", sans-serif;
 }
 /* line 28, ../scss/_elements_article.scss */
-body.short-form-article p.author-twitter img,
-body.long-form-article p.author-twitter img {
+.short-form-article p.author-twitter img,
+.long-form-article p.author-twitter img {
   width: 87px;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -8040,8 +8052,8 @@ body.long-form-article p.author-twitter img {
   border: 4px solid #cccccc;
 }
 /* line 34, ../scss/_elements_article.scss */
-body.short-form-article p.author-twitter span.author-name,
-body.long-form-article p.author-twitter span.author-name {
+.short-form-article p.author-twitter span.author-name,
+.long-form-article p.author-twitter span.author-name {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
@@ -8049,25 +8061,25 @@ body.long-form-article p.author-twitter span.author-name {
   letter-spacing: 0.0625rem;
 }
 /* line 42, ../scss/_elements_article.scss */
-body.short-form-article p.author-twitter span.twitter-handle,
-body.long-form-article p.author-twitter span.twitter-handle {
+.short-form-article p.author-twitter span.twitter-handle,
+.long-form-article p.author-twitter span.twitter-handle {
   display: block;
 }
 /* line 47, ../scss/_elements_article.scss */
-body.short-form-article .social,
-body.long-form-article .social {
+.short-form-article .social,
+.long-form-article .social {
   position: absolute;
   margin-left: -4rem;
 }
 /* line 52, ../scss/_elements_article.scss */
-body.short-form-article .social ul li,
-body.long-form-article .social ul li {
+.short-form-article .social ul li,
+.long-form-article .social ul li {
   list-style: none;
   margin-bottom: 0.5rem;
 }
 /* line 56, ../scss/_elements_article.scss */
-body.short-form-article .social ul li a,
-body.long-form-article .social ul li a {
+.short-form-article .social ul li a,
+.long-form-article .social ul li a {
   text-indent: -9999px;
   border: 0;
   text-shadow: none;
@@ -8077,53 +8089,53 @@ body.long-form-article .social ul li a {
   font-size: 25px;
 }
 /* line 64, ../scss/_elements_article.scss */
-body.short-form-article .social ul li.twitter a,
-body.long-form-article .social ul li.twitter a {
+.short-form-article .social ul li.twitter a,
+.long-form-article .social ul li.twitter a {
   background-position: 0 0;
 }
 /* line 70, ../scss/_elements_article.scss */
-body.short-form-article .social ul li.facebook a,
-body.long-form-article .social ul li.facebook a {
+.short-form-article .social ul li.facebook a,
+.long-form-article .social ul li.facebook a {
   background-position: 0 -70px;
 }
 /* line 76, ../scss/_elements_article.scss */
-body.short-form-article .social ul li.share a,
-body.long-form-article .social ul li.share a {
+.short-form-article .social ul li.share a,
+.long-form-article .social ul li.share a {
   background-position: 0 -35px;
 }
 /* line 84, ../scss/_elements_article.scss */
-body.short-form-article #main-container,
-body.long-form-article #main-container {
+.short-form-article #main-container,
+.long-form-article #main-container {
   /*livefyre styles*/
 }
 /* line 85, ../scss/_elements_article.scss */
-body.short-form-article #main-container p,
-body.long-form-article #main-container p {
+.short-form-article #main-container p,
+.long-form-article #main-container p {
   font-family: "Vollkorn", serif;
   font-size: 1.125em;
   color: #26353c;
 }
 /* line 90, ../scss/_elements_article.scss */
-body.short-form-article #main-container p.closer,
-body.long-form-article #main-container p.closer {
+.short-form-article #main-container p.closer,
+.long-form-article #main-container p.closer {
   margin: 4rem 0 3rem;
   text-align: center;
 }
 /* line 95, ../scss/_elements_article.scss */
-body.short-form-article #main-container p.caption,
-body.long-form-article #main-container p.caption {
+.short-form-article #main-container p.caption,
+.long-form-article #main-container p.caption {
   font-size: 0.875em;
   line-height: 150%;
 }
 /* line 100, ../scss/_elements_article.scss */
-body.short-form-article #main-container p.author,
-body.long-form-article #main-container p.author {
+.short-form-article #main-container p.author,
+.long-form-article #main-container p.author {
   font-size: 1.125em;
   margin: 0.25rem 0;
 }
 /* line 106, ../scss/_elements_article.scss */
-body.short-form-article #main-container p.comments,
-body.long-form-article #main-container p.comments {
+.short-form-article #main-container p.comments,
+.long-form-article #main-container p.comments {
   line-height: 0;
   margin-top: 0.5rem;
   margin-bottom: 0;
@@ -8131,96 +8143,96 @@ body.long-form-article #main-container p.comments {
   float: right;
 }
 /* line 113, ../scss/_elements_article.scss */
-body.short-form-article #main-container p.comments a:link, body.short-form-article #main-container p.comments a:visited,
-body.long-form-article #main-container p.comments a:link,
-body.long-form-article #main-container p.comments a:visited {
+.short-form-article #main-container p.comments a:link, .short-form-article #main-container p.comments a:visited,
+.long-form-article #main-container p.comments a:link,
+.long-form-article #main-container p.comments a:visited {
   font-size: 0.625em;
   color: #fff;
   font-family: "allerregular", sans-serif;
   line-height: normal;
 }
 /* line 121, ../scss/_elements_article.scss */
-body.short-form-article #main-container p.author-twitter,
-body.long-form-article #main-container p.author-twitter {
+.short-form-article #main-container p.author-twitter,
+.long-form-article #main-container p.author-twitter {
   font-family: "allerregular", sans-serif;
 }
 /* line 126, ../scss/_elements_article.scss */
-body.short-form-article #main-container hr,
-body.long-form-article #main-container hr {
+.short-form-article #main-container hr,
+.long-form-article #main-container hr {
   width: 180px;
   margin: 2.5rem auto;
   border-color: #afafaf;
 }
 /* line 133, ../scss/_elements_article.scss */
-body.short-form-article #main-container .article-intro p,
-body.long-form-article #main-container .article-intro p {
+.short-form-article #main-container .article-intro p,
+.long-form-article #main-container .article-intro p {
   font-family: "allerbold", serif;
   text-align: center;
   line-height: 1.875rem;
 }
 /* line 141, ../scss/_elements_article.scss */
-body.short-form-article #main-container .livefyre-wrap,
-body.long-form-article #main-container .livefyre-wrap {
+.short-form-article #main-container .livefyre-wrap,
+.long-form-article #main-container .livefyre-wrap {
   margin-bottom: 4rem;
 }
 /* line 145, ../scss/_elements_article.scss */
-body.short-form-article #main-container .livefyre-wrap .fyre-comment p,
-body.long-form-article #main-container .livefyre-wrap .fyre-comment p {
+.short-form-article #main-container .livefyre-wrap .fyre-comment p,
+.long-form-article #main-container .livefyre-wrap .fyre-comment p {
   font-family: "allerregular", sans-serif;
   font-size: 1em;
 }
 /* line 151, ../scss/_elements_article.scss */
-body.short-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show,
-body.long-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show {
+.short-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show,
+.long-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show {
   text-align: center;
 }
 /* line 157, ../scss/_elements_article.scss */
-body.short-form-article #main-container .pre-footer p,
-body.long-form-article #main-container .pre-footer p {
+.short-form-article #main-container .pre-footer p,
+.long-form-article #main-container .pre-footer p {
   text-align: center;
 }
 /* line 162, ../scss/_elements_article.scss */
-body.short-form-article #main-container .livefyre-break,
-body.long-form-article #main-container .livefyre-break {
+.short-form-article #main-container .livefyre-break,
+.long-form-article #main-container .livefyre-break {
   text-align: center;
 }
 /* line 164, ../scss/_elements_article.scss */
-body.short-form-article #main-container .livefyre-break hr,
-body.long-form-article #main-container .livefyre-break hr {
+.short-form-article #main-container .livefyre-break hr,
+.long-form-article #main-container .livefyre-break hr {
   width: 100%;
   border-color: #afc7d3;
   border-width: 2px;
   margin: 2.5rem auto 1rem;
 }
 /* line 170, ../scss/_elements_article.scss */
-body.short-form-article .caption-wrap,
-body.long-form-article .caption-wrap {
+.short-form-article .caption-wrap,
+.long-form-article .caption-wrap {
   border-left: 3px solid #00aeef;
 }
 
 /*	SHORT-FORM ARTICLE
 	----------------------------------- */
 /* line 183, ../scss/_elements_article.scss */
-body.short-form-article .article-headline {
+.short-form-article .article-headline {
   margin-top: 3rem;
 }
 /* line 186, ../scss/_elements_article.scss */
-body.short-form-article .article-headline h1.title {
+.short-form-article .article-headline h1.title {
   background: none;
 }
 
 /*	LONG FORM ARTICLE
 	----------------------------------- */
 /* line 201, ../scss/_elements_article.scss */
-body.long-form-article .social {
+.long-form-article .social {
   margin-left: 2rem;
 }
 /* line 206, ../scss/_elements_article.scss */
-body.long-form-article .article-header-image img {
+.long-form-article .article-header-image img {
   min-width: 640px;
 }
 /* line 211, ../scss/_elements_article.scss */
-body.long-form-article .article-headline {
+.long-form-article .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
   border: 4px solid black;
@@ -8230,11 +8242,11 @@ body.long-form-article .article-headline {
   position: relative;
 }
 /* line 220, ../scss/_elements_article.scss */
-body.long-form-article .article-headline .details-wrap {
+.long-form-article .article-headline .details-wrap {
   border: 1px solid black;
 }
 /* line 223, ../scss/_elements_article.scss */
-body.long-form-article .article-headline .details-wrap h1.title {
+.long-form-article .article-headline .details-wrap h1.title {
   padding: 1.25rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -8244,26 +8256,26 @@ body.long-form-article .article-headline .details-wrap h1.title {
   letter-spacing: -0.05rem;
 }
 /* line 233, ../scss/_elements_article.scss */
-body.long-form-article .article-headline .details-wrap .author-wrap {
+.long-form-article .article-headline .details-wrap .author-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
   background-size: 1px 4px;
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
 /* line 241, ../scss/_elements_article.scss */
-body.long-form-article .article-headline .details-wrap .author-comments {
+.long-form-article .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
 /* line 249, ../scss/_elements_article.scss */
-body.long-form-article .handle p.author-twitter img {
+.long-form-article .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
 /* line 255, ../scss/_elements_article.scss */
-body.long-form-article .full-width-image {
+.long-form-article .full-width-image {
   margin: 1rem 0 2rem;
 }
 /* line 259, ../scss/_elements_article.scss */
-body.long-form-article .long-form-ad-wrap {
+.long-form-article .long-form-ad-wrap {
   margin-top: 5rem;
 }
 
@@ -8279,29 +8291,29 @@ body.long-form-article .long-form-ad-wrap {
   /*	LONG-FORM ARTICLE
   	----------------------------------- */
   /* line 282, ../scss/_elements_article.scss */
-  body.long-form-article .article-headline {
+  .long-form-article .article-headline {
     background: white;
   }
   /* line 288, ../scss/_elements_article.scss */
-  body.long-form-article .social-small ul li {
+  .long-form-article .social-small ul li {
     list-style: none;
     float: left;
   }
   /* line 293, ../scss/_elements_article.scss */
-  body.long-form-article .social-small ul li.twitter a {
+  .long-form-article .social-small ul li.twitter a {
     background-position: 0 0;
   }
   /* line 299, ../scss/_elements_article.scss */
-  body.long-form-article .social-small ul li.facebook a {
+  .long-form-article .social-small ul li.facebook a {
     background-position: 0 -70px;
   }
   /* line 305, ../scss/_elements_article.scss */
-  body.long-form-article .social-small ul li.share a {
+  .long-form-article .social-small ul li.share a {
     background-position: 0 -35px;
   }
   /* line 311, ../scss/_elements_article.scss */
-  body.long-form-article .social-small ul li a:link,
-  body.long-form-article .social-small ul li a:visited {
+  .long-form-article .social-small ul li a:link,
+  .long-form-article .social-small ul li a:visited {
     text-indent: -9999px;
     border: 0;
     text-shadow: none;
@@ -8311,22 +8323,22 @@ body.long-form-article .long-form-ad-wrap {
     font-size: 25px;
   }
   /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  body.long-form-article .social-small ul li a:link .social-facebook,
-  body.long-form-article .social-small ul li a:visited .social-facebook {
+  .long-form-article .social-small ul li a:link .social-facebook,
+  .long-form-article .social-small ul li a:visited .social-facebook {
     background-position: 0 -70px;
   }
   /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  body.long-form-article .social-small ul li a:link .social-share,
-  body.long-form-article .social-small ul li a:visited .social-share {
+  .long-form-article .social-small ul li a:link .social-share,
+  .long-form-article .social-small ul li a:visited .social-share {
     background-position: 0 -35px;
   }
   /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  body.long-form-article .social-small ul li a:link .social-twitter,
-  body.long-form-article .social-small ul li a:visited .social-twitter {
+  .long-form-article .social-small ul li a:link .social-twitter,
+  .long-form-article .social-small ul li a:visited .social-twitter {
     background-position: 0 0;
   }
   /* line 322, ../scss/_elements_article.scss */
-  body.long-form-article .adspace-small {
+  .long-form-article .adspace-small {
     padding: 1rem;
     background: #000;
     text-align: center;
