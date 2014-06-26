@@ -12,15 +12,14 @@
 /* line 269, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
 html,
 body,
-body.short-form-landing,
-body.short-form-article,
-body.long-form-article {
+.short-form-article,
+.long-form-article {
   font-size: 100%;
 }
 
 /* line 272, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-body, body.short-form-landing, body.short-form-article,
-body.long-form-article {
+body, .short-form-article,
+.long-form-article {
   background: #fafafa;
   color: #0e0d0d;
   padding: 0;
@@ -6817,20 +6816,15 @@ a.th {
 	=================================== */
 /* GENERAL
 ----------------------------------- */
-/* line 8, ../scss/_containers.scss */
-html {
-  background: transparent url(../images/bg.jpg) no-repeat center center fixed;
+/* line 12, ../scss/_containers.scss */
+body, .short-form-article,
+.long-form-article {
+  background: transparent url(../images/bg/body-bg.jpg) repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-color: #fafafa;
-}
-
-/* line 17, ../scss/_containers.scss */
-body, body.short-form-landing, body.short-form-article,
-body.long-form-article {
-  background: none;
 }
 
 /* HOME PAGE
@@ -6857,23 +6851,23 @@ body.long-form-article {
 /* SHORT-FORM LANDING
 ----------------------------------- */
 /* line 45, ../scss/_containers.scss */
-body.short-form-landing {
+.short-form-landing {
   background-color: #fff;
   height: auto;
 }
 
 /* SHORT-FORM + LONG-FORM ARTICLE
 ----------------------------------- */
-/* line 55, ../scss/_containers.scss */
-body.short-form-article,
-body.long-form-article {
+/* line 54, ../scss/_containers.scss */
+.short-form-article,
+.long-form-article {
   background-color: #fff;
   height: auto;
 }
 
 /* FOOTER
 ----------------------------------- */
-/* line 65, ../scss/_containers.scss */
+/* line 64, ../scss/_containers.scss */
 footer {
   background: #1e1e1e;
 }
@@ -6998,25 +6992,33 @@ footer {
 .top-bar .top-bar-section ul li.name h1:not(.has-form) a:not(.button) {
   line-height: 96px;
 }
-/* line 112, ../scss/_nav.scss */
+/* line 111, ../scss/_nav.scss */
+.top-bar .top-bar-section ul li.name a {
+  width: auto;
+}
+/* line 113, ../scss/_nav.scss */
+.top-bar .top-bar-section ul li.name a img {
+  max-width: 460px;
+}
+/* line 117, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li.logo {
   float: right;
 }
-/* line 115, ../scss/_nav.scss */
+/* line 120, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li.logo:not(.has-form) a:not(.button) {
   line-height: 96px;
 }
-/* line 119, ../scss/_nav.scss */
+/* line 124, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li.logo img {
   width: 71px;
   height: 41px;
 }
-/* line 125, ../scss/_nav.scss */
+/* line 130, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li a {
   background: none;
   color: #0e0d0d;
 }
-/* line 134, ../scss/_nav.scss */
+/* line 139, ../scss/_nav.scss */
 .top-bar .top-bar-section .divider {
   border-top: 1px dotted #4d4d4d;
   border-bottom: 0px none;
@@ -7024,27 +7026,27 @@ footer {
   float: none;
   margin: 0 auto;
 }
-/* line 143, ../scss/_nav.scss */
+/* line 148, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown {
   border: 1px solid #cdcdcd;
   background: #111;
   padding: 1rem 0.5rem;
 }
-/* line 149, ../scss/_nav.scss */
+/* line 154, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li a:link, .top-bar .top-bar-section .dropdown li a:visited {
   color: #fff;
   text-align: center;
 }
-/* line 154, ../scss/_nav.scss */
+/* line 159, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li a:hover, .top-bar .top-bar-section .dropdown li a:active {
   color: #ff0000;
 }
-/* line 159, ../scss/_nav.scss */
+/* line 164, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
   background-color: #111;
   color: #ccc;
 }
-/* line 164, ../scss/_nav.scss */
+/* line 169, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li:not(.has-form):hover {
   background-color: #111;
   color: #ff0000;
@@ -7053,8 +7055,8 @@ footer {
 /* small screens
 ----------------------------------- */
 /* min-width 641px, medium screens */
-@media only screen and (max-width: 40.063em) {
-  /* line 180, ../scss/_nav.scss */
+@media only screen and (max-width: 40em) {
+  /* line 185, ../scss/_nav.scss */
   .main-nav {
     height: 60px;
     display: block;
@@ -7063,21 +7065,22 @@ footer {
     -moz-box-shadow: 0 1px 10px 0px #cccccc;
     -ms-box-shadow: 0 1px 10px 0px #cccccc;
     box-shadow: 0 1px 10px 0px #cccccc;
+    background-color: #fff;
     /*menu*/
     /*logo*/
     /*search*/
   }
-  /* line 186, ../scss/_nav.scss */
+  /* line 192, ../scss/_nav.scss */
   .main-nav .menu {
     text-align: center;
   }
-  /* line 189, ../scss/_nav.scss */
+  /* line 195, ../scss/_nav.scss */
   .main-nav .menu a {
     margin-top: 0.5rem;
     display: inline-block;
     text-transform: uppercase;
   }
-  /* line 194, ../scss/_nav.scss */
+  /* line 200, ../scss/_nav.scss */
   .main-nav .menu a.menu-dropdown {
     background-image: url("../images/nav/menu-closed.png");
     background-size: 24px 25px;
@@ -7088,7 +7091,7 @@ footer {
     font-size: 0.625em;
     padding-top: 1.75rem !important;
   }
-  /* line 203, ../scss/_nav.scss */
+  /* line 209, ../scss/_nav.scss */
   .main-nav .menu a.menu-dropdown:hover, .main-nav .menu a.menu-dropdown:active, .main-nav .menu a.menu-dropdown:focus {
     background-image: url("../images/nav/menu-open.png");
     background-size: 24px 25px;
@@ -7097,30 +7100,30 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 209, ../scss/_nav.scss */
+  /* line 215, ../scss/_nav.scss */
   .main-nav .menu #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 212, ../scss/_nav.scss */
+  /* line 218, ../scss/_nav.scss */
   .main-nav .menu #menudrop.open {
     width: 400px !important;
     left: 0 !important;
     top: 56px !important;
     background: #111 !important;
   }
-  /* line 222, ../scss/_nav.scss */
+  /* line 228, ../scss/_nav.scss */
   .main-nav .menu #menudrop.f-dropdown:before, .main-nav .menu #menudrop.f-dropdown:after, .main-nav .menu #menudrop.f-dropdown.content.open::before, .main-nav .menu #menudrop.f-dropdown.content.open::after {
     left: 40px;
   }
-  /* line 227, ../scss/_nav.scss */
+  /* line 233, ../scss/_nav.scss */
   .main-nav .menu #menudrop.f-dropdown:before, .main-nav .menu #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 230, ../scss/_nav.scss */
+  /* line 236, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul {
     margin-bottom: 0;
   }
-  /* line 233, ../scss/_nav.scss */
+  /* line 239, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul li {
     list-style: none;
     background-color: transparent;
@@ -7131,18 +7134,18 @@ footer {
     padding: 0;
     margin: 0;
   }
-  /* line 245, ../scss/_nav.scss */
+  /* line 251, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul li.last {
     background-image: none;
     margin-top: 5rem;
   }
-  /* line 253, ../scss/_nav.scss */
+  /* line 259, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul li:hover, .main-nav .menu #menudrop ul li:hover a,
   .main-nav .menu #menudrop ul li a:hover,
   .main-nav .menu #menudrop ul li a:active {
     color: #ff0000 !important;
   }
-  /* line 258, ../scss/_nav.scss */
+  /* line 264, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul li a:link,
   .main-nav .menu #menudrop ul li a:visited {
     font-size: 1.25em;
@@ -7152,11 +7155,15 @@ footer {
     margin: 20px 0 0;
     line-height: 200%;
   }
-  /* line 284, ../scss/_nav.scss */
+  /* line 283, ../scss/_nav.scss */
+  .main-nav .logo img {
+    max-width: 200px;
+  }
+  /* line 291, ../scss/_nav.scss */
   .main-nav .search {
     text-align: center;
   }
-  /* line 287, ../scss/_nav.scss */
+  /* line 294, ../scss/_nav.scss */
   .main-nav .search a {
     margin-top: 0.5rem;
     display: inline-block;
@@ -7165,7 +7172,7 @@ footer {
     text-transform: uppercase;
     background-position: 50% 10%;
   }
-  /* line 295, ../scss/_nav.scss */
+  /* line 302, ../scss/_nav.scss */
   .main-nav .search a.search-dropdown {
     background-image: url("../images/nav/search-closed.png");
     background-size: 20px 19px;
@@ -7174,7 +7181,7 @@ footer {
     padding-top: 1rem;
     color: #1e1e1e;
   }
-  /* line 303, ../scss/_nav.scss */
+  /* line 310, ../scss/_nav.scss */
   .main-nav .search a.search-dropdown:hover, .main-nav .search a.search-dropdown:active, .main-nav .search a.search-dropdown:focus {
     background-image: url("../images/nav/search-open.png");
     background-size: 20px 19px;
@@ -7183,26 +7190,26 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 310, ../scss/_nav.scss */
+  /* line 317, ../scss/_nav.scss */
   .main-nav .search #searchdrop {
     background: #111;
   }
-  /* line 313, ../scss/_nav.scss */
+  /* line 320, ../scss/_nav.scss */
   .main-nav .search #searchdrop.open {
     width: 400px !important;
     left: -300% !important;
     top: 56px !important;
   }
-  /* line 322, ../scss/_nav.scss */
+  /* line 329, ../scss/_nav.scss */
   .main-nav .search #searchdrop.f-dropdown:before, .main-nav .search #searchdrop.f-dropdown:after, .main-nav .search #searchdrop.f-dropdown.content.open::before, .main-nav .search #searchdrop.f-dropdown.content.open::after {
     left: 342px;
     border-color: transparent transparent #111 transparent;
   }
-  /* line 327, ../scss/_nav.scss */
+  /* line 334, ../scss/_nav.scss */
   .main-nav .search #searchdrop form {
     margin-top: 0.5rem 0;
   }
-  /* line 331, ../scss/_nav.scss */
+  /* line 338, ../scss/_nav.scss */
   .main-nav .search #searchdrop form input,
   .main-nav .search #searchdrop form input [type="text"] {
     -webkit-box-shadow: 0px none;
@@ -7250,18 +7257,18 @@ ul.pagination li.arrow-unavailable {
   padding: 0 0.5rem;
   line-height: 1.75rem;
 }
-/* line 52, ../scss/_pagination.scss */
+/* line 44, ../scss/_pagination.scss */
 ul.pagination li a {
   color: #d4d4d4;
   line-height: 1.75rem;
   padding: 0 0.5rem;
   margin-right: 0.25rem;
 }
-/* line 60, ../scss/_pagination.scss */
+/* line 52, ../scss/_pagination.scss */
 ul.pagination .last {
   border-width: 0;
 }
-/* line 68, ../scss/_pagination.scss */
+/* line 60, ../scss/_pagination.scss */
 ul.pagination li:hover a,
 ul.pagination li:hover a:focus,
 ul.pagination li.focus a,
