@@ -219,6 +219,12 @@
 				img {
 					margin-bottom:$general-margin*2;
 				}
+				
+				p {
+					a:link,a:visited,a:hover,a:active {
+						color: $body-font-color;
+					}
+				}
 			}
 		}
 		
@@ -263,6 +269,10 @@
 				padding-bottom: $list-margin-bottom;
 				
 				&.last { background-image: none; }
+				
+				a:link,a:visited,a:hover,a:active {
+					color: $body-font-color;
+				}
 			}
 	
 		}
