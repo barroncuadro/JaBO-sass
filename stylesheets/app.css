@@ -6896,7 +6896,7 @@ footer {
   box-shadow: 0 1px 5px 0px #cccccc;
   height: 96px;
   background-color: white;
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 /* line 11, ../scss/_nav.scss */
 .top-bar .top-bar-section ul {
@@ -7052,27 +7052,32 @@ footer {
 
 /* small screens
 ----------------------------------- */
-@media only screen and (max-width: 40em) {
-  /* line 179, ../scss/_nav.scss */
+/* min-width 641px, medium screens */
+@media only screen and (max-width: 40.063em) {
+  /* line 180, ../scss/_nav.scss */
   .main-nav {
     height: 60px;
     display: block;
     margin-bottom: 1rem;
+    -webkit-box-shadow: 0 1px 10px 0px #cccccc;
+    -moz-box-shadow: 0 1px 10px 0px #cccccc;
+    -ms-box-shadow: 0 1px 10px 0px #cccccc;
+    box-shadow: 0 1px 10px 0px #cccccc;
     /*menu*/
     /*logo*/
     /*search*/
   }
-  /* line 184, ../scss/_nav.scss */
+  /* line 186, ../scss/_nav.scss */
   .main-nav .menu {
     text-align: center;
   }
-  /* line 187, ../scss/_nav.scss */
+  /* line 189, ../scss/_nav.scss */
   .main-nav .menu a {
     margin-top: 0.5rem;
     display: inline-block;
     text-transform: uppercase;
   }
-  /* line 192, ../scss/_nav.scss */
+  /* line 194, ../scss/_nav.scss */
   .main-nav .menu a.menu-dropdown {
     background-image: url("../images/nav/menu-closed.png");
     background-size: 24px 25px;
@@ -7083,7 +7088,7 @@ footer {
     font-size: 0.625em;
     padding-top: 1.75rem !important;
   }
-  /* line 201, ../scss/_nav.scss */
+  /* line 203, ../scss/_nav.scss */
   .main-nav .menu a.menu-dropdown:hover, .main-nav .menu a.menu-dropdown:active, .main-nav .menu a.menu-dropdown:focus {
     background-image: url("../images/nav/menu-open.png");
     background-size: 24px 25px;
@@ -7092,30 +7097,30 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 207, ../scss/_nav.scss */
+  /* line 209, ../scss/_nav.scss */
   .main-nav .menu #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 210, ../scss/_nav.scss */
+  /* line 212, ../scss/_nav.scss */
   .main-nav .menu #menudrop.open {
     width: 400px !important;
     left: 0 !important;
     top: 56px !important;
     background: #111 !important;
   }
-  /* line 220, ../scss/_nav.scss */
+  /* line 222, ../scss/_nav.scss */
   .main-nav .menu #menudrop.f-dropdown:before, .main-nav .menu #menudrop.f-dropdown:after, .main-nav .menu #menudrop.f-dropdown.content.open::before, .main-nav .menu #menudrop.f-dropdown.content.open::after {
     left: 40px;
   }
-  /* line 225, ../scss/_nav.scss */
+  /* line 227, ../scss/_nav.scss */
   .main-nav .menu #menudrop.f-dropdown:before, .main-nav .menu #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 228, ../scss/_nav.scss */
+  /* line 230, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul {
     margin-bottom: 0;
   }
-  /* line 231, ../scss/_nav.scss */
+  /* line 233, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul li {
     list-style: none;
     background-color: transparent;
@@ -7126,18 +7131,18 @@ footer {
     padding: 0;
     margin: 0;
   }
-  /* line 243, ../scss/_nav.scss */
+  /* line 245, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul li.last {
     background-image: none;
     margin-top: 5rem;
   }
-  /* line 251, ../scss/_nav.scss */
+  /* line 253, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul li:hover, .main-nav .menu #menudrop ul li:hover a,
   .main-nav .menu #menudrop ul li a:hover,
   .main-nav .menu #menudrop ul li a:active {
     color: #ff0000 !important;
   }
-  /* line 256, ../scss/_nav.scss */
+  /* line 258, ../scss/_nav.scss */
   .main-nav .menu #menudrop ul li a:link,
   .main-nav .menu #menudrop ul li a:visited {
     font-size: 1.25em;
@@ -7147,11 +7152,11 @@ footer {
     margin: 20px 0 0;
     line-height: 200%;
   }
-  /* line 282, ../scss/_nav.scss */
+  /* line 284, ../scss/_nav.scss */
   .main-nav .search {
     text-align: center;
   }
-  /* line 285, ../scss/_nav.scss */
+  /* line 287, ../scss/_nav.scss */
   .main-nav .search a {
     margin-top: 0.5rem;
     display: inline-block;
@@ -7160,7 +7165,7 @@ footer {
     text-transform: uppercase;
     background-position: 50% 10%;
   }
-  /* line 293, ../scss/_nav.scss */
+  /* line 295, ../scss/_nav.scss */
   .main-nav .search a.search-dropdown {
     background-image: url("../images/nav/search-closed.png");
     background-size: 20px 19px;
@@ -7169,7 +7174,7 @@ footer {
     padding-top: 1rem;
     color: #1e1e1e;
   }
-  /* line 301, ../scss/_nav.scss */
+  /* line 303, ../scss/_nav.scss */
   .main-nav .search a.search-dropdown:hover, .main-nav .search a.search-dropdown:active, .main-nav .search a.search-dropdown:focus {
     background-image: url("../images/nav/search-open.png");
     background-size: 20px 19px;
@@ -7178,26 +7183,26 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 308, ../scss/_nav.scss */
+  /* line 310, ../scss/_nav.scss */
   .main-nav .search #searchdrop {
     background: #111;
   }
-  /* line 311, ../scss/_nav.scss */
+  /* line 313, ../scss/_nav.scss */
   .main-nav .search #searchdrop.open {
     width: 400px !important;
     left: -300% !important;
     top: 56px !important;
   }
-  /* line 320, ../scss/_nav.scss */
+  /* line 322, ../scss/_nav.scss */
   .main-nav .search #searchdrop.f-dropdown:before, .main-nav .search #searchdrop.f-dropdown:after, .main-nav .search #searchdrop.f-dropdown.content.open::before, .main-nav .search #searchdrop.f-dropdown.content.open::after {
     left: 342px;
     border-color: transparent transparent #111 transparent;
   }
-  /* line 325, ../scss/_nav.scss */
+  /* line 327, ../scss/_nav.scss */
   .main-nav .search #searchdrop form {
     margin-top: 0.5rem 0;
   }
-  /* line 329, ../scss/_nav.scss */
+  /* line 331, ../scss/_nav.scss */
   .main-nav .search #searchdrop form input,
   .main-nav .search #searchdrop form input [type="text"] {
     -webkit-box-shadow: 0px none;
@@ -7531,7 +7536,7 @@ footer .ad-space {
 }
 /* line 15, ../scss/_elements_footer.scss */
 footer .footer-content {
-  padding: 1.5rem 0;
+  padding: 1.5rem;
 }
 /* line 18, ../scss/_elements_footer.scss */
 footer .footer-content p {

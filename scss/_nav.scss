@@ -5,7 +5,7 @@
 		@include box-shadow (0 1px 5px 0px #ccc);
 		height: 96px;
 		background-color:$module-bg;
-		margin-bottom: 0;
+		margin-bottom: 3rem;
 
 		.top-bar-section {			
 			ul {
@@ -174,12 +174,14 @@
 	
 	/* small screens
 	----------------------------------- */	
-	
-@media #{$small-only} {
+
+/* min-width 641px, medium screens */
+@media only screen and (max-width: 40.063em) {
 	.main-nav {
-		height:60px;
+		height: 60px;
 		display: block;
-		margin-bottom:1rem;
+		margin-bottom: 1rem;
+		@include box-shadow(0 1px 10px 0px #ccc);
 	
 		.menu {
 			text-align: center;
