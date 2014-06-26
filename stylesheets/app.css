@@ -7054,26 +7054,145 @@ footer {
 ----------------------------------- */
 @media only screen and (max-width: 40em) {
   /* line 179, ../scss/_nav.scss */
-  .top-bar-section {
-    background-color: #FAFAFA;
-    /*temp*/
+  .main-nav {
+    height: 60px;
+    display: block;
+    margin-bottom: 1rem;
+    /*menu*/
+    /*logo*/
+    /*search*/
   }
-
-  /* line 183, ../scss/_nav.scss */
-  .top-bar .name h1 a {
-    width: 100%;
+  /* line 184, ../scss/_nav.scss */
+  .main-nav .menu {
+    text-align: center;
   }
-
   /* line 187, ../scss/_nav.scss */
-  .top-bar .menu-full {
-    display: none;
+  .main-nav .menu a {
+    margin-top: 0.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  /* line 192, ../scss/_nav.scss */
+  .main-nav .menu a.menu-dropdown {
+    background-image: url("../images/nav/menu-closed.png");
+    background-size: 24px 25px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    color: #1e1e1e;
+    font-size: 0.625em;
+    padding-top: 1.75rem !important;
+  }
+  /* line 201, ../scss/_nav.scss */
+  .main-nav .menu a.menu-dropdown:hover, .main-nav .menu a.menu-dropdown:active, .main-nav .menu a.menu-dropdown:focus {
+    background-image: url("../images/nav/menu-open.png");
+    background-size: 24px 25px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    color: #ff0000;
+  }
+  /* line 207, ../scss/_nav.scss */
+  .main-nav .menu #menudrop {
+    padding: 0 1.25rem;
+  }
+  /* line 210, ../scss/_nav.scss */
+  .main-nav .menu #menudrop.open {
+    width: 400px !important;
+    left: 0 !important;
+    top: 56px !important;
+    background: #111 !important;
+  }
+  /* line 220, ../scss/_nav.scss */
+  .main-nav .menu #menudrop.f-dropdown:before, .main-nav .menu #menudrop.f-dropdown:after, .main-nav .menu #menudrop.f-dropdown.content.open::before, .main-nav .menu #menudrop.f-dropdown.content.open::after {
+    left: 40px;
+  }
+  /* line 225, ../scss/_nav.scss */
+  .main-nav .menu #menudrop.f-dropdown:before, .main-nav .menu #menudrop.f-dropdown.content.open::before {
+    border-color: transparent transparent #111 transparent;
+  }
+  /* line 228, ../scss/_nav.scss */
+  .main-nav .menu #menudrop ul {
+    margin-bottom: 0;
+  }
+  /* line 231, ../scss/_nav.scss */
+  .main-nav .menu #menudrop ul li {
+    list-style: none;
+    background-color: transparent;
+    background-image: url("../images/bg/dot-pattern-light-horiz.png");
+    background-size: 4px 1px;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 243, ../scss/_nav.scss */
+  .main-nav .menu #menudrop ul li.last {
+    background-image: none;
+    margin-top: 5rem;
+  }
+  /* line 251, ../scss/_nav.scss */
+  .main-nav .menu #menudrop ul li:hover, .main-nav .menu #menudrop ul li:hover a,
+  .main-nav .menu #menudrop ul li a:hover,
+  .main-nav .menu #menudrop ul li a:active {
+    color: #ff0000 !important;
+  }
+  /* line 256, ../scss/_nav.scss */
+  .main-nav .menu #menudrop ul li a:link,
+  .main-nav .menu #menudrop ul li a:visited {
+    font-size: 1.25em;
+    color: #ccc;
+    display: block;
+    padding: 0 0 20px;
+    margin: 20px 0 0;
+    line-height: 200%;
+  }
+  /* line 282, ../scss/_nav.scss */
+  .main-nav .search {
+    text-align: center;
+  }
+  /* line 285, ../scss/_nav.scss */
+  .main-nav .search a {
+    margin-top: 0.5rem;
+    display: inline-block;
+    font-size: 0.625em;
+    padding-top: 1.75rem !important;
+    text-transform: uppercase;
+    background-position: 50% 10%;
+  }
+  /* line 293, ../scss/_nav.scss */
+  .main-nav .search a.search-dropdown {
+    background-image: url("../images/nav/search-closed.png");
+    background-size: 20px 19px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    color: #1e1e1e;
+  }
+  /* line 301, ../scss/_nav.scss */
+  .main-nav .search a.search-dropdown:hover, .main-nav .search a.search-dropdown:active, .main-nav .search a.search-dropdown:focus {
+    background-image: url("../images/nav/search-open.png");
+    background-size: 20px 19px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    color: #ff0000;
+  }
+  /* line 309, ../scss/_nav.scss */
+  .main-nav .search #searchdrop.open {
+    width: 400px !important;
+    left: -300% !important;
+    top: 56px !important;
+  }
+  /* line 318, ../scss/_nav.scss */
+  .main-nav .search #searchdrop.f-dropdown:before, .main-nav .search #searchdrop.f-dropdown:after, .main-nav .search #searchdrop.f-dropdown.content.open::before, .main-nav .search #searchdrop.f-dropdown.content.open::after {
+    left: 342px;
+    border-color: transparent transparent #111 transparent;
   }
 
-  /* line 189, ../scss/_nav.scss */
-  li.logo {
-    display: none;
-  }
+  /*main nav*/
 }
+/* media - small */
 /* =================================== 
 	PAGINATION
 	=================================== */

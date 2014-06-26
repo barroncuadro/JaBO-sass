@@ -175,22 +175,163 @@
 	/* small screens
 	----------------------------------- */	
 	
-	@media #{$small-only} {
-		.top-bar-section {
-			background-color:#FAFAFA; /*temp*/
-		}
+@media #{$small-only} {
+	.main-nav {
+		height:60px;
+		display: block;
+		margin-bottom:1rem;
 	
-		.top-bar .name h1 a {
-			width:100%;
-		}
+		.menu {
+			text-align: center;
+				
+				a {
+					margin-top:$general-margin/2;
+					display:inline-block;
+					text-transform: uppercase;
+					
+						&.menu-dropdown {
+							@include menu-closed;
+							color:#1e1e1e;
+							font-size: $paragraph-font-size*.625;
+							padding-top:$general-padding*1.75 !important;
+						}
+					
+						&.menu-dropdown:hover,
+						&.menu-dropdown:active,
+						&.menu-dropdown:focus {
+							@include menu-open;
+							color:#ff0000;
+						}
+					}
+				
+				#menudrop {
+					padding: 0 $general-padding*1.25;
+				
+					&.open {
+						width: 400px !important;
+						left: 0 !important;
+						top: 56px !important;
+						background:#111 !important;
+					}
+					
+					&.f-dropdown:before,
+					&.f-dropdown:after,
+					&.f-dropdown.content.open::before,
+					&.f-dropdown.content.open::after {
+						left: 40px;	
+					}
+					
+					&.f-dropdown:before,
+					&.f-dropdown.content.open::before {
+						border-color:transparent transparent #111 transparent;
+					}
+					ul {
+						margin-bottom: 0;
+
+						li {
+							list-style: none;
+							background-color: transparent;
+							@include horiz-light-bg;
+							padding: 0;
+							margin: 0;
+							
+							
+							&.first {
+
+							}
+							
+							&.last {
+								background-image: none;
+								margin-top: $general-margin*5;
+							}
+							
+							&:hover,
+							&:hover a,
+							a:hover,
+							a:active {
+								color: #ff0000 !important;
+							}
+	
+							a:link,
+							a:visited {
+								font-size:$paragraph-font-size*1.25;
+								color: #ccc;
+								display:block;
+								padding: 0 0 20px;
+								margin: 20px 0 0;
+								line-height: 200%;
+							}					
+						}
+					}
+				}
+					
+			
+		} /*menu*/
+	
+	
+	
+		.logo {
 		
-		.top-bar .menu-full { display:none; }
 		
-		li.logo { display:none; }
-	}
+		
+		
+		} /*logo*/
 	
+		
+		
+		.search {
+			text-align: center;
 	
+			a {
+				margin-top:$general-margin/2;
+				display:inline-block;
+				font-size: $paragraph-font-size*.625;
+				padding-top:$general-padding*1.75 !important;
+				text-transform: uppercase;
+				background-position: 50% 10%;
+			
+				&.search-dropdown {
+					@include search-closed;
+					color:#1e1e1e;
+					
+				}
+			
+				&.search-dropdown:hover,
+				&.search-dropdown:active,
+				&.search-dropdown:focus {
+					@include search-open;
+					color:#ff0000;
+				}
+			
+			}
+		
+			#searchdrop {
+				&.open {
+					width: 400px !important;
+					left: -300% !important;
+					top: 56px !important;
+				}
+				
+				&.f-dropdown:before,
+				&.f-dropdown:after,
+				&.f-dropdown.content.open::before,
+				&.f-dropdown.content.open::after {
+					left: 342px;
+					border-color:transparent transparent #111 transparent;
+				}
+			}		
+		
+
+		
+		
+		
+
 	
+		} /*search*/
+	
+	} /*main nav*/
+	
+}/* media - small */
 	
 	
 	
