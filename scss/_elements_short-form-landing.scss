@@ -15,6 +15,12 @@
 			
 			.article-title {
 				padding-left:$general-padding;
+				p {
+					> a:link,
+					> a:visited,
+					> a:hover,
+					> a:active { color:$body-font-color; }
+				}
 			}
 		}
 	

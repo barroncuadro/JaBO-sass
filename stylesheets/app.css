@@ -7797,17 +7797,21 @@ aside ul li {
 .by-the-numbers .btn-entry img {
   margin-bottom: 2rem;
 }
+/* line 224, ../scss/_elements_homepage.scss */
+.by-the-numbers .btn-entry p a:link, .by-the-numbers .btn-entry p a:visited, .by-the-numbers .btn-entry p a:hover, .by-the-numbers .btn-entry p a:active {
+  color: #0e0d0d;
+}
 
 /* SIDEBAR --------------------- */
-/* line 229, ../scss/_elements_homepage.scss */
+/* line 235, ../scss/_elements_homepage.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 232, ../scss/_elements_homepage.scss */
+/* line 238, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 235, ../scss/_elements_homepage.scss */
+/* line 241, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header span {
   background-position: 0 -617px;
   text-indent: -9999px;
@@ -7822,16 +7826,16 @@ aside ul li {
   height: 49px;
   margin: 0 auto 1rem;
 }
-/* line 245, ../scss/_elements_homepage.scss */
+/* line 251, ../scss/_elements_homepage.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 253, ../scss/_elements_homepage.scss */
+/* line 259, ../scss/_elements_homepage.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 260, ../scss/_elements_homepage.scss */
+/* line 266, ../scss/_elements_homepage.scss */
 .baseball-joe li {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -7840,21 +7844,25 @@ aside ul li {
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 265, ../scss/_elements_homepage.scss */
+/* line 271, ../scss/_elements_homepage.scss */
 .baseball-joe li.last {
   background-image: none;
 }
+/* line 273, ../scss/_elements_homepage.scss */
+.baseball-joe li a:link, .baseball-joe li a:visited, .baseball-joe li a:hover, .baseball-joe li a:active {
+  color: #0e0d0d;
+}
 
-/* line 271, ../scss/_elements_homepage.scss */
+/* line 281, ../scss/_elements_homepage.scss */
 .ad {
   text-align: center;
 }
 
-/* line 275, ../scss/_elements_homepage.scss */
+/* line 285, ../scss/_elements_homepage.scss */
 .contributors .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 278, ../scss/_elements_homepage.scss */
+/* line 288, ../scss/_elements_homepage.scss */
 .contributors .section-header span {
   background-position: 0 -561px;
   text-indent: -9999px;
@@ -7868,11 +7876,11 @@ aside ul li {
   width: 249px;
   height: 56px;
 }
-/* line 287, ../scss/_elements_homepage.scss */
+/* line 297, ../scss/_elements_homepage.scss */
 .contributors li {
   padding-bottom: 1.5rem;
 }
-/* line 292, ../scss/_elements_homepage.scss */
+/* line 302, ../scss/_elements_homepage.scss */
 .contributors .handle p {
   position: relative;
   top: 50%;
@@ -7882,7 +7890,7 @@ aside ul li {
   font-size: 1.125em;
   font-family: "allerbold", serif;
 }
-/* line 297, ../scss/_elements_homepage.scss */
+/* line 307, ../scss/_elements_homepage.scss */
 .contributors .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
@@ -7906,11 +7914,18 @@ body.short-form-landing .row .row .article-title {
   padding-left: 1rem;
 }
 /* line 22, ../scss/_elements_short-form-landing.scss */
+body.short-form-landing .row .row .article-title p > a:link,
+body.short-form-landing .row .row .article-title p > a:visited,
+body.short-form-landing .row .row .article-title p > a:hover,
+body.short-form-landing .row .row .article-title p > a:active {
+  color: #0e0d0d;
+}
+/* line 28, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
   text-align: center;
 }
-/* line 26, ../scss/_elements_short-form-landing.scss */
+/* line 32, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list .section-header span {
   background-position: 0 -346px;
   text-indent: -9999px;
@@ -7925,15 +7940,15 @@ body.short-form-landing .short-form-content-list .section-header span {
   height: 98px;
   margin: 0 auto 1rem;
 }
-/* line 37, ../scss/_elements_short-form-landing.scss */
+/* line 43, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list p {
   margin-bottom: 0;
 }
-/* line 39, ../scss/_elements_short-form-landing.scss */
+/* line 45, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list li.row {
   list-style: none;
 }
-/* line 43, ../scss/_elements_short-form-landing.scss */
+/* line 49, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list .article-info-wrap {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -7943,23 +7958,23 @@ body.short-form-landing .short-form-content-list .article-info-wrap {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 50, ../scss/_elements_short-form-landing.scss */
+/* line 56, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list .article-title {
   font-size: 1.125em;
   text-transform: uppercase;
 }
-/* line 55, ../scss/_elements_short-form-landing.scss */
+/* line 61, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list .author-link a {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
 }
-/* line 62, ../scss/_elements_short-form-landing.scss */
+/* line 68, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list .no-thumb-image {
   line-height: 150%;
 }
-/* line 65, ../scss/_elements_short-form-landing.scss */
+/* line 71, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list .no-thumb-image p {
   text-align: center;
   background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
@@ -7973,13 +7988,13 @@ body.short-form-landing .short-form-content-list .no-thumb-image p {
   display: inline-block;
   padding: 10px;
 }
-/* line 76, ../scss/_elements_short-form-landing.scss */
+/* line 82, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing .short-form-content-list .no-thumb-image p span {
   color: #e51b23;
   font-size: 2.3125em;
   line-height: 202.5%;
 }
-/* line 86, ../scss/_elements_short-form-landing.scss */
+/* line 92, ../scss/_elements_short-form-landing.scss */
 body.short-form-landing footer {
   background: none;
   padding: 2rem 0;
