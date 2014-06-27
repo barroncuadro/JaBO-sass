@@ -6839,13 +6839,13 @@ body, .short-form-article,
 /* line 31, ../scss/_containers.scss */
 .sm-article,
 .sidebar-content {
-  border: 1px solid #dddddd;
+  border: 1px solid #cccccc;
 }
 
 /* line 36, ../scss/_containers.scss */
 .baseball-joe,
 .contributors {
-  padding: 1rem 2rem;
+  padding: 1.5rem;
 }
 
 /* SHORT-FORM LANDING
@@ -7054,10 +7054,9 @@ footer {
 
 /* small screens
 ----------------------------------- */
-/* min-width 641px, medium screens */
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 64.063em) {
   /* line 185, ../scss/_nav.scss */
-  .main-nav {
+  .top-nav {
     height: 60px;
     display: block;
     margin-bottom: 1rem;
@@ -7071,17 +7070,17 @@ footer {
     /*search*/
   }
   /* line 192, ../scss/_nav.scss */
-  .main-nav .menu {
+  .top-nav .menu {
     text-align: center;
   }
   /* line 195, ../scss/_nav.scss */
-  .main-nav .menu a {
+  .top-nav .menu a {
     margin-top: 0.5rem;
     display: inline-block;
     text-transform: uppercase;
   }
   /* line 200, ../scss/_nav.scss */
-  .main-nav .menu a.menu-dropdown {
+  .top-nav .menu a.menu-dropdown {
     background-image: url("../images/nav/menu-closed.png");
     background-size: 24px 25px;
     background-position: 50% 0;
@@ -7092,7 +7091,7 @@ footer {
     padding-top: 1.75rem !important;
   }
   /* line 209, ../scss/_nav.scss */
-  .main-nav .menu a.menu-dropdown:hover, .main-nav .menu a.menu-dropdown:active, .main-nav .menu a.menu-dropdown:focus {
+  .top-nav .menu a.menu-dropdown:hover, .top-nav .menu a.menu-dropdown:active, .top-nav .menu a.menu-dropdown:focus {
     background-image: url("../images/nav/menu-open.png");
     background-size: 24px 25px;
     background-position: 50% 0;
@@ -7101,30 +7100,30 @@ footer {
     color: #ff0000;
   }
   /* line 215, ../scss/_nav.scss */
-  .main-nav .menu #menudrop {
+  .top-nav .menu #menudrop {
     padding: 0 1.25rem;
   }
   /* line 218, ../scss/_nav.scss */
-  .main-nav .menu #menudrop.open {
+  .top-nav .menu #menudrop.open {
     width: 400px !important;
     left: 0 !important;
     top: 56px !important;
     background: #111 !important;
   }
   /* line 228, ../scss/_nav.scss */
-  .main-nav .menu #menudrop.f-dropdown:before, .main-nav .menu #menudrop.f-dropdown:after, .main-nav .menu #menudrop.f-dropdown.content.open::before, .main-nav .menu #menudrop.f-dropdown.content.open::after {
+  .top-nav .menu #menudrop.f-dropdown:before, .top-nav .menu #menudrop.f-dropdown:after, .top-nav .menu #menudrop.f-dropdown.content.open::before, .top-nav .menu #menudrop.f-dropdown.content.open::after {
     left: 40px;
   }
   /* line 233, ../scss/_nav.scss */
-  .main-nav .menu #menudrop.f-dropdown:before, .main-nav .menu #menudrop.f-dropdown.content.open::before {
+  .top-nav .menu #menudrop.f-dropdown:before, .top-nav .menu #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
   /* line 236, ../scss/_nav.scss */
-  .main-nav .menu #menudrop ul {
+  .top-nav .menu #menudrop ul {
     margin-bottom: 0;
   }
   /* line 239, ../scss/_nav.scss */
-  .main-nav .menu #menudrop ul li {
+  .top-nav .menu #menudrop ul li {
     list-style: none;
     background-color: transparent;
     background-image: url("../images/bg/dot-pattern-light-horiz.png");
@@ -7135,19 +7134,19 @@ footer {
     margin: 0;
   }
   /* line 251, ../scss/_nav.scss */
-  .main-nav .menu #menudrop ul li.last {
+  .top-nav .menu #menudrop ul li.last {
     background-image: none;
     margin-top: 5rem;
   }
   /* line 259, ../scss/_nav.scss */
-  .main-nav .menu #menudrop ul li:hover, .main-nav .menu #menudrop ul li:hover a,
-  .main-nav .menu #menudrop ul li a:hover,
-  .main-nav .menu #menudrop ul li a:active {
+  .top-nav .menu #menudrop ul li:hover, .top-nav .menu #menudrop ul li:hover a,
+  .top-nav .menu #menudrop ul li a:hover,
+  .top-nav .menu #menudrop ul li a:active {
     color: #ff0000 !important;
   }
   /* line 264, ../scss/_nav.scss */
-  .main-nav .menu #menudrop ul li a:link,
-  .main-nav .menu #menudrop ul li a:visited {
+  .top-nav .menu #menudrop ul li a:link,
+  .top-nav .menu #menudrop ul li a:visited {
     font-size: 1.25em;
     color: #ccc;
     display: block;
@@ -7156,15 +7155,15 @@ footer {
     line-height: 200%;
   }
   /* line 283, ../scss/_nav.scss */
-  .main-nav .logo img {
+  .top-nav .logo img {
     max-width: 200px;
   }
   /* line 291, ../scss/_nav.scss */
-  .main-nav .search {
+  .top-nav .search {
     text-align: center;
   }
   /* line 294, ../scss/_nav.scss */
-  .main-nav .search a {
+  .top-nav .search a {
     margin-top: 0.5rem;
     display: inline-block;
     font-size: 0.625em;
@@ -7173,7 +7172,7 @@ footer {
     background-position: 50% 10%;
   }
   /* line 302, ../scss/_nav.scss */
-  .main-nav .search a.search-dropdown {
+  .top-nav .search a.search-dropdown {
     background-image: url("../images/nav/search-closed.png");
     background-size: 20px 19px;
     background-position: 50% 0;
@@ -7182,7 +7181,7 @@ footer {
     color: #1e1e1e;
   }
   /* line 310, ../scss/_nav.scss */
-  .main-nav .search a.search-dropdown:hover, .main-nav .search a.search-dropdown:active, .main-nav .search a.search-dropdown:focus {
+  .top-nav .search a.search-dropdown:hover, .top-nav .search a.search-dropdown:active, .top-nav .search a.search-dropdown:focus {
     background-image: url("../images/nav/search-open.png");
     background-size: 20px 19px;
     background-position: 50% 0;
@@ -7191,27 +7190,27 @@ footer {
     color: #ff0000;
   }
   /* line 317, ../scss/_nav.scss */
-  .main-nav .search #searchdrop {
+  .top-nav .search #searchdrop {
     background: #111;
   }
   /* line 320, ../scss/_nav.scss */
-  .main-nav .search #searchdrop.open {
+  .top-nav .search #searchdrop.open {
     width: 400px !important;
     left: -300% !important;
     top: 56px !important;
   }
   /* line 329, ../scss/_nav.scss */
-  .main-nav .search #searchdrop.f-dropdown:before, .main-nav .search #searchdrop.f-dropdown:after, .main-nav .search #searchdrop.f-dropdown.content.open::before, .main-nav .search #searchdrop.f-dropdown.content.open::after {
+  .top-nav .search #searchdrop.f-dropdown:before, .top-nav .search #searchdrop.f-dropdown:after, .top-nav .search #searchdrop.f-dropdown.content.open::before, .top-nav .search #searchdrop.f-dropdown.content.open::after {
     left: 342px;
     border-color: transparent transparent #111 transparent;
   }
   /* line 334, ../scss/_nav.scss */
-  .main-nav .search #searchdrop form {
+  .top-nav .search #searchdrop form {
     margin-top: 0.5rem 0;
   }
   /* line 338, ../scss/_nav.scss */
-  .main-nav .search #searchdrop form input,
-  .main-nav .search #searchdrop form input [type="text"] {
+  .top-nav .search #searchdrop form input,
+  .top-nav .search #searchdrop form input [type="text"] {
     -webkit-box-shadow: 0px none;
     -moz-box-shadow: 0px none;
     -ms-box-shadow: 0px none;
@@ -7872,6 +7871,7 @@ aside ul li {
 /* line 281, ../scss/_elements_homepage.scss */
 .ad {
   text-align: center;
+  padding: 1.5rem 1rem;
 }
 
 /* line 285, ../scss/_elements_homepage.scss */
