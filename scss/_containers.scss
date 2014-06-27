@@ -29,12 +29,12 @@
 
 	.sm-article,
 	.sidebar-content {
-		border:$microformat-border-width $microformat-border-style $microformat-border-color;
+		border:$general-border-width $general-border-style $general-border-color;
 	}
 	
 	.baseball-joe,
 	.contributors {
-		padding:$general-padding $general-padding*2;
+		padding:$general-padding*1.5;
 	}
 	
 	
