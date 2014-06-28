@@ -12,122 +12,119 @@
   	<div class="short-form-landing">
     
 <!-- navigation -->
-	<nav class="top-bar show-for-medium-up" data-topbar>
-		<section class="row top-bar-section">
-			<!-- Right Nav Section -->
-			<div class="large-3 columns">
-				<ul class="left main-nav">
-					<li class="has-dropdown menu-dropdown">
-						<a class="" href="#">Menu</a>
-						<ul class="row dropdown">
-							<div class="large-12 columns end">	
-								<li><a href="#">Home</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Articles</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Baseball Joe</a></li>
-								<li class="divider"></li>
-								<li><a href="#">By The Numbers</a></li>
-							</div>
-						</ul>
-					</li>
-					
-					<li class="has-dropdown search-dropdown">
-						<a class="" href="#">Search</a>
-						<ul class="row dropdown">
-							<div class="large-12 columns end">
-								<li>
-									<form>
-										<div class="row">
-											<div class="large-12 columns">
-												<input type="text" placeholder="search">
+	<div class="sticky">
+		<nav class="top-bar show-for-medium-up" data-topbar>
+			<section class="row collapse top-bar-section">
+				<!-- Right Nav Section -->
+				<div class="large-3 columns">
+					<ul class="left main-nav">
+						<li class="has-dropdown menu-dropdown">
+							<a class="" href="#">Menu</a>
+							<ul class="row dropdown">
+								<div class="large-12 columns end">	
+									<li><a href="#">Home</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Articles</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Baseball Joe</a></li>
+									<li class="divider"></li>
+									<li><a href="#">By The Numbers</a></li>
+								</div>
+							</ul>
+						</li>
+						
+						<li class="has-dropdown search-dropdown">
+							<a class="" href="#">Search</a>
+							<ul class="row dropdown">
+								<div class="large-12 columns end">
+									<li>
+										<form>
+											<div class="row">
+												<div class="large-12 columns">
+													<input type="text" placeholder="search">
+												</div>
 											</div>
-										</div>
-									</form>
-								</li>
-							</div>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			
-			<div class="large-6 columns">
-				<ul class="title-area">
-				<!-- Title Area -->
-					<li class="name">
+										</form>
+									</li>
+								</div>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="large-7 columns">
+					<h1 class="name">
+						<a href="#">
+							<img src="images/logo/jabo.png" />
+						</a>
+					</h1>
+				</div>
+				
+				<div class="large-2 columns">
+					<ul>
+						<li class="fox-logo">
+							<a href="">
+								<img src="images/logo/fox-retina.png" />
+							</a>
+						</li>
+						<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+					</ul>
+				</div>
+			</section><!-- row -->
+		</nav>
+	<!-- end nav -->
+	 
+	<!-- mobile nav -->
+		<nav class="top-nav hide-for-medium-up" data-options="is_hover: false">
+			<div class="row collapse">
+				<div class="row">
+					<div class="small-3 columns menu">
+						<a href="#" class="menu-dropdown" data-dropdown="menudrop">Menu</a>
+							<div id="menudrop" data-dropdown-content class="f-dropdown content">
+								<div class="row collapse">
+									<div class="small-12 columns">
+										<ul>
+											<li class="first"><a href="#">Home</a></li>
+		
+											<li><a href="#">Articles</a></li>
+		
+											<li><a href="#">Baseball Joe</a></li>
+		
+											<li><a href="#">By The Numbers</a></li>
+		
+											<li class="last"><a href=""><img src="images/logo/fox-retina.png" width="71" height="41" /></a></li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- menudrop -->
+					</div><!-- menu -->
+					
+					<div class="small-6 columns logo">
 						<h1>
 							<a href="#">
-								<img src="images/logo/jabo.png" />
+								<img src="images/logo/jabo-mobile.png" width="100%" height="100%" />
 							</a>
-						</h1>
-					</li>
-				</ul>
-			</div>
-			
-			<div class="large-2 columns">
-				<ul>
-					<li class="logo">
-						<a href="">
-							<img src="images/logo/fox-retina.png" />
-						</a>
-					</li>
-					<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-				</ul>
-			</div>
-		</section><!-- row -->
-	</nav>
-<!-- end large nav -->
-
-<!-- mobile nav -->
-	<nav class="main-nav hide-for-medium-up" data-options="is_hover: false">
-		<div class="row collapse">
-			<div class="row">
-				<div class="small-3 columns menu">
-					<a href="#" class="menu-dropdown" data-dropdown="menudrop">Menu</a>
-						<div id="menudrop" data-dropdown-content class="f-dropdown content">
-							<div class="row collapse">
-								<div class="small-12 columns">
-									<ul>
-										<li class="first"><a href="#">Home</a></li>
-	
-										<li><a href="#">Articles</a></li>
-	
-										<li><a href="#">Baseball Joe</a></li>
-	
-										<li><a href="#">By The Numbers</a></li>
-	
-										<li class="last"><a href=""><img src="images/logo/fox-retina.png" width="71" height="41" /></a></li>
-									</ul>
+						</h1>						
+					</div><!-- logo -->
+					
+					<div class="small-3 columns search">
+					
+					<a href="#" class="search-dropdown" data-dropdown="searchdrop">Search</a>
+							<div id="searchdrop" data-dropdown-content class="f-dropdown content">
+								<div class="row">
+									<div class="small-12 columns">
+										<form>
+											<input type="text" placeholder="search">
+										</form>
+									</div>
 								</div>
 							</div>
-						</div><!-- menudrop -->
-				</div><!-- menu -->
-				
-				<div class="small-6 columns logo">
-					<h1>
-						<a href="#">
-							<img src="images/logo/jabo-mobile.png" width="100%" height="100%" />
-						</a>
-					</h1>						
-				</div><!-- logo -->
-				
-				<div class="small-3 columns search">
-				
-				<a href="#" class="search-dropdown" data-dropdown="searchdrop">Search</a>
-						<div id="searchdrop" data-dropdown-content class="f-dropdown content">
-							<div class="row">
-								<div class="small-12 columns">
-									<form>
-										<input type="text" placeholder="search">
-									</form>
-								</div>
-							</div>
-						</div>
-				</div><!-- search -->
-			</div><!-- row -->
-		</div><!-- row collapse-->
-	</nav>
-   <!-- end mobile nav -->
+					</div><!-- search -->
+				</div><!-- row -->
+			</div><!-- row collapse-->
+		</nav><!-- end mobile nav -->
+	</div><!-- sticky -->
+<!-- end navigation area -->
 
 	  <div id="main-container" class="row">
 	    <div class="large-7 large-centered columns full-width main-content" role="content">
