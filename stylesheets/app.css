@@ -6892,24 +6892,34 @@ footer {
   background-color: white;
   margin-bottom: 3rem;
 }
-/* line 11, ../scss/_nav.scss */
+/* line 12, ../scss/_nav.scss */
+.top-bar .top-bar-section .name:not(.has-form) a:not(.button) {
+  line-height: 96px;
+}
+/* line 16, ../scss/_nav.scss */
+.top-bar .top-bar-section .name img {
+  width: 460px;
+  display: block;
+  margin: 1rem auto 0;
+}
+/* line 19, ../scss/_nav.scss */
 .top-bar .top-bar-section ul {
   background: none;
 }
-/* line 15, ../scss/_nav.scss */
+/* line 23, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li {
   background-color: #fff;
   margin-top: 1.5rem;
 }
-/* line 21, ../scss/_nav.scss */
+/* line 29, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.menu-dropdown, .top-bar .top-bar-section ul.main-nav > li.search-dropdown {
   padding: 0 1rem;
 }
-/* line 24, ../scss/_nav.scss */
+/* line 32, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.menu-dropdown .dropdown, .top-bar .top-bar-section ul.main-nav > li.search-dropdown .dropdown {
   margin-left: 1rem;
 }
-/* line 29, ../scss/_nav.scss */
+/* line 37, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.menu-dropdown {
   background-image: url("../images/nav/menu-closed.png");
   background-size: 24px 25px;
@@ -6917,7 +6927,7 @@ footer {
   background-repeat: no-repeat;
   padding-top: 1rem;
 }
-/* line 33, ../scss/_nav.scss */
+/* line 41, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.menu-dropdown:hover, .top-bar .top-bar-section ul.main-nav > li.menu-dropdown:active {
   background-image: url("../images/nav/menu-open.png");
   background-size: 24px 25px;
@@ -6925,11 +6935,11 @@ footer {
   background-repeat: no-repeat;
   padding-top: 1rem;
 }
-/* line 35, ../scss/_nav.scss */
+/* line 43, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.menu-dropdown:hover > a, .top-bar .top-bar-section ul.main-nav > li.menu-dropdown:active > a {
   color: #ff0000;
 }
-/* line 41, ../scss/_nav.scss */
+/* line 49, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.search-dropdown {
   background-image: url("../images/nav/search-closed.png");
   background-size: 20px 19px;
@@ -6937,7 +6947,7 @@ footer {
   background-repeat: no-repeat;
   padding-top: 1rem;
 }
-/* line 45, ../scss/_nav.scss */
+/* line 53, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.search-dropdown:hover, .top-bar .top-bar-section ul.main-nav > li.search-dropdown:active {
   background-image: url("../images/nav/search-open.png");
   background-size: 20px 19px;
@@ -6945,80 +6955,68 @@ footer {
   background-repeat: no-repeat;
   padding-top: 1rem;
 }
-/* line 47, ../scss/_nav.scss */
+/* line 55, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.search-dropdown:hover > a, .top-bar .top-bar-section ul.main-nav > li.search-dropdown:active > a {
   color: #ff0000;
 }
-/* line 52, ../scss/_nav.scss */
+/* line 60, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.search-dropdown input {
   top: 0;
   width: 12rem;
 }
-/* line 58, ../scss/_nav.scss */
+/* line 66, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li a:link, .top-bar .top-bar-section ul.main-nav > li a:visited {
   font-family: "allerregular", sans-serif;
   text-transform: uppercase;
   padding: 0 !important;
 }
-/* line 64, ../scss/_nav.scss */
+/* line 72, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li > a:not(.button) {
   background-color: #111;
   color: #0e0d0d;
 }
-/* line 68, ../scss/_nav.scss */
+/* line 76, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li > a:not(.button).menu-dropdown {
   text-align: center;
 }
-/* line 84, ../scss/_nav.scss */
+/* line 92, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav:not(.has-form) a:not(.button) {
   background-color: transparent;
   color: #0e0d0d;
 }
-/* line 89, ../scss/_nav.scss */
+/* line 97, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav:not(.has-form) a:not(.button):hover {
   background-color: transparent;
   color: #ff0000;
 }
-/* line 96, ../scss/_nav.scss */
+/* line 104, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li {
   background: none;
 }
-/* line 99, ../scss/_nav.scss */
+/* line 107, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li:not(.has-form) a:not(.button) {
   background: none;
   color: #0e0d0d;
 }
-/* line 106, ../scss/_nav.scss */
-.top-bar .top-bar-section ul li.name h1:not(.has-form) a:not(.button) {
-  line-height: 96px;
-}
-/* line 111, ../scss/_nav.scss */
-.top-bar .top-bar-section ul li.name a {
-  width: auto;
-}
-/* line 113, ../scss/_nav.scss */
-.top-bar .top-bar-section ul li.name a img {
-  max-width: 460px;
-}
-/* line 117, ../scss/_nav.scss */
-.top-bar .top-bar-section ul li.logo {
+/* line 112, ../scss/_nav.scss */
+.top-bar .top-bar-section ul li.fox-logo {
   float: right;
 }
-/* line 120, ../scss/_nav.scss */
-.top-bar .top-bar-section ul li.logo:not(.has-form) a:not(.button) {
+/* line 115, ../scss/_nav.scss */
+.top-bar .top-bar-section ul li.fox-logo:not(.has-form) a:not(.button) {
   line-height: 96px;
 }
-/* line 124, ../scss/_nav.scss */
-.top-bar .top-bar-section ul li.logo img {
+/* line 119, ../scss/_nav.scss */
+.top-bar .top-bar-section ul li.fox-logo img {
   width: 71px;
   height: 41px;
 }
-/* line 130, ../scss/_nav.scss */
+/* line 125, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li a {
   background: none;
   color: #0e0d0d;
 }
-/* line 139, ../scss/_nav.scss */
+/* line 134, ../scss/_nav.scss */
 .top-bar .top-bar-section .divider {
   border-top: 1px dotted #4d4d4d;
   border-bottom: 0px none;
@@ -7026,27 +7024,27 @@ footer {
   float: none;
   margin: 0 auto;
 }
-/* line 148, ../scss/_nav.scss */
+/* line 143, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown {
   border: 1px solid #cdcdcd;
   background: #111;
   padding: 1rem 0.5rem;
 }
-/* line 154, ../scss/_nav.scss */
+/* line 149, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li a:link, .top-bar .top-bar-section .dropdown li a:visited {
   color: #fff;
   text-align: center;
 }
-/* line 159, ../scss/_nav.scss */
+/* line 154, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li a:hover, .top-bar .top-bar-section .dropdown li a:active {
   color: #ff0000;
 }
-/* line 164, ../scss/_nav.scss */
+/* line 159, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
   background-color: #111;
   color: #ccc;
 }
-/* line 169, ../scss/_nav.scss */
+/* line 164, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li:not(.has-form):hover {
   background-color: #111;
   color: #ff0000;
@@ -7055,7 +7053,7 @@ footer {
 /* small screens
 ----------------------------------- */
 @media only screen and (max-width: 64.063em) {
-  /* line 185, ../scss/_nav.scss */
+  /* line 180, ../scss/_nav.scss */
   .top-nav {
     height: 60px;
     display: block;
@@ -7069,17 +7067,17 @@ footer {
     /*logo*/
     /*search*/
   }
-  /* line 192, ../scss/_nav.scss */
+  /* line 187, ../scss/_nav.scss */
   .top-nav .menu {
     text-align: center;
   }
-  /* line 195, ../scss/_nav.scss */
+  /* line 190, ../scss/_nav.scss */
   .top-nav .menu a {
     margin-top: 0.5rem;
     display: inline-block;
     text-transform: uppercase;
   }
-  /* line 200, ../scss/_nav.scss */
+  /* line 195, ../scss/_nav.scss */
   .top-nav .menu a.menu-dropdown {
     background-image: url("../images/nav/menu-closed.png");
     background-size: 24px 25px;
@@ -7090,7 +7088,7 @@ footer {
     font-size: 0.625em;
     padding-top: 1.75rem !important;
   }
-  /* line 209, ../scss/_nav.scss */
+  /* line 204, ../scss/_nav.scss */
   .top-nav .menu a.menu-dropdown:hover, .top-nav .menu a.menu-dropdown:active, .top-nav .menu a.menu-dropdown:focus {
     background-image: url("../images/nav/menu-open.png");
     background-size: 24px 25px;
@@ -7099,30 +7097,30 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 215, ../scss/_nav.scss */
+  /* line 210, ../scss/_nav.scss */
   .top-nav .menu #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 218, ../scss/_nav.scss */
+  /* line 213, ../scss/_nav.scss */
   .top-nav .menu #menudrop.open {
     width: 400px !important;
     left: 0 !important;
     top: 56px !important;
     background: #111 !important;
   }
-  /* line 228, ../scss/_nav.scss */
+  /* line 223, ../scss/_nav.scss */
   .top-nav .menu #menudrop.f-dropdown:before, .top-nav .menu #menudrop.f-dropdown:after, .top-nav .menu #menudrop.f-dropdown.content.open::before, .top-nav .menu #menudrop.f-dropdown.content.open::after {
     left: 40px;
   }
-  /* line 233, ../scss/_nav.scss */
+  /* line 228, ../scss/_nav.scss */
   .top-nav .menu #menudrop.f-dropdown:before, .top-nav .menu #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 236, ../scss/_nav.scss */
+  /* line 231, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul {
     margin-bottom: 0;
   }
-  /* line 239, ../scss/_nav.scss */
+  /* line 234, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li {
     list-style: none;
     background-color: transparent;
@@ -7133,18 +7131,18 @@ footer {
     padding: 0;
     margin: 0;
   }
-  /* line 251, ../scss/_nav.scss */
+  /* line 246, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li.last {
     background-image: none;
     margin-top: 5rem;
   }
-  /* line 259, ../scss/_nav.scss */
+  /* line 254, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li:hover, .top-nav .menu #menudrop ul li:hover a,
   .top-nav .menu #menudrop ul li a:hover,
   .top-nav .menu #menudrop ul li a:active {
     color: #ff0000 !important;
   }
-  /* line 264, ../scss/_nav.scss */
+  /* line 259, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li a:link,
   .top-nav .menu #menudrop ul li a:visited {
     font-size: 1.25em;
@@ -7154,15 +7152,17 @@ footer {
     margin: 20px 0 0;
     line-height: 200%;
   }
-  /* line 283, ../scss/_nav.scss */
+  /* line 278, ../scss/_nav.scss */
   .top-nav .logo img {
-    max-width: 200px;
+    width: 200px;
+    margin: 0.75rem auto 0;
+    display: block;
   }
-  /* line 291, ../scss/_nav.scss */
+  /* line 286, ../scss/_nav.scss */
   .top-nav .search {
     text-align: center;
   }
-  /* line 294, ../scss/_nav.scss */
+  /* line 289, ../scss/_nav.scss */
   .top-nav .search a {
     margin-top: 0.5rem;
     display: inline-block;
@@ -7171,7 +7171,7 @@ footer {
     text-transform: uppercase;
     background-position: 50% 10%;
   }
-  /* line 302, ../scss/_nav.scss */
+  /* line 297, ../scss/_nav.scss */
   .top-nav .search a.search-dropdown {
     background-image: url("../images/nav/search-closed.png");
     background-size: 20px 19px;
@@ -7180,7 +7180,7 @@ footer {
     padding-top: 1rem;
     color: #1e1e1e;
   }
-  /* line 310, ../scss/_nav.scss */
+  /* line 305, ../scss/_nav.scss */
   .top-nav .search a.search-dropdown:hover, .top-nav .search a.search-dropdown:active, .top-nav .search a.search-dropdown:focus {
     background-image: url("../images/nav/search-open.png");
     background-size: 20px 19px;
@@ -7189,26 +7189,26 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 317, ../scss/_nav.scss */
+  /* line 312, ../scss/_nav.scss */
   .top-nav .search #searchdrop {
     background: #111;
   }
-  /* line 320, ../scss/_nav.scss */
+  /* line 315, ../scss/_nav.scss */
   .top-nav .search #searchdrop.open {
     width: 400px !important;
     left: -300% !important;
     top: 56px !important;
   }
-  /* line 329, ../scss/_nav.scss */
+  /* line 324, ../scss/_nav.scss */
   .top-nav .search #searchdrop.f-dropdown:before, .top-nav .search #searchdrop.f-dropdown:after, .top-nav .search #searchdrop.f-dropdown.content.open::before, .top-nav .search #searchdrop.f-dropdown.content.open::after {
     left: 342px;
     border-color: transparent transparent #111 transparent;
   }
-  /* line 334, ../scss/_nav.scss */
+  /* line 329, ../scss/_nav.scss */
   .top-nav .search #searchdrop form {
     margin-top: 0.5rem 0;
   }
-  /* line 338, ../scss/_nav.scss */
+  /* line 333, ../scss/_nav.scss */
   .top-nav .search #searchdrop form input,
   .top-nav .search #searchdrop form input [type="text"] {
     -webkit-box-shadow: 0px none;
