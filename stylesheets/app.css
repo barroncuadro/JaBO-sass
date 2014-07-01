@@ -7342,10 +7342,10 @@ ul.pagination li.focus a:focus {
 }
 
 /* line 58, social/*.png */
-.social-sprite, .social-facebook, .social-share, .social-twitter, .short-form-article .social ul li.twitter a,
-.long-form-article .social ul li.twitter a, .short-form-article .social ul li.facebook a,
-.long-form-article .social ul li.facebook a, .short-form-article .social ul li.share a,
-.long-form-article .social ul li.share a {
+.social-sprite, .social-facebook, .social-share, .social-twitter, .longform .social ul li.twitter a,
+.shortform .social ul li.twitter a, .longform .social ul li.facebook a,
+.shortform .social ul li.facebook a, .longform .social ul li.share a,
+.shortform .social ul li.share a {
   background: url('../images/social-s3833d49d9b.png') no-repeat;
 }
 
@@ -7515,8 +7515,8 @@ button, .button, .button:hover {
 }
 
 /* line 18, ../scss/_elements_general.scss */
-.author, .short-form-article #main-container p.author,
-.long-form-article #main-container p.author {
+.author, .longform p.author,
+.shortform p.author {
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   font-size: 1.125em;
@@ -7648,17 +7648,11 @@ aside ul li {
   line-height: normal;
 }
 /* line 85, ../scss/_elements_homepage.scss */
-.articles .article-details .details-wrap .author-comments p.author, .articles .article-details .details-wrap .author-comments .short-form-article #main-container p.author, .short-form-article #main-container .articles .article-details .details-wrap .author-comments p.author,
-.articles .article-details .details-wrap .author-comments .long-form-article #main-container p.author,
-.long-form-article #main-container .articles .article-details .details-wrap .author-comments p.author {
+.articles .article-details .details-wrap .author-comments p.author {
   line-height: 115%;
 }
 /* line 88, ../scss/_elements_homepage.scss */
-.articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments .short-form-article #main-container p.author a:link, .short-form-article #main-container .articles .article-details .details-wrap .author-comments p.author a:link,
-.articles .article-details .details-wrap .author-comments .long-form-article #main-container p.author a:link,
-.long-form-article #main-container .articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments p.author a:visited, .articles .article-details .details-wrap .author-comments .short-form-article #main-container p.author a:visited, .short-form-article #main-container .articles .article-details .details-wrap .author-comments p.author a:visited,
-.articles .article-details .details-wrap .author-comments .long-form-article #main-container p.author a:visited,
-.long-form-article #main-container .articles .article-details .details-wrap .author-comments p.author a:visited {
+.articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments p.author a:visited {
   color: #e51b23;
 }
 /* line 93, ../scss/_elements_homepage.scss */
@@ -7744,17 +7738,11 @@ aside ul li {
   line-height: normal;
 }
 /* line 170, ../scss/_elements_homepage.scss */
-.articles .sm-article .author-comments p.author, .articles .sm-article .author-comments .short-form-article #main-container p.author, .short-form-article #main-container .articles .sm-article .author-comments p.author,
-.articles .sm-article .author-comments .long-form-article #main-container p.author,
-.long-form-article #main-container .articles .sm-article .author-comments p.author {
+.articles .sm-article .author-comments p.author {
   line-height: 115%;
 }
 /* line 173, ../scss/_elements_homepage.scss */
-.articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments .short-form-article #main-container p.author a:link, .short-form-article #main-container .articles .sm-article .author-comments p.author a:link,
-.articles .sm-article .author-comments .long-form-article #main-container p.author a:link,
-.long-form-article #main-container .articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments p.author a:visited, .articles .sm-article .author-comments .short-form-article #main-container p.author a:visited, .short-form-article #main-container .articles .sm-article .author-comments p.author a:visited,
-.articles .sm-article .author-comments .long-form-article #main-container p.author a:visited,
-.long-form-article #main-container .articles .sm-article .author-comments p.author a:visited {
+.articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments p.author a:visited {
   color: #e51b23;
 }
 /* line 178, ../scss/_elements_homepage.scss */
@@ -8021,33 +8009,34 @@ aside ul li {
 	=================================== */
 /*	SHORT-FORM + LONG FORM ARTICLE
 	----------------------------------- */
+/* line 10, ../scss/_elements_article.scss */
+.longform,
+.shortform {
+  /*livefyre styles*/
+}
 /* line 11, ../scss/_elements_article.scss */
-.short-form-article .article-headline,
-.long-form-article .article-headline {
+.longform .article-headline,
+.shortform .article-headline {
   text-align: center;
 }
 /* line 14, ../scss/_elements_article.scss */
-.short-form-article .article-headline h1.title,
-.long-form-article .article-headline h1.title {
+.longform .article-headline h1.title,
+.shortform .article-headline h1.title {
   font-size: 1.25em;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: -0.00563rem;
   margin-bottom: 1rem;
-  background-image: url("../images/bg/dot-pattern-dark-horiz.png");
-  background-size: 4px 1px;
-  background-position: 0 100%;
-  background-repeat: repeat-x;
 }
-/* line 24, ../scss/_elements_article.scss */
-.short-form-article p.author-twitter,
-.long-form-article p.author-twitter {
+/* line 23, ../scss/_elements_article.scss */
+.longform p.author-twitter,
+.shortform p.author-twitter {
   text-align: center;
   font-family: "allerregular", sans-serif;
 }
-/* line 28, ../scss/_elements_article.scss */
-.short-form-article p.author-twitter img,
-.long-form-article p.author-twitter img {
+/* line 27, ../scss/_elements_article.scss */
+.longform p.author-twitter img,
+.shortform p.author-twitter img {
   width: 87px;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -8055,35 +8044,35 @@ aside ul li {
   border-radius: 1000px;
   border: 4px solid #cccccc;
 }
-/* line 34, ../scss/_elements_article.scss */
-.short-form-article p.author-twitter span.author-name,
-.long-form-article p.author-twitter span.author-name {
+/* line 33, ../scss/_elements_article.scss */
+.longform p.author-twitter span.author-name,
+.shortform p.author-twitter span.author-name {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   font-size: 1.25em;
   letter-spacing: 0.0625rem;
 }
-/* line 42, ../scss/_elements_article.scss */
-.short-form-article p.author-twitter span.twitter-handle,
-.long-form-article p.author-twitter span.twitter-handle {
+/* line 41, ../scss/_elements_article.scss */
+.longform p.author-twitter span.twitter-handle,
+.shortform p.author-twitter span.twitter-handle {
   display: block;
 }
-/* line 47, ../scss/_elements_article.scss */
-.short-form-article .social,
-.long-form-article .social {
+/* line 46, ../scss/_elements_article.scss */
+.longform .social,
+.shortform .social {
   position: absolute;
   margin-left: -4rem;
 }
-/* line 52, ../scss/_elements_article.scss */
-.short-form-article .social ul li,
-.long-form-article .social ul li {
+/* line 51, ../scss/_elements_article.scss */
+.longform .social ul li,
+.shortform .social ul li {
   list-style: none;
   margin-bottom: 0.5rem;
 }
-/* line 56, ../scss/_elements_article.scss */
-.short-form-article .social ul li a,
-.long-form-article .social ul li a {
+/* line 55, ../scss/_elements_article.scss */
+.longform .social ul li a,
+.shortform .social ul li a {
   text-indent: -9999px;
   border: 0;
   text-shadow: none;
@@ -8092,151 +8081,145 @@ aside ul li {
   height: 35px;
   font-size: 25px;
 }
-/* line 64, ../scss/_elements_article.scss */
-.short-form-article .social ul li.twitter a,
-.long-form-article .social ul li.twitter a {
+/* line 63, ../scss/_elements_article.scss */
+.longform .social ul li.twitter a,
+.shortform .social ul li.twitter a {
   background-position: 0 0;
 }
-/* line 70, ../scss/_elements_article.scss */
-.short-form-article .social ul li.facebook a,
-.long-form-article .social ul li.facebook a {
+/* line 69, ../scss/_elements_article.scss */
+.longform .social ul li.facebook a,
+.shortform .social ul li.facebook a {
   background-position: 0 -70px;
 }
-/* line 76, ../scss/_elements_article.scss */
-.short-form-article .social ul li.share a,
-.long-form-article .social ul li.share a {
+/* line 75, ../scss/_elements_article.scss */
+.longform .social ul li.share a,
+.shortform .social ul li.share a {
   background-position: 0 -35px;
 }
 /* line 84, ../scss/_elements_article.scss */
-.short-form-article #main-container,
-.long-form-article #main-container {
-  /*livefyre styles*/
-}
-/* line 85, ../scss/_elements_article.scss */
-.short-form-article #main-container p,
-.long-form-article #main-container p {
+.longform p,
+.shortform p {
   font-family: "Vollkorn", serif;
   font-size: 1.125em;
   color: #26353c;
 }
-/* line 90, ../scss/_elements_article.scss */
-.short-form-article #main-container p.closer,
-.long-form-article #main-container p.closer {
+/* line 89, ../scss/_elements_article.scss */
+.longform p.closer,
+.shortform p.closer {
   margin: 4rem 0 3rem;
   text-align: center;
 }
-/* line 95, ../scss/_elements_article.scss */
-.short-form-article #main-container p.caption,
-.long-form-article #main-container p.caption {
+/* line 94, ../scss/_elements_article.scss */
+.longform p.caption,
+.shortform p.caption {
   font-size: 0.875em;
   line-height: 150%;
 }
-/* line 100, ../scss/_elements_article.scss */
-.short-form-article #main-container p.author,
-.long-form-article #main-container p.author {
+/* line 99, ../scss/_elements_article.scss */
+.longform p.author,
+.shortform p.author {
   font-size: 1.125em;
   margin: 0.25rem 0;
 }
-/* line 106, ../scss/_elements_article.scss */
-.short-form-article #main-container p.comments,
-.long-form-article #main-container p.comments {
+/* line 105, ../scss/_elements_article.scss */
+.longform p.comments,
+.shortform p.comments {
   line-height: 0;
-  margin-top: 0.5rem;
-  margin-bottom: 0;
   text-align: center;
-  float: right;
+  width: 25px;
+  margin: 0.5rem auto 0;
 }
-/* line 113, ../scss/_elements_article.scss */
-.short-form-article #main-container p.comments a:link, .short-form-article #main-container p.comments a:visited,
-.long-form-article #main-container p.comments a:link,
-.long-form-article #main-container p.comments a:visited {
+/* line 111, ../scss/_elements_article.scss */
+.longform p.comments a:link, .longform p.comments a:visited,
+.shortform p.comments a:link,
+.shortform p.comments a:visited {
   font-size: 0.625em;
   color: #fff;
   font-family: "allerregular", sans-serif;
   line-height: normal;
 }
-/* line 121, ../scss/_elements_article.scss */
-.short-form-article #main-container p.author-twitter,
-.long-form-article #main-container p.author-twitter {
+/* line 119, ../scss/_elements_article.scss */
+.longform p.author-twitter,
+.shortform p.author-twitter {
   font-family: "allerregular", sans-serif;
 }
-/* line 126, ../scss/_elements_article.scss */
-.short-form-article #main-container hr,
-.long-form-article #main-container hr {
+/* line 124, ../scss/_elements_article.scss */
+.longform hr,
+.shortform hr {
   width: 180px;
   margin: 2.5rem auto;
   border-color: #afafaf;
 }
-/* line 133, ../scss/_elements_article.scss */
-.short-form-article #main-container .article-intro p,
-.long-form-article #main-container .article-intro p {
+/* line 131, ../scss/_elements_article.scss */
+.longform .article-intro p,
+.shortform .article-intro p {
   font-family: "allerbold", serif;
   text-align: center;
   line-height: 1.875rem;
 }
-/* line 141, ../scss/_elements_article.scss */
-.short-form-article #main-container .livefyre-wrap,
-.long-form-article #main-container .livefyre-wrap {
+/* line 139, ../scss/_elements_article.scss */
+.longform .livefyre-wrap,
+.shortform .livefyre-wrap {
   margin-bottom: 4rem;
 }
-/* line 145, ../scss/_elements_article.scss */
-.short-form-article #main-container .livefyre-wrap .fyre-comment p,
-.long-form-article #main-container .livefyre-wrap .fyre-comment p {
+/* line 143, ../scss/_elements_article.scss */
+.longform .livefyre-wrap .fyre-comment p,
+.shortform .livefyre-wrap .fyre-comment p {
   font-family: "allerregular", sans-serif;
   font-size: 1em;
 }
-/* line 151, ../scss/_elements_article.scss */
-.short-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show,
-.long-form-article #main-container .livefyre-wrap #LivefyreContainer.toggle-show {
+/* line 149, ../scss/_elements_article.scss */
+.longform .livefyre-wrap #LivefyreContainer.toggle-show,
+.shortform .livefyre-wrap #LivefyreContainer.toggle-show {
   text-align: center;
 }
-/* line 157, ../scss/_elements_article.scss */
-.short-form-article #main-container .pre-footer p,
-.long-form-article #main-container .pre-footer p {
+/* line 155, ../scss/_elements_article.scss */
+.longform .pre-footer p,
+.shortform .pre-footer p {
+  text-align: center;
+}
+/* line 160, ../scss/_elements_article.scss */
+.longform .livefyre-break,
+.shortform .livefyre-break {
   text-align: center;
 }
 /* line 162, ../scss/_elements_article.scss */
-.short-form-article #main-container .livefyre-break,
-.long-form-article #main-container .livefyre-break {
-  text-align: center;
-}
-/* line 164, ../scss/_elements_article.scss */
-.short-form-article #main-container .livefyre-break hr,
-.long-form-article #main-container .livefyre-break hr {
+.longform .livefyre-break hr,
+.shortform .livefyre-break hr {
   width: 100%;
   border-color: #afc7d3;
   border-width: 2px;
   margin: 2.5rem auto 1rem;
 }
-/* line 170, ../scss/_elements_article.scss */
-.short-form-article .caption-wrap,
-.long-form-article .caption-wrap {
+/* line 168, ../scss/_elements_article.scss */
+.longform .caption-wrap,
+.shortform .caption-wrap {
   border-left: 3px solid #00aeef;
 }
 
 /*	SHORT-FORM ARTICLE
 	----------------------------------- */
 /* line 183, ../scss/_elements_article.scss */
-.short-form-article .article-headline {
+.shortform .article-headline {
   margin-top: 3rem;
 }
 /* line 186, ../scss/_elements_article.scss */
-.short-form-article .article-headline h1.title {
-  background: none;
+.shortform .article-headline h1.title {
+  background-image: none;
 }
 
 /*	LONG FORM ARTICLE
 	----------------------------------- */
-/* line 201, ../scss/_elements_article.scss */
-.long-form-article .social {
+/* line 204, ../scss/_elements_article.scss */
+.longform .social {
   margin-left: 2rem;
 }
-/* line 206, ../scss/_elements_article.scss */
-.long-form-article .article-header-image img {
+/* line 209, ../scss/_elements_article.scss */
+.longform .article-header-image img {
   min-width: 640px;
 }
-/* line 211, ../scss/_elements_article.scss */
-.long-form-article .article-headline {
+/* line 214, ../scss/_elements_article.scss */
+.longform .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
   border: 4px solid black;
@@ -8245,12 +8228,16 @@ aside ul li {
   text-align: center;
   position: relative;
 }
-/* line 220, ../scss/_elements_article.scss */
-.long-form-article .article-headline .details-wrap {
+/* line 223, ../scss/_elements_article.scss */
+.longform .article-headline .details-wrap {
   border: 1px solid black;
 }
-/* line 223, ../scss/_elements_article.scss */
-.long-form-article .article-headline .details-wrap h1.title {
+/* line 226, ../scss/_elements_article.scss */
+.longform .article-headline .details-wrap h1.title {
+  background-image: url("../images/bg/dot-pattern-dark-horiz.png");
+  background-size: 4px 1px;
+  background-position: 0 100%;
+  background-repeat: repeat-x;
   padding: 1.25rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -8259,27 +8246,27 @@ aside ul li {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
-/* line 233, ../scss/_elements_article.scss */
-.long-form-article .article-headline .details-wrap .author-wrap {
+/* line 237, ../scss/_elements_article.scss */
+.longform .article-headline .details-wrap .author-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
   background-size: 1px 4px;
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 241, ../scss/_elements_article.scss */
-.long-form-article .article-headline .details-wrap .author-comments {
+/* line 245, ../scss/_elements_article.scss */
+.longform .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 249, ../scss/_elements_article.scss */
-.long-form-article .handle p.author-twitter img {
+/* line 253, ../scss/_elements_article.scss */
+.longform .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
-/* line 255, ../scss/_elements_article.scss */
-.long-form-article .full-width-image {
+/* line 259, ../scss/_elements_article.scss */
+.longform .full-width-image {
   margin: 1rem 0 2rem;
 }
-/* line 259, ../scss/_elements_article.scss */
-.long-form-article .long-form-ad-wrap {
+/* line 263, ../scss/_elements_article.scss */
+.longform .long-form-ad-wrap {
   margin-top: 5rem;
 }
 
@@ -8294,28 +8281,28 @@ aside ul li {
 @media only screen and (max-width: 40em) {
   /*	LONG-FORM ARTICLE
   	----------------------------------- */
-  /* line 282, ../scss/_elements_article.scss */
+  /* line 287, ../scss/_elements_article.scss */
   .long-form-article .article-headline {
     background: white;
   }
-  /* line 288, ../scss/_elements_article.scss */
+  /* line 293, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li {
     list-style: none;
     float: left;
   }
-  /* line 293, ../scss/_elements_article.scss */
+  /* line 298, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li.twitter a {
     background-position: 0 0;
   }
-  /* line 299, ../scss/_elements_article.scss */
+  /* line 304, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li.facebook a {
     background-position: 0 -70px;
   }
-  /* line 305, ../scss/_elements_article.scss */
+  /* line 310, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li.share a {
     background-position: 0 -35px;
   }
-  /* line 311, ../scss/_elements_article.scss */
+  /* line 316, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li a:link,
   .long-form-article .social-small ul li a:visited {
     text-indent: -9999px;
@@ -8341,7 +8328,7 @@ aside ul li {
   .long-form-article .social-small ul li a:visited .social-twitter {
     background-position: 0 0;
   }
-  /* line 322, ../scss/_elements_article.scss */
+  /* line 327, ../scss/_elements_article.scss */
   .long-form-article .adspace-small {
     padding: 1rem;
     background: #000;
