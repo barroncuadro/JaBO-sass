@@ -36,24 +36,30 @@
 						
 						&.menu-dropdown {
 							@include menu-closed;
+							@include transition(background-image 0.25s ease-in-out);
 							
 							&:hover,
 							&:active {
 								@include menu-open;
+
 								> a {
 									color:#ff0000;
+									@include transition(color 0.25s ease-in-out);
+								
 								}
 							}
 						}
 						
 						&.search-dropdown {
 							@include search-closed;
+							@include transition(background-image 0.25s ease-in-out);;
 							
 							&:hover,
 							&:active {
 								@include search-open;
 								> a {
 									color:#ff0000;
+									@include transition(color 0.25s ease-in-out);
 								}
 							}
 							
