@@ -7044,7 +7044,7 @@ footer {
 .top-bar .top-bar-section .dropdown {
   border: 1px solid #cdcdcd;
   background: #111;
-  padding: 1rem 0.5rem;
+  padding: 1rem 1.5rem;
 }
 /* line 155, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li a:link, .top-bar .top-bar-section .dropdown li a:visited {
