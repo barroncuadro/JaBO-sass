@@ -29,7 +29,8 @@
 						
 						&.menu-dropdown,
 						&.search-dropdown {
-							padding:0 1rem;
+							padding: 0 1rem;
+							cursor: pointer;
 							
 							.dropdown {
 								margin-left: 1rem;
