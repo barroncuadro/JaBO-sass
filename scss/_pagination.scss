@@ -35,10 +35,16 @@
 			display: inline;
 			height: 100%;
 		
-			&.arrow-unavailable {
+			&.arrow-unavailable,
+			&.current {
 					margin-left: $general-margin*.25;
 					padding: 0 $general-padding/2;
 					line-height:$pagination-line-height*1.75;
+			}
+			
+			&.current {
+				margin-left: 0;
+				padding-right: $general-padding*0.75;
 			}
 		
 			a {

@@ -6827,22 +6827,27 @@ body, .short-form-article,
   background-color: #fafafa;
 }
 
+/* line 21, ../scss/_containers.scss */
+#main-container {
+  padding-top: 3rem;
+}
+
 /* HOME PAGE
 ----------------------------------- */
-/* line 26, ../scss/_containers.scss */
+/* line 30, ../scss/_containers.scss */
 .sm-article,
 .baseball-joe,
 .contributors {
   background: white;
 }
 
-/* line 31, ../scss/_containers.scss */
+/* line 35, ../scss/_containers.scss */
 .sm-article,
 .sidebar-content {
   border: 1px solid #cccccc;
 }
 
-/* line 36, ../scss/_containers.scss */
+/* line 40, ../scss/_containers.scss */
 .baseball-joe,
 .contributors {
   padding: 1.5rem;
@@ -6850,7 +6855,7 @@ body, .short-form-article,
 
 /* SHORT-FORM LANDING
 ----------------------------------- */
-/* line 45, ../scss/_containers.scss */
+/* line 49, ../scss/_containers.scss */
 .short-form-landing {
   background-color: #fff;
   height: auto;
@@ -6858,7 +6863,7 @@ body, .short-form-article,
 
 /* SHORT-FORM + LONG-FORM ARTICLE
 ----------------------------------- */
-/* line 54, ../scss/_containers.scss */
+/* line 58, ../scss/_containers.scss */
 .short-form-article,
 .long-form-article {
   background-color: #fff;
@@ -6867,7 +6872,7 @@ body, .short-form-article,
 
 /* FOOTER
 ----------------------------------- */
-/* line 64, ../scss/_containers.scss */
+/* line 68, ../scss/_containers.scss */
 footer {
   background: #1e1e1e;
 }
@@ -6895,7 +6900,7 @@ footer {
   box-shadow: 0 1px 5px 0px #cccccc;
   height: 96px;
   background-color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
 }
 /* line 14, ../scss/_nav.scss */
 .top-bar .top-bar-section .name:not(.has-form) a:not(.button) {
@@ -7079,7 +7084,7 @@ footer {
   .top-nav {
     height: 60px;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     -webkit-box-shadow: 0 1px 10px 0px #cccccc;
     -moz-box-shadow: 0 1px 10px 0px #cccccc;
     -ms-box-shadow: 0 1px 10px 0px #cccccc;
@@ -7272,24 +7277,29 @@ ul.pagination li {
   display: inline;
   height: 100%;
 }
-/* line 38, ../scss/_pagination.scss */
-ul.pagination li.arrow-unavailable {
+/* line 39, ../scss/_pagination.scss */
+ul.pagination li.arrow-unavailable, ul.pagination li.current {
   margin-left: 0.25rem;
   padding: 0 0.5rem;
   line-height: 1.75rem;
 }
-/* line 44, ../scss/_pagination.scss */
+/* line 45, ../scss/_pagination.scss */
+ul.pagination li.current {
+  margin-left: 0;
+  padding-right: 0.75rem;
+}
+/* line 50, ../scss/_pagination.scss */
 ul.pagination li a {
   color: #d4d4d4;
   line-height: 1.75rem;
   padding: 0 0.5rem;
   margin-right: 0.25rem;
 }
-/* line 52, ../scss/_pagination.scss */
+/* line 58, ../scss/_pagination.scss */
 ul.pagination .last {
   border-width: 0;
 }
-/* line 60, ../scss/_pagination.scss */
+/* line 66, ../scss/_pagination.scss */
 ul.pagination li:hover a,
 ul.pagination li:hover a:focus,
 ul.pagination li.focus a,
@@ -8184,32 +8194,38 @@ aside ul li {
   line-height: 1.875rem;
 }
 /* line 139, ../scss/_elements_article.scss */
+.longform .fyre-stream-stats,
+.shortform .fyre-stream-stats {
+  display: none;
+  visibility: hidden;
+}
+/* line 141, ../scss/_elements_article.scss */
 .longform .livefyre-wrap,
 .shortform .livefyre-wrap {
   margin-bottom: 4rem;
 }
-/* line 143, ../scss/_elements_article.scss */
+/* line 145, ../scss/_elements_article.scss */
 .longform .livefyre-wrap .fyre-comment p,
 .shortform .livefyre-wrap .fyre-comment p {
   font-family: "allerregular", sans-serif;
   font-size: 1em;
 }
-/* line 149, ../scss/_elements_article.scss */
+/* line 151, ../scss/_elements_article.scss */
 .longform .livefyre-wrap #LivefyreContainer.toggle-show,
 .shortform .livefyre-wrap #LivefyreContainer.toggle-show {
   text-align: center;
 }
-/* line 155, ../scss/_elements_article.scss */
+/* line 157, ../scss/_elements_article.scss */
 .longform .pre-footer p,
 .shortform .pre-footer p {
   text-align: center;
 }
-/* line 160, ../scss/_elements_article.scss */
+/* line 162, ../scss/_elements_article.scss */
 .longform .livefyre-break,
 .shortform .livefyre-break {
   text-align: center;
 }
-/* line 162, ../scss/_elements_article.scss */
+/* line 164, ../scss/_elements_article.scss */
 .longform .livefyre-break hr,
 .shortform .livefyre-break hr {
   width: 100%;
@@ -8217,7 +8233,7 @@ aside ul li {
   border-width: 2px;
   margin: 2.5rem auto 1rem;
 }
-/* line 168, ../scss/_elements_article.scss */
+/* line 170, ../scss/_elements_article.scss */
 .longform .caption-wrap,
 .shortform .caption-wrap {
   border-left: 3px solid #00aeef;
@@ -8225,11 +8241,11 @@ aside ul li {
 
 /*	SHORT-FORM ARTICLE
 	----------------------------------- */
-/* line 183, ../scss/_elements_article.scss */
+/* line 185, ../scss/_elements_article.scss */
 .shortform .article-headline {
   margin-top: 3rem;
 }
-/* line 186, ../scss/_elements_article.scss */
+/* line 188, ../scss/_elements_article.scss */
 .shortform .article-headline h1.title {
   background-image: none;
 }
@@ -8237,14 +8253,22 @@ aside ul li {
 /*	LONG FORM ARTICLE
 	----------------------------------- */
 /* line 204, ../scss/_elements_article.scss */
+.longform {
+  padding-top: 0 !important;
+}
+/* line 207, ../scss/_elements_article.scss */
 .longform .social {
   margin-left: 2rem;
 }
-/* line 209, ../scss/_elements_article.scss */
+/* line 211, ../scss/_elements_article.scss */
+.longform .article-header-image {
+  text-align: center;
+}
+/* line 214, ../scss/_elements_article.scss */
 .longform .article-header-image img {
   min-width: 640px;
 }
-/* line 214, ../scss/_elements_article.scss */
+/* line 219, ../scss/_elements_article.scss */
 .longform .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -8254,11 +8278,11 @@ aside ul li {
   text-align: center;
   position: relative;
 }
-/* line 223, ../scss/_elements_article.scss */
+/* line 228, ../scss/_elements_article.scss */
 .longform .article-headline .details-wrap {
   border: 1px solid black;
 }
-/* line 226, ../scss/_elements_article.scss */
+/* line 231, ../scss/_elements_article.scss */
 .longform .article-headline .details-wrap h1.title {
   background-image: url("../images/bg/dot-pattern-dark-horiz.png");
   background-size: 4px 1px;
@@ -8272,26 +8296,26 @@ aside ul li {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
-/* line 237, ../scss/_elements_article.scss */
+/* line 242, ../scss/_elements_article.scss */
 .longform .article-headline .details-wrap .author-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
   background-size: 1px 4px;
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 245, ../scss/_elements_article.scss */
+/* line 250, ../scss/_elements_article.scss */
 .longform .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 253, ../scss/_elements_article.scss */
+/* line 258, ../scss/_elements_article.scss */
 .longform .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
-/* line 259, ../scss/_elements_article.scss */
+/* line 264, ../scss/_elements_article.scss */
 .longform .full-width-image {
   margin: 1rem 0 2rem;
 }
-/* line 263, ../scss/_elements_article.scss */
+/* line 268, ../scss/_elements_article.scss */
 .longform .long-form-ad-wrap {
   margin-top: 5rem;
 }
@@ -8307,28 +8331,28 @@ aside ul li {
 @media only screen and (max-width: 40em) {
   /*	LONG-FORM ARTICLE
   	----------------------------------- */
-  /* line 287, ../scss/_elements_article.scss */
+  /* line 292, ../scss/_elements_article.scss */
   .long-form-article .article-headline {
     background: white;
   }
-  /* line 293, ../scss/_elements_article.scss */
+  /* line 298, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li {
     list-style: none;
     float: left;
   }
-  /* line 298, ../scss/_elements_article.scss */
+  /* line 303, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li.twitter a {
     background-position: 0 0;
   }
-  /* line 304, ../scss/_elements_article.scss */
+  /* line 309, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li.facebook a {
     background-position: 0 -70px;
   }
-  /* line 310, ../scss/_elements_article.scss */
+  /* line 315, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li.share a {
     background-position: 0 -35px;
   }
-  /* line 316, ../scss/_elements_article.scss */
+  /* line 321, ../scss/_elements_article.scss */
   .long-form-article .social-small ul li a:link,
   .long-form-article .social-small ul li a:visited {
     text-indent: -9999px;
@@ -8354,7 +8378,7 @@ aside ul li {
   .long-form-article .social-small ul li a:visited .social-twitter {
     background-position: 0 0;
   }
-  /* line 327, ../scss/_elements_article.scss */
+  /* line 332, ../scss/_elements_article.scss */
   .long-form-article .adspace-small {
     padding: 1rem;
     background: #000;
