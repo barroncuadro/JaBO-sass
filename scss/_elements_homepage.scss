@@ -197,6 +197,12 @@
 			font-family:$body-secondary-font-family;
 			margin-bottom:$general-margin*4;
 			
+			div.row {
+				div:last-child {
+					background-image: none;
+				}
+			}
+			
 			h2 { 
 				@include big-blue-bg;
 				margin-bottom:$general-margin*4;
@@ -214,10 +220,6 @@
 			.btn-entry {
 				text-align:center;
 				@include vert-light-bg;
-				
-				&.last {
-					background-image: none;
-				}
 				
 				img {
 					margin-bottom:$general-margin*2;
