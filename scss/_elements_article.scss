@@ -136,6 +136,8 @@
 			}
 			
 			/*livefyre styles*/
+			.fyre-stream-stats { display: none; visibility: hidden; } //jon
+			
 			.livefyre-wrap {
 				margin-bottom:$general-margin*4;
 				
@@ -200,12 +202,15 @@
 
 		
 		.longform {
+			padding-top: 0 !important;
 		
 			.social {
 				margin-left: 2rem;
 			}
 			
 			.article-header-image {
+				text-align: center; //jon
+				
 				img {
 					min-width: 640px;
 				}
