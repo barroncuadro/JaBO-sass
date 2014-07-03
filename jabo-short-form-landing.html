@@ -9,7 +9,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-  	<div class="short-form-landing">
+  	
     
 <!-- navigation -->
 	<div class="sticky">
@@ -125,7 +125,9 @@
 		</nav><!-- end mobile nav -->
 	</div><!-- sticky -->
 <!-- end navigation area -->
-
+	
+	<!-- jon: moved div short-form-landing right above #main-container -->
+	<div class="short-form-landing">
 	  <div id="main-container" class="row">
 	    <div class="large-7 large-centered columns full-width main-content" role="content">
 				<div class="short-form-content-list">
@@ -232,7 +234,8 @@
 					<div class="pagination-centered">
 						<ul class="pagination">
 							<li class="arrow-unavailable">&laquo;</li>
-							<li><a class="current" href="">1</a></li>
+							<!-- jon: removed anchor here, moved class=current to li -->
+							<li class="current">1</li>
 							<li><a href="">2</a></li>
 							<li><a href="">3</a></li>
 							<li><a href="">4</a></li>
@@ -243,11 +246,14 @@
 		 
 	    </div><!-- /main-content -->
 	  </div><!-- /#main-container -->
+	 </div><!-- jon: /short-form-landing -->
  
  
+<!-- jon: remove "row" class from footer tag, add new div class=row --> 
 	<footer>
 		<div class="row">
-			<div class="large-8 large-centered columns">
+			<!-- jon: large-12 class here -->
+			<div class="large-12 large-centered columns">
 				<img src="http://lorempixel.com/950/118/sports"><!-- ad placeholder -->
 			</div>
 		</div>
