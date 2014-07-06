@@ -7492,12 +7492,12 @@ ul.pagination li.focus a:focus {
 
 /* line 91, ../scss/_type.scss */
 strong, .strong {
-  font-family: "allerbold", serif;
+  font-weight: 700;
 }
 
 /* line 92, ../scss/_type.scss */
 em, i {
-  font-family: "alleritalic", serif;
+  font-style: italic;
 }
 
 /* =================================== 
