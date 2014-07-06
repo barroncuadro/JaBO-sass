@@ -286,7 +286,8 @@
 		.ad { text-align: center;padding:$general-padding*1.5 $general-padding; }
 	
 		//contributors
-		.contributors {
+		.contributors-wrap {
+
 			.section-header {
 				@include big-blue-bg;
 				
