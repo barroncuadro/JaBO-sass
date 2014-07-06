@@ -6837,7 +6837,7 @@ body, .short-form-article,
 /* line 30, ../scss/_containers.scss */
 .sm-article,
 .baseball-joe,
-.contributors {
+.contributors-wrap {
   background: white;
 }
 
@@ -6849,7 +6849,7 @@ body, .short-form-article,
 
 /* line 40, ../scss/_containers.scss */
 .baseball-joe,
-.contributors {
+.contributors-wrap {
   padding: 1.5rem;
 }
 
@@ -7397,7 +7397,7 @@ ul.pagination li.focus a:focus {
 }
 
 /* line 82, headers/*.png */
-.headers-sprite, .headers-baseball-joe-headline-2x, .headers-baseball-joe-headline, .headers-by-the-numbers-headline-2x, .headers-by-the-numbers-headline, .headers-contributors-headline-2x, .headers-contributors-headline, .by-the-numbers h2 span, .baseball-joe .section-header span, .contributors .section-header span, .short-form-landing .short-form-content-list .section-header span {
+.headers-sprite, .headers-baseball-joe-headline-2x, .headers-baseball-joe-headline, .headers-by-the-numbers-headline-2x, .headers-by-the-numbers-headline, .headers-contributors-headline-2x, .headers-contributors-headline, .by-the-numbers h2 span, .baseball-joe .section-header span, .contributors-wrap .section-header span, .short-form-landing .short-form-content-list .section-header span {
   background: url('../images/headers-s1591aaabe5.png') no-repeat;
 }
 
@@ -7898,12 +7898,12 @@ aside ul li {
   padding: 1.5rem 1rem;
 }
 
-/* line 290, ../scss/_elements_homepage.scss */
-.contributors .section-header {
+/* line 291, ../scss/_elements_homepage.scss */
+.contributors-wrap .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 293, ../scss/_elements_homepage.scss */
-.contributors .section-header span {
+/* line 294, ../scss/_elements_homepage.scss */
+.contributors-wrap .section-header span {
   background-position: 0 -561px;
   text-indent: -9999px;
   border: 0;
@@ -7916,22 +7916,19 @@ aside ul li {
   width: 249px;
   height: 56px;
 }
-/* line 302, ../scss/_elements_homepage.scss */
-.contributors li {
+/* line 303, ../scss/_elements_homepage.scss */
+.contributors-wrap li {
   padding-bottom: 1.5rem;
 }
-/* line 307, ../scss/_elements_homepage.scss */
-.contributors .handle p {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
+/* line 308, ../scss/_elements_homepage.scss */
+.contributors-wrap .handle p {
+  margin-top: 1rem;
   font-size: 1.125em;
   font-family: "allerbold", serif;
+  margin-bottom: 0;
 }
-/* line 312, ../scss/_elements_homepage.scss */
-.contributors .handle p span.twitter-handle {
+/* line 314, ../scss/_elements_homepage.scss */
+.contributors-wrap .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
   font-family: "allerregular", sans-serif;

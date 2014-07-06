@@ -306,9 +306,10 @@
 		
 			.handle {
 				p {
-					@include vertical-align;
+					margin-top: 1rem;
 					font-size:$h5-font-size;
 					font-family: $body-font-bold;
+					margin-bottom: 0;
 					
 					span.twitter-handle {
 						display: block;
