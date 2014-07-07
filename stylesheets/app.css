@@ -7396,9 +7396,9 @@ ul.pagination li.focus a:focus {
   background-position: 0 0;
 }
 
-/* line 82, headers/*.png */
-.headers-sprite, .headers-baseball-joe-headline-2x, .headers-baseball-joe-headline, .headers-by-the-numbers-headline-2x, .headers-by-the-numbers-headline, .headers-contributors-headline-2x, .headers-contributors-headline, .by-the-numbers h2 span, .baseball-joe .section-header span, .contributors-wrap .section-header span, .short-form-landing .short-form-content-list .section-header span {
-  background: url('../images/headers-s1591aaabe5.png') no-repeat;
+/* line 90, headers/*.png */
+.headers-sprite, .headers-baseball-joe-headline-2x, .headers-baseball-joe-headline, .headers-by-the-numbers-headline-2x, .headers-by-the-numbers-headline, .headers-contributors-headline-2x, .headers-contributors-headline, .headers-landing-articles-headline, .by-the-numbers h2 span, .baseball-joe .section-header span, .contributors-wrap .section-header span, .short-form-landing .short-form-content-list .section-header span.baseball-joe, .short-form-landing .short-form-content-list .section-header span.by-the-numbers, .short-form-landing .short-form-content-list .section-header span.articles {
+  background: url('../images/headers-sbe4262ce60.png') no-repeat;
 }
 
 /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7408,7 +7408,7 @@ ul.pagination li.focus a:focus {
 
 /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .headers-baseball-joe-headline {
-  background-position: 0 -617px;
+  background-position: 0 -694px;
 }
 
 /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7418,7 +7418,7 @@ ul.pagination li.focus a:focus {
 
 /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .headers-by-the-numbers-headline {
-  background-position: 0 -444px;
+  background-position: 0 -521px;
 }
 
 /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7428,7 +7428,12 @@ ul.pagination li.focus a:focus {
 
 /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .headers-contributors-headline {
-  background-position: 0 -561px;
+  background-position: 0 -638px;
+}
+
+/* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.headers-landing-articles-headline {
+  background-position: 0 -444px;
 }
 
 /* =================================== 
@@ -7811,7 +7816,7 @@ aside ul li {
 }
 /* line 210, ../scss/_elements_homepage.scss */
 .by-the-numbers h2 span {
-  background-position: 0 -444px;
+  background-position: 0 -521px;
   text-indent: -9999px;
   border: 0;
   text-shadow: none;
@@ -7852,7 +7857,7 @@ aside ul li {
 }
 /* line 246, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header span {
-  background-position: 0 -617px;
+  background-position: 0 -694px;
   text-indent: -9999px;
   border: 0;
   text-shadow: none;
@@ -7904,7 +7909,7 @@ aside ul li {
 }
 /* line 294, ../scss/_elements_homepage.scss */
 .contributors-wrap .section-header span {
-  background-position: 0 -561px;
+  background-position: 0 -638px;
   text-indent: -9999px;
   border: 0;
   text-shadow: none;
@@ -7964,7 +7969,11 @@ aside ul li {
 }
 /* line 32, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .section-header span {
-  background-position: 0 -346px;
+  margin: 0 auto 1rem;
+}
+/* line 35, ../scss/_elements_short-form-landing.scss */
+.short-form-landing .short-form-content-list .section-header span.baseball-joe {
+  background-position: 0 -694px;
   text-indent: -9999px;
   border: 0;
   text-shadow: none;
@@ -7972,20 +7981,44 @@ aside ul li {
   display: block;
   background-color: #fff;
   margin: 0 auto;
-  background-position-x: -3%;
-  width: 338px;
-  height: 98px;
-  margin: 0 auto 1rem;
+  width: 159px;
+  height: 49px;
 }
-/* line 43, ../scss/_elements_short-form-landing.scss */
+/* line 42, ../scss/_elements_short-form-landing.scss */
+.short-form-landing .short-form-content-list .section-header span.by-the-numbers {
+  background-position: 0 -521px;
+  text-indent: -9999px;
+  border: 0;
+  text-shadow: none;
+  color: transparent;
+  display: block;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 146px;
+  height: 117px;
+}
+/* line 49, ../scss/_elements_short-form-landing.scss */
+.short-form-landing .short-form-content-list .section-header span.articles {
+  background-position: 0 -444px;
+  text-indent: -9999px;
+  border: 0;
+  text-shadow: none;
+  color: transparent;
+  display: block;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 192px;
+  height: 77px;
+}
+/* line 60, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list p {
   margin-bottom: 0;
 }
-/* line 45, ../scss/_elements_short-form-landing.scss */
+/* line 62, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list li.row {
   list-style: none;
 }
-/* line 49, ../scss/_elements_short-form-landing.scss */
+/* line 66, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-info-wrap {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -7995,23 +8028,23 @@ aside ul li {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 56, ../scss/_elements_short-form-landing.scss */
+/* line 73, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-title {
   font-size: 1.125em;
   text-transform: uppercase;
 }
-/* line 61, ../scss/_elements_short-form-landing.scss */
+/* line 78, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .author-link a {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
 }
-/* line 68, ../scss/_elements_short-form-landing.scss */
+/* line 85, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image {
   line-height: 150%;
 }
-/* line 71, ../scss/_elements_short-form-landing.scss */
+/* line 88, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image p {
   text-align: center;
   background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
@@ -8025,13 +8058,13 @@ aside ul li {
   display: inline-block;
   padding: 10px;
 }
-/* line 82, ../scss/_elements_short-form-landing.scss */
+/* line 99, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image p span {
   color: #e51b23;
   font-size: 2.3125em;
   line-height: 202.5%;
 }
-/* line 92, ../scss/_elements_short-form-landing.scss */
+/* line 109, ../scss/_elements_short-form-landing.scss */
 .short-form-landing footer {
   background: none;
   padding: 2rem 0;
