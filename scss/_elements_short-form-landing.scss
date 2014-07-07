@@ -30,13 +30,30 @@
 				text-align: center;
 				
 				span {
-					@include headers-sprite(baseball-joe-headline-2x);
-					@include section-headers;
-					background-position-x: -3%;
-					width: 338px;
-					height: 98px;
 					margin: 0 auto $general-margin;
-				}
+				
+					&.baseball-joe {
+						@include headers-sprite(baseball-joe-headline);
+						@include section-headers;
+						width: 159px;
+						height: 49px;
+					}
+				
+					&.by-the-numbers {
+						@include headers-sprite(by-the-numbers-headline);
+						@include section-headers;
+						width: 146px;
+						height: 117px;
+					}
+					
+					&.articles {
+						@include headers-sprite(landing-articles-headline);
+						@include section-headers;
+						width: 192px;
+						height: 77px;
+					}	
+				}			
+				
 			}
 		
 			
