@@ -8040,23 +8040,23 @@ aside ul li {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 73, ../scss/_elements_short-form-landing.scss */
+/* line 75, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-title {
   font-size: 1.125em;
   text-transform: uppercase;
 }
-/* line 78, ../scss/_elements_short-form-landing.scss */
-.short-form-landing .short-form-content-list .author-link a {
+/* line 81, ../scss/_elements_short-form-landing.scss */
+.short-form-landing .short-form-content-list .author-name {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
 }
-/* line 85, ../scss/_elements_short-form-landing.scss */
+/* line 88, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image {
   line-height: 150%;
 }
-/* line 88, ../scss/_elements_short-form-landing.scss */
+/* line 91, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image p {
   text-align: center;
   background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
@@ -8070,13 +8070,13 @@ aside ul li {
   display: inline-block;
   padding: 10px;
 }
-/* line 99, ../scss/_elements_short-form-landing.scss */
+/* line 102, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image p span {
   color: #e51b23;
   font-size: 2.3125em;
   line-height: 202.5%;
 }
-/* line 109, ../scss/_elements_short-form-landing.scss */
+/* line 112, ../scss/_elements_short-form-landing.scss */
 .short-form-landing footer {
   background: none;
   padding: 2rem 0;

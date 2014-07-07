@@ -68,14 +68,17 @@
 				overflow: auto;
 				padding-top:$general-padding;
 				padding-bottom:$general-padding;
+
+				
 			}
 			
 			.article-title {
 				font-size:$h5-font-size;
 				text-transform: uppercase;
+
 			}
 			
-			.author-link a {
+			.author-name {
 				display:block;
 				color:$alert-color;
 				font-family:$body-font-bolditalic;
