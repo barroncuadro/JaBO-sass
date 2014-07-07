@@ -310,6 +310,10 @@
 		
 			li {
 				padding-bottom: $module-padding*.75;
+				
+				.thumb-image {
+					img { max-width:100px; }
+				}
 			}
 		
 			.handle {

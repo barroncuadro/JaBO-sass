@@ -7933,14 +7933,18 @@ aside ul li {
 .contributors-wrap li {
   padding-bottom: 1.5rem;
 }
-/* line 316, ../scss/_elements_homepage.scss */
+/* line 315, ../scss/_elements_homepage.scss */
+.contributors-wrap li .thumb-image img {
+  max-width: 100px;
+}
+/* line 320, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p {
   margin-top: 1rem;
   font-size: 1.125em;
   font-family: "allerbold", serif;
   margin-bottom: 0;
 }
-/* line 322, ../scss/_elements_homepage.scss */
+/* line 326, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
