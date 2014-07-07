@@ -75,7 +75,10 @@
 			.article-title {
 				font-size:$h5-font-size;
 				text-transform: uppercase;
-
+				p {
+					display: table-cell;
+					vertical-align: middle;
+				}
 			}
 			
 			.author-name {
