@@ -185,7 +185,9 @@
 ----------------------------------- */	
 
 
-@media only screen and (max-width: 64.063em) {
+@media only screen 
+and (max-width : 768px) {
+
 	.top-nav {
 		height: 60px;
 		display: block;
@@ -217,28 +219,6 @@
 					}
 				
 				#menudrop {
-/*
-					padding: 0 $general-padding*1.25;
-				
-					&.open {
-						width: 320px !important;
-						left: 0 !important;
-						top: 56px !important;
-						background:#111 !important;
-					}
-					
-					&.f-dropdown:before,
-					&.f-dropdown:after,
-					&.f-dropdown.content.open::before,
-					&.f-dropdown.content.open::after {
-						left: 40px;	
-					}
-					
-					&.f-dropdown:before,
-					&.f-dropdown.content.open::before {
-						border-color:transparent transparent #111 transparent;
-					}
-*/
 					ul {
 						margin-bottom: 0;
 
@@ -318,25 +298,7 @@
 			
 			}
 		
-			#searchdrop {
-/*
-				background: #111;
-			
-				&.open {
-					width: 320px !important;
-					left: -220% !important;
-					top: 56px !important;
-				}
-				
-				&.f-dropdown:before,
-				&.f-dropdown:after,
-				&.f-dropdown.content.open::before,
-				&.f-dropdown.content.open::after {
-					left: 264px;
-					border-color:transparent transparent #111 transparent;
-				}
-*/
-				
+			#searchdrop {				
 				form {
 					margin-top:$general-margin/2 0;
 				
@@ -489,7 +451,7 @@ and (max-width : 480px) {
 
 
 
-/* tablet nav - 768px smartphone landscape
+/* tablet nav - 768px portrait
 ----------------------------------- */
 
 @media only screen 

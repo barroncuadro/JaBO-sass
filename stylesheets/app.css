@@ -7079,8 +7079,8 @@ footer {
 
 /* small screens
 ----------------------------------- */
-@media only screen and (max-width: 64.063em) {
-  /* line 189, ../scss/_nav.scss */
+@media only screen and (max-width: 768px) {
+  /* line 191, ../scss/_nav.scss */
   .top-nav {
     height: 60px;
     display: block;
@@ -7094,17 +7094,17 @@ footer {
     /*logo*/
     /*search*/
   }
-  /* line 196, ../scss/_nav.scss */
+  /* line 198, ../scss/_nav.scss */
   .top-nav .menu {
     text-align: center;
   }
-  /* line 199, ../scss/_nav.scss */
+  /* line 201, ../scss/_nav.scss */
   .top-nav .menu a {
     margin-top: 0.5rem;
     display: inline-block;
     text-transform: uppercase;
   }
-  /* line 204, ../scss/_nav.scss */
+  /* line 206, ../scss/_nav.scss */
   .top-nav .menu a.menu-dropdown {
     background-image: url("../images/nav/menu-closed.png");
     background-size: 24px 25px;
@@ -7115,7 +7115,7 @@ footer {
     font-size: 0.625em;
     padding-top: 1.75rem !important;
   }
-  /* line 213, ../scss/_nav.scss */
+  /* line 215, ../scss/_nav.scss */
   .top-nav .menu a.menu-dropdown:hover, .top-nav .menu a.menu-dropdown:active, .top-nav .menu a.menu-dropdown:focus {
     background-image: url("../images/nav/menu-open.png");
     background-size: 24px 25px;
@@ -7124,36 +7124,11 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 219, ../scss/_nav.scss */
-  .top-nav .menu #menudrop {
-    /*
-    					padding: 0 $general-padding*1.25;
-    				
-    					&.open {
-    						width: 320px !important;
-    						left: 0 !important;
-    						top: 56px !important;
-    						background:#111 !important;
-    					}
-    					
-    					&.f-dropdown:before,
-    					&.f-dropdown:after,
-    					&.f-dropdown.content.open::before,
-    					&.f-dropdown.content.open::after {
-    						left: 40px;	
-    					}
-    					
-    					&.f-dropdown:before,
-    					&.f-dropdown.content.open::before {
-    						border-color:transparent transparent #111 transparent;
-    					}
-    */
-  }
-  /* line 242, ../scss/_nav.scss */
+  /* line 222, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul {
     margin-bottom: 0;
   }
-  /* line 245, ../scss/_nav.scss */
+  /* line 225, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li {
     list-style: none;
     background-color: transparent;
@@ -7164,18 +7139,18 @@ footer {
     padding: 0;
     margin: 0;
   }
-  /* line 257, ../scss/_nav.scss */
+  /* line 237, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li.last {
     background-image: none;
     margin-top: 2rem;
   }
-  /* line 265, ../scss/_nav.scss */
+  /* line 245, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li:hover, .top-nav .menu #menudrop ul li:hover a,
   .top-nav .menu #menudrop ul li a:hover,
   .top-nav .menu #menudrop ul li a:active {
     color: #ff0000 !important;
   }
-  /* line 270, ../scss/_nav.scss */
+  /* line 250, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li a:link,
   .top-nav .menu #menudrop ul li a:visited {
     font-size: 1.25em;
@@ -7183,17 +7158,17 @@ footer {
     display: block;
     line-height: 100%;
   }
-  /* line 287, ../scss/_nav.scss */
+  /* line 267, ../scss/_nav.scss */
   .top-nav .logo img {
     width: 200px;
     margin: 0.75rem auto 0;
     display: block;
   }
-  /* line 295, ../scss/_nav.scss */
+  /* line 275, ../scss/_nav.scss */
   .top-nav .search {
     text-align: center;
   }
-  /* line 298, ../scss/_nav.scss */
+  /* line 278, ../scss/_nav.scss */
   .top-nav .search a {
     margin-top: 0.5rem;
     display: inline-block;
@@ -7202,7 +7177,7 @@ footer {
     text-transform: uppercase;
     background-position: 50% 10%;
   }
-  /* line 306, ../scss/_nav.scss */
+  /* line 286, ../scss/_nav.scss */
   .top-nav .search a.search-dropdown {
     background-image: url("../images/nav/search-closed.png");
     background-size: 20px 19px;
@@ -7211,7 +7186,7 @@ footer {
     padding-top: 1rem;
     color: #1e1e1e;
   }
-  /* line 314, ../scss/_nav.scss */
+  /* line 294, ../scss/_nav.scss */
   .top-nav .search a.search-dropdown:hover, .top-nav .search a.search-dropdown:active, .top-nav .search a.search-dropdown:focus {
     background-image: url("../images/nav/search-open.png");
     background-size: 20px 19px;
@@ -7220,31 +7195,11 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 321, ../scss/_nav.scss */
-  .top-nav .search #searchdrop {
-    /*
-    				background: #111;
-    			
-    				&.open {
-    					width: 320px !important;
-    					left: -220% !important;
-    					top: 56px !important;
-    				}
-    				
-    				&.f-dropdown:before,
-    				&.f-dropdown:after,
-    				&.f-dropdown.content.open::before,
-    				&.f-dropdown.content.open::after {
-    					left: 264px;
-    					border-color:transparent transparent #111 transparent;
-    				}
-    */
-  }
-  /* line 340, ../scss/_nav.scss */
+  /* line 302, ../scss/_nav.scss */
   .top-nav .search #searchdrop form {
     margin-top: 0.5rem 0;
   }
-  /* line 344, ../scss/_nav.scss */
+  /* line 306, ../scss/_nav.scss */
   .top-nav .search #searchdrop form input,
   .top-nav .search #searchdrop form input [type="text"] {
     -webkit-box-shadow: 0px none;
@@ -7262,25 +7217,25 @@ footer {
 /* mobile nav - 320px smartphone portrait
 ----------------------------------- */
 @media only screen and (max-width: 320px) {
-  /* line 367, ../scss/_nav.scss */
+  /* line 329, ../scss/_nav.scss */
   #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 370, ../scss/_nav.scss */
+  /* line 332, ../scss/_nav.scss */
   #menudrop.open {
     top: 56px !important;
     background: #111 !important;
     width: 315px !important;
   }
-  /* line 379, ../scss/_nav.scss */
+  /* line 341, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown:after, #menudrop.f-dropdown.content.open::before, #menudrop.f-dropdown.content.open::after {
     left: 32px;
   }
-  /* line 384, ../scss/_nav.scss */
+  /* line 346, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 391, ../scss/_nav.scss */
+  /* line 353, ../scss/_nav.scss */
   #menudrop ul li a:link,
   #menudrop ul li a:visited {
     display: block;
@@ -7288,17 +7243,17 @@ footer {
     margin: 14px 0 0 !important;
   }
 
-  /* line 403, ../scss/_nav.scss */
+  /* line 365, ../scss/_nav.scss */
   #searchdrop {
     background: #111;
   }
-  /* line 406, ../scss/_nav.scss */
+  /* line 368, ../scss/_nav.scss */
   #searchdrop.open {
     top: 56px !important;
     width: 315px !important;
     left: -237px !important;
   }
-  /* line 415, ../scss/_nav.scss */
+  /* line 377, ../scss/_nav.scss */
   #searchdrop.f-dropdown:before, #searchdrop.f-dropdown:after, #searchdrop.f-dropdown.content.open::before, #searchdrop.f-dropdown.content.open::after {
     left: 270px !important;
     border-color: transparent transparent #111 transparent;
@@ -7307,25 +7262,25 @@ footer {
 /* mobile nav - 480px smartphone landscape
 ----------------------------------- */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  /* line 434, ../scss/_nav.scss */
+  /* line 396, ../scss/_nav.scss */
   #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 437, ../scss/_nav.scss */
+  /* line 399, ../scss/_nav.scss */
   #menudrop.open {
     top: 56px !important;
     background: #111 !important;
     width: 475px !important;
   }
-  /* line 446, ../scss/_nav.scss */
+  /* line 408, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown:after, #menudrop.f-dropdown.content.open::before, #menudrop.f-dropdown.content.open::after {
     left: 50px;
   }
-  /* line 451, ../scss/_nav.scss */
+  /* line 413, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 458, ../scss/_nav.scss */
+  /* line 420, ../scss/_nav.scss */
   #menudrop ul li a:link,
   #menudrop ul li a:visited {
     display: block;
@@ -7333,30 +7288,30 @@ footer {
     margin: 14px 0 0 !important;
   }
 
-  /* line 470, ../scss/_nav.scss */
+  /* line 432, ../scss/_nav.scss */
   #searchdrop {
     background: #111;
   }
-  /* line 473, ../scss/_nav.scss */
+  /* line 435, ../scss/_nav.scss */
   #searchdrop.open {
     top: 56px !important;
     width: 475px !important;
     left: -358px !important;
   }
-  /* line 482, ../scss/_nav.scss */
+  /* line 444, ../scss/_nav.scss */
   #searchdrop.f-dropdown:before, #searchdrop.f-dropdown:after, #searchdrop.f-dropdown.content.open::before, #searchdrop.f-dropdown.content.open::after {
     left: 410px !important;
     border-color: transparent transparent #111 transparent;
   }
 }
-/* tablet nav - 768px smartphone landscape
+/* tablet nav - 768px portrait
 ----------------------------------- */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* line 499, ../scss/_nav.scss */
+  /* line 461, ../scss/_nav.scss */
   #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 502, ../scss/_nav.scss */
+  /* line 464, ../scss/_nav.scss */
   #menudrop.open {
     top: 56px !important;
     left: 50px !important;
@@ -7364,15 +7319,15 @@ footer {
     width: 320px !important;
     max-width: 320px;
   }
-  /* line 513, ../scss/_nav.scss */
+  /* line 475, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown:after, #menudrop.f-dropdown.content.open::before, #menudrop.f-dropdown.content.open::after {
     left: 40px;
   }
-  /* line 518, ../scss/_nav.scss */
+  /* line 480, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 525, ../scss/_nav.scss */
+  /* line 487, ../scss/_nav.scss */
   #menudrop ul li a:link,
   #menudrop ul li a:visited {
     display: block;
@@ -7380,18 +7335,18 @@ footer {
     margin: 18px 0 0;
   }
 
-  /* line 535, ../scss/_nav.scss */
+  /* line 497, ../scss/_nav.scss */
   #searchdrop {
     background: #111;
   }
-  /* line 538, ../scss/_nav.scss */
+  /* line 500, ../scss/_nav.scss */
   #searchdrop.open {
     top: 56px !important;
     width: 320px !important;
     max-width: 320px;
     left: -180px !important;
   }
-  /* line 548, ../scss/_nav.scss */
+  /* line 510, ../scss/_nav.scss */
   #searchdrop.f-dropdown:before, #searchdrop.f-dropdown:after, #searchdrop.f-dropdown.content.open::before, #searchdrop.f-dropdown.content.open::after {
     left: 266px !important;
     border-color: transparent transparent #111 transparent;
