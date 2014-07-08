@@ -118,10 +118,10 @@
 				}
 				
 				&.comments {
-					line-height: 0;
 					text-align: center;
 					width: 25px;
-					margin:$general-margin/2 auto 0;
+					margin:$general-margin*.6 auto $general-margin*.4;
+					line-height: 65%;
 					
 					a:link,a:visited {
 						font-size:$paragraph-font-size*0.625;
