@@ -237,39 +237,44 @@
 				}
 			}
 			
-			.article-headline {
-				padding:$general-padding/2;
-				background: rgba(255, 255, 255, 0.9);
-				border: $article-detail-border-width $article-detail-border-style $article-detail-border-color;
-				margin-top: -40%;
-				margin-bottom: 2rem;
-				text-align: center;
+			.article-title-wrap {
 				position: relative;
-				
-				.details-wrap {
-					border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
-				
-					h1.title {
-						@include horiz-dark-bg;
-						padding:$general-margin*1.25;
-						margin-top: 0;
-						margin-bottom: 0;
-						font-size:$paragraph-font-size*1.25;
-						text-align: center;
-						text-transform: uppercase; 
-						letter-spacing: rem-calc(-0.8);
-					}
+				top: -15.5em;
+				margin-bottom: -13.5em;
+
+				.article-headline {
+					padding:$general-padding/2;
+					background: rgba(255, 255, 255, 0.9);
+					border: $article-detail-border-width $article-detail-border-style $article-detail-border-color;
+					margin-bottom: 3rem;
+					text-align: center;
+					position: relative;
 					
-					.author-wrap {
-						@include vert-dark-bg;
-					}
+					.details-wrap {
+						border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
 					
-					.comments-wrap {				
-	
-					}
-					
-					.author-comments {
-						overflow-y:auto;
+						h1.title {
+							@include horiz-dark-bg;
+							padding:$general-margin*1.25;
+							margin-top: 0;
+							margin-bottom: 0;
+							font-size:$paragraph-font-size*1.25;
+							text-align: center;
+							text-transform: uppercase; 
+							letter-spacing: rem-calc(-0.8);
+						}
+						
+						.author-wrap {
+							@include vert-dark-bg;
+						}
+						
+						.comments-wrap {				
+		
+						}
+						
+						.author-comments {
+							overflow-y:auto;
+						}
 					}
 				}
 			}
@@ -308,7 +313,19 @@
 
 /*	LONG-FORM ARTICLE
 	----------------------------------- */
-	.long-form-article {
+	.longform {
+
+		.article-header-image {
+			text-align: center;
+			height: 346px;
+		}
+
+
+		.article-title-wrap {
+			top: -16.5em;
+			margin-bottom: -16.5em;
+
+		}
 
 		.article-headline {
 			background:rgba(255,255,255,1);			

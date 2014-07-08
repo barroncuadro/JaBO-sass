@@ -8101,8 +8101,10 @@ aside ul li {
 .longform .article-headline,
 .shortform .article-headline {
   text-align: center;
+  max-width: 492px;
+  margin: 0 auto 3rem;
 }
-/* line 14, ../scss/_elements_article.scss */
+/* line 16, ../scss/_elements_article.scss */
 .longform .article-headline h1.title,
 .shortform .article-headline h1.title {
   font-size: 1.25em;
@@ -8111,23 +8113,24 @@ aside ul li {
   letter-spacing: -0.00563rem;
   margin-bottom: 1rem;
 }
-/* line 23, ../scss/_elements_article.scss */
+/* line 25, ../scss/_elements_article.scss */
 .longform p.author-twitter,
 .shortform p.author-twitter {
   text-align: center;
   font-family: "allerregular", sans-serif;
 }
-/* line 27, ../scss/_elements_article.scss */
+/* line 29, ../scss/_elements_article.scss */
 .longform p.author-twitter img,
 .shortform p.author-twitter img {
   width: 87px;
+  min-width: 87px;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
   -ms-border-radius: 1000px;
   border-radius: 1000px;
   border: 4px solid #cccccc;
 }
-/* line 33, ../scss/_elements_article.scss */
+/* line 36, ../scss/_elements_article.scss */
 .longform p.author-twitter span.author-name,
 .shortform p.author-twitter span.author-name {
   display: block;
@@ -8136,24 +8139,48 @@ aside ul li {
   font-size: 1.25em;
   letter-spacing: 0.0625rem;
 }
-/* line 41, ../scss/_elements_article.scss */
+/* line 44, ../scss/_elements_article.scss */
 .longform p.author-twitter span.twitter-handle,
 .shortform p.author-twitter span.twitter-handle {
   display: block;
 }
-/* line 46, ../scss/_elements_article.scss */
+/* line 49, ../scss/_elements_article.scss */
+.longform .signal-wrap,
+.shortform .signal-wrap {
+  background-image: url("../images/bg/dot-pattern-vert-dark.png");
+  background-size: 1px 4px;
+  background-position: 100% 0;
+  background-repeat: repeat-y;
+}
+/* line 52, ../scss/_elements_article.scss */
+.longform .signal-wrap .signal,
+.shortform .signal-wrap .signal {
+  margin: 0.4rem 0;
+  line-height: 65%;
+}
+/* line 56, ../scss/_elements_article.scss */
+.longform .signal-wrap .signal img,
+.shortform .signal-wrap .signal img {
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  border-radius: 1000px;
+}
+/* line 64, ../scss/_elements_article.scss */
 .longform .social,
 .shortform .social {
   position: absolute;
   margin-left: -4rem;
 }
-/* line 51, ../scss/_elements_article.scss */
+/* line 69, ../scss/_elements_article.scss */
 .longform .social ul li,
 .shortform .social ul li {
   list-style: none;
   margin-bottom: 0.5rem;
 }
-/* line 55, ../scss/_elements_article.scss */
+/* line 73, ../scss/_elements_article.scss */
 .longform .social ul li a,
 .shortform .social ul li a {
   text-indent: -9999px;
@@ -8164,55 +8191,55 @@ aside ul li {
   height: 35px;
   font-size: 25px;
 }
-/* line 63, ../scss/_elements_article.scss */
+/* line 81, ../scss/_elements_article.scss */
 .longform .social ul li.twitter a,
 .shortform .social ul li.twitter a {
   background-position: 0 0;
 }
-/* line 69, ../scss/_elements_article.scss */
+/* line 87, ../scss/_elements_article.scss */
 .longform .social ul li.facebook a,
 .shortform .social ul li.facebook a {
   background-position: 0 -70px;
 }
-/* line 75, ../scss/_elements_article.scss */
+/* line 93, ../scss/_elements_article.scss */
 .longform .social ul li.share a,
 .shortform .social ul li.share a {
   background-position: 0 -35px;
 }
-/* line 84, ../scss/_elements_article.scss */
+/* line 102, ../scss/_elements_article.scss */
 .longform p,
 .shortform p {
   font-family: "Vollkorn", serif;
   font-size: 1.125em;
   color: #26353c;
 }
-/* line 89, ../scss/_elements_article.scss */
+/* line 107, ../scss/_elements_article.scss */
 .longform p.closer,
 .shortform p.closer {
   margin: 4rem 0 3rem;
   text-align: center;
 }
-/* line 94, ../scss/_elements_article.scss */
+/* line 112, ../scss/_elements_article.scss */
 .longform p.caption,
 .shortform p.caption {
   font-size: 0.875em;
   line-height: 150%;
 }
-/* line 99, ../scss/_elements_article.scss */
+/* line 117, ../scss/_elements_article.scss */
 .longform p.author,
 .shortform p.author {
   font-size: 1.125em;
   margin: 0.25rem 0;
 }
-/* line 105, ../scss/_elements_article.scss */
+/* line 123, ../scss/_elements_article.scss */
 .longform p.comments,
 .shortform p.comments {
-  line-height: 0;
   text-align: center;
   width: 25px;
-  margin: 0.5rem auto 0;
+  margin: 0.6rem auto 0.4rem;
+  line-height: 65%;
 }
-/* line 111, ../scss/_elements_article.scss */
+/* line 129, ../scss/_elements_article.scss */
 .longform p.comments a:link, .longform p.comments a:visited,
 .shortform p.comments a:link,
 .shortform p.comments a:visited {
@@ -8221,58 +8248,58 @@ aside ul li {
   font-family: "allerregular", sans-serif;
   line-height: normal;
 }
-/* line 119, ../scss/_elements_article.scss */
+/* line 137, ../scss/_elements_article.scss */
 .longform p.author-twitter,
 .shortform p.author-twitter {
   font-family: "allerregular", sans-serif;
 }
-/* line 124, ../scss/_elements_article.scss */
+/* line 142, ../scss/_elements_article.scss */
 .longform hr,
 .shortform hr {
   width: 180px;
   margin: 2.5rem auto;
   border-color: #afafaf;
 }
-/* line 131, ../scss/_elements_article.scss */
+/* line 149, ../scss/_elements_article.scss */
 .longform .article-intro p,
 .shortform .article-intro p {
   font-family: "allerbold", serif;
   text-align: center;
   line-height: 1.875rem;
 }
-/* line 139, ../scss/_elements_article.scss */
+/* line 157, ../scss/_elements_article.scss */
 .longform .fyre-stream-stats,
 .shortform .fyre-stream-stats {
   display: none;
   visibility: hidden;
 }
-/* line 141, ../scss/_elements_article.scss */
+/* line 159, ../scss/_elements_article.scss */
 .longform .livefyre-wrap,
 .shortform .livefyre-wrap {
   margin-bottom: 4rem;
 }
-/* line 145, ../scss/_elements_article.scss */
+/* line 163, ../scss/_elements_article.scss */
 .longform .livefyre-wrap .fyre-comment p,
 .shortform .livefyre-wrap .fyre-comment p {
   font-family: "allerregular", sans-serif;
   font-size: 1em;
 }
-/* line 151, ../scss/_elements_article.scss */
+/* line 169, ../scss/_elements_article.scss */
 .longform .livefyre-wrap #LivefyreContainer.toggle-show,
 .shortform .livefyre-wrap #LivefyreContainer.toggle-show {
   text-align: center;
 }
-/* line 157, ../scss/_elements_article.scss */
+/* line 175, ../scss/_elements_article.scss */
 .longform .pre-footer p,
 .shortform .pre-footer p {
   text-align: center;
 }
-/* line 162, ../scss/_elements_article.scss */
+/* line 180, ../scss/_elements_article.scss */
 .longform .livefyre-break,
 .shortform .livefyre-break {
   text-align: center;
 }
-/* line 164, ../scss/_elements_article.scss */
+/* line 182, ../scss/_elements_article.scss */
 .longform .livefyre-break hr,
 .shortform .livefyre-break hr {
   width: 100%;
@@ -8280,7 +8307,7 @@ aside ul li {
   border-width: 2px;
   margin: 2.5rem auto 1rem;
 }
-/* line 170, ../scss/_elements_article.scss */
+/* line 188, ../scss/_elements_article.scss */
 .longform .caption-wrap,
 .shortform .caption-wrap {
   border-left: 3px solid #00aeef;
@@ -8288,49 +8315,57 @@ aside ul li {
 
 /*	SHORT-FORM ARTICLE
 	----------------------------------- */
-/* line 185, ../scss/_elements_article.scss */
+/* line 203, ../scss/_elements_article.scss */
 .shortform .article-headline {
   margin-top: 3rem;
 }
-/* line 188, ../scss/_elements_article.scss */
+/* line 206, ../scss/_elements_article.scss */
 .shortform .article-headline h1.title {
   background-image: none;
 }
 
 /*	LONG FORM ARTICLE
 	----------------------------------- */
-/* line 204, ../scss/_elements_article.scss */
+/* line 222, ../scss/_elements_article.scss */
 .longform {
   padding-top: 0 !important;
 }
-/* line 207, ../scss/_elements_article.scss */
+/* line 225, ../scss/_elements_article.scss */
 .longform .social {
   margin-left: 2rem;
 }
-/* line 211, ../scss/_elements_article.scss */
+/* line 229, ../scss/_elements_article.scss */
 .longform .article-header-image {
   text-align: center;
+  background: transparent url("../images/3000x584.jpg") no-repeat center;
+  height: 584px;
+  max-width: 3000px;
 }
-/* line 214, ../scss/_elements_article.scss */
+/* line 235, ../scss/_elements_article.scss */
 .longform .article-header-image img {
   min-width: 640px;
 }
-/* line 219, ../scss/_elements_article.scss */
-.longform .article-headline {
+/* line 240, ../scss/_elements_article.scss */
+.longform .article-title-wrap {
+  position: relative;
+  top: -15.5em;
+  margin-bottom: -13.5em;
+}
+/* line 245, ../scss/_elements_article.scss */
+.longform .article-title-wrap .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
   border: 4px solid black;
-  margin-top: -40%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
   position: relative;
 }
-/* line 228, ../scss/_elements_article.scss */
-.longform .article-headline .details-wrap {
+/* line 253, ../scss/_elements_article.scss */
+.longform .article-title-wrap .article-headline .details-wrap {
   border: 1px solid black;
 }
-/* line 231, ../scss/_elements_article.scss */
-.longform .article-headline .details-wrap h1.title {
+/* line 256, ../scss/_elements_article.scss */
+.longform .article-title-wrap .article-headline .details-wrap h1.title {
   background-image: url("../images/bg/dot-pattern-dark-horiz.png");
   background-size: 4px 1px;
   background-position: 0 100%;
@@ -8343,26 +8378,26 @@ aside ul li {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
-/* line 242, ../scss/_elements_article.scss */
-.longform .article-headline .details-wrap .author-wrap {
+/* line 267, ../scss/_elements_article.scss */
+.longform .article-title-wrap .article-headline .details-wrap .author-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
   background-size: 1px 4px;
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 250, ../scss/_elements_article.scss */
-.longform .article-headline .details-wrap .author-comments {
+/* line 275, ../scss/_elements_article.scss */
+.longform .article-title-wrap .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 258, ../scss/_elements_article.scss */
+/* line 284, ../scss/_elements_article.scss */
 .longform .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
-/* line 264, ../scss/_elements_article.scss */
+/* line 290, ../scss/_elements_article.scss */
 .longform .full-width-image {
   margin: 1rem 0 2rem;
 }
-/* line 268, ../scss/_elements_article.scss */
+/* line 294, ../scss/_elements_article.scss */
 .longform .long-form-ad-wrap {
   margin-top: 5rem;
 }
@@ -8375,33 +8410,43 @@ aside ul li {
 	===================================
 	=================================== 
 	=================================== */
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 30em) {
   /*	LONG-FORM ARTICLE
   	----------------------------------- */
-  /* line 292, ../scss/_elements_article.scss */
-  .long-form-article .article-headline {
+  /* line 318, ../scss/_elements_article.scss */
+  .longform .article-header-image {
+    text-align: center;
+    height: 346px;
+  }
+  /* line 324, ../scss/_elements_article.scss */
+  .longform .article-title-wrap {
+    top: -16.5em;
+    margin-bottom: -16.5em;
+  }
+  /* line 330, ../scss/_elements_article.scss */
+  .longform .article-headline {
     background: white;
   }
-  /* line 298, ../scss/_elements_article.scss */
-  .long-form-article .social-small ul li {
+  /* line 336, ../scss/_elements_article.scss */
+  .longform .social-small ul li {
     list-style: none;
     float: left;
   }
-  /* line 303, ../scss/_elements_article.scss */
-  .long-form-article .social-small ul li.twitter a {
+  /* line 341, ../scss/_elements_article.scss */
+  .longform .social-small ul li.twitter a {
     background-position: 0 0;
   }
-  /* line 309, ../scss/_elements_article.scss */
-  .long-form-article .social-small ul li.facebook a {
+  /* line 347, ../scss/_elements_article.scss */
+  .longform .social-small ul li.facebook a {
     background-position: 0 -70px;
   }
-  /* line 315, ../scss/_elements_article.scss */
-  .long-form-article .social-small ul li.share a {
+  /* line 353, ../scss/_elements_article.scss */
+  .longform .social-small ul li.share a {
     background-position: 0 -35px;
   }
-  /* line 321, ../scss/_elements_article.scss */
-  .long-form-article .social-small ul li a:link,
-  .long-form-article .social-small ul li a:visited {
+  /* line 359, ../scss/_elements_article.scss */
+  .longform .social-small ul li a:link,
+  .longform .social-small ul li a:visited {
     text-indent: -9999px;
     border: 0;
     text-shadow: none;
@@ -8411,22 +8456,22 @@ aside ul li {
     font-size: 25px;
   }
   /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  .long-form-article .social-small ul li a:link .social-facebook,
-  .long-form-article .social-small ul li a:visited .social-facebook {
+  .longform .social-small ul li a:link .social-facebook,
+  .longform .social-small ul li a:visited .social-facebook {
     background-position: 0 -70px;
   }
   /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  .long-form-article .social-small ul li a:link .social-share,
-  .long-form-article .social-small ul li a:visited .social-share {
+  .longform .social-small ul li a:link .social-share,
+  .longform .social-small ul li a:visited .social-share {
     background-position: 0 -35px;
   }
   /* line 60, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  .long-form-article .social-small ul li a:link .social-twitter,
-  .long-form-article .social-small ul li a:visited .social-twitter {
+  .longform .social-small ul li a:link .social-twitter,
+  .longform .social-small ul li a:visited .social-twitter {
     background-position: 0 0;
   }
-  /* line 332, ../scss/_elements_article.scss */
-  .long-form-article .adspace-small {
+  /* line 370, ../scss/_elements_article.scss */
+  .longform .adspace-small {
     padding: 1rem;
     background: #000;
     text-align: center;
