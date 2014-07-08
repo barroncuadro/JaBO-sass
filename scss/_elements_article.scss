@@ -10,6 +10,8 @@
 	.shortform {
 		.article-headline {
 			text-align: center;
+			max-width: 492px;
+			margin: 0 auto 3rem;
 		
 			h1.title {
 				font-size:$paragraph-font-size*1.25;
