@@ -7626,12 +7626,13 @@ aside ul li {
   margin-top: -30%;
   text-align: center;
   position: relative;
+  max-width: 492px;
 }
-/* line 36, ../scss/_elements_homepage.scss */
+/* line 37, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap {
   border: 1px solid black;
 }
-/* line 39, ../scss/_elements_homepage.scss */
+/* line 40, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2 {
   background-image: url("../images/bg/dot-pattern-dark-horiz.png");
   background-size: 4px 1px;
@@ -7641,19 +7642,19 @@ aside ul li {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 46, ../scss/_elements_homepage.scss */
+/* line 47, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2, .articles .article-details .details-wrap h3 {
   font-size: 1.125em;
   text-transform: uppercase;
   letter-spacing: -0.0625rem;
   font-family: "allerbold", serif;
 }
-/* line 52, ../scss/_elements_homepage.scss */
+/* line 53, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2 a:link, .articles .article-details .details-wrap h2 a:visited, .articles .article-details .details-wrap h3 a:link, .articles .article-details .details-wrap h3 a:visited {
   text-decoration: none;
   color: #0e0d0d;
 }
-/* line 59, ../scss/_elements_homepage.scss */
+/* line 60, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-wrap,
 .articles .article-details .details-wrap .signal-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
@@ -7661,42 +7662,42 @@ aside ul li {
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 63, ../scss/_elements_homepage.scss */
+/* line 64, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 66, ../scss/_elements_homepage.scss */
+/* line 67, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p {
   margin: 0.8rem 0 0.5rem;
   /* font-size:$paragraph-font-size*1.125; */
   line-height: 65%;
 }
-/* line 71, ../scss/_elements_homepage.scss */
+/* line 72, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.comments {
   background-position: 0 0;
   width: 25px;
   height: 20px;
   margin: 0.8rem auto 0.5rem;
 }
-/* line 77, ../scss/_elements_homepage.scss */
+/* line 78, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.comments a:link, .articles .article-details .details-wrap .author-comments p.comments a:visited {
   color: #fff;
   font-size: 0.625em;
   line-height: normal;
 }
-/* line 85, ../scss/_elements_homepage.scss */
+/* line 86, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.author {
   line-height: 115%;
 }
-/* line 88, ../scss/_elements_homepage.scss */
+/* line 89, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments p.author a:visited {
   color: #e51b23;
 }
-/* line 93, ../scss/_elements_homepage.scss */
+/* line 94, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.signal {
   margin: 0.6rem 0 0.5rem;
 }
-/* line 95, ../scss/_elements_homepage.scss */
+/* line 96, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.signal img {
   width: 25px;
   height: 25px;
@@ -7705,22 +7706,22 @@ aside ul li {
   -ms-border-radius: 1000px;
   border-radius: 1000px;
 }
-/* line 106, ../scss/_elements_homepage.scss */
+/* line 107, ../scss/_elements_homepage.scss */
 .articles .sm-article {
   margin: 1rem 0;
 }
-/* line 109, ../scss/_elements_homepage.scss */
+/* line 110, ../scss/_elements_homepage.scss */
 .articles .sm-article .article-details {
   border: 0;
   padding: 0;
   background: transparent;
   margin-top: -20%;
 }
-/* line 116, ../scss/_elements_homepage.scss */
+/* line 117, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap {
   text-align: center;
 }
-/* line 118, ../scss/_elements_homepage.scss */
+/* line 119, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap h3 {
   background: white;
   padding: 1rem 0.5rem;
@@ -7739,12 +7740,12 @@ aside ul li {
   margin: 0 auto 1rem;
   width: 17em;
 }
-/* line 137, ../scss/_elements_homepage.scss */
+/* line 138, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap h3 a:link, .articles .sm-article .title-wrap h3 a:visited {
   text-decoration: none;
   color: #0e0d0d;
 }
-/* line 144, ../scss/_elements_homepage.scss */
+/* line 145, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments {
   overflow-y: auto;
   background-color: white;
@@ -7754,7 +7755,7 @@ aside ul li {
   background-repeat: repeat-x;
   background-position: 100% 0;
 }
-/* line 151, ../scss/_elements_homepage.scss */
+/* line 152, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments .author-wrap,
 .articles .sm-article .author-comments .signal-wrap {
   background-image: url("../images/bg/dot-pattern-vert-light.png");
@@ -7762,16 +7763,16 @@ aside ul li {
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 156, ../scss/_elements_homepage.scss */
+/* line 157, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments.two-col p.comments {
   width: 25px;
 }
-/* line 161, ../scss/_elements_homepage.scss */
+/* line 162, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p {
   margin: 0.8rem 0 0.5rem;
   line-height: 65%;
 }
-/* line 165, ../scss/_elements_homepage.scss */
+/* line 166, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.comments {
   background-position: 0 -20px;
   background-position: 0 0;
@@ -7780,25 +7781,25 @@ aside ul li {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 173, ../scss/_elements_homepage.scss */
+/* line 174, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.comments a:link, .articles .sm-article .author-comments p.comments a:visited {
   color: #fff;
   font-size: 0.625em;
   line-height: normal;
 }
-/* line 181, ../scss/_elements_homepage.scss */
+/* line 182, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.author {
   line-height: 115%;
 }
-/* line 184, ../scss/_elements_homepage.scss */
+/* line 185, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments p.author a:visited {
   color: #e51b23;
 }
-/* line 189, ../scss/_elements_homepage.scss */
+/* line 190, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.signal {
   margin: 0.6rem 0 0.5rem;
 }
-/* line 191, ../scss/_elements_homepage.scss */
+/* line 192, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.signal img {
   width: 25px;
   height: 25px;
@@ -7808,21 +7809,21 @@ aside ul li {
   border-radius: 1000px;
 }
 
-/* line 204, ../scss/_elements_homepage.scss */
+/* line 205, ../scss/_elements_homepage.scss */
 .by-the-numbers {
   font-family: "Vollkorn", serif;
   margin-bottom: 4rem;
 }
-/* line 209, ../scss/_elements_homepage.scss */
+/* line 210, ../scss/_elements_homepage.scss */
 .by-the-numbers div.row div:last-child {
   background-image: none;
 }
-/* line 214, ../scss/_elements_homepage.scss */
+/* line 215, ../scss/_elements_homepage.scss */
 .by-the-numbers h2 {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
   margin-bottom: 4rem;
 }
-/* line 218, ../scss/_elements_homepage.scss */
+/* line 219, ../scss/_elements_homepage.scss */
 .by-the-numbers h2 span {
   background-position: 0 -521px;
   text-indent: -9999px;
@@ -7837,7 +7838,7 @@ aside ul li {
   width: 166px;
   height: 117px;
 }
-/* line 228, ../scss/_elements_homepage.scss */
+/* line 229, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-entry {
   text-align: center;
   background-image: url("../images/bg/dot-pattern-vert-light.png");
@@ -7845,25 +7846,25 @@ aside ul li {
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 232, ../scss/_elements_homepage.scss */
+/* line 233, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-entry img {
   margin-bottom: 2rem;
 }
-/* line 237, ../scss/_elements_homepage.scss */
+/* line 238, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-entry p a:link, .by-the-numbers .btn-entry p a:visited, .by-the-numbers .btn-entry p a:hover, .by-the-numbers .btn-entry p a:active {
   color: #0e0d0d;
 }
 
 /* SIDEBAR --------------------- */
-/* line 248, ../scss/_elements_homepage.scss */
+/* line 249, ../scss/_elements_homepage.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 251, ../scss/_elements_homepage.scss */
+/* line 252, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 254, ../scss/_elements_homepage.scss */
+/* line 255, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header span {
   background-position: 0 -694px;
   text-indent: -9999px;
@@ -7878,16 +7879,16 @@ aside ul li {
   height: 49px;
   margin: 0 auto 1rem;
 }
-/* line 264, ../scss/_elements_homepage.scss */
+/* line 265, ../scss/_elements_homepage.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 272, ../scss/_elements_homepage.scss */
+/* line 273, ../scss/_elements_homepage.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 279, ../scss/_elements_homepage.scss */
+/* line 280, ../scss/_elements_homepage.scss */
 .baseball-joe li {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -7896,26 +7897,26 @@ aside ul li {
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 284, ../scss/_elements_homepage.scss */
+/* line 285, ../scss/_elements_homepage.scss */
 .baseball-joe li.last {
   background-image: none;
 }
-/* line 286, ../scss/_elements_homepage.scss */
+/* line 287, ../scss/_elements_homepage.scss */
 .baseball-joe li a:link, .baseball-joe li a:visited, .baseball-joe li a:hover, .baseball-joe li a:active {
   color: #0e0d0d;
 }
 
-/* line 294, ../scss/_elements_homepage.scss */
+/* line 295, ../scss/_elements_homepage.scss */
 .ad {
   text-align: center;
   padding: 1.5rem 1rem;
 }
 
-/* line 299, ../scss/_elements_homepage.scss */
+/* line 300, ../scss/_elements_homepage.scss */
 .contributors-wrap .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 302, ../scss/_elements_homepage.scss */
+/* line 303, ../scss/_elements_homepage.scss */
 .contributors-wrap .section-header span {
   background-position: 0 -638px;
   text-indent: -9999px;
@@ -7929,22 +7930,22 @@ aside ul li {
   width: 249px;
   height: 56px;
 }
-/* line 311, ../scss/_elements_homepage.scss */
+/* line 312, ../scss/_elements_homepage.scss */
 .contributors-wrap li {
   padding-bottom: 1.5rem;
 }
-/* line 315, ../scss/_elements_homepage.scss */
+/* line 316, ../scss/_elements_homepage.scss */
 .contributors-wrap li .thumb-image img {
   max-width: 100px;
 }
-/* line 320, ../scss/_elements_homepage.scss */
+/* line 321, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p {
   margin-top: 1rem;
   font-size: 1.125em;
   font-family: "allerbold", serif;
   margin-bottom: 0;
 }
-/* line 326, ../scss/_elements_homepage.scss */
+/* line 327, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
