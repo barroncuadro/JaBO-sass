@@ -26,6 +26,7 @@
 			
 			img {
 				width: 87px;
+				min-width: 87px;
 				@include border-radius($global-rounded);
 				border: $thumb-image-border-width $thumb-image-border-style $thumb-image-border-color;
 			}
@@ -224,7 +225,10 @@
 			}
 			
 			.article-header-image {
-				text-align: center; //jon
+				text-align: center;
+				background: transparent url('../images/3000x584.jpg') no-repeat center;
+				height: 584px;
+				max-width: 3000px;
 				
 				img {
 					min-width: 640px;
