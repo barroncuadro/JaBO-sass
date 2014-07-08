@@ -43,6 +43,21 @@
 			}
 		}	
 		
+		.signal-wrap {
+			@include vert-dark-bg;
+			
+			.signal {
+				margin:$general-margin*.4 0;
+				line-height: 65%;
+				
+				img {
+					width: 25px;
+					height: 25px;
+					@include border-radius($global-rounded);
+				}
+			}
+		}
+		
 		.social {
 			position: absolute;
 			margin-left: -4rem;
