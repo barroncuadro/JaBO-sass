@@ -7087,11 +7087,11 @@ footer {
 /* line 162, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.fox-logo {
   background-image: url("../images/logo/fox-retina.png");
-  background-size: 68px 38px;
+  background-size: 60px 35px;
   background-position: 50% 0;
   background-repeat: no-repeat;
   padding-top: 1rem;
-  width: 68px;
+  width: 60px;
   margin-right: 0.25rem;
 }
 /* line 167, ../scss/_nav.scss */
