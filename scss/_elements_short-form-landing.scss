@@ -33,10 +33,10 @@
 					margin: 0 auto $general-margin;
 				
 					&.baseball-joe {
-						@include headers-sprite(baseball-joe-headline);
+						@include headers-sprite(baseball-joe-headline-2x);
 						@include section-headers;
-						width: 159px;
-						height: 49px;
+						width: 318px;
+						height: 98px;
 					}
 				
 					&.by-the-numbers {
