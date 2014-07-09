@@ -10,16 +10,19 @@
 	}
 
 	body {
-		background: transparent url(../images/bg/body-bg.jpg) repeat; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-color: #fafafa;
+		
 	}
 	
 	#main-container {
 		padding-top: 3rem;
+		&.home-container {
+			background: transparent url(../images/bg/body-bg.jpg) repeat; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-color: #fafafa;
+		}	
 	}
 	
 	
