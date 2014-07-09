@@ -338,6 +338,17 @@
 				margin-top: -20%;
 			}
 		}
+		
+		.ad-wrap {
+			margin-top: $general-margin !important;
+			margin-bottom: $general-margin !important;			
+			@include general-border;
+			border-width: 1px 0;
+			padding: $general-padding 0;
+		}
+	
+	}
+
 /* non-mobile
 ----------------------------------- */
 
