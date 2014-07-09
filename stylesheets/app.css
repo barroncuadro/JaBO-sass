@@ -8280,10 +8280,10 @@ aside ul li {
   -moz-border-radius: 1000px;
   -ms-border-radius: 1000px;
   border-radius: 1000px;
-  width: 90%;
-  height: 90%;
+  width: 100%;
   display: inline-block;
   padding: 10px;
+  border: 4px solid #ebebeb;
 }
 /* line 105, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image p span {

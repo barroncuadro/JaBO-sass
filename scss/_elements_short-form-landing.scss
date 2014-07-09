@@ -96,10 +96,10 @@
 					background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
 					background-size: 100% auto;
 					@include border-radius($global-rounded);
-					width: 90%;
-					height: 90%;
+					width: 100%;
 					display: inline-block;
 					padding: 10px;
+					border: 4px solid #ebebeb;
 	
 	
 					span {
