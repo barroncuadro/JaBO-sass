@@ -28,7 +28,7 @@
 						
 						&.menu-dropdown,
 						&.search-dropdown {
-							padding: 0 1rem;
+							padding: 0 $general-padding/2;
 							cursor: pointer;
 							
 							.dropdown {
@@ -116,13 +116,15 @@
 						a:link, a:visited {
 							font-family: $body-font-family;
 							text-transform: uppercase;
+							padding: 0;
 						}
 						
 						&.news-icon,
 						&.scores-icon,
 						&.fox-logo {
 							margin-top: $general-margin*1.5;
-							cursor: pointer;
+							padding: 0 $general-padding/2;
+							cursor: pointer;					
 						}
 						
 						&.news-icon {
@@ -159,16 +161,10 @@
 						
 						&.fox-logo {							
 							@include fox-icon;
-							width: 71px;
-							margin-right: 1rem;
+							width: 68px;
 														
 							&:not(.has-form) a:not(.button) {
 								line-height: 96px;
-							}
-							
-							img {
-								width: 71px;
-								height: 41px;
 							}
 								
 							a {

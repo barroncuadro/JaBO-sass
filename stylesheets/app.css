@@ -6923,7 +6923,7 @@ footer {
 }
 /* line 30, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.main-nav > li.menu-dropdown, .top-bar .top-bar-section ul.main-nav > li.search-dropdown {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   cursor: pointer;
 }
 /* line 34, ../scss/_nav.scss */
@@ -7020,13 +7020,15 @@ footer {
 .top-bar .top-bar-section ul.right-nav > li a:link, .top-bar .top-bar-section ul.right-nav > li a:visited {
   font-family: "allerregular", sans-serif;
   text-transform: uppercase;
+  padding: 0;
 }
-/* line 123, ../scss/_nav.scss */
+/* line 124, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.news-icon, .top-bar .top-bar-section ul.right-nav > li.scores-icon, .top-bar .top-bar-section ul.right-nav > li.fox-logo {
   margin-top: 1.5rem;
+  padding: 0 0.5rem;
   cursor: pointer;
 }
-/* line 128, ../scss/_nav.scss */
+/* line 130, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.news-icon {
   background-image: url("../images/news-scores/News.png");
   background-size: 30px 30px;
@@ -7038,7 +7040,7 @@ footer {
   -ms-transition: background-image 0.25s ease-in-out;
   transition: background-image 0.25s ease-in-out;
 }
-/* line 133, ../scss/_nav.scss */
+/* line 135, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.news-icon:hover, .top-bar .top-bar-section ul.right-nav > li.news-icon:active {
   background-image: url("../images/news-scores/News-highlighted.png");
   background-size: 30px 30px;
@@ -7046,7 +7048,7 @@ footer {
   background-repeat: no-repeat;
   padding-top: 1rem;
 }
-/* line 136, ../scss/_nav.scss */
+/* line 138, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.news-icon:hover > a, .top-bar .top-bar-section ul.right-nav > li.news-icon:active > a {
   color: #ff0000;
   -webkit-transition: color 0.25s ease-in-out;
@@ -7054,7 +7056,7 @@ footer {
   -ms-transition: color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out;
 }
-/* line 144, ../scss/_nav.scss */
+/* line 146, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.scores-icon {
   background-image: url("../images/news-scores/Scores.png");
   background-size: 28px 30px;
@@ -7066,7 +7068,7 @@ footer {
   -ms-transition: background-image 0.25s ease-in-out;
   transition: background-image 0.25s ease-in-out;
 }
-/* line 149, ../scss/_nav.scss */
+/* line 151, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.scores-icon:hover, .top-bar .top-bar-section ul.right-nav > li.scores-icon:active {
   background-image: url("../images/news-scores/Scores-highlighted.png");
   background-size: 28px 30px;
@@ -7074,7 +7076,7 @@ footer {
   background-repeat: no-repeat;
   padding-top: 1rem;
 }
-/* line 152, ../scss/_nav.scss */
+/* line 154, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.scores-icon:hover > a, .top-bar .top-bar-section ul.right-nav > li.scores-icon:active > a {
   color: #ff0000;
   -webkit-transition: color 0.25s ease-in-out;
@@ -7082,47 +7084,41 @@ footer {
   -ms-transition: color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out;
 }
-/* line 160, ../scss/_nav.scss */
+/* line 162, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.fox-logo {
   background-image: url("../images/logo/fox-retina.png");
-  background-size: 71px 41px;
+  background-size: 68px 38px;
   background-position: 50% 0;
   background-repeat: no-repeat;
   padding-top: 1rem;
-  width: 71px;
-  margin-right: 1rem;
+  width: 68px;
 }
-/* line 165, ../scss/_nav.scss */
+/* line 166, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.fox-logo:not(.has-form) a:not(.button) {
   line-height: 96px;
 }
-/* line 169, ../scss/_nav.scss */
-.top-bar .top-bar-section ul.right-nav > li.fox-logo img {
-  width: 71px;
-  height: 41px;
-}
-/* line 174, ../scss/_nav.scss */
+/* line 170, ../scss/_nav.scss */
 .top-bar .top-bar-section ul.right-nav > li.fox-logo a {
   text-indent: -9999px;
   border: 0;
   text-shadow: none;
   color: transparent;
 }
-/* line 181, ../scss/_nav.scss */
+/* line 177, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li {
   background: none;
 }
-/* line 184, ../scss/_nav.scss */
+/* line 180, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li:not(.has-form) a:not(.button) {
   background: none;
   color: #0e0d0d;
 }
-/* line 190, ../scss/_nav.scss */
+/* line 186, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li a {
   background: none;
   color: #0e0d0d;
 }
-/* line 199, ../scss/_nav.scss */
+/* line 195, ../scss/_nav.scss */
 .top-bar .top-bar-section .divider {
   border-top: 1px dotted #4d4d4d;
   border-bottom: 0px none;
@@ -7130,27 +7126,27 @@ footer {
   float: none;
   margin: 0 auto;
 }
-/* line 208, ../scss/_nav.scss */
+/* line 204, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown {
   border: 1px solid #cdcdcd;
   background: #111;
   padding: 1rem 1.5rem;
 }
-/* line 214, ../scss/_nav.scss */
+/* line 210, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li a:link, .top-bar .top-bar-section .dropdown li a:visited {
   color: #fff;
   text-align: center;
 }
-/* line 219, ../scss/_nav.scss */
+/* line 215, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li a:hover, .top-bar .top-bar-section .dropdown li a:active {
   color: #ff0000;
 }
-/* line 224, ../scss/_nav.scss */
+/* line 220, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
   background-color: #111;
   color: #ccc;
 }
-/* line 229, ../scss/_nav.scss */
+/* line 225, ../scss/_nav.scss */
 .top-bar .top-bar-section .dropdown li:not(.has-form):hover {
   background-color: #111;
   color: #ff0000;
@@ -7159,7 +7155,7 @@ footer {
 /* small screens
 ----------------------------------- */
 @media only screen and (max-width: 768px) {
-  /* line 247, ../scss/_nav.scss */
+  /* line 243, ../scss/_nav.scss */
   .top-nav {
     height: 60px;
     display: block;
@@ -7173,17 +7169,17 @@ footer {
     /*logo*/
     /*search*/
   }
-  /* line 254, ../scss/_nav.scss */
+  /* line 250, ../scss/_nav.scss */
   .top-nav .menu {
     text-align: center;
   }
-  /* line 257, ../scss/_nav.scss */
+  /* line 253, ../scss/_nav.scss */
   .top-nav .menu a {
     margin-top: 0.5rem;
     display: inline-block;
     text-transform: uppercase;
   }
-  /* line 262, ../scss/_nav.scss */
+  /* line 258, ../scss/_nav.scss */
   .top-nav .menu a.menu-dropdown {
     background-image: url("../images/nav/menu-closed.png");
     background-size: 24px 25px;
@@ -7194,7 +7190,7 @@ footer {
     font-size: 0.625em;
     padding-top: 1.75rem !important;
   }
-  /* line 271, ../scss/_nav.scss */
+  /* line 267, ../scss/_nav.scss */
   .top-nav .menu a.menu-dropdown:hover, .top-nav .menu a.menu-dropdown:active, .top-nav .menu a.menu-dropdown:focus {
     background-image: url("../images/nav/menu-open.png");
     background-size: 24px 25px;
@@ -7203,11 +7199,11 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 278, ../scss/_nav.scss */
+  /* line 274, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul {
     margin-bottom: 0;
   }
-  /* line 281, ../scss/_nav.scss */
+  /* line 277, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li {
     list-style: none;
     background-color: transparent;
@@ -7218,18 +7214,18 @@ footer {
     padding: 0;
     margin: 0;
   }
-  /* line 293, ../scss/_nav.scss */
+  /* line 289, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li.last {
     background-image: none;
     margin-top: 2rem;
   }
-  /* line 301, ../scss/_nav.scss */
+  /* line 297, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li:hover, .top-nav .menu #menudrop ul li:hover a,
   .top-nav .menu #menudrop ul li a:hover,
   .top-nav .menu #menudrop ul li a:active {
     color: #ff0000 !important;
   }
-  /* line 306, ../scss/_nav.scss */
+  /* line 302, ../scss/_nav.scss */
   .top-nav .menu #menudrop ul li a:link,
   .top-nav .menu #menudrop ul li a:visited {
     font-size: 1.25em;
@@ -7237,17 +7233,17 @@ footer {
     display: block;
     line-height: 100%;
   }
-  /* line 323, ../scss/_nav.scss */
+  /* line 319, ../scss/_nav.scss */
   .top-nav .logo img {
     width: 200px;
     margin: 0.75rem auto 0;
     display: block;
   }
-  /* line 331, ../scss/_nav.scss */
+  /* line 327, ../scss/_nav.scss */
   .top-nav .search {
     text-align: center;
   }
-  /* line 334, ../scss/_nav.scss */
+  /* line 330, ../scss/_nav.scss */
   .top-nav .search a {
     margin-top: 0.5rem;
     display: inline-block;
@@ -7256,7 +7252,7 @@ footer {
     text-transform: uppercase;
     background-position: 50% 10%;
   }
-  /* line 342, ../scss/_nav.scss */
+  /* line 338, ../scss/_nav.scss */
   .top-nav .search a.search-dropdown {
     background-image: url("../images/nav/search-closed.png");
     background-size: 20px 19px;
@@ -7265,7 +7261,7 @@ footer {
     padding-top: 1rem;
     color: #1e1e1e;
   }
-  /* line 350, ../scss/_nav.scss */
+  /* line 346, ../scss/_nav.scss */
   .top-nav .search a.search-dropdown:hover, .top-nav .search a.search-dropdown:active, .top-nav .search a.search-dropdown:focus {
     background-image: url("../images/nav/search-open.png");
     background-size: 20px 19px;
@@ -7274,11 +7270,11 @@ footer {
     padding-top: 1rem;
     color: #ff0000;
   }
-  /* line 358, ../scss/_nav.scss */
+  /* line 354, ../scss/_nav.scss */
   .top-nav .search #searchdrop form {
     margin-top: 0.5rem 0;
   }
-  /* line 362, ../scss/_nav.scss */
+  /* line 358, ../scss/_nav.scss */
   .top-nav .search #searchdrop form input,
   .top-nav .search #searchdrop form input [type="text"] {
     -webkit-box-shadow: 0px none;
@@ -7296,25 +7292,25 @@ footer {
 /* mobile nav - 320px smartphone portrait
 ----------------------------------- */
 @media only screen and (max-width: 320px) {
-  /* line 385, ../scss/_nav.scss */
+  /* line 381, ../scss/_nav.scss */
   #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 388, ../scss/_nav.scss */
+  /* line 384, ../scss/_nav.scss */
   #menudrop.open {
     top: 56px !important;
     background: #111 !important;
     width: 315px !important;
   }
-  /* line 397, ../scss/_nav.scss */
+  /* line 393, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown:after, #menudrop.f-dropdown.content.open::before, #menudrop.f-dropdown.content.open::after {
     left: 32px;
   }
-  /* line 402, ../scss/_nav.scss */
+  /* line 398, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 409, ../scss/_nav.scss */
+  /* line 405, ../scss/_nav.scss */
   #menudrop ul li a:link,
   #menudrop ul li a:visited {
     display: block;
@@ -7322,17 +7318,17 @@ footer {
     margin: 14px 0 0 !important;
   }
 
-  /* line 421, ../scss/_nav.scss */
+  /* line 417, ../scss/_nav.scss */
   #searchdrop {
     background: #111;
   }
-  /* line 424, ../scss/_nav.scss */
+  /* line 420, ../scss/_nav.scss */
   #searchdrop.open {
     top: 56px !important;
     width: 315px !important;
     left: -237px !important;
   }
-  /* line 433, ../scss/_nav.scss */
+  /* line 429, ../scss/_nav.scss */
   #searchdrop.f-dropdown:before, #searchdrop.f-dropdown:after, #searchdrop.f-dropdown.content.open::before, #searchdrop.f-dropdown.content.open::after {
     left: 270px !important;
     border-color: transparent transparent #111 transparent;
@@ -7341,25 +7337,25 @@ footer {
 /* mobile nav - 480px smartphone landscape
 ----------------------------------- */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  /* line 452, ../scss/_nav.scss */
+  /* line 448, ../scss/_nav.scss */
   #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 455, ../scss/_nav.scss */
+  /* line 451, ../scss/_nav.scss */
   #menudrop.open {
     top: 56px !important;
     background: #111 !important;
     width: 475px !important;
   }
-  /* line 464, ../scss/_nav.scss */
+  /* line 460, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown:after, #menudrop.f-dropdown.content.open::before, #menudrop.f-dropdown.content.open::after {
     left: 50px;
   }
-  /* line 469, ../scss/_nav.scss */
+  /* line 465, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 476, ../scss/_nav.scss */
+  /* line 472, ../scss/_nav.scss */
   #menudrop ul li a:link,
   #menudrop ul li a:visited {
     display: block;
@@ -7367,17 +7363,17 @@ footer {
     margin: 14px 0 0 !important;
   }
 
-  /* line 488, ../scss/_nav.scss */
+  /* line 484, ../scss/_nav.scss */
   #searchdrop {
     background: #111;
   }
-  /* line 491, ../scss/_nav.scss */
+  /* line 487, ../scss/_nav.scss */
   #searchdrop.open {
     top: 56px !important;
     width: 475px !important;
     left: -358px !important;
   }
-  /* line 500, ../scss/_nav.scss */
+  /* line 496, ../scss/_nav.scss */
   #searchdrop.f-dropdown:before, #searchdrop.f-dropdown:after, #searchdrop.f-dropdown.content.open::before, #searchdrop.f-dropdown.content.open::after {
     left: 410px !important;
     border-color: transparent transparent #111 transparent;
@@ -7386,11 +7382,11 @@ footer {
 /* tablet nav - 768px portrait
 ----------------------------------- */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* line 517, ../scss/_nav.scss */
+  /* line 513, ../scss/_nav.scss */
   #menudrop {
     padding: 0 1.25rem;
   }
-  /* line 520, ../scss/_nav.scss */
+  /* line 516, ../scss/_nav.scss */
   #menudrop.open {
     top: 56px !important;
     left: 50px !important;
@@ -7398,15 +7394,15 @@ footer {
     width: 320px !important;
     max-width: 320px;
   }
-  /* line 531, ../scss/_nav.scss */
+  /* line 527, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown:after, #menudrop.f-dropdown.content.open::before, #menudrop.f-dropdown.content.open::after {
     left: 40px;
   }
-  /* line 536, ../scss/_nav.scss */
+  /* line 532, ../scss/_nav.scss */
   #menudrop.f-dropdown:before, #menudrop.f-dropdown.content.open::before {
     border-color: transparent transparent #111 transparent;
   }
-  /* line 543, ../scss/_nav.scss */
+  /* line 539, ../scss/_nav.scss */
   #menudrop ul li a:link,
   #menudrop ul li a:visited {
     display: block;
@@ -7414,18 +7410,18 @@ footer {
     margin: 18px 0 0;
   }
 
-  /* line 553, ../scss/_nav.scss */
+  /* line 549, ../scss/_nav.scss */
   #searchdrop {
     background: #111;
   }
-  /* line 556, ../scss/_nav.scss */
+  /* line 552, ../scss/_nav.scss */
   #searchdrop.open {
     top: 56px !important;
     width: 320px !important;
     max-width: 320px;
     left: -180px !important;
   }
-  /* line 566, ../scss/_nav.scss */
+  /* line 562, ../scss/_nav.scss */
   #searchdrop.f-dropdown:before, #searchdrop.f-dropdown:after, #searchdrop.f-dropdown.content.open::before, #searchdrop.f-dropdown.content.open::after {
     left: 266px !important;
     border-color: transparent transparent #111 transparent;
