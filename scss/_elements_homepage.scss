@@ -116,6 +116,8 @@
 				
 				.title-wrap {
 					text-align: center;
+					height:6rem;
+					overflow: hidden;
 					h3 {
 						background: $module-bg;
 						padding:$general-margin $general-margin/2;
@@ -124,16 +126,14 @@
 						text-transform: uppercase;
 						text-align: center;
 						letter-spacing: rem-calc(-1);
-						height:6rem;
-						overflow: hidden;
 						/* margin-bottom: $general-margin; */
 						margin-top: 0;
 						line-height: 1.4em !important;
-						
 						display: table-cell;
 						vertical-align: middle;
 						margin: 0 auto $general-margin;
 						width: 17em;
+						height: 96px;
 						
 						a:link,a:visited {
 							text-decoration: none;
@@ -147,6 +147,7 @@
 					background-color:$module-bg;
 					@include horiz-light-bg;
 					background-position: 100% 0;
+					margin-top:$general-margin*0.75;
 					
 					.author-wrap,
 					.signal-wrap {
