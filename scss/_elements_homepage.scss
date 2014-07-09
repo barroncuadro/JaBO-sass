@@ -333,3 +333,18 @@
 			}
 		}
 
+		.lg-article {
+			.article-details {
+				margin-top: -20%;
+			}
+		}
+/* non-mobile
+----------------------------------- */
+
+	@media only screen  
+	and (min-width : 768px) {
+	
+		.lg-article {
+			padding-left: 0.9375rem;
+			padding-right: 0.9375rem;
+		}
