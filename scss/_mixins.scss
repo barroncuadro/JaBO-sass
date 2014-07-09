@@ -79,7 +79,8 @@
 		background-position: 100% 0;
 		background-repeat: repeat-y;
 	}
-	
+
+//left side nav	
 	@mixin menu-open {
 		background-image:url("../images/nav/menu-open.png");
 		background-size: 24px 25px;
@@ -112,6 +113,49 @@
 		padding-top: 1rem;
 	}
 
+//right side nav
+	@mixin news-icon {
+		background-image:url("../images/news-scores/News.png");
+		background-size: 30px 30px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+	
+	@mixin news-icon-on {
+		background-image:url("../images/news-scores/News-highlighted.png");
+		background-size: 30px 30px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+
+	@mixin scores-icon {
+		background-image:url("../images/news-scores/Scores.png");
+		background-size: 28px 30px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+	
+	@mixin scores-icon-on {
+		background-image:url("../images/news-scores/Scores-highlighted.png");
+		background-size: 28px 30px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+
+	@mixin fox-icon {
+		background-image:url("../images/logo/fox-retina.png");
+		background-size: 71px 41px;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		padding-top: 1rem;
+	}
+
+
+//header
 	@mixin big-blue-hr {
 		width: 100%;
 		border-color:#afc7d3;
