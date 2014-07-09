@@ -61,6 +61,29 @@
 			}
 		}
 		
+		/*new styles for social buttons*/
+		.newShareTool {
+			.facebook-count {
+				@include social-sprite(facebook);
+			}
+			
+			.twitter-count {
+				@include social-sprite(twitter);
+			}
+			
+			.secondarySahreContainer {
+				@include social-sprite(share);
+			}
+			
+			.shareCount {
+				@include hide-text;
+				width: 35px;
+				height: 35px;
+				font-size: 25px;
+			}
+		}
+		
+/*
 		.social {
 			position: absolute;
 			margin-left: -4rem;
@@ -97,6 +120,7 @@
 				}
 			}
 		}
+*/
 
 		
 			p {
