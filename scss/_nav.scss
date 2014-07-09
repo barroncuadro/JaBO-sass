@@ -24,7 +24,6 @@
 				&.main-nav {
 					> li {
 						background-color: #fff;
-						
 						margin-top: $general-margin*1.5;
 						
 						&.menu-dropdown,
@@ -109,6 +108,75 @@
 						}
 					}
 				}
+	//right nav styles	
+				&.right-nav {
+
+					> li {
+						
+						a:link, a:visited {
+							font-family: $body-font-family;
+							text-transform: uppercase;
+						}
+						
+						&.news-icon,
+						&.scores-icon,
+						&.fox-logo {
+							margin-top: $general-margin*1.5;
+							cursor: pointer;
+						}
+						
+						&.news-icon {
+							@include news-icon;
+							@include transition(background-image 0.25s ease-in-out);
+							
+							&:hover,
+							&:active {
+								@include news-icon-on;
+
+								> a {
+									color:#ff0000;
+									@include transition(color 0.25s ease-in-out);
+								
+								}
+							}
+						}
+						
+						&.scores-icon {
+							@include scores-icon;
+							@include transition(background-image 0.25s ease-in-out);
+							
+							&:hover,
+							&:active {
+								@include scores-icon-on;
+
+								> a {
+									color:#ff0000;
+									@include transition(color 0.25s ease-in-out);
+								
+								}
+							}
+						}
+						
+						&.fox-logo {							
+							@include fox-icon;
+							width: 71px;
+							margin-right: 1rem;
+														
+							&:not(.has-form) a:not(.button) {
+								line-height: 96px;
+							}
+							
+							img {
+								width: 71px;
+								height: 41px;
+							}
+								
+							a {
+								@include hide-text;
+							}	
+						}
+					}
+				}
 
 				li {
 					background: none;
@@ -118,18 +186,6 @@
 						color:$body-font-color;
 					}
 					
-					&.fox-logo {
-						float: right;
-					
-						&:not(.has-form) a:not(.button) {
-							line-height: 96px;
-						}
-						
-						img {
-							width: 71px;
-							height: 41px;
-						}
-					}
 					
 					a {
 						background: none;
