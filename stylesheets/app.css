@@ -8658,31 +8658,31 @@ aside ul li {
   }
   /* line 348, ../scss/_elements_article.scss */
   .longform .article-title-wrap {
-    top: -16.5em;
-    margin-bottom: -16.5em;
+    top: -5.5em;
+    margin-bottom: -5.5em;
   }
-  /* line 354, ../scss/_elements_article.scss */
-  .longform .article-headline {
-    background: white;
+  /* line 351, ../scss/_elements_article.scss */
+  .longform .article-title-wrap .article-headline {
+    background: #fff;
   }
-  /* line 360, ../scss/_elements_article.scss */
+  /* line 358, ../scss/_elements_article.scss */
   .longform .social-small ul li {
     list-style: none;
     float: left;
   }
-  /* line 365, ../scss/_elements_article.scss */
+  /* line 363, ../scss/_elements_article.scss */
   .longform .social-small ul li.twitter a {
     background-position: 0 0;
   }
-  /* line 371, ../scss/_elements_article.scss */
+  /* line 369, ../scss/_elements_article.scss */
   .longform .social-small ul li.facebook a {
     background-position: 0 -70px;
   }
-  /* line 377, ../scss/_elements_article.scss */
+  /* line 375, ../scss/_elements_article.scss */
   .longform .social-small ul li.share a {
     background-position: 0 -35px;
   }
-  /* line 383, ../scss/_elements_article.scss */
+  /* line 381, ../scss/_elements_article.scss */
   .longform .social-small ul li a:link,
   .longform .social-small ul li a:visited {
     text-indent: -9999px;
@@ -8708,7 +8708,7 @@ aside ul li {
   .longform .social-small ul li a:visited .social-twitter {
     background-position: 0 0;
   }
-  /* line 394, ../scss/_elements_article.scss */
+  /* line 392, ../scss/_elements_article.scss */
   .longform .adspace-small {
     padding: 1rem;
     background: #000;
