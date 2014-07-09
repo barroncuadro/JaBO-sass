@@ -159,9 +159,10 @@
 							}
 						}
 						
-						&.fox-logo {							
+						&.fox-logo {			
 							@include fox-icon;
 							width: 68px;
+							margin-right: $general-margin/4;		
 														
 							&:not(.has-form) a:not(.button) {
 								line-height: 96px;
