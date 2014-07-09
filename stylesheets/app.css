@@ -8130,6 +8130,39 @@ aside ul li {
   font-family: "allerregular", sans-serif;
 }
 
+/* mobile (under 768px)
+----------------------------------- */
+@media only screen and (max-width: 768px) {
+  /* line 343, ../scss/_elements_homepage.scss */
+  #main-container {
+    padding-top: 0;
+  }
+
+  /* line 348, ../scss/_elements_homepage.scss */
+  .lg-article .article-details {
+    margin-top: -20%;
+  }
+
+  /* line 353, ../scss/_elements_homepage.scss */
+  .ad-wrap {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px 0;
+    padding: 1rem 0;
+  }
+}
+/* non-mobile
+----------------------------------- */
+@media only screen and (min-width: 768px) {
+  /* line 369, ../scss/_elements_homepage.scss */
+  .lg-article {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+}
 /* =================================== 
 	ELEMENT STYLES
 	=================================== */
