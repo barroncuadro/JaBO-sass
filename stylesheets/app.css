@@ -7820,7 +7820,7 @@ aside ul li {
 }
 /* line 47, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2, .articles .article-details .details-wrap h3 {
-  font-size: 1.125em;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: -0.0625rem;
   font-family: "allerbold", serif;
@@ -8140,7 +8140,7 @@ aside ul li {
 
   /* line 349, ../scss/_elements_homepage.scss */
   .lg-article .article-details {
-    margin-top: -20%;
+    margin-top: -88px;
   }
 
   /* line 354, ../scss/_elements_homepage.scss */
