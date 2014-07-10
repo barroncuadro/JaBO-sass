@@ -34,7 +34,7 @@
 				margin-top: -190px;
 				text-align: center;
 				position: relative;
-				max-width: 492px;
+				
 				
 				.details-wrap {
 					border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
@@ -444,6 +444,8 @@
 			padding-left: 0.9375rem;
 			padding-right: 0.9375rem;
 		}
+		
+		.articles .article-details {max-width: 492px;}
 	
 	}
 
