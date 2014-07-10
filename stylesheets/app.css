@@ -8281,7 +8281,7 @@ aside ul li {
   }
   /* line 423, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry {
-    text-align: center;
+    text-align: left;
     background-image: url("../images/bg/dot-pattern-light-horiz.png");
     background-size: 4px 1px;
     background-position: 0 100%;
