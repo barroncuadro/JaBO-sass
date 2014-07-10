@@ -127,6 +127,8 @@
 				font-family: $body-secondary-font-family;
 				font-size: $paragraph-font-size*1.125;
 				color: $body-copy-font-color;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
 	
 				&.closer {
 					margin:$general-margin*4 0 $general-margin*3;
