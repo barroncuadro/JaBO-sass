@@ -7433,8 +7433,8 @@ footer {
   /* line 554, ../scss/_nav.scss */
   #searchdrop.open {
     top: 56px !important;
-    width: 475px !important;
-    left: -358px !important;
+    width: 560px !important;
+    left: -422px !important;
   }
   /* line 563, ../scss/_nav.scss */
   #searchdrop.f-dropdown:before, #searchdrop.f-dropdown:after, #searchdrop.f-dropdown.content.open::before, #searchdrop.f-dropdown.content.open::after {
