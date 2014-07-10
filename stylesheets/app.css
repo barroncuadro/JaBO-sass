@@ -8656,21 +8656,23 @@ aside ul li {
 /* line 255, ../scss/_elements_article.scss */
 .longform .article-header-image {
   text-align: center;
-  background: transparent url("../images/3000x584.jpg") no-repeat center;
+  background: transparent url("http://dev2.foxsports.com/content/dam/fsdigital/fscom/mlb/images/2014/03/11/erlinrobbie_cp_USChristopherHanewinckel_062613.vresize.3000.584.high.0.jpg") no-repeat center center;
+  background-size: auto 100%;
   height: 584px;
+  min-height: 340px;
   max-width: 3000px;
 }
-/* line 261, ../scss/_elements_article.scss */
+/* line 263, ../scss/_elements_article.scss */
 .longform .article-header-image img {
   min-width: 640px;
 }
-/* line 266, ../scss/_elements_article.scss */
+/* line 268, ../scss/_elements_article.scss */
 .longform .article-title-wrap {
   position: relative;
   top: -15.5em;
   margin-bottom: -13.5em;
 }
-/* line 271, ../scss/_elements_article.scss */
+/* line 273, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -8679,11 +8681,11 @@ aside ul li {
   text-align: center;
   position: relative;
 }
-/* line 279, ../scss/_elements_article.scss */
+/* line 281, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline .details-wrap {
   border: 1px solid black;
 }
-/* line 282, ../scss/_elements_article.scss */
+/* line 284, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline .details-wrap h1.title {
   background-image: url("../images/bg/dot-pattern-dark-horiz.png");
   background-size: 4px 1px;
@@ -8697,26 +8699,26 @@ aside ul li {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
-/* line 293, ../scss/_elements_article.scss */
+/* line 295, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline .details-wrap .author-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
   background-size: 1px 4px;
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 301, ../scss/_elements_article.scss */
+/* line 303, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 310, ../scss/_elements_article.scss */
+/* line 312, ../scss/_elements_article.scss */
 .longform .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
-/* line 316, ../scss/_elements_article.scss */
+/* line 318, ../scss/_elements_article.scss */
 .longform .full-width-image {
   margin: 1rem 0 2rem;
 }
-/* line 320, ../scss/_elements_article.scss */
+/* line 322, ../scss/_elements_article.scss */
 .longform .long-form-ad-wrap {
   margin-top: 5rem;
 }
@@ -8732,38 +8734,38 @@ aside ul li {
 @media only screen and (max-width: 30em) {
   /*	LONG-FORM ARTICLE
   	----------------------------------- */
-  /* line 344, ../scss/_elements_article.scss */
+  /* line 346, ../scss/_elements_article.scss */
   .longform .article-header-image {
     text-align: center;
     height: 346px;
   }
-  /* line 350, ../scss/_elements_article.scss */
+  /* line 352, ../scss/_elements_article.scss */
   .longform .article-title-wrap {
     top: -5.5em;
     margin-bottom: -5.5em;
   }
-  /* line 353, ../scss/_elements_article.scss */
+  /* line 355, ../scss/_elements_article.scss */
   .longform .article-title-wrap .article-headline {
     background: #fff;
   }
-  /* line 360, ../scss/_elements_article.scss */
+  /* line 362, ../scss/_elements_article.scss */
   .longform .social-small ul li {
     list-style: none;
     float: left;
   }
-  /* line 365, ../scss/_elements_article.scss */
+  /* line 367, ../scss/_elements_article.scss */
   .longform .social-small ul li.twitter a {
     background-position: 0 0;
   }
-  /* line 371, ../scss/_elements_article.scss */
+  /* line 373, ../scss/_elements_article.scss */
   .longform .social-small ul li.facebook a {
     background-position: 0 -70px;
   }
-  /* line 377, ../scss/_elements_article.scss */
+  /* line 379, ../scss/_elements_article.scss */
   .longform .social-small ul li.share a {
     background-position: 0 -35px;
   }
-  /* line 383, ../scss/_elements_article.scss */
+  /* line 385, ../scss/_elements_article.scss */
   .longform .social-small ul li a:link,
   .longform .social-small ul li a:visited {
     text-indent: -9999px;
@@ -8789,7 +8791,7 @@ aside ul li {
   .longform .social-small ul li a:visited .social-twitter {
     background-position: 0 0;
   }
-  /* line 394, ../scss/_elements_article.scss */
+  /* line 396, ../scss/_elements_article.scss */
   .longform .adspace-small {
     padding: 1rem;
     background: #000;
