@@ -446,3 +446,29 @@
 		}
 	
 	}
+
+
+
+
+/* mobile nav - 320px portrait
+----------------------------------- */
+@media only screen  
+and (max-width : 320px) {
+	.articles .sm-article .title-wrap { height: 5.8rem; }
+}
+
+/* mobile nav - 480px landscape
+----------------------------------- */
+@media only screen  
+and (min-width : 321px)
+and (max-width : 480px) {
+	.articles .sm-article .title-wrap { height: 5.8rem; }
+}
+
+/* mobile nav - 568px landscape
+----------------------------------- */
+@media only screen  
+and (min-width : 481px)
+and (max-width : 568px) {
+	.articles .sm-article .title-wrap { height: 6.8rem; }
+}
