@@ -7438,7 +7438,7 @@ footer {
   }
   /* line 563, ../scss/_nav.scss */
   #searchdrop.f-dropdown:before, #searchdrop.f-dropdown:after, #searchdrop.f-dropdown.content.open::before, #searchdrop.f-dropdown.content.open::after {
-    left: 410px !important;
+    left: 485px !important;
     border-color: transparent transparent #111 transparent;
   }
 }
