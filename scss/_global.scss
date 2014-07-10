@@ -26,3 +26,8 @@
 	$body-font-bolditalic:'allerbold_italic',serif;
 	$body-font-italic: 'alleritalic', serif;
 	$body-copy-font-color: #26353c;
+	
+	p,a,li {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
