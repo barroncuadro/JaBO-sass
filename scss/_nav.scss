@@ -504,11 +504,79 @@ and (max-width : 480px) {
 
 
 
-/* tablet nav - 768px portrait
+
+/* mobile nav - 568px iphone landscape
 ----------------------------------- */
 
 @media only screen 
 and (min-width : 481px) 
+and (max-width : 568px) {
+
+	#menudrop {
+		padding: 0 $general-padding*1.25;
+		
+		&.open {
+			top: 56px !important;
+			background:#111 !important;
+			width: 560px !important;
+		}
+		
+		&.f-dropdown:before,
+		&.f-dropdown:after,
+		&.f-dropdown.content.open::before,
+		&.f-dropdown.content.open::after {
+			left: 60px;
+		}
+		
+		&.f-dropdown:before,
+		&.f-dropdown.content.open::before {
+			border-color:transparent transparent #111 transparent;
+		}
+		
+		ul {
+			li {
+				a:link,
+				a:visited {
+					
+					display:block;
+					padding: 0 0 10px !important;
+					margin: 12px 0 0 !important;
+					
+				}
+			}
+		}
+	}
+	
+	
+	#searchdrop {
+		background: #111;
+	
+		&.open {
+			top: 56px !important;
+			width: 475px !important;
+			left: -358px !important;
+		}
+		
+		&.f-dropdown:before,
+		&.f-dropdown:after,
+		&.f-dropdown.content.open::before,
+		&.f-dropdown.content.open::after {
+			left: 410px !important;
+			border-color:transparent transparent #111 transparent;
+		}
+	}
+	
+}
+
+
+
+
+
+/* tablet nav - 768px portrait
+----------------------------------- */
+
+@media only screen 
+and (min-width : 569px) 
 and (max-width : 768px) {
 
 	#menudrop {
