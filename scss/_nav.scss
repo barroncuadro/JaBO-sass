@@ -9,7 +9,7 @@
 		background-color:$module-bg;
 		margin-bottom: 0; //jon
 
-		.top-bar-section {			
+		.top-bar-section {
 			.name {
 					&:not(.has-form) a:not(.button) {
 						line-height: 96px;
@@ -110,7 +110,7 @@
 				}
 	//right nav styles	
 				&.right-nav {
-
+					height: 96px !important;
 					> li {
 						
 						a:link, a:visited {
@@ -244,7 +244,7 @@ and (max-width : 768px) {
 	.top-nav {
 		height: 60px;
 		display: block;
-		margin-bottom: 0; //jon
+		margin-bottom: 0;
 		@include box-shadow(0 1px 10px 0px #ccc);
 		background-color: #fff;
 	
@@ -252,7 +252,7 @@ and (max-width : 768px) {
 			text-align: center;
 				
 				a {
-					margin-top:$general-margin/2;
+					margin-top:$general-margin*0.75;
 					display:inline-block;
 					text-transform: uppercase;
 					
@@ -329,7 +329,7 @@ and (max-width : 768px) {
 			text-align: center;
 	
 			a {
-				margin-top:$general-margin/2;
+				margin-top:$general-margin*0.75;
 				display:inline-block;
 				font-size: $paragraph-font-size*.625;
 				padding-top:$general-padding*1.75 !important;
