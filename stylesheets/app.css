@@ -7809,11 +7809,16 @@ aside ul li {
 .articles {
   margin-bottom: 4rem;
 }
-/* line 23, ../scss/_elements_homepage.scss */
-.articles .article-image img {
-  display: block;
+/* line 20, ../scss/_elements_homepage.scss */
+.articles .article-header-image {
+  text-align: center;
+  background: transparent url("http://dev2.foxsports.com/content/dam/fsdigital/fscom/mlb/images/2014/03/11/erlinrobbie_cp_USChristopherHanewinckel_062613.vresize.3000.584.high.0.jpg") no-repeat center center;
+  background-size: auto 100%;
+  min-height: 438px;
+  height: auto !important;
+  height: 438px;
 }
-/* line 28, ../scss/_elements_homepage.scss */
+/* line 30, ../scss/_elements_homepage.scss */
 .articles .article-details {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -7823,11 +7828,11 @@ aside ul li {
   position: relative;
   max-width: 492px;
 }
-/* line 37, ../scss/_elements_homepage.scss */
+/* line 39, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap {
   border: 1px solid black;
 }
-/* line 40, ../scss/_elements_homepage.scss */
+/* line 42, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2 {
   background-image: url("../images/bg/dot-pattern-dark-horiz.png");
   background-size: 4px 1px;
@@ -7837,19 +7842,19 @@ aside ul li {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 47, ../scss/_elements_homepage.scss */
+/* line 49, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2, .articles .article-details .details-wrap h3 {
   font-size: 20px;
   text-transform: uppercase;
   font-family: "allerbold", serif;
   letter-spacing: -0.0625rem;
 }
-/* line 53, ../scss/_elements_homepage.scss */
+/* line 55, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2 a:link, .articles .article-details .details-wrap h2 a:visited, .articles .article-details .details-wrap h3 a:link, .articles .article-details .details-wrap h3 a:visited {
   text-decoration: none;
   color: #0e0d0d;
 }
-/* line 60, ../scss/_elements_homepage.scss */
+/* line 62, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-wrap,
 .articles .article-details .details-wrap .signal-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
@@ -7857,42 +7862,42 @@ aside ul li {
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 64, ../scss/_elements_homepage.scss */
+/* line 66, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 67, ../scss/_elements_homepage.scss */
+/* line 69, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p {
   margin: 0.8rem 0 0.5rem;
   /* font-size:$paragraph-font-size*1.125; */
   line-height: 65%;
 }
-/* line 72, ../scss/_elements_homepage.scss */
+/* line 74, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.comments {
   background-position: 0 0;
   width: 25px;
   height: 20px;
   margin: 0.8rem auto 0.5rem;
 }
-/* line 78, ../scss/_elements_homepage.scss */
+/* line 80, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.comments a:link, .articles .article-details .details-wrap .author-comments p.comments a:visited {
   color: #fff;
   font-size: 0.625em;
   line-height: normal;
 }
-/* line 86, ../scss/_elements_homepage.scss */
+/* line 88, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.author {
   line-height: 100%;
 }
-/* line 89, ../scss/_elements_homepage.scss */
+/* line 91, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments p.author a:visited {
   color: #e51b23;
 }
-/* line 94, ../scss/_elements_homepage.scss */
+/* line 96, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.signal {
   margin: 0.6rem 0 0.5rem;
 }
-/* line 96, ../scss/_elements_homepage.scss */
+/* line 98, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.signal img {
   width: 25px;
   height: 25px;
@@ -7901,25 +7906,25 @@ aside ul li {
   -ms-border-radius: 1000px;
   border-radius: 1000px;
 }
-/* line 107, ../scss/_elements_homepage.scss */
+/* line 109, ../scss/_elements_homepage.scss */
 .articles .sm-article {
   margin: 1rem 0;
 }
-/* line 110, ../scss/_elements_homepage.scss */
+/* line 112, ../scss/_elements_homepage.scss */
 .articles .sm-article .article-details {
   border: 0;
   padding: 0;
   background: transparent;
   margin-top: -20%;
 }
-/* line 117, ../scss/_elements_homepage.scss */
+/* line 119, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap {
   text-align: center;
   height: 6.5rem;
   overflow: hidden;
   background: #fff;
 }
-/* line 123, ../scss/_elements_homepage.scss */
+/* line 125, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap h3 {
   padding: 1rem;
   font-family: "allerbold", serif;
@@ -7936,12 +7941,12 @@ aside ul li {
   height: 96px;
   width: inherit;
 }
-/* line 139, ../scss/_elements_homepage.scss */
+/* line 141, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap h3 a:link, .articles .sm-article .title-wrap h3 a:visited {
   text-decoration: none;
   color: #0e0d0d;
 }
-/* line 146, ../scss/_elements_homepage.scss */
+/* line 148, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments {
   overflow-y: auto;
   background-color: white;
@@ -7952,7 +7957,7 @@ aside ul li {
   background-position: 100% 0;
   margin-top: 0.75rem;
 }
-/* line 154, ../scss/_elements_homepage.scss */
+/* line 156, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments .author-wrap,
 .articles .sm-article .author-comments .signal-wrap {
   background-image: url("../images/bg/dot-pattern-vert-light.png");
@@ -7960,16 +7965,16 @@ aside ul li {
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 159, ../scss/_elements_homepage.scss */
+/* line 161, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments.two-col p.comments {
   width: 25px;
 }
-/* line 164, ../scss/_elements_homepage.scss */
+/* line 166, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p {
   margin: 0.8rem 0 0.5rem;
   line-height: 65%;
 }
-/* line 168, ../scss/_elements_homepage.scss */
+/* line 170, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.comments {
   background-position: 0 -20px;
   background-position: 0 0;
@@ -7978,25 +7983,25 @@ aside ul li {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 176, ../scss/_elements_homepage.scss */
+/* line 178, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.comments a:link, .articles .sm-article .author-comments p.comments a:visited {
   color: #fff;
   font-size: 0.625em;
   line-height: normal;
 }
-/* line 184, ../scss/_elements_homepage.scss */
+/* line 186, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.author {
   line-height: 115%;
 }
-/* line 187, ../scss/_elements_homepage.scss */
+/* line 189, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments p.author a:visited {
   color: #e51b23;
 }
-/* line 192, ../scss/_elements_homepage.scss */
+/* line 194, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.signal {
   margin: 0.6rem 0 0.5rem;
 }
-/* line 194, ../scss/_elements_homepage.scss */
+/* line 196, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.signal img {
   width: 25px;
   height: 25px;
@@ -8006,17 +8011,17 @@ aside ul li {
   border-radius: 1000px;
 }
 
-/* line 207, ../scss/_elements_homepage.scss */
+/* line 209, ../scss/_elements_homepage.scss */
 .by-the-numbers {
   font-family: "Vollkorn", serif;
   margin-bottom: 4rem;
 }
-/* line 211, ../scss/_elements_homepage.scss */
+/* line 213, ../scss/_elements_homepage.scss */
 .by-the-numbers h2 {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
   margin-bottom: 4rem;
 }
-/* line 215, ../scss/_elements_homepage.scss */
+/* line 217, ../scss/_elements_homepage.scss */
 .by-the-numbers h2 span {
   background-position: 0 -521px;
   text-indent: -9999px;
@@ -8031,11 +8036,11 @@ aside ul li {
   width: 166px;
   height: 117px;
 }
-/* line 225, ../scss/_elements_homepage.scss */
+/* line 227, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-group div:last-child .btn-entry {
   background-image: none;
 }
-/* line 230, ../scss/_elements_homepage.scss */
+/* line 232, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-group .btn-entry {
   text-align: center;
   background-image: url("../images/bg/dot-pattern-vert-light.png");
@@ -8045,25 +8050,25 @@ aside ul li {
   overflow: auto;
   padding: 0 1rem;
 }
-/* line 236, ../scss/_elements_homepage.scss */
+/* line 238, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-group .btn-entry img {
   margin-bottom: 2rem;
 }
-/* line 241, ../scss/_elements_homepage.scss */
+/* line 243, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-group .btn-entry p a:link, .by-the-numbers .btn-group .btn-entry p a:visited, .by-the-numbers .btn-group .btn-entry p a:hover, .by-the-numbers .btn-group .btn-entry p a:active {
   color: #0e0d0d;
 }
 
 /* SIDEBAR --------------------- */
-/* line 253, ../scss/_elements_homepage.scss */
+/* line 255, ../scss/_elements_homepage.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 256, ../scss/_elements_homepage.scss */
+/* line 258, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 259, ../scss/_elements_homepage.scss */
+/* line 261, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header span {
   background-position: 0 -694px;
   text-indent: -9999px;
@@ -8078,16 +8083,16 @@ aside ul li {
   height: 49px;
   margin: 0 auto 1rem;
 }
-/* line 269, ../scss/_elements_homepage.scss */
+/* line 271, ../scss/_elements_homepage.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 277, ../scss/_elements_homepage.scss */
+/* line 279, ../scss/_elements_homepage.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 284, ../scss/_elements_homepage.scss */
+/* line 286, ../scss/_elements_homepage.scss */
 .baseball-joe li {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -8096,26 +8101,26 @@ aside ul li {
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 289, ../scss/_elements_homepage.scss */
+/* line 291, ../scss/_elements_homepage.scss */
 .baseball-joe li.last {
   background-image: none;
 }
-/* line 291, ../scss/_elements_homepage.scss */
+/* line 293, ../scss/_elements_homepage.scss */
 .baseball-joe li a:link, .baseball-joe li a:visited, .baseball-joe li a:hover, .baseball-joe li a:active {
   color: #0e0d0d;
 }
 
-/* line 299, ../scss/_elements_homepage.scss */
+/* line 301, ../scss/_elements_homepage.scss */
 .ad {
   text-align: center;
   padding: 1.5rem 1rem;
 }
 
-/* line 304, ../scss/_elements_homepage.scss */
+/* line 306, ../scss/_elements_homepage.scss */
 .contributors-wrap .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 307, ../scss/_elements_homepage.scss */
+/* line 309, ../scss/_elements_homepage.scss */
 .contributors-wrap .section-header span {
   background-position: 0 -638px;
   text-indent: -9999px;
@@ -8129,22 +8134,22 @@ aside ul li {
   width: 249px;
   height: 56px;
 }
-/* line 316, ../scss/_elements_homepage.scss */
+/* line 318, ../scss/_elements_homepage.scss */
 .contributors-wrap li {
   padding-bottom: 1.5rem;
 }
-/* line 320, ../scss/_elements_homepage.scss */
+/* line 322, ../scss/_elements_homepage.scss */
 .contributors-wrap li .thumb-image img {
   max-width: 100px;
 }
-/* line 325, ../scss/_elements_homepage.scss */
+/* line 327, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p {
   margin-top: 1rem;
   font-size: 1.125em;
   font-family: "allerbold", serif;
   margin-bottom: 0;
 }
-/* line 331, ../scss/_elements_homepage.scss */
+/* line 333, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
@@ -8154,23 +8159,29 @@ aside ul li {
 /* mobile (under 768px)
 ----------------------------------- */
 @media only screen and (max-width: 768px) {
-  /* line 347, ../scss/_elements_homepage.scss */
+  /* line 349, ../scss/_elements_homepage.scss */
   #main-container {
     padding-top: 0;
   }
 
-  /* line 351, ../scss/_elements_homepage.scss */
+  /* line 353, ../scss/_elements_homepage.scss */
   h1 {
     margin-bottom: 0;
   }
 
-  /* line 354, ../scss/_elements_homepage.scss */
+  /* line 356, ../scss/_elements_homepage.scss */
+  .lg-article .article-header-image {
+    min-height: 340px;
+    height: auto !important;
+    height: 340px;
+  }
+  /* line 362, ../scss/_elements_homepage.scss */
   .lg-article .article-details {
     margin-top: -88px;
     background-color: #fff;
   }
 
-  /* line 360, ../scss/_elements_homepage.scss */
+  /* line 368, ../scss/_elements_homepage.scss */
   .ad-wrap {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
@@ -8181,11 +8192,11 @@ aside ul li {
     padding: 1rem 0;
   }
 
-  /* line 369, ../scss/_elements_homepage.scss */
+  /* line 377, ../scss/_elements_homepage.scss */
   .articles .large-6 {
     padding: 0 10px;
   }
-  /* line 377, ../scss/_elements_homepage.scss */
+  /* line 385, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     width: 100%;
     text-align: center;
@@ -8193,34 +8204,34 @@ aside ul li {
     overflow: hidden;
     background: #fff;
   }
-  /* line 383, ../scss/_elements_homepage.scss */
+  /* line 391, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap h3 {
     width: inherit;
     font-size: 16px;
   }
-  /* line 390, ../scss/_elements_homepage.scss */
+  /* line 398, ../scss/_elements_homepage.scss */
   .articles .sm-article .author-comments p {
     margin: 0.8rem 0 0.6rem;
   }
-  /* line 396, ../scss/_elements_homepage.scss */
+  /* line 404, ../scss/_elements_homepage.scss */
   .articles .sm-article p.author {
     font-size: 16px;
   }
 
-  /* line 403, ../scss/_elements_homepage.scss */
+  /* line 411, ../scss/_elements_homepage.scss */
   .articles {
     margin-bottom: 1rem;
   }
 
-  /* line 407, ../scss/_elements_homepage.scss */
+  /* line 415, ../scss/_elements_homepage.scss */
   .by-the-numbers {
     margin-bottom: 1rem;
   }
-  /* line 410, ../scss/_elements_homepage.scss */
+  /* line 418, ../scss/_elements_homepage.scss */
   .by-the-numbers h2 {
     margin-bottom: 1rem;
   }
-  /* line 416, ../scss/_elements_homepage.scss */
+  /* line 424, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry {
     text-align: center;
     background-image: url("../images/bg/dot-pattern-light-horiz.png");
@@ -8229,7 +8240,7 @@ aside ul li {
     background-repeat: repeat-x;
     padding: 1rem;
   }
-  /* line 421, ../scss/_elements_homepage.scss */
+  /* line 429, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry p {
     margin-bottom: 0;
   }
@@ -8237,7 +8248,7 @@ aside ul li {
 /* non-mobile
 ----------------------------------- */
 @media only screen and (min-width: 768px) {
-  /* line 436, ../scss/_elements_homepage.scss */
+  /* line 444, ../scss/_elements_homepage.scss */
   .lg-article {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;

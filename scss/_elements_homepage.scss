@@ -17,12 +17,14 @@
 		.articles {
 			margin-bottom:$general-margin*4;
 		
-			.article-image {
+			.article-header-image {
+				text-align: center;
+				background: transparent url('http://dev2.foxsports.com/content/dam/fsdigital/fscom/mlb/images/2014/03/11/erlinrobbie_cp_USChristopherHanewinckel_062613.vresize.3000.584.high.0.jpg') no-repeat center center;
+				background-size: auto 100%;
+				min-height: 438px;
+				height:auto !important; 
+				height: 438px; 
 				
-				
-				img {
-					display: block;
-				}
 			}
 			
 			.article-details {
@@ -351,6 +353,12 @@
 		h1 { margin-bottom: 0; }
 	
 		.lg-article {
+			.article-header-image {
+				min-height: 340px;
+				height:auto !important; 
+				height: 340px; 
+			}
+		
 			.article-details {
 				margin-top: -88px;
 				background-color: #fff;
