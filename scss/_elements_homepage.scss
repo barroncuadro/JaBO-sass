@@ -129,7 +129,7 @@
 						letter-spacing: rem-calc(-1);
 						/* margin-bottom: $general-margin; */
 						margin-top: 0;
-						line-height: 1.4em !important;
+						line-height: 1.5em !important;
 						display: table-cell;
 						vertical-align: middle;
 						margin: 0 auto $general-margin;
@@ -400,7 +400,13 @@
 			}
 		}
 		
+		.articles {
+			margin-bottom: 1rem;
+		}
+		
 		.by-the-numbers {
+			margin-bottom: 1rem;
+		
 			h2 {
 				margin-bottom: 1rem;
 			}
