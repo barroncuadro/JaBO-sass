@@ -6811,6 +6811,12 @@ a.th {
 /* =================================== 
 	GLOBAL
 	=================================== */
+/* line 30, ../scss/_global.scss */
+p, a, li {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* =================================== 
 	CONTAINERS
 	=================================== */
@@ -7923,7 +7929,7 @@ aside ul li {
   letter-spacing: -0.0625rem;
   /* margin-bottom: $general-margin; */
   margin-top: 0;
-  line-height: 1.4em !important;
+  line-height: 1.5em !important;
   display: table-cell;
   vertical-align: middle;
   margin: 0 auto 1rem;
@@ -8201,11 +8207,20 @@ aside ul li {
     font-size: 16px;
   }
 
-  /* line 404, ../scss/_elements_homepage.scss */
-  .by-the-numbers h2 {
+  /* line 403, ../scss/_elements_homepage.scss */
+  .articles {
+    margin-bottom: 1rem;
+  }
+
+  /* line 407, ../scss/_elements_homepage.scss */
+  .by-the-numbers {
     margin-bottom: 1rem;
   }
   /* line 410, ../scss/_elements_homepage.scss */
+  .by-the-numbers h2 {
+    margin-bottom: 1rem;
+  }
+  /* line 416, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry {
     text-align: center;
     background-image: url("../images/bg/dot-pattern-light-horiz.png");
@@ -8214,7 +8229,7 @@ aside ul li {
     background-repeat: repeat-x;
     padding: 1rem;
   }
-  /* line 415, ../scss/_elements_homepage.scss */
+  /* line 421, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry p {
     margin-bottom: 0;
   }
@@ -8222,7 +8237,7 @@ aside ul li {
 /* non-mobile
 ----------------------------------- */
 @media only screen and (min-width: 768px) {
-  /* line 430, ../scss/_elements_homepage.scss */
+  /* line 436, ../scss/_elements_homepage.scss */
   .lg-article {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -8515,28 +8530,26 @@ aside ul li {
   font-family: "Vollkorn", serif;
   font-size: 1.125em;
   color: #26353c;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-/* line 133, ../scss/_elements_article.scss */
+/* line 132, ../scss/_elements_article.scss */
 .longform p.closer,
 .shortform p.closer {
   margin: 4rem 0 3rem;
   text-align: center;
 }
-/* line 138, ../scss/_elements_article.scss */
+/* line 137, ../scss/_elements_article.scss */
 .longform p.caption,
 .shortform p.caption {
   font-size: 0.875em;
   line-height: 150%;
 }
-/* line 143, ../scss/_elements_article.scss */
+/* line 142, ../scss/_elements_article.scss */
 .longform p.author,
 .shortform p.author {
   font-size: 1.125em;
   margin: 0.25rem 0;
 }
-/* line 149, ../scss/_elements_article.scss */
+/* line 148, ../scss/_elements_article.scss */
 .longform p.comments,
 .shortform p.comments {
   text-align: center;
@@ -8544,7 +8557,7 @@ aside ul li {
   margin: 0.6rem auto 0.4rem;
   line-height: 65%;
 }
-/* line 155, ../scss/_elements_article.scss */
+/* line 154, ../scss/_elements_article.scss */
 .longform p.comments a:link, .longform p.comments a:visited,
 .shortform p.comments a:link,
 .shortform p.comments a:visited {
@@ -8553,58 +8566,58 @@ aside ul li {
   font-family: "allerregular", sans-serif;
   line-height: normal;
 }
-/* line 163, ../scss/_elements_article.scss */
+/* line 162, ../scss/_elements_article.scss */
 .longform p.author-twitter,
 .shortform p.author-twitter {
   font-family: "allerregular", sans-serif;
 }
-/* line 168, ../scss/_elements_article.scss */
+/* line 167, ../scss/_elements_article.scss */
 .longform hr,
 .shortform hr {
   width: 180px;
   margin: 2.5rem auto;
   border-color: #afafaf;
 }
-/* line 175, ../scss/_elements_article.scss */
+/* line 174, ../scss/_elements_article.scss */
 .longform .article-intro p,
 .shortform .article-intro p {
   font-family: "allerbold", serif;
   text-align: center;
   line-height: 1.875rem;
 }
-/* line 183, ../scss/_elements_article.scss */
+/* line 182, ../scss/_elements_article.scss */
 .longform .fyre-stream-stats,
 .shortform .fyre-stream-stats {
   display: none;
   visibility: hidden;
 }
-/* line 185, ../scss/_elements_article.scss */
+/* line 184, ../scss/_elements_article.scss */
 .longform .livefyre-wrap,
 .shortform .livefyre-wrap {
   margin-bottom: 4rem;
 }
-/* line 189, ../scss/_elements_article.scss */
+/* line 188, ../scss/_elements_article.scss */
 .longform .livefyre-wrap .fyre-comment p,
 .shortform .livefyre-wrap .fyre-comment p {
   font-family: "allerregular", sans-serif;
   font-size: 1em;
 }
-/* line 195, ../scss/_elements_article.scss */
+/* line 194, ../scss/_elements_article.scss */
 .longform .livefyre-wrap #LivefyreContainer.toggle-show,
 .shortform .livefyre-wrap #LivefyreContainer.toggle-show {
   text-align: center;
 }
-/* line 201, ../scss/_elements_article.scss */
+/* line 200, ../scss/_elements_article.scss */
 .longform .pre-footer p,
 .shortform .pre-footer p {
   text-align: center;
 }
-/* line 206, ../scss/_elements_article.scss */
+/* line 205, ../scss/_elements_article.scss */
 .longform .livefyre-break,
 .shortform .livefyre-break {
   text-align: center;
 }
-/* line 208, ../scss/_elements_article.scss */
+/* line 207, ../scss/_elements_article.scss */
 .longform .livefyre-break hr,
 .shortform .livefyre-break hr {
   width: 100%;
@@ -8612,7 +8625,7 @@ aside ul li {
   border-width: 2px;
   margin: 2.5rem auto 1rem;
 }
-/* line 214, ../scss/_elements_article.scss */
+/* line 213, ../scss/_elements_article.scss */
 .longform .caption-wrap,
 .shortform .caption-wrap {
   border-left: 3px solid #00aeef;
@@ -8620,44 +8633,44 @@ aside ul li {
 
 /*	SHORT-FORM ARTICLE
 	----------------------------------- */
-/* line 229, ../scss/_elements_article.scss */
+/* line 228, ../scss/_elements_article.scss */
 .shortform .article-headline {
   margin-top: 3rem;
 }
-/* line 232, ../scss/_elements_article.scss */
+/* line 231, ../scss/_elements_article.scss */
 .shortform .article-headline h1.title {
   background-image: none;
 }
 
 /*	LONG FORM ARTICLE
 	----------------------------------- */
-/* line 248, ../scss/_elements_article.scss */
+/* line 247, ../scss/_elements_article.scss */
 .longform {
   padding-top: 0 !important;
 }
-/* line 251, ../scss/_elements_article.scss */
+/* line 250, ../scss/_elements_article.scss */
 .longform .social {
   margin-left: 0;
   margin-top: 0.5rem;
 }
-/* line 256, ../scss/_elements_article.scss */
+/* line 255, ../scss/_elements_article.scss */
 .longform .article-header-image {
   text-align: center;
   background: transparent url("../images/3000x584.jpg") no-repeat center;
   height: 584px;
   max-width: 3000px;
 }
-/* line 262, ../scss/_elements_article.scss */
+/* line 261, ../scss/_elements_article.scss */
 .longform .article-header-image img {
   min-width: 640px;
 }
-/* line 267, ../scss/_elements_article.scss */
+/* line 266, ../scss/_elements_article.scss */
 .longform .article-title-wrap {
   position: relative;
   top: -15.5em;
   margin-bottom: -13.5em;
 }
-/* line 272, ../scss/_elements_article.scss */
+/* line 271, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -8666,11 +8679,11 @@ aside ul li {
   text-align: center;
   position: relative;
 }
-/* line 280, ../scss/_elements_article.scss */
+/* line 279, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline .details-wrap {
   border: 1px solid black;
 }
-/* line 283, ../scss/_elements_article.scss */
+/* line 282, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline .details-wrap h1.title {
   background-image: url("../images/bg/dot-pattern-dark-horiz.png");
   background-size: 4px 1px;
@@ -8684,26 +8697,26 @@ aside ul li {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
-/* line 294, ../scss/_elements_article.scss */
+/* line 293, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline .details-wrap .author-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
   background-size: 1px 4px;
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 302, ../scss/_elements_article.scss */
+/* line 301, ../scss/_elements_article.scss */
 .longform .article-title-wrap .article-headline .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 311, ../scss/_elements_article.scss */
+/* line 310, ../scss/_elements_article.scss */
 .longform .handle p.author-twitter img {
   margin-bottom: 0.5rem;
 }
-/* line 317, ../scss/_elements_article.scss */
+/* line 316, ../scss/_elements_article.scss */
 .longform .full-width-image {
   margin: 1rem 0 2rem;
 }
-/* line 321, ../scss/_elements_article.scss */
+/* line 320, ../scss/_elements_article.scss */
 .longform .long-form-ad-wrap {
   margin-top: 5rem;
 }
@@ -8719,38 +8732,38 @@ aside ul li {
 @media only screen and (max-width: 30em) {
   /*	LONG-FORM ARTICLE
   	----------------------------------- */
-  /* line 345, ../scss/_elements_article.scss */
+  /* line 344, ../scss/_elements_article.scss */
   .longform .article-header-image {
     text-align: center;
     height: 346px;
   }
-  /* line 351, ../scss/_elements_article.scss */
+  /* line 350, ../scss/_elements_article.scss */
   .longform .article-title-wrap {
     top: -5.5em;
     margin-bottom: -5.5em;
   }
-  /* line 354, ../scss/_elements_article.scss */
+  /* line 353, ../scss/_elements_article.scss */
   .longform .article-title-wrap .article-headline {
     background: #fff;
   }
-  /* line 361, ../scss/_elements_article.scss */
+  /* line 360, ../scss/_elements_article.scss */
   .longform .social-small ul li {
     list-style: none;
     float: left;
   }
-  /* line 366, ../scss/_elements_article.scss */
+  /* line 365, ../scss/_elements_article.scss */
   .longform .social-small ul li.twitter a {
     background-position: 0 0;
   }
-  /* line 372, ../scss/_elements_article.scss */
+  /* line 371, ../scss/_elements_article.scss */
   .longform .social-small ul li.facebook a {
     background-position: 0 -70px;
   }
-  /* line 378, ../scss/_elements_article.scss */
+  /* line 377, ../scss/_elements_article.scss */
   .longform .social-small ul li.share a {
     background-position: 0 -35px;
   }
-  /* line 384, ../scss/_elements_article.scss */
+  /* line 383, ../scss/_elements_article.scss */
   .longform .social-small ul li a:link,
   .longform .social-small ul li a:visited {
     text-indent: -9999px;
@@ -8776,7 +8789,7 @@ aside ul li {
   .longform .social-small ul li a:visited .social-twitter {
     background-position: 0 0;
   }
-  /* line 395, ../scss/_elements_article.scss */
+  /* line 394, ../scss/_elements_article.scss */
   .longform .adspace-small {
     padding: 1rem;
     background: #000;
