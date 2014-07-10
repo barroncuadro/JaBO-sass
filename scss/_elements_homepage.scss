@@ -50,7 +50,7 @@
 						font-size: 20px;
 						text-transform: uppercase;
 						font-family:$body-font-bold;
-						letter-spacing:rem-calc(-1);
+						letter-spacing: 0.001rem;
 						
 						a:link,a:visited {
 							text-decoration: none;
@@ -128,7 +128,6 @@
 						font-size: 20px;
 						text-transform: uppercase;
 						text-align: center;
-						letter-spacing: rem-calc(-1);
 						/* margin-bottom: $general-margin; */
 						margin-top: 0;
 						line-height: 1.5em !important;
