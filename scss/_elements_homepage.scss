@@ -47,8 +47,8 @@
 					h2,h3 {
 						font-size: 20px;
 						text-transform: uppercase;
-						letter-spacing: rem-calc(-1);
 						font-family:$body-font-bold;
+						letter-spacing:rem-calc(-1);
 						
 						a:link,a:visited {
 							text-decoration: none;
@@ -84,7 +84,7 @@
 							}
 							
 							&.author {
-								line-height: 115%;
+								line-height: 100%;
 								
 								a:link,a:visited {
 									color:$alert-color;
@@ -116,13 +116,14 @@
 				
 				.title-wrap {
 					text-align: center;
-					height:6rem;
+					height: 6.5rem;
 					overflow: hidden;
+					background: #fff;
+
 					h3 {
-						background: $module-bg;
-						padding:$general-margin $general-margin/2;
+						padding:$general-margin;
 						font-family:$body-font-bold;
-						font-size:$h5-font-size;
+						font-size: 20px;
 						text-transform: uppercase;
 						text-align: center;
 						letter-spacing: rem-calc(-1);
@@ -132,8 +133,8 @@
 						display: table-cell;
 						vertical-align: middle;
 						margin: 0 auto $general-margin;
-						width: 17em;
 						height: 96px;
+						width: inherit;
 						
 						a:link,a:visited {
 							text-decoration: none;
@@ -348,6 +349,7 @@
 		.lg-article {
 			.article-details {
 				margin-top: -88px;
+				background-color: #fff;
 			}
 		}
 		
@@ -359,7 +361,40 @@
 			padding: $general-padding 0;
 		}
 	
-	}
+		.articles {
+			.sm-article {
+	
+				
+				.article-details {
+	
+				}
+				
+				.title-wrap {
+					width: 100%;
+					text-align: center;
+					height: 5.5rem;
+					overflow: hidden;
+					background: #fff;
+					h3 {
+						width: inherit;
+						font-size: 16px;
+					}
+				}
+				
+				.author-comments {
+					p {
+						margin: 0.8rem 0 0.6rem;
+					}
+				}
+				
+				p {
+					&.author {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	} //end mobile
 
 /* non-mobile
 ----------------------------------- */
