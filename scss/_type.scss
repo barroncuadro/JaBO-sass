@@ -1,4 +1,4 @@
-/* =================================== 
+/* ===================================
 	FONTS
 	=================================== */
 
@@ -42,7 +42,7 @@
 
 @font-face {
     font-family: 'aller_lightregular';
-    src: url('../../fonts/aller_lt-webfont.eot');
+    src: url('../fonts/aller_lt-webfont.eot');
     src: url('../fonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/aller_lt-webfont.woff') format('woff'),
          url('../fonts/aller_lt-webfont.ttf') format('truetype'),
@@ -87,7 +87,6 @@
     font-style: normal;
 
 }
-
 
 h1,h2,h3 { font-weight:normal; }
 strong, .strong { font-weight:700; }
