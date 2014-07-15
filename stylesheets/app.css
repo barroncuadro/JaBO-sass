@@ -9398,17 +9398,17 @@ aside ul li {
   }
 
   /* line 343, ../scss/_elements_homepage.scss */
-  .lg-article {
+  .lrg-article {
     overflow: hidden;
   }
   /* line 345, ../scss/_elements_homepage.scss */
-  .lg-article .article-header-image {
+  .lrg-article .article-header-image {
     min-height: 340px;
     height: auto !important;
     height: 340px;
   }
   /* line 351, ../scss/_elements_homepage.scss */
-  .lg-article .article-details {
+  .lrg-article .article-details {
     margin-top: -88px;
     background-color: #fff;
   }
