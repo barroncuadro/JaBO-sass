@@ -8309,7 +8309,7 @@ footer {
 /* line 182, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li:not(.has-form) a:not(.button) {
   background: none;
-  color: #0e0d0d;
+  color: #898989;
 }
 /* line 187, ../scss/_nav.scss */
 .top-bar .top-bar-section ul li a {
