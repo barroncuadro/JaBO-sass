@@ -1,7 +1,6 @@
-/* =================================== 
+/* ===================================
 	ELEMENT STYLES
 	=================================== */
-
 
 /*	SHORT-FORM + LONG FORM ARTICLE
 	----------------------------------- */
@@ -12,27 +11,27 @@
 			text-align: center;
 			max-width: 492px;
 			margin: 0 auto 3rem;
-		
+
 			h1.title {
 				font-size:$paragraph-font-size*1.25;
 				text-align: center;
-				text-transform: uppercase; 
+				text-transform: uppercase;
 				letter-spacing: rem-calc(-0.09);
 				margin-bottom: $general-margin;
 			}
 		}
-		
+
 		p.author-twitter {
 			text-align: center;
 			font-family:$body-font-family;
-			
+
 			img {
 				width: 87px;
 				min-width: 87px;
 				@include border-radius($global-rounded);
 				border: $thumb-image-border-width $thumb-image-border-style $thumb-image-border-color;
 			}
-			
+
 			span.author-name {
 				display: block;
 				color:$alert-color;
@@ -40,19 +39,19 @@
 				font-size:$paragraph-font-size*1.25;
 				letter-spacing: rem-calc(1);
 			}
-			
+
 			span.twitter-handle {
 				display: block;
 			}
-		}	
-		
+		}
+
 		.signal-wrap {
 			@include vert-dark-bg;
-			
+
 			.signal {
 				margin:$general-margin*.4 0;
 				line-height: 65%;
-				
+
 				img {
 					width: 25px;
 					height: 25px;
@@ -60,21 +59,21 @@
 				}
 			}
 		}
-		
+
 		/*new styles for social buttons*/
 		.newShareTool {
 			.facebook-count {
 				@include social-sprite(facebook);
 			}
-			
+
 			.twitter-count {
 				@include social-sprite(twitter);
 			}
-			
+
 			.secondarySahreContainer {
 				@include social-sprite(share);
 			}
-			
+
 			.shareCount {
 				@include hide-text;
 				width: 35px;
@@ -82,36 +81,36 @@
 				font-size: 25px;
 			}
 		}
-		
+
 /*
 		.social {
 			position: absolute;
 			margin-left: -4rem;
-			
+
 			ul {
 				li {
 					list-style: none;
 					margin-bottom:$general-margin/2;
-					
+
 					a {
 						@include hide-text;
 						width: 35px;
 						height: 35px;
-						font-size: 25px;  
+						font-size: 25px;
 					}
-					
+
 					&.twitter {
 						a {
 							@include social-sprite(twitter);
-						}	
+						}
 					}
-					
+
 					&.facebook {
 						a {
 							@include social-sprite(facebook);
 						}
 					}
-					
+
 					&.share {
 						a {
 							@include social-sprite(share);
@@ -122,35 +121,33 @@
 		}
 */
 
-		
 			p {
 				font-family: $body-secondary-font-family;
 				font-size: $paragraph-font-size*1.125;
 				color: $body-copy-font-color;
-				
-	
+
 				&.closer {
 					margin:$general-margin*4 0 $general-margin*3;
 					text-align: center;
 				}
-				
+
 				&.caption {
 					font-size:$paragraph-font-size*.875;
 					line-height:$base-line-height;
 				}
-				
+
 				&.author {
 					@extend .author;
 					font-size:$h5-font-size;
 					margin: $general-margin*0.25 0;
 				}
-				
+
 				&.comments {
 					text-align: center;
 					width: 25px;
 					margin:$general-margin*.6 auto $general-margin*.4;
 					line-height: 65%;
-					
+
 					a:link,a:visited {
 						font-size:$paragraph-font-size*0.625;
 						color:#fff;
@@ -158,7 +155,7 @@
 						line-height:normal;
 					}
 				}
-				
+
 				&.author-twitter {
 					font-family:$body-font-family;
 				}
@@ -169,7 +166,7 @@
 				margin: 2.5rem auto;
 				border-color:#afafaf;
 			}
-			
+
 			.article-intro {
 				p {
 					font-family:$body-font-bold;
@@ -177,94 +174,85 @@
 					line-height:1.875rem;
 				}
 			}
-			
+
 			/*livefyre styles*/
 			.fyre-stream-stats { display: none; visibility: hidden; } //jon
-			
+
 			.livefyre-wrap {
 				margin-bottom:$general-margin*4;
-				
+
 				.fyre-comment {
 					p {
 						font-family:$body-font-family;
 						font-size:$paragraph-font-size;
 					}
 				}
-				
+
 				#LivefyreContainer.toggle-show {
 					text-align: center;
 				}
 			}
-			
+
 			.pre-footer {
 				p {
 					text-align: center;
 				}
 			}
-			
+
 			.livefyre-break {
 				text-align: center;
 				hr {
 					@include big-blue-hr;
 				}
 			}
-		
-		
+
 		.caption-wrap {
 			border-left: 3px solid #00aeef;
 		}
 
 }
 
-
-
-
-
 /*	SHORT-FORM ARTICLE
 	----------------------------------- */
 
 		.shortform {
-		
+
 			.article-headline {
 				margin-top:$general-margin*3;
-			
+
 				h1.title {
 					background-image: none;
 				}
 			}
 		}
 
-
-
-
-
-
-
 /*	LONG FORM ARTICLE
 	----------------------------------- */
 
-		
 		.longform {
 			padding-top: 0 !important;
-		
+
 			.social {
 				margin-left: 0;
 				margin-top: 0.5rem;
 			}
-			
+
 			.article-header-image {
 				text-align: center;
 				background: transparent url('http://dev2.foxsports.com/content/dam/fsdigital/fscom/mlb/images/2014/03/11/erlinrobbie_cp_USChristopherHanewinckel_062613.vresize.3000.584.high.0.jpg') no-repeat center center;
-				background-size: auto 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 				height: 584px;
 				min-height: 340px;
 				max-width: 3000px;
-				
+
 				img {
 					min-width: 640px;
 				}
 			}
-			
+
 			.article-title-wrap {
 				position: relative;
 				top: -15.5em;
@@ -277,10 +265,10 @@
 					margin-bottom: 3rem;
 					text-align: center;
 					position: relative;
-					
+
 					.details-wrap {
 						border: $list-bottom-border-width $article-detail-border-style $article-detail-border-color;
-					
+
 						h1.title {
 							@include horiz-dark-bg;
 							padding:$general-margin*1.25;
@@ -288,25 +276,25 @@
 							margin-bottom: 0;
 							font-size:$paragraph-font-size*1.25;
 							text-align: center;
-							text-transform: uppercase; 
+							text-transform: uppercase;
 							letter-spacing: rem-calc(-0.8);
 						}
-						
+
 						.author-wrap {
 							@include vert-dark-bg;
 						}
-						
-						.comments-wrap {				
-		
+
+						.comments-wrap {
+
 						}
-						
+
 						.author-comments {
 							overflow-y:auto;
 						}
 					}
 				}
 			}
-			
+
 			.handle {
 				p.author-twitter {
 					img {
@@ -314,27 +302,23 @@
 					}
 				}
 			}
-			
+
 			.full-width-image {
 				margin: $general-margin 0 $general-margin*2;
 			}
-					
+
 			.long-form-ad-wrap {
 				margin-top:$general-margin*5;
 			}
 		}
 
-
-
-
-
 /* ===================================
-	=================================== 
-	===================================  
+	===================================
+	===================================
 	elements-article
 	MEDIA-SPECIFIC STYLES
 	===================================
-	=================================== 
+	===================================
 	=================================== */
 
 @media #{$small-only} {
@@ -348,51 +332,50 @@
 			height: 346px;
 		}
 
-
 		.article-title-wrap {
 			top: -5.5em;
 			margin-bottom: -5.5em;
 			.article-headline {
-				background:#fff;			
+				background:#fff;
 			}
 		}
-	
+
 		.social-small {
 			ul {
 				li	{
 					list-style: none;
 					float: left;
-				
+
 					&.twitter {
 						a {
 							@include social-sprite(twitter);
-						}	
+						}
 					}
-					
+
 					&.facebook {
 						a {
 							@include social-sprite(facebook);
 						}
 					}
-					
+
 					&.share {
 						a {
 							@include social-sprite(share);
 						}
 					}
-					
+
 					a:link,
 					a:visited {
 						@include all-social-sprites;
 						@include hide-text;
 						width: 35px;
 						height: 35px;
-						font-size: 25px;  
-					}			
+						font-size: 25px;
+					}
 				}
 			}
 		}
-		
+
 		.adspace-small {
 			padding: $general-padding;
 			background: #000;

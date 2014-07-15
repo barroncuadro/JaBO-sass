@@ -1,12 +1,11 @@
-/* =================================== 
+/* ===================================
 	CONTAINERS
 	=================================== */
 
-
 	/* GENERAL
-	----------------------------------- */	
+	----------------------------------- */
 	html {
-		
+
 	}
 
 	body {
@@ -15,25 +14,19 @@
 		overflow-x: hidden;
 
 	}
-	
+
 	.home-container {
-			background: transparent url(../images/bg-pattern.jpg) repeat; 
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
+			background: transparent url(../images/bg-pattern.jpg) repeat;
 			background-color: #fafafa;
 		}
-	
+
 	#main-container {
 		padding-top: 20px;
-		
+
 	}
-	
-	
-	
+
 	/* HOME PAGE
-	----------------------------------- */	
+	----------------------------------- */
 	.sm-article,
 	.baseball-joe,
 	.contributors-wrap {
@@ -44,25 +37,21 @@
 	.sidebar-content {
 		border:$general-border-width $general-border-style $general-border-color;
 	}
-	
+
 	.baseball-joe,
 	.contributors-wrap {
 		padding:$general-padding*1.5;
 	}
-	
-	
-	
 
 	/* SHORT-FORM LANDING
-	----------------------------------- */	
+	----------------------------------- */
 	.short-form-landing {
 		background-color:#fff;
 		height: auto;
 	}
 
-
 	/* SHORT-FORM + LONG-FORM ARTICLE
-	----------------------------------- */	
+	----------------------------------- */
 	.short-form-article,
 	.long-form-article {
 		@extend body;
@@ -70,10 +59,8 @@
 		height: auto;
 	}
 
-	
-	
 	/* FOOTER
-	----------------------------------- */		
+	----------------------------------- */
 	footer {
 		background:#1e1e1e;
 	}
