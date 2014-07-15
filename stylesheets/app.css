@@ -9637,7 +9637,7 @@ aside ul li {
   display: table;
   height: 0;
   width: 100%;
-  padding: 0 0 25%;
+  padding: 0 0 39%;
   max-width: 85px;
 }
 /* line 103, ../scss/_elements_short-form-landing.scss */
@@ -9654,35 +9654,10 @@ aside ul li {
 
 /* mobile nav - 320px portrait
 ----------------------------------- */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
   /* line 122, ../scss/_elements_short-form-landing.scss */
-  .short-form-landing .short-form-content-list .no-thumb-image p span {
+  .short-form-landing .short-form-content-list .no-thumb-image p a {
     font-size: 1.4rem;
-    line-height: 125%;
-  }
-}
-/* mobile nav - 480px landscape
------------------------------------ */
-@media only screen and (min-width: 321px) and (max-width: 480px) {
-  /* line 133, ../scss/_elements_short-form-landing.scss */
-  .short-form-landing .short-form-content-list .no-thumb-image p span {
-    line-height: 140%;
-  }
-}
-/* mobile nav - 568px landscape
------------------------------------ */
-@media only screen and (min-width: 481px) and (max-width: 568px) {
-  /* line 143, ../scss/_elements_short-form-landing.scss */
-  .short-form-landing .short-form-content-list .no-thumb-image p span {
-    line-height: 180%;
-  }
-}
-/* mobile nav - 768px landscape
------------------------------------ */
-@media only screen and (min-width: 569px) and (max-width: 768px) {
-  /* line 153, ../scss/_elements_short-form-landing.scss */
-  .short-form-landing .short-form-content-list .no-thumb-image p span {
-    line-height: 150%;
   }
 }
 /* ===================================
