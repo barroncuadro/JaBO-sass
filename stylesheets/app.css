@@ -9024,22 +9024,22 @@ footer .footer-content p a:hover, footer .footer-content p a:active {
   text-decoration: underline;
 }
 
-/* =================================== 
+/* ===================================
 	ELEMENT STYLES
 	=================================== */
 /*	HOME PAGE
 	----------------------------------- */
-/* line 9, ../scss/_elements_homepage.scss */
+/* line 8, ../scss/_elements_homepage.scss */
 aside ul li {
   list-style: none;
 }
 
 /*	MAIN COLUMN --------------------- */
-/* line 17, ../scss/_elements_homepage.scss */
+/* line 15, ../scss/_elements_homepage.scss */
 .articles {
   margin-bottom: 4rem;
 }
-/* line 20, ../scss/_elements_homepage.scss */
+/* line 18, ../scss/_elements_homepage.scss */
 .articles .article-header-image {
   text-align: center;
   background: transparent url("http://dev2.foxsports.com/content/dam/fsdigital/fscom/mlb/images/2014/03/11/erlinrobbie_cp_USChristopherHanewinckel_062613.vresize.3000.584.high.0.jpg") no-repeat center center;
@@ -9048,7 +9048,7 @@ aside ul li {
   height: auto !important;
   height: 438px;
 }
-/* line 30, ../scss/_elements_homepage.scss */
+/* line 28, ../scss/_elements_homepage.scss */
 .articles .article-details {
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.9);
@@ -9057,11 +9057,11 @@ aside ul li {
   text-align: center;
   position: relative;
 }
-/* line 39, ../scss/_elements_homepage.scss */
+/* line 36, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap {
   border: 1px solid black;
 }
-/* line 42, ../scss/_elements_homepage.scss */
+/* line 39, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2 {
   background-image: url("../images/bg/dot-pattern-dark-horiz.png");
   background-size: 4px 1px;
@@ -9071,19 +9071,19 @@ aside ul li {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 49, ../scss/_elements_homepage.scss */
+/* line 46, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2, .articles .article-details .details-wrap h3 {
   font-size: 20px;
   text-transform: uppercase;
   font-family: "allerbold", serif;
   letter-spacing: 0.001rem;
 }
-/* line 55, ../scss/_elements_homepage.scss */
+/* line 52, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap h2 a:link, .articles .article-details .details-wrap h2 a:visited, .articles .article-details .details-wrap h3 a:link, .articles .article-details .details-wrap h3 a:visited {
   text-decoration: none;
   color: #0e0d0d;
 }
-/* line 62, ../scss/_elements_homepage.scss */
+/* line 59, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-wrap,
 .articles .article-details .details-wrap .signal-wrap {
   background-image: url("../images/bg/dot-pattern-vert-dark.png");
@@ -9091,42 +9091,42 @@ aside ul li {
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 66, ../scss/_elements_homepage.scss */
+/* line 63, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments {
   overflow-y: auto;
 }
-/* line 69, ../scss/_elements_homepage.scss */
+/* line 66, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p {
   margin: 0.8rem 0 0.5rem;
   /* font-size:$paragraph-font-size*1.125; */
   line-height: 65%;
 }
-/* line 74, ../scss/_elements_homepage.scss */
+/* line 71, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.comments {
   background-position: 0 0;
   width: 25px;
   height: 20px;
   margin: 0.8rem auto 0.5rem;
 }
-/* line 80, ../scss/_elements_homepage.scss */
+/* line 77, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.comments a:link, .articles .article-details .details-wrap .author-comments p.comments a:visited {
   color: #fff;
   font-size: 0.625rem;
   line-height: normal;
 }
-/* line 88, ../scss/_elements_homepage.scss */
+/* line 85, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.author {
   line-height: 100%;
 }
-/* line 91, ../scss/_elements_homepage.scss */
+/* line 88, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.author a:link, .articles .article-details .details-wrap .author-comments p.author a:visited {
   color: #e51b23;
 }
-/* line 96, ../scss/_elements_homepage.scss */
+/* line 93, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.signal {
   margin: 0.6rem 0 0.5rem;
 }
-/* line 98, ../scss/_elements_homepage.scss */
+/* line 95, ../scss/_elements_homepage.scss */
 .articles .article-details .details-wrap .author-comments p.signal img {
   width: 25px;
   height: 25px;
@@ -9135,25 +9135,25 @@ aside ul li {
   -ms-border-radius: 1000px;
   border-radius: 1000px;
 }
-/* line 109, ../scss/_elements_homepage.scss */
+/* line 106, ../scss/_elements_homepage.scss */
 .articles .sm-article {
   margin: 1rem 0;
 }
-/* line 112, ../scss/_elements_homepage.scss */
+/* line 109, ../scss/_elements_homepage.scss */
 .articles .sm-article .article-details {
   border: 0;
   padding: 0;
   background: transparent;
   margin-top: -20%;
 }
-/* line 119, ../scss/_elements_homepage.scss */
+/* line 116, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap {
   text-align: center;
   height: 6.5rem;
   overflow: hidden;
   background: #fff;
 }
-/* line 125, ../scss/_elements_homepage.scss */
+/* line 122, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap h3 {
   padding: 1rem;
   font-family: "allerbold", serif;
@@ -9169,12 +9169,12 @@ aside ul li {
   height: 96px;
   width: inherit;
 }
-/* line 140, ../scss/_elements_homepage.scss */
+/* line 137, ../scss/_elements_homepage.scss */
 .articles .sm-article .title-wrap h3 a:link, .articles .sm-article .title-wrap h3 a:visited {
   text-decoration: none;
   color: #0e0d0d;
 }
-/* line 147, ../scss/_elements_homepage.scss */
+/* line 144, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments {
   overflow-y: auto;
   background-color: white;
@@ -9185,7 +9185,7 @@ aside ul li {
   background-position: 100% 0;
   margin-top: 0.75rem;
 }
-/* line 155, ../scss/_elements_homepage.scss */
+/* line 152, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments .author-wrap,
 .articles .sm-article .author-comments .signal-wrap {
   background-image: url("../images/bg/dot-pattern-vert-light.png");
@@ -9193,16 +9193,16 @@ aside ul li {
   background-position: 100% 0;
   background-repeat: repeat-y;
 }
-/* line 160, ../scss/_elements_homepage.scss */
+/* line 157, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments.two-col p.comments {
   width: 25px;
 }
-/* line 165, ../scss/_elements_homepage.scss */
+/* line 162, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p {
   margin: 0.8rem 0 0.5rem;
   line-height: 65%;
 }
-/* line 169, ../scss/_elements_homepage.scss */
+/* line 166, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.comments {
   background-position: 0 -20px;
   background-position: 0 0;
@@ -9211,25 +9211,25 @@ aside ul li {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 177, ../scss/_elements_homepage.scss */
+/* line 174, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.comments a:link, .articles .sm-article .author-comments p.comments a:visited {
   color: #fff;
   font-size: 0.625rem;
   line-height: normal;
 }
-/* line 185, ../scss/_elements_homepage.scss */
+/* line 182, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.author {
   line-height: 115%;
 }
-/* line 188, ../scss/_elements_homepage.scss */
+/* line 185, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.author a:link, .articles .sm-article .author-comments p.author a:visited {
   color: #e51b23;
 }
-/* line 193, ../scss/_elements_homepage.scss */
+/* line 190, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.signal {
   margin: 0.6rem 0 0.5rem;
 }
-/* line 195, ../scss/_elements_homepage.scss */
+/* line 192, ../scss/_elements_homepage.scss */
 .articles .sm-article .author-comments p.signal img {
   width: 25px;
   height: 25px;
@@ -9239,17 +9239,17 @@ aside ul li {
   border-radius: 1000px;
 }
 
-/* line 208, ../scss/_elements_homepage.scss */
+/* line 204, ../scss/_elements_homepage.scss */
 .by-the-numbers {
   font-family: "Vollkorn", serif;
   margin-bottom: 4rem;
 }
-/* line 212, ../scss/_elements_homepage.scss */
+/* line 208, ../scss/_elements_homepage.scss */
 .by-the-numbers h2 {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
   margin-bottom: 4rem;
 }
-/* line 216, ../scss/_elements_homepage.scss */
+/* line 212, ../scss/_elements_homepage.scss */
 .by-the-numbers h2 span {
   background-position: 0 -521px;
   text-indent: -9999px;
@@ -9264,11 +9264,11 @@ aside ul li {
   width: 166px;
   height: 117px;
 }
-/* line 226, ../scss/_elements_homepage.scss */
+/* line 222, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-group div:last-child .btn-entry {
   background-image: none;
 }
-/* line 231, ../scss/_elements_homepage.scss */
+/* line 226, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-group .btn-entry {
   text-align: center;
   background-image: url("../images/bg/dot-pattern-vert-light.png");
@@ -9278,25 +9278,25 @@ aside ul li {
   overflow: auto;
   padding: 0 1rem;
 }
-/* line 237, ../scss/_elements_homepage.scss */
+/* line 232, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-group .btn-entry img {
   margin-bottom: 2rem;
 }
-/* line 242, ../scss/_elements_homepage.scss */
+/* line 237, ../scss/_elements_homepage.scss */
 .by-the-numbers .btn-group .btn-entry p a:link, .by-the-numbers .btn-group .btn-entry p a:visited, .by-the-numbers .btn-group .btn-entry p a:hover, .by-the-numbers .btn-group .btn-entry p a:active {
   color: #0e0d0d;
 }
 
 /* SIDEBAR --------------------- */
-/* line 254, ../scss/_elements_homepage.scss */
+/* line 247, ../scss/_elements_homepage.scss */
 .baseball-joe {
   text-align: center;
 }
-/* line 257, ../scss/_elements_homepage.scss */
+/* line 250, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 260, ../scss/_elements_homepage.scss */
+/* line 253, ../scss/_elements_homepage.scss */
 .baseball-joe .section-header span {
   background-position: 0 -694px;
   text-indent: -9999px;
@@ -9311,16 +9311,16 @@ aside ul li {
   height: 49px;
   margin: 0 auto 1rem;
 }
-/* line 270, ../scss/_elements_homepage.scss */
+/* line 263, ../scss/_elements_homepage.scss */
 .baseball-joe p.tagline {
   font-style: italic;
   font-family: "Vollkorn", serif;
 }
-/* line 278, ../scss/_elements_homepage.scss */
+/* line 270, ../scss/_elements_homepage.scss */
 .baseball-joe ul p, .baseball-joe ul li {
   font-family: "Vollkorn", serif;
 }
-/* line 285, ../scss/_elements_homepage.scss */
+/* line 276, ../scss/_elements_homepage.scss */
 .baseball-joe li {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -9329,26 +9329,26 @@ aside ul li {
   margin-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-/* line 290, ../scss/_elements_homepage.scss */
+/* line 281, ../scss/_elements_homepage.scss */
 .baseball-joe li.last {
   background-image: none;
 }
-/* line 292, ../scss/_elements_homepage.scss */
+/* line 283, ../scss/_elements_homepage.scss */
 .baseball-joe li a:link, .baseball-joe li a:visited, .baseball-joe li a:hover, .baseball-joe li a:active {
   color: #0e0d0d;
 }
 
-/* line 300, ../scss/_elements_homepage.scss */
+/* line 291, ../scss/_elements_homepage.scss */
 .ad {
   text-align: center;
   padding: 1.5rem 1rem;
 }
 
-/* line 305, ../scss/_elements_homepage.scss */
+/* line 296, ../scss/_elements_homepage.scss */
 .contributors-wrap .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
 }
-/* line 308, ../scss/_elements_homepage.scss */
+/* line 299, ../scss/_elements_homepage.scss */
 .contributors-wrap .section-header span {
   background-position: 0 -638px;
   text-indent: -9999px;
@@ -9362,22 +9362,22 @@ aside ul li {
   width: 249px;
   height: 56px;
 }
-/* line 317, ../scss/_elements_homepage.scss */
+/* line 308, ../scss/_elements_homepage.scss */
 .contributors-wrap li {
   padding-bottom: 1.5rem;
 }
-/* line 321, ../scss/_elements_homepage.scss */
+/* line 312, ../scss/_elements_homepage.scss */
 .contributors-wrap li .thumb-image img {
   max-width: 100px;
 }
-/* line 326, ../scss/_elements_homepage.scss */
+/* line 317, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p {
   margin-top: 1rem;
   font-size: 1.125rem;
   font-family: "allerbold", serif;
   margin-bottom: 0;
 }
-/* line 332, ../scss/_elements_homepage.scss */
+/* line 323, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
@@ -9387,29 +9387,33 @@ aside ul li {
 /* mobile (under 768px)
 ----------------------------------- */
 @media only screen and (max-width: 768px) {
-  /* line 348, ../scss/_elements_homepage.scss */
+  /* line 337, ../scss/_elements_homepage.scss */
   #main-container {
     padding-top: 0;
   }
 
-  /* line 352, ../scss/_elements_homepage.scss */
+  /* line 341, ../scss/_elements_homepage.scss */
   h1 {
     margin-bottom: 0;
   }
 
-  /* line 355, ../scss/_elements_homepage.scss */
+  /* line 343, ../scss/_elements_homepage.scss */
+  .lg-article {
+    overflow: hidden;
+  }
+  /* line 345, ../scss/_elements_homepage.scss */
   .lg-article .article-header-image {
     min-height: 340px;
     height: auto !important;
     height: 340px;
   }
-  /* line 361, ../scss/_elements_homepage.scss */
+  /* line 351, ../scss/_elements_homepage.scss */
   .lg-article .article-details {
     margin-top: -88px;
     background-color: #fff;
   }
 
-  /* line 367, ../scss/_elements_homepage.scss */
+  /* line 357, ../scss/_elements_homepage.scss */
   .ad-wrap {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
@@ -9420,11 +9424,11 @@ aside ul li {
     padding: 1rem 0;
   }
 
-  /* line 376, ../scss/_elements_homepage.scss */
+  /* line 366, ../scss/_elements_homepage.scss */
   .articles .large-6 {
     padding: 0 10px;
   }
-  /* line 384, ../scss/_elements_homepage.scss */
+  /* line 374, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     width: 100%;
     text-align: center;
@@ -9432,34 +9436,34 @@ aside ul li {
     overflow: hidden;
     background: #fff;
   }
-  /* line 390, ../scss/_elements_homepage.scss */
+  /* line 380, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap h3 {
     width: inherit;
     font-size: 16px;
   }
-  /* line 397, ../scss/_elements_homepage.scss */
+  /* line 387, ../scss/_elements_homepage.scss */
   .articles .sm-article .author-comments p {
     margin: 0.8rem 0 0.6rem;
   }
-  /* line 403, ../scss/_elements_homepage.scss */
+  /* line 393, ../scss/_elements_homepage.scss */
   .articles .sm-article p.author {
     font-size: 16px;
   }
 
-  /* line 410, ../scss/_elements_homepage.scss */
+  /* line 400, ../scss/_elements_homepage.scss */
   .articles {
     margin-bottom: 1rem;
   }
 
-  /* line 414, ../scss/_elements_homepage.scss */
+  /* line 404, ../scss/_elements_homepage.scss */
   .by-the-numbers {
     margin-bottom: 1rem;
   }
-  /* line 417, ../scss/_elements_homepage.scss */
+  /* line 407, ../scss/_elements_homepage.scss */
   .by-the-numbers h2 {
     margin-bottom: 1rem;
   }
-  /* line 423, ../scss/_elements_homepage.scss */
+  /* line 413, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry {
     text-align: left;
     background-image: url("../images/bg/dot-pattern-light-horiz.png");
@@ -9468,7 +9472,7 @@ aside ul li {
     background-repeat: repeat-x;
     padding: 1rem;
   }
-  /* line 428, ../scss/_elements_homepage.scss */
+  /* line 418, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry p {
     margin-bottom: 0;
   }
@@ -9476,13 +9480,13 @@ aside ul li {
 /* non-mobile
 ----------------------------------- */
 @media only screen and (min-width: 768px) {
-  /* line 443, ../scss/_elements_homepage.scss */
+  /* line 433, ../scss/_elements_homepage.scss */
   .lg-article {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
   }
 
-  /* line 448, ../scss/_elements_homepage.scss */
+  /* line 438, ../scss/_elements_homepage.scss */
   .articles .article-details {
     max-width: 492px;
   }
@@ -9490,7 +9494,7 @@ aside ul li {
 /* mobile nav - 320px portrait
 ----------------------------------- */
 @media only screen and (max-width: 320px) {
-  /* line 459, ../scss/_elements_homepage.scss */
+  /* line 446, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     height: 5.8rem;
   }
@@ -9498,7 +9502,7 @@ aside ul li {
 /* mobile nav - 480px landscape
 ----------------------------------- */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  /* line 467, ../scss/_elements_homepage.scss */
+  /* line 454, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     height: 5.8rem;
   }
@@ -9506,7 +9510,7 @@ aside ul li {
 /* mobile nav - 568px landscape
 ----------------------------------- */
 @media only screen and (min-width: 481px) and (max-width: 568px) {
-  /* line 475, ../scss/_elements_homepage.scss */
+  /* line 462, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     height: 6.8rem;
   }
