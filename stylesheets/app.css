@@ -9515,7 +9515,7 @@ aside ul li {
     height: 6.8rem;
   }
 }
-/* =================================== 
+/* ===================================
 	ELEMENT STYLES
 	=================================== */
 /*	SHORT-FORM LANDING
@@ -9586,15 +9586,15 @@ aside ul li {
   width: 192px;
   height: 77px;
 }
-/* line 60, ../scss/_elements_short-form-landing.scss */
+/* line 59, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list p {
   margin-bottom: 0;
 }
-/* line 62, ../scss/_elements_short-form-landing.scss */
+/* line 61, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list li.row {
   list-style: none;
 }
-/* line 66, ../scss/_elements_short-form-landing.scss */
+/* line 65, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-info-wrap {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -9604,28 +9604,28 @@ aside ul li {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 75, ../scss/_elements_short-form-landing.scss */
+/* line 73, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-title {
   font-size: 1.125rem;
   text-transform: uppercase;
 }
-/* line 78, ../scss/_elements_short-form-landing.scss */
+/* line 76, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-title p {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 84, ../scss/_elements_short-form-landing.scss */
+/* line 82, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .author-name {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
 }
-/* line 91, ../scss/_elements_short-form-landing.scss */
+/* line 89, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image {
   line-height: 150%;
 }
-/* line 94, ../scss/_elements_short-form-landing.scss */
+/* line 92, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image p {
   text-align: center;
   background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
@@ -9634,17 +9634,20 @@ aside ul li {
   -moz-border-radius: 1000px;
   -ms-border-radius: 1000px;
   border-radius: 1000px;
+  display: table;
+  height: 0;
   width: 100%;
-  display: inline-block;
-  padding: 10px;
+  padding: 0 0 25%;
+  max-width: 85px;
 }
-/* line 104, ../scss/_elements_short-form-landing.scss */
-.short-form-landing .short-form-content-list .no-thumb-image p span {
+/* line 103, ../scss/_elements_short-form-landing.scss */
+.short-form-landing .short-form-content-list .no-thumb-image p a, .short-form-landing .short-form-content-list .no-thumb-image p a:visited {
   color: #e51b23;
+  display: block;
   font-size: 2.3125rem;
-  line-height: 202.5%;
+  margin: 15% 0 -15%;
 }
-/* line 114, ../scss/_elements_short-form-landing.scss */
+/* line 113, ../scss/_elements_short-form-landing.scss */
 .short-form-landing footer {
   padding: 2rem 0;
 }
@@ -9652,7 +9655,7 @@ aside ul li {
 /* mobile nav - 320px portrait
 ----------------------------------- */
 @media only screen and (max-width: 320px) {
-  /* line 123, ../scss/_elements_short-form-landing.scss */
+  /* line 122, ../scss/_elements_short-form-landing.scss */
   .short-form-landing .short-form-content-list .no-thumb-image p span {
     font-size: 1.4rem;
     line-height: 125%;
@@ -9661,7 +9664,7 @@ aside ul li {
 /* mobile nav - 480px landscape
 ----------------------------------- */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  /* line 134, ../scss/_elements_short-form-landing.scss */
+  /* line 133, ../scss/_elements_short-form-landing.scss */
   .short-form-landing .short-form-content-list .no-thumb-image p span {
     line-height: 140%;
   }
@@ -9669,7 +9672,7 @@ aside ul li {
 /* mobile nav - 568px landscape
 ----------------------------------- */
 @media only screen and (min-width: 481px) and (max-width: 568px) {
-  /* line 144, ../scss/_elements_short-form-landing.scss */
+  /* line 143, ../scss/_elements_short-form-landing.scss */
   .short-form-landing .short-form-content-list .no-thumb-image p span {
     line-height: 180%;
   }
@@ -9677,7 +9680,7 @@ aside ul li {
 /* mobile nav - 768px landscape
 ----------------------------------- */
 @media only screen and (min-width: 569px) and (max-width: 768px) {
-  /* line 154, ../scss/_elements_short-form-landing.scss */
+  /* line 153, ../scss/_elements_short-form-landing.scss */
   .short-form-landing .short-form-content-list .no-thumb-image p span {
     line-height: 150%;
   }
