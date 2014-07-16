@@ -297,11 +297,13 @@
 				@include big-blue-bg;
 
 				span {
-					@include headers-sprite(contributors-headline);
+          background: transparent url(../images/contributors.png) no-repeat;
+          background-size: contain;
+          background-position-x: 50%;
 					@include section-headers;
-					background-position-x: -5%;
 					width: 249px;
 					height: 56px;
+          max-width: 100%;
 				}
 			}
 

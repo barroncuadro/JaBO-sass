@@ -8818,7 +8818,7 @@ ul.pagination li.focus a:focus {
 }
 
 /* line 90, headers/*.png */
-.headers-sprite, .headers-baseball-joe-headline-2x, .headers-baseball-joe-headline, .headers-by-the-numbers-headline-2x, .headers-by-the-numbers-headline, .headers-contributors-headline-2x, .headers-contributors-headline, .headers-landing-articles-headline, .by-the-numbers h2 span, .baseball-joe .section-header span, .contributors-wrap .section-header span, .short-form-landing .short-form-content-list .section-header span.baseball-joe, .short-form-landing .short-form-content-list .section-header span.by-the-numbers, .short-form-landing .short-form-content-list .section-header span.articles {
+.headers-sprite, .headers-baseball-joe-headline-2x, .headers-baseball-joe-headline, .headers-by-the-numbers-headline-2x, .headers-by-the-numbers-headline, .headers-contributors-headline-2x, .headers-contributors-headline, .headers-landing-articles-headline, .by-the-numbers h2 span, .baseball-joe .section-header span, .short-form-landing .short-form-content-list .section-header span.baseball-joe, .short-form-landing .short-form-content-list .section-header span.by-the-numbers, .short-form-landing .short-form-content-list .section-header span.articles {
   background: url('../images/headers-sbe4262ce60.png') no-repeat;
 }
 
@@ -9351,7 +9351,9 @@ aside ul li {
 }
 /* line 299, ../scss/_elements_homepage.scss */
 .contributors-wrap .section-header span {
-  background-position: 0 -638px;
+  background: transparent url(../images/contributors.png) no-repeat;
+  background-size: contain;
+  background-position-x: 50%;
   text-indent: -9999px;
   border: 0;
   text-shadow: none;
@@ -9359,26 +9361,26 @@ aside ul li {
   display: block;
   background-color: #fff;
   margin: 0 auto;
-  background-position-x: -5%;
   width: 249px;
   height: 56px;
+  max-width: 100%;
 }
-/* line 308, ../scss/_elements_homepage.scss */
+/* line 310, ../scss/_elements_homepage.scss */
 .contributors-wrap li {
   padding-bottom: 1.5rem;
 }
-/* line 312, ../scss/_elements_homepage.scss */
+/* line 314, ../scss/_elements_homepage.scss */
 .contributors-wrap li .thumb-image img {
   max-width: 100px;
 }
-/* line 317, ../scss/_elements_homepage.scss */
+/* line 319, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p {
   margin-top: 1rem;
   font-size: 1.125rem;
   font-family: "allerbold", serif;
   margin-bottom: 0;
 }
-/* line 323, ../scss/_elements_homepage.scss */
+/* line 325, ../scss/_elements_homepage.scss */
 .contributors-wrap .handle p span.twitter-handle {
   display: block;
   font-weight: normal;
@@ -9388,33 +9390,33 @@ aside ul li {
 /* mobile (under 768px)
 ----------------------------------- */
 @media only screen and (max-width: 768px) {
-  /* line 337, ../scss/_elements_homepage.scss */
+  /* line 339, ../scss/_elements_homepage.scss */
   #main-container {
     padding-top: 0;
   }
 
-  /* line 341, ../scss/_elements_homepage.scss */
+  /* line 343, ../scss/_elements_homepage.scss */
   h1 {
     margin-bottom: 0;
   }
 
-  /* line 343, ../scss/_elements_homepage.scss */
+  /* line 345, ../scss/_elements_homepage.scss */
   .lrg-article {
     overflow: hidden;
   }
-  /* line 345, ../scss/_elements_homepage.scss */
+  /* line 347, ../scss/_elements_homepage.scss */
   .lrg-article .article-header-image {
     min-height: 340px;
     height: auto !important;
     height: 340px;
   }
-  /* line 351, ../scss/_elements_homepage.scss */
+  /* line 353, ../scss/_elements_homepage.scss */
   .lrg-article .article-details {
     margin-top: -88px;
     background-color: #fff;
   }
 
-  /* line 357, ../scss/_elements_homepage.scss */
+  /* line 359, ../scss/_elements_homepage.scss */
   .ad-wrap {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
@@ -9425,11 +9427,11 @@ aside ul li {
     padding: 1rem 0;
   }
 
-  /* line 366, ../scss/_elements_homepage.scss */
+  /* line 368, ../scss/_elements_homepage.scss */
   .articles .large-6 {
     padding: 0 10px;
   }
-  /* line 374, ../scss/_elements_homepage.scss */
+  /* line 376, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     width: 100%;
     text-align: center;
@@ -9437,34 +9439,34 @@ aside ul li {
     overflow: hidden;
     background: #fff;
   }
-  /* line 380, ../scss/_elements_homepage.scss */
+  /* line 382, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap h3 {
     width: inherit;
     font-size: 16px;
   }
-  /* line 387, ../scss/_elements_homepage.scss */
+  /* line 389, ../scss/_elements_homepage.scss */
   .articles .sm-article .author-comments p {
     margin: 0.8rem 0 0.6rem;
   }
-  /* line 393, ../scss/_elements_homepage.scss */
+  /* line 395, ../scss/_elements_homepage.scss */
   .articles .sm-article p.author {
     font-size: 16px;
   }
 
-  /* line 400, ../scss/_elements_homepage.scss */
+  /* line 402, ../scss/_elements_homepage.scss */
   .articles {
     margin-bottom: 1rem;
   }
 
-  /* line 404, ../scss/_elements_homepage.scss */
+  /* line 406, ../scss/_elements_homepage.scss */
   .by-the-numbers {
     margin-bottom: 1rem;
   }
-  /* line 407, ../scss/_elements_homepage.scss */
+  /* line 409, ../scss/_elements_homepage.scss */
   .by-the-numbers h2 {
     margin-bottom: 1rem;
   }
-  /* line 413, ../scss/_elements_homepage.scss */
+  /* line 415, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry {
     text-align: left;
     background-image: url("../images/bg/dot-pattern-light-horiz.png");
@@ -9473,7 +9475,7 @@ aside ul li {
     background-repeat: repeat-x;
     padding: 1rem;
   }
-  /* line 418, ../scss/_elements_homepage.scss */
+  /* line 420, ../scss/_elements_homepage.scss */
   .by-the-numbers .btn-group .btn-entry p {
     margin-bottom: 0;
   }
@@ -9481,13 +9483,13 @@ aside ul li {
 /* non-mobile
 ----------------------------------- */
 @media only screen and (min-width: 768px) {
-  /* line 433, ../scss/_elements_homepage.scss */
+  /* line 435, ../scss/_elements_homepage.scss */
   .lrg-article {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
   }
 
-  /* line 438, ../scss/_elements_homepage.scss */
+  /* line 440, ../scss/_elements_homepage.scss */
   .articles .article-details {
     max-width: 492px;
   }
@@ -9495,7 +9497,7 @@ aside ul li {
 /* mobile nav - 320px portrait
 ----------------------------------- */
 @media only screen and (max-width: 320px) {
-  /* line 446, ../scss/_elements_homepage.scss */
+  /* line 448, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     height: 5.8rem;
   }
@@ -9503,7 +9505,7 @@ aside ul li {
 /* mobile nav - 480px landscape
 ----------------------------------- */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  /* line 454, ../scss/_elements_homepage.scss */
+  /* line 456, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     height: 5.8rem;
   }
@@ -9511,7 +9513,7 @@ aside ul li {
 /* mobile nav - 568px landscape
 ----------------------------------- */
 @media only screen and (min-width: 481px) and (max-width: 568px) {
-  /* line 462, ../scss/_elements_homepage.scss */
+  /* line 464, ../scss/_elements_homepage.scss */
   .articles .sm-article .title-wrap {
     height: 6.8rem;
   }
@@ -10046,50 +10048,11 @@ aside ul li {
   .longform .article-title-wrap .article-headline {
     background: #fff;
   }
-  /* line 359, ../scss/_elements_article.scss */
-  .longform .social-small ul li {
-    list-style: none;
+  /* line 358, ../scss/_elements_article.scss */
+  .longform .social-small .social-tool-icon {
     float: left;
   }
-  /* line 364, ../scss/_elements_article.scss */
-  .longform .social-small ul li.twitter a {
-    background-position: 0 0;
-  }
-  /* line 370, ../scss/_elements_article.scss */
-  .longform .social-small ul li.facebook a {
-    background-position: 0 -70px;
-  }
-  /* line 376, ../scss/_elements_article.scss */
-  .longform .social-small ul li.share a {
-    background-position: 0 -35px;
-  }
-  /* line 382, ../scss/_elements_article.scss */
-  .longform .social-small ul li a:link,
-  .longform .social-small ul li a:visited {
-    text-indent: -9999px;
-    border: 0;
-    text-shadow: none;
-    color: transparent;
-    width: 35px;
-    height: 35px;
-    font-size: 25px;
-  }
-  /* line 60, ../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  .longform .social-small ul li a:link .social-facebook,
-  .longform .social-small ul li a:visited .social-facebook {
-    background-position: 0 -70px;
-  }
-  /* line 60, ../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  .longform .social-small ul li a:link .social-share,
-  .longform .social-small ul li a:visited .social-share {
-    background-position: 0 -35px;
-  }
-  /* line 60, ../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-  .longform .social-small ul li a:link .social-twitter,
-  .longform .social-small ul li a:visited .social-twitter {
-    background-position: 0 0;
-  }
-  /* line 393, ../scss/_elements_article.scss */
+  /* line 363, ../scss/_elements_article.scss */
   .longform .adspace-small {
     padding: 1rem;
     background: #000;

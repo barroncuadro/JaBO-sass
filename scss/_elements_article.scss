@@ -355,39 +355,9 @@
 		}
 
 		.social-small {
-			ul {
-				li	{
-					list-style: none;
-					float: left;
-
-					&.twitter {
-						a {
-							@include social-sprite(twitter);
-						}
-					}
-
-					&.facebook {
-						a {
-							@include social-sprite(facebook);
-						}
-					}
-
-					&.share {
-						a {
-							@include social-sprite(share);
-						}
-					}
-
-					a:link,
-					a:visited {
-						@include all-social-sprites;
-						@include hide-text;
-						width: 35px;
-						height: 35px;
-						font-size: 25px;
-					}
-				}
-			}
+      .social-tool-icon {
+        float: left;
+      }
 		}
 
 		.adspace-small {
