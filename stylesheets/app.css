@@ -8352,7 +8352,7 @@ footer {
 
 /* small screens
 ----------------------------------- */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   /* line 240, ../scss/_nav.scss */
   .top-nav {
     height: 60px;
@@ -8624,7 +8624,7 @@ footer {
 }
 /* tablet nav - 768px portrait
 ----------------------------------- */
-@media only screen and (min-width: 569px) and (max-width: 768px) {
+@media only screen and (min-width: 569px) and (max-width: 1024px) {
   /* line 554, ../scss/_nav.scss */
   #menudrop {
     padding: 0 1.25rem;
