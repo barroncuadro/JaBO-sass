@@ -8012,32 +8012,31 @@ body, .short-form-article,
 
 /* line 18, ../scss/_containers.scss */
 .home-container {
-  padding-top: 20px;
   background: transparent url(../images/bg-pattern.jpg) repeat;
   background-color: #fafafa;
 }
 
-/* line 24, ../scss/_containers.scss */
+/* line 23, ../scss/_containers.scss */
 #main-container {
   padding-top: 20px;
 }
 
 /* HOME PAGE
 ----------------------------------- */
-/* line 33, ../scss/_containers.scss */
+/* line 32, ../scss/_containers.scss */
 .sm-article,
 .baseball-joe,
 .contributors-wrap {
   background: white;
 }
 
-/* line 38, ../scss/_containers.scss */
+/* line 37, ../scss/_containers.scss */
 .sm-article,
 .sidebar-content {
   border: 1px solid #cccccc;
 }
 
-/* line 43, ../scss/_containers.scss */
+/* line 42, ../scss/_containers.scss */
 .baseball-joe,
 .contributors-wrap {
   padding: 1.5rem;
@@ -8045,7 +8044,7 @@ body, .short-form-article,
 
 /* SHORT-FORM LANDING
 ----------------------------------- */
-/* line 49, ../scss/_containers.scss */
+/* line 48, ../scss/_containers.scss */
 .short-form-landing {
   background-color: #fff;
   height: auto;
@@ -8053,7 +8052,7 @@ body, .short-form-article,
 
 /* SHORT-FORM + LONG-FORM ARTICLE
 ----------------------------------- */
-/* line 57, ../scss/_containers.scss */
+/* line 56, ../scss/_containers.scss */
 .short-form-article,
 .long-form-article {
   background-color: #fff;
@@ -8062,7 +8061,7 @@ body, .short-form-article,
 
 /* FOOTER
 ----------------------------------- */
-/* line 65, ../scss/_containers.scss */
+/* line 64, ../scss/_containers.scss */
 footer {
   background: #1e1e1e;
 }
