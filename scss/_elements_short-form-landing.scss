@@ -15,6 +15,9 @@
 
 			.article-title {
 				padding-left:$general-padding;
+        display: table;
+        height: 93px;
+
 				p {
 					> a:link,
 					> a:visited,
@@ -122,4 +125,24 @@ and (max-width : 480px) {
 	.short-form-landing .short-form-content-list .no-thumb-image p a {
 	    font-size: 1.4rem;
 	 }
+
+  .short-form-landing {
+    .row .row {
+			.article-title {
+        height: auto;
+      }
+    }
+
+    .short-form-content-list {
+      .section-header {
+
+        span.baseball-joe {
+          width: 248px;
+          height: 76px;
+          background-position: 0 -268px;
+          background-size: 355px auto;
+        }
+      }
+    }
+  }
 }

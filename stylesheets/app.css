@@ -9542,24 +9542,26 @@ aside ul li {
 /* line 16, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .row .row .article-title {
   padding-left: 1rem;
+  display: table;
+  height: 93px;
 }
-/* line 22, ../scss/_elements_short-form-landing.scss */
+/* line 25, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .row .row .article-title p > a:link,
 .short-form-landing .row .row .article-title p > a:visited,
 .short-form-landing .row .row .article-title p > a:hover,
 .short-form-landing .row .row .article-title p > a:active {
   color: #0e0d0d;
 }
-/* line 28, ../scss/_elements_short-form-landing.scss */
+/* line 31, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .section-header {
   background: transparent url("../images/bg/bg-bigblue.png") repeat-x 0 50%;
   text-align: center;
 }
-/* line 32, ../scss/_elements_short-form-landing.scss */
+/* line 35, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .section-header span {
   margin: 0 auto 1rem;
 }
-/* line 35, ../scss/_elements_short-form-landing.scss */
+/* line 38, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .section-header span.baseball-joe {
   background-position: 0 -346px;
   text-indent: -9999px;
@@ -9572,7 +9574,7 @@ aside ul li {
   width: 318px;
   height: 98px;
 }
-/* line 42, ../scss/_elements_short-form-landing.scss */
+/* line 45, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .section-header span.by-the-numbers {
   background-position: 0 -521px;
   text-indent: -9999px;
@@ -9585,7 +9587,7 @@ aside ul li {
   width: 146px;
   height: 117px;
 }
-/* line 49, ../scss/_elements_short-form-landing.scss */
+/* line 52, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .section-header span.articles {
   background-position: 0 -444px;
   text-indent: -9999px;
@@ -9598,15 +9600,15 @@ aside ul li {
   width: 192px;
   height: 77px;
 }
-/* line 59, ../scss/_elements_short-form-landing.scss */
+/* line 62, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list p {
   margin-bottom: 0;
 }
-/* line 61, ../scss/_elements_short-form-landing.scss */
+/* line 64, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list li.row {
   list-style: none;
 }
-/* line 65, ../scss/_elements_short-form-landing.scss */
+/* line 68, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-info-wrap {
   background-image: url("../images/bg/dot-pattern-light-horiz.png");
   background-size: 4px 1px;
@@ -9616,28 +9618,28 @@ aside ul li {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 73, ../scss/_elements_short-form-landing.scss */
+/* line 76, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-title {
   font-size: 1.125rem;
   text-transform: uppercase;
 }
-/* line 76, ../scss/_elements_short-form-landing.scss */
+/* line 79, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .article-title p {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 82, ../scss/_elements_short-form-landing.scss */
+/* line 85, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .author-name {
   display: block;
   color: #e51b23;
   font-family: "allerbold_italic", serif;
   text-transform: none;
 }
-/* line 89, ../scss/_elements_short-form-landing.scss */
+/* line 92, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image {
   line-height: 150%;
 }
-/* line 92, ../scss/_elements_short-form-landing.scss */
+/* line 95, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image p {
   text-align: center;
   background: transparent url("../images/bg-no-image-sm.gif") no-repeat;
@@ -9652,14 +9654,14 @@ aside ul li {
   padding: 0 0 39%;
   max-width: 85px;
 }
-/* line 103, ../scss/_elements_short-form-landing.scss */
+/* line 106, ../scss/_elements_short-form-landing.scss */
 .short-form-landing .short-form-content-list .no-thumb-image p a, .short-form-landing .short-form-content-list .no-thumb-image p a:visited {
   color: #e51b23;
   display: block;
   font-size: 2.3125rem;
   margin: 15% 0 -15%;
 }
-/* line 113, ../scss/_elements_short-form-landing.scss */
+/* line 116, ../scss/_elements_short-form-landing.scss */
 .short-form-landing footer {
   padding: 2rem 0;
 }
@@ -9667,9 +9669,21 @@ aside ul li {
 /* mobile nav - 320px portrait
 ----------------------------------- */
 @media only screen and (max-width: 480px) {
-  /* line 122, ../scss/_elements_short-form-landing.scss */
+  /* line 125, ../scss/_elements_short-form-landing.scss */
   .short-form-landing .short-form-content-list .no-thumb-image p a {
     font-size: 1.4rem;
+  }
+
+  /* line 131, ../scss/_elements_short-form-landing.scss */
+  .short-form-landing .row .row .article-title {
+    height: auto;
+  }
+  /* line 139, ../scss/_elements_short-form-landing.scss */
+  .short-form-landing .short-form-content-list .section-header span.baseball-joe {
+    width: 248px;
+    height: 76px;
+    background-position: 0 -268px;
+    background-size: 355px auto;
   }
 }
 /* ===================================
