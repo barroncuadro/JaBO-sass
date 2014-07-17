@@ -331,6 +331,23 @@
 			}
 		}
 
+/* mobile (under 1024px)
+----------------------------------- */
+
+	@media only screen
+	and (max-width : 1024px) {
+    #main-container {
+      .contributors-wrap {
+        li {
+          .thumb-image,
+          .handle {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
 /* mobile (under 768px)
 ----------------------------------- */
 

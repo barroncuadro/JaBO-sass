@@ -7,6 +7,7 @@
 
 	.longform,
 	.shortform {
+
 		.article-headline {
 			text-align: center;
 			max-width: 492px;
@@ -61,65 +62,41 @@
 		}
 
 		/*new styles for social buttons*/
-		.newShareTool {
-			.facebook-count {
-				@include social-sprite(facebook);
-			}
+    .article-content {
+      position: relative;
+    }
 
-			.twitter-count {
-				@include social-sprite(twitter);
-			}
+		.social-article {
+      position: absolute;
+      top: -5px;
+      left: -50px;
 
-			.secondarySahreContainer {
-				@include social-sprite(share);
-			}
+      .newShareTool {
+        .facebook-count {
+          @include social-sprite(facebook);
+        }
 
-			.shareCount {
-				@include hide-text;
-				width: 35px;
-				height: 35px;
-				font-size: 25px;
-			}
+        .twitter-count {
+          @include social-sprite(twitter);
+        }
+
+        .secondarySahreContainer {
+          @include social-sprite(share);
+        }
+
+        .shareCount,
+        .secondarySahreContainer {
+          @include hide-text;
+          width: 35px;
+          height: 35px;
+          font-size: 25px;
+        }
+
+        .livefyre-commentcount {
+          display: none;
+        }
+      }
 		}
-
-/*
-		.social {
-			position: absolute;
-			margin-left: -4rem;
-
-			ul {
-				li {
-					list-style: none;
-					margin-bottom:$general-margin/2;
-
-					a {
-						@include hide-text;
-						width: 35px;
-						height: 35px;
-						font-size: 25px;
-					}
-
-					&.twitter {
-						a {
-							@include social-sprite(twitter);
-						}
-					}
-
-					&.facebook {
-						a {
-							@include social-sprite(facebook);
-						}
-					}
-
-					&.share {
-						a {
-							@include social-sprite(share);
-						}
-					}
-				}
-			}
-		}
-*/
 
 			p {
 				font-family: $body-secondary-font-family;
@@ -237,7 +214,7 @@
         h1.title {
           display: table;
           width: 100%;
-          height: 96px;
+          min-height: 96px;
 
           span {
             display: table-cell;
@@ -336,6 +313,28 @@
 	=================================== */
 
 @media #{$small-only} {
+  .shortform,
+  .longform {
+		.social-article {
+      position: static;
+
+      .social-tool-icon,
+      .secondarySahreContainer {
+        float: left;
+      }
+    }
+  }
+
+/*	SHORT-FORM ARTICLE
+	----------------------------------- */
+
+  .shortform {
+    .social-article {
+      .social-tool-icon {
+        margin-right: 16px;
+      }
+    }
+  }
 
 /*	LONG-FORM ARTICLE
 	----------------------------------- */
@@ -354,16 +353,15 @@
 			}
 		}
 
-		.social-small {
-      .social-tool-icon {
-        float: left;
-      }
-		}
-
 		.adspace-small {
 			padding: $general-padding;
 			background: #000;
 			text-align: center;
 		}
+    .social-article {
+      .social-tool-icon {
+        margin-right: 20px;
+      }
+    }
 	}
 }
